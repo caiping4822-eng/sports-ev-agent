@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-07-28T17:13:31.935706+08:00",
+  "events": [
+    {
+      "key": "WNBA:401857092",
+      "league": "WNBA",
+      "start": "2026-07-28T23:30Z",
+      "away": "Connecticut Sun",
+      "home": "Washington Mystics",
+      "status": "Scheduled",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260728"
+    },
+    {
+      "key": "WNBA:401857093",
+      "league": "WNBA",
+      "start": "2026-07-29T00:00Z",
+      "away": "Toronto Tempo",
+      "home": "Minnesota Lynx",
+      "status": "Scheduled",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260728"
+    },
+    {
+      "key": "WNBA:401857094",
+      "league": "WNBA",
+      "start": "2026-07-29T01:30Z",
+      "away": "Indiana Fever",
+      "home": "Seattle Storm",
+      "status": "Scheduled",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260728"
+    },
+    {
+      "key": "WNBA:401857095",
+      "league": "WNBA",
+      "start": "2026-07-29T02:00Z",
+      "away": "Portland Fire",
+      "home": "Las Vegas Aces",
+      "status": "Scheduled",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260728"
+    },
+    {
+      "key": "WNBA:401857096",
+      "league": "WNBA",
+      "start": "2026-07-29T02:00Z",
+      "away": "New York Liberty",
+      "home": "Los Angeles Sparks",
+      "status": "Scheduled",
+      "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260728"
+    }
+  ],
+  "odds_status": "未连接。请在 GitHub Secrets 中配置合法的 The Odds API Key。",
+  "odds_events": [],
+  "errors": []
+}

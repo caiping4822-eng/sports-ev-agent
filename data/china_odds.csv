@@ -1,0 +1,2 @@
+# Optional future target-price input. Do NOT put API keys here.
+# Columns: event_key,market,selection,target_decimal_odds,reference_line,target_line,historical_wins,historical_n
