@@ -1,0 +1,36 @@
+name: Daily Sports EV Agent
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 0,2,4,6,8,10,12,14 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download project
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run daily sports agent
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python agent.py
+
+      - name: Save latest Chinese report
+        run: |
+          git config user.name "Sports EV Agent"
+          git config user.email "actions@github.com"
+          git add docs/index.html data/latest.json
+          git diff --cached --quiet || (git commit -m "Auto update dashboard" && git push)
