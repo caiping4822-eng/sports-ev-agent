@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T17:49:02.906474+08:00",
+  "updated_at": "2026-07-28T18:00:28.164340+08:00",
   "events": [
     {
       "key": "WNBA:401857092",
@@ -47,7 +47,303 @@
       "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard?dates=20260728"
     }
   ],
-  "odds_status": "未连接。请在 GitHub Secrets 中配置合法的 The Odds API Key。",
-  "odds_events": [],
+  "odds_status": "已连接 The Odds API。仅作为主流市场参考；未接入 Pinnacle/Betfair 时，不会把它当作锐利盘。",
+  "odds_events": [
+    {
+      "league": "WNBA",
+      "event": "Connecticut Sun vs Washington Mystics",
+      "bookmakers": 9
+    },
+    {
+      "league": "WNBA",
+      "event": "Toronto Tempo vs Minnesota Lynx",
+      "bookmakers": 9
+    },
+    {
+      "league": "WNBA",
+      "event": "Indiana Fever vs Seattle Storm",
+      "bookmakers": 9
+    },
+    {
+      "league": "WNBA",
+      "event": "Portland Fire vs Las Vegas Aces",
+      "bookmakers": 9
+    },
+    {
+      "league": "WNBA",
+      "event": "New York Liberty vs Los Angeles Sparks",
+      "bookmakers": 9
+    },
+    {
+      "league": "WNBA",
+      "event": "Atlanta Dream vs Dallas Wings",
+      "bookmakers": 9
+    },
+    {
+      "league": "WNBA",
+      "event": "Golden State Valkyries vs Phoenix Mercury",
+      "bookmakers": 9
+    },
+    {
+      "league": "英超",
+      "event": "Coventry City vs Arsenal",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Manchester United vs Hull City",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Crystal Palace vs Everton",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Sunderland vs Ipswich Town",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Leeds United vs Nottingham Forest",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Tottenham Hotspur vs Brentford",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Aston Villa vs Brighton and Hove Albion",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Bournemouth vs Manchester City",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Liverpool vs Newcastle United",
+      "bookmakers": 8
+    },
+    {
+      "league": "英超",
+      "event": "Chelsea vs Fulham",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Getafe vs Alavés",
+      "bookmakers": 6
+    },
+    {
+      "league": "西甲",
+      "event": "Rayo Vallecano vs Sevilla",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Villarreal vs Real Racing Club de Santander",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Levante vs Espanyol",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Athletic Bilbao vs Barcelona",
+      "bookmakers": 1
+    },
+    {
+      "league": "西甲",
+      "event": "Real Sociedad vs Real Madrid",
+      "bookmakers": 1
+    },
+    {
+      "league": "西甲",
+      "event": "CA Osasuna vs Celta Vigo",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Elche CF vs Deportivo La Coruña",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Málaga vs Atlético Madrid",
+      "bookmakers": 8
+    },
+    {
+      "league": "西甲",
+      "event": "Real Betis vs Valencia",
+      "bookmakers": 6
+    },
+    {
+      "league": "西甲",
+      "event": "Real Sociedad vs Real Madrid",
+      "bookmakers": 5
+    },
+    {
+      "league": "西甲",
+      "event": "Athletic Bilbao vs Barcelona",
+      "bookmakers": 5
+    },
+    {
+      "league": "意甲",
+      "event": "Como vs Udinese",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Monza vs Inter Milan",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Cagliari vs Parma",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Napoli vs Genoa",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Juventus vs Frosinone",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Lecce vs Venezia",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "AC Milan vs Torino",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Sassuolo vs Atalanta BC",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Lazio vs Bologna",
+      "bookmakers": 8
+    },
+    {
+      "league": "意甲",
+      "event": "Fiorentina vs AS Roma",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "VfB Stuttgart vs Bayern Munich",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "TSG Hoffenheim vs 1. FC Köln",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "FC Schalke 04 vs Augsburg",
+      "bookmakers": 2
+    },
+    {
+      "league": "德甲",
+      "event": "Bayer Leverkusen vs Elversberg",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "Borussia Monchengladbach vs RB Leipzig",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "Eintracht Frankfurt vs Union Berlin",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "SC Paderborn vs FSV Mainz 05",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "Werder Bremen vs SC Freiburg",
+      "bookmakers": 2
+    },
+    {
+      "league": "德甲",
+      "event": "Hamburger SV vs Borussia Dortmund",
+      "bookmakers": 8
+    },
+    {
+      "league": "德甲",
+      "event": "Werder Bremen vs SC Freiburg",
+      "bookmakers": 6
+    },
+    {
+      "league": "德甲",
+      "event": "FC Schalke 04 vs Augsburg",
+      "bookmakers": 6
+    },
+    {
+      "league": "法甲",
+      "event": "Strasbourg vs Marseille",
+      "bookmakers": 7
+    },
+    {
+      "league": "法甲",
+      "event": "Auxerre vs RC Lens",
+      "bookmakers": 7
+    },
+    {
+      "league": "法甲",
+      "event": "Brest vs Le Mans FC",
+      "bookmakers": 7
+    },
+    {
+      "league": "法甲",
+      "event": "Lorient vs Nice",
+      "bookmakers": 7
+    },
+    {
+      "league": "法甲",
+      "event": "Lyon vs Toulouse",
+      "bookmakers": 7
+    },
+    {
+      "league": "法甲",
+      "event": "Paris FC vs Troyes",
+      "bookmakers": 6
+    },
+    {
+      "league": "法甲",
+      "event": "Lille vs Angers",
+      "bookmakers": 7
+    },
+    {
+      "league": "法甲",
+      "event": "AS Monaco vs Le Havre",
+      "bookmakers": 6
+    },
+    {
+      "league": "法甲",
+      "event": "Rennes vs Paris Saint Germain",
+      "bookmakers": 6
+    }
+  ],
   "errors": []
 }
