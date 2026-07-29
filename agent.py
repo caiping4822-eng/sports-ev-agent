@@ -77,8 +77,18 @@ def movement_map(history,current):
  return out
 def main():
  DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);now=datetime.now(CST).strftime('%Y-%m-%d %H:%M');errors=[];events=[];bjzs={};ext={};goalodds={};notes=load(DATA/'fundamentals_current.json',{})
+ market_closed=False
  try:
-  snap=fetch_football_target_odds();events=snap['events'];add_history(snap)
+  snap=fetch_football_target_odds();events=snap['events']
+  if events:
+   add_history(snap)
+  else:
+   old_history=load(DATA/'zgzcw_history.json',[])
+   last=next((x for x in reversed(old_history) if x.get('events')),None)
+   if last:
+    events=last['events'];market_closed=True
+    errors.append('中国竞彩当前已停售：展示最后一次可售赔率快照，仅供研究和复盘，不可投注。')
+   else: errors.append('中国竞彩当前无可售比赛，且没有历史快照。')
  except Exception as e:errors.append('竞彩页读取失败：'+type(e).__name__)
  try:bjzs=fetch_bjzs_average()
  except Exception as e:errors.append('百家指数读取失败：'+type(e).__name__)
