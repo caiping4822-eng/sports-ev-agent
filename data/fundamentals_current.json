@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-07-29 15:15 Asia/Shanghai",
+  "events": {
+    "4586596": {
+      "tier": "赛制与伤停：中高可信",
+      "summary": "欧冠资格赛次回合。首回合奥莫尼亚 1-0 凯拉特；凯拉特必须追分。",
+      "confirmed": ["凯拉特头号射手 Jorginho 伤缺", "凯拉特中卫 Lucas Africo 停赛", "奥莫尼亚右后卫 Loic Nego 停赛", "奥莫尼亚部分边后卫伤病问题"],
+      "risk": "主队必须进攻但缺少头号射手；客队可接受慢节奏、防反和守住总比分。",
+      "sources": [["赛前阵容与伤停", "https://www.sportsmole.co.uk/football/kairat/preview/kairat-vs-omonia-prediction-team-news-lineups_601954.html"],["首回合与赛制背景", "https://www.telecomasia.net/sports-betting/tips/football/uefa-champions-league/kairat-vs-omonia-nicosia-match-prediction-29-july-2026/"]]
+    },
+    "4556527": {
+      "tier": "赛制与伤停：中高可信",
+      "summary": "欧冠资格赛次回合；波兹南莱赫首回合客场 4-1 奥胡斯，主队拥有三球总比分优势。",
+      "confirmed": ["奥胡斯门将 Jesper Hansen 首回合红牌停赛", "奥胡斯 Nicolai Poulsen、Luka Callo 等伤缺", "波兹南 Alex Douglas、Ali Gholizadeh 长期缺席"],
+      "risk": "三球领先会改变主队的比赛策略；主胜和让胜不能机械套用普通联赛强弱逻辑。",
+      "sources": [["赛前阵容与伤停", "https://www.sportsmole.co.uk/football/lech-poznan/champions-league/preview/lech-poznan-vs-aarhus-prediction-team-news-lineups_601917.html"],["首回合与近期状态", "https://www.transfermarkt.com/betting/tips/lech-poznan-vs-aarhus-gf-prediction-29-07-2026/"]]
+    },
+    "": {
+      "tier": ""
+    },
+    "": {
+      "tier": ""
+    }
+  },
+  "by_code": {
+    "周三003": {"tier":"赛前球队消息：中可信","summary":"巴甲保级区直接对话：米拉索尔第19、雷莫第18，仅差1分。","confirmed":["米拉索尔主力门将 Walter 三黄停赛", "首回合双方 2-2"],"risk":"主队虽有主场优势，但门将更换会提高防线波动。","sources":[["Betfair 巴甲预览","https://apostas.betfair.bet.br/sports/futebol/futebol-brasileiro/palpites-brasileirao/mirassol-x-remo---brasileirao-2026-noticias-odds-estatisticas-escalacoes-horario-onde-assistir-250726-459.html"]]},
+    "周三004": {"tier":"赛前球队消息：中可信","summary":"弗拉门戈排名第二，国际接近保级区；首回合曾 1-1。","confirmed":["国际 Thiago Maia、Joao Victor 伤缺", "国际 Victor Gabriel 停赛", "弗拉门戈 Luiz Araujo、Gonzalo Plata 伤缺"],"risk":"客队实力占优，但客场、人员缺口与主队保级压力使低赔客胜风险偏高。","sources":[["Betfair 巴甲预览","https://apostas.betfair.bet.br/sports/futebol/futebol-brasileiro/palpites-brasileirao/internacional-flamengo-brasileirao-2026-noticias-odds-estatisticas-escalacoes-horario-onde-assistir-280726-1162.html"]]},
+    "周三005": {"tier":"赛前球队消息：中可信","summary":"弗鲁米嫩塞第4、巴伊亚第6，仅差2分；主队主场强，客队客场竞争力也较强。","confirmed":["弗鲁米嫩塞 John Kennedy 可用", "Thiago Silva 状态回升", "巴伊亚近期联赛四场不败"],"risk":"不是单向强弱盘，主队低赔需要警惕客队反击和双方进球结构。","sources":[["Betfair 巴甲预览","https://apostas.betfair.bet.br/sports/futebol/futebol-brasileiro/palpites-brasileirao/fluminense-x-bahia---brasileirao-2026-noticias-odds-estatisticas-escalacoes-horario-onde-assistir-290726-459.html"]]},
+    "周三006": {"tier":"赛前球队消息：中可信","summary":"帕尔梅拉斯榜首，维多利亚第13；维多利亚绝大多数积分来自主场。","confirmed":["维多利亚有多名伤员", "帕尔梅拉斯 Paulinho 缺阵", "维多利亚主场联赛七场不败"],"risk":"客队更强但主场环境和人员缺口令客胜低赔无法简单追随。","sources":[["Betfair 巴甲预览","https://apostas.betfair.bet.br/sports/futebol/futebol-brasileiro/palpites-brasileirao/vitoria-x-palmeiras---brasileirao-2026-noticias-odds-estatisticas-escalacoes-horario-onde-assistir-250726-459.html"],["主场与伤停补充","https://onefootball.com/es/noticias/vitoria-v-palmeiras-leaders-meet-home-strong-hosts-43199382"]]}
+  }
+}
