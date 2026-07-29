@@ -1,5 +1,6 @@
 from __future__ import annotations
 import json,os
+from datetime import datetime,timedelta
 from urllib.parse import urlencode
 from urllib.request import Request,urlopen
 ALIASES={
@@ -23,16 +24,25 @@ def form(items,team_id):
  return ''.join(out)
 def fetch_context(events):
  # 2 fixture-date requests + at most 6 injury and 12 recent-form requests per scan.
- unique_dates=sorted({e['kickoff'][:10] for e in events if e.get('kickoff')})
+ base_dates={e['kickoff'][:10] for e in events if e.get('kickoff')}
+ # Query the day before / target day / day after because China-sale time differs from local league time.
+ unique_dates=set()
+ for d in base_dates:
+  try:
+   x=datetime.strptime(d,'%Y-%m-%d')
+   unique_dates.update((x-timedelta(days=1)).strftime('%Y-%m-%d') for _ in [0])
+   unique_dates.add(d)
+   unique_dates.add((x+timedelta(days=1)).strftime('%Y-%m-%d'))
+  except: unique_dates.add(d)
  fixtures=[];errors=[]
  try:
-  for day in unique_dates:fixtures+=call('/fixtures',{'date':day}).get('response',[])
+  for day in sorted(unique_dates):fixtures+=call('/fixtures',{'date':day}).get('response',[])
  except Exception as e:return {},['API-Football：'+type(e).__name__]
  out={}
  for e in events:
   f=next((x for x in fixtures if match(e['home'],x['teams']['home']['name']) and match(e['away'],x['teams']['away']['name'])),None)
   if not f:
-   out[e['code']]={'status':'未匹配到 API-Football 同场赛程'};continue
+   out[e['code']]={'status':'API未匹配（日期/队名/免费覆盖待核验）'};continue
   fid=f['fixture']['id'];hid=f['teams']['home']['id'];aid=f['teams']['away']['id']
   ctx={'status':'已匹配','fixture_id':fid,'venue':f['fixture'].get('venue',{}).get('name','-'),'league':f['league']['name'],'injury_home':0,'injury_away':0,'home_form':'-','away_form':'-','lineups':'待确认'}
   try:
