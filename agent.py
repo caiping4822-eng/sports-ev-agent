@@ -19,7 +19,7 @@ def market_text(m):return ('胜/平/负' if m['market']=='1X2' else '让球 '+st
 def page(events,bjzs,ext,errors,now):
  rows=[]
  for e in events:
-  target=next((m for m in e['markets'] if m['market']=='1X2'),None); b=bjzs.get(e['source_match_id']); x=ext.get(e['source_match_id'],{})
+  target=next((m for m in e['markets'] if m['market']=='1X2'),None); b=bjzs.get(e.get('analysis_match_id') or e['source_match_id']); x=ext.get(e['source_match_id'],{})
   ctext='<br>'.join(market_text(m) for m in e['markets'])
   benchmark='无百家平均参考'; state='PASS：未取得同玩法外部参考'
   if b and target:

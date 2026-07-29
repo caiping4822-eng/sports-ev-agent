@@ -46,9 +46,11 @@ def fetch_football_target_odds():
                 markets.append({'market':'1X2' if 'frq' in classes else 'handicap_1x2',
                                 'line':clean(line_m.group(1)) if line_m else '0',
                                 'home_win':vals[0],'draw':vals[1],'away_win':vals[2]})
+        analysis_m=re.search(r'<td\s+class="wh-10[^>]*newplayid="(\d+)"',row,re.I|re.S)
         events.append({'source':'zgzcw_public_page','source_url':URL,
                        'captured_at':datetime.now(CST).isoformat(),
                        'source_match_id':attr(row,'id').replace('tr_',''),
+                       'analysis_match_id':analysis_m.group(1) if analysis_m else '',
                        'code':code,'league':league,'deadline':attr(row,'t'),
                        'kickoff':kickoff_m.group(1) if kickoff_m else '',
                        'home':unescape(home_m.group(1)),'away':unescape(away_m.group(1)),
