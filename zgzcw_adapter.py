@@ -54,3 +54,19 @@ def fetch_football_target_odds():
                        'home':unescape(home_m.group(1)),'away':unescape(away_m.group(1)),
                        'markets':markets})
     return {'events':events,'raw_sha256':sha256(raw.encode('utf-8')).hexdigest(),'source_url':URL}
+
+BJZS_URL='https://plzx.zgzcw.com/bjzs'
+def fetch_bjzs_average():
+    req=Request(BJZS_URL,headers={'User-Agent':'Mozilla/5.0 (compatible; SportsEVResearch/1.0)'})
+    with urlopen(req,timeout=25) as res:raw=res.read().decode('utf-8','replace')
+    out={}
+    for match in re.finditer(r'<tr\b[^>]*id="match_ul_(\d+)"[^>]*>.*?</tr>',raw,re.I|re.S):
+        mid,body=match.group(1),match.group(0)
+        # td 5-7 initial, td 8-10 current displayed average European odds.
+        def td(n):
+            m=re.search(r'<td\b[^>]*class="td-'+str(n)+r'[^"]*"[^>]*>(.*?)</td>',body,re.I|re.S)
+            return number(clean(m.group(1)).replace('→','').replace('↑','').replace('↓','')) if m else None
+        opening=[td(5),td(6),td(7)]; current=[td(8),td(9),td(10)]
+        if all(x is not None and x>1 for x in opening+current):
+            out[mid]={'source':'zgzcw_bjzs_public_average','source_url':BJZS_URL,'opening':opening,'current':current}
+    return out
