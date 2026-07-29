@@ -72,3 +72,14 @@ def fetch_bjzs_average():
         if all(x is not None and x>1 for x in opening+current):
             out[mid]={'source':'zgzcw_bjzs_public_average','source_url':BJZS_URL,'opening':opening,'current':current}
     return out
+
+def fetch_total_goal_odds():
+    url='https://cp.zgzcw.com/lottery/jcplayvsForJsp.action?lotteryId=24'
+    req=Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; SportsEVResearch/1.0)'})
+    with urlopen(req,timeout=25) as res:raw=res.read().decode('utf-8','replace')
+    out={}
+    for m in re.finditer(r'<tr\b[^>]*id="tr_(\d+)"[^>]*>.*?</tr>',raw,re.I|re.S):
+        mid,body=m.group(1),m.group(0)
+        vals=[number(clean(x)) for x in re.findall(r'<a\b[^>]*class="weisai[^"]*"[^>]*>(.*?)<s>',body,re.I|re.S)]
+        if len(vals)==8 and all(v and v>1 for v in vals):out[mid]=vals
+    return out
