@@ -6,6 +6,7 @@ from html import escape
 from zgzcw_adapter import fetch_football_target_odds,fetch_bjzs_average,fetch_total_goal_odds
 from odds_adapter import external_market_for_event
 from goal_model import summary
+from forced_picker import pick as forced_pick
 ROOT=Path(__file__).parent;DATA=ROOT/'data';DOCS=ROOT/'docs';CST=timezone(timedelta(hours=8))
 def load(p,d):
  try:return json.loads(p.read_text(encoding='utf8'))
@@ -17,7 +18,7 @@ def pct(p):return f'{p*100:.1f}%'
 def add_history(s):
  p=DATA/'zgzcw_history.json';h=load(p,[]);h.append(s);dump(p,h[-240:])
 def market_text(m):return ('胜/平/负' if m['market']=='1X2' else '让球 '+str(m['line']))+f"：{m['home_win']:.2f} / {m['draw']:.2f} / {m['away_win']:.2f}"
-def page(events,bjzs,ext,errors,now,notes,goalodds,movements):
+def page(events,bjzs,ext,errors,now,notes,goalodds,movements,forced):
  rows=[]
  research=[]
  models=[]
@@ -45,7 +46,10 @@ def page(events,bjzs,ext,errors,now,notes,goalodds,movements):
    confirmed='；'.join(n.get('confirmed',[]))
    research.append(f"<div class='research'><h3>{escape(e['code'])} {escape(e['home'])} vs {escape(e['away'])}</h3><p><b>研究等级：</b>{escape(n.get('tier',''))}</p><p><b>比赛背景：</b>{escape(n.get('summary',''))}</p><p><b>已核验事项：</b>{escape(confirmed)}</p><p><b>反向风险：</b>{escape(n.get('risk',''))}</p><p class='small'><b>来源：</b>{links}</p></div>")
  errs='<br>'.join(escape(x) for x in errors) if errors else '足彩网竞彩页与百家指数页本次读取成功。'
- return f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>足球 EV 研究面板</title><style>body{{font-family:"Microsoft YaHei",Arial;background:#f4f7fb;color:#14213d;margin:0}}header{{background:#0c3e85;color:#fff;padding:24px max(16px,calc((100% - 1450px)/2))}}h1{{margin:0 0 8px}}main{{max-width:1450px;margin:20px auto;padding:0 16px}}.card{{background:#fff;padding:18px;border-radius:12px;margin-bottom:15px;box-shadow:0 2px 10px #0001}}table{{width:100%;border-collapse:collapse;font-size:13px}}th,td{{padding:10px;border-bottom:1px solid #e1e9f2;text-align:left;vertical-align:top}}th{{background:#eff6ff}}.warn{{background:#fff7ed;border-left:5px solid #f59e0b;padding:12px;line-height:1.7}}.small{{color:#62748b;font-size:13px;line-height:1.65}}.research{{border-left:4px solid #2563eb;background:#f8fbff;padding:10px 14px;margin:10px 0;line-height:1.65}}.research h3{{margin:0 0 5px}}.research p{{margin:5px 0}}</style><header><h1>足球 EV 研究面板</h1><div>最后采集：{now}（北京时间）</div></header><main><div class="card warn"><b>三层规则：</b>中国竞彩是目标成交价；足彩网百家平均仅是公开聚合参考，不足以单独出投注；The Odds API 若返回至少 3 家同场机构，才参与保守EV计算。Pinnacle/Betfair未实际返回时，页面不会声称已接入。</div><div class="card"><h2>中国竞彩目标价 × 百家平均 × 外部市场</h2><table><tr><th>编号</th><th>赛事</th><th>对阵</th><th>开赛</th><th>中国竞彩</th><th>外部参考</th><th>状态</th></tr>{''.join(rows)}</table></div><div class="card"><h2>基本面与伤停研究卡</h2><p class="small">以下是本轮赛前人工核验的事实层；临场首发和最终伤停仍应在开赛前复核。</p>{''.join(research) if research else '暂无已核验研究卡。'}</div><div class="card"><h2>进球与比分分布模型</h2><p class="small">基于百家平均去水1X2拟合的泊松分布；用于校验中国竞彩总进球和比分结构，不单独出投注。</p>{''.join(models) if models else '暂无模型输入。'}</div><div class="card"><h2>来源状态</h2><p>{errs}</p><p class="small">百家平均可用于记录开盘到当前的市场变化；比分、总进球、半全场仍须使用独立分布模型，不从 1X2 直接推导投注。</p></div></main>'''
+ if forced:
+  forced_html=f"<div class='forced'><h2>今日强制娱乐推荐</h2><p><b>{escape(forced['code'])}｜{escape(forced['home'])} vs {escape(forced['away'])}</b></p><p class='pick'>{escape(forced['selection'])} @ {forced['odds']:.2f}</p><p>保守命中概率：{pct(forced['conservative_p'])} ｜ 保守EV：{forced['ev']*100:.1f}% ｜ 严格Kelly：0%</p><p class='small'>这是赔率≥1.80选项中“保守命中概率最高”的强制娱乐选择；所有候选仍为负EV，不属于严格EV推荐。仅限单关娱乐仓，建议不超过总资金0.25%，不串关、不加仓。</p></div>"
+ else: forced_html="<div class='forced'><h2>今日强制娱乐推荐</h2><p>没有符合赔率≥1.80且可取得百家平均概率的选项。</p></div>"
+ return f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>足球 EV 研究面板</title><style>body{{font-family:"Microsoft YaHei",Arial;background:#f4f7fb;color:#14213d;margin:0}}header{{background:#0c3e85;color:#fff;padding:24px max(16px,calc((100% - 1450px)/2))}}h1{{margin:0 0 8px}}main{{max-width:1450px;margin:20px auto;padding:0 16px}}.card{{background:#fff;padding:18px;border-radius:12px;margin-bottom:15px;box-shadow:0 2px 10px #0001}}table{{width:100%;border-collapse:collapse;font-size:13px}}th,td{{padding:10px;border-bottom:1px solid #e1e9f2;text-align:left;vertical-align:top}}th{{background:#eff6ff}}.warn{{background:#fff7ed;border-left:5px solid #f59e0b;padding:12px;line-height:1.7}}.small{{color:#62748b;font-size:13px;line-height:1.65}}.research{{border-left:4px solid #2563eb;background:#f8fbff;padding:10px 14px;margin:10px 0;line-height:1.65}}.research h3{{margin:0 0 5px}}.research p{{margin:5px 0}}.forced{{background:#fff7ed;border:2px solid #f59e0b;border-radius:12px;padding:16px;margin-bottom:15px}}.forced h2{{margin:0 0 8px;color:#9a3412}}.forced p{{margin:6px 0}}.pick{{font-size:22px;font-weight:bold;color:#b45309}}</style><header><h1>足球 EV 研究面板</h1><div>最后采集：{now}（北京时间）</div></header><main>{forced_html}<div class="card warn"><b>三层规则：</b>中国竞彩是目标成交价；足彩网百家平均仅是公开聚合参考，不足以单独出投注；The Odds API 若返回至少 3 家同场机构，才参与保守EV计算。Pinnacle/Betfair未实际返回时，页面不会声称已接入。</div><div class="card"><h2>中国竞彩目标价 × 百家平均 × 外部市场</h2><table><tr><th>编号</th><th>赛事</th><th>对阵</th><th>开赛</th><th>中国竞彩</th><th>外部参考</th><th>状态</th></tr>{''.join(rows)}</table></div><div class="card"><h2>基本面与伤停研究卡</h2><p class="small">以下是本轮赛前人工核验的事实层；临场首发和最终伤停仍应在开赛前复核。</p>{''.join(research) if research else '暂无已核验研究卡。'}</div><div class="card"><h2>进球与比分分布模型</h2><p class="small">基于百家平均去水1X2拟合的泊松分布；用于校验中国竞彩总进球和比分结构，不单独出投注。</p>{''.join(models) if models else '暂无模型输入。'}</div><div class="card"><h2>来源状态</h2><p>{errs}</p><p class="small">百家平均可用于记录开盘到当前的市场变化；比分、总进球、半全场仍须使用独立分布模型，不从 1X2 直接推导投注。</p></div></main>'''
 def build_snapshot(events,bjzs,now):
  items=[]
  for e in events:
@@ -85,6 +89,7 @@ def main():
  current=build_snapshot(events,bjzs,now)
  moves=movement_map(history,current)
  history.append(current);dump(DATA/'market_history.json',history[-400:])
+ forced=forced_pick(events,bjzs)
  dump(DATA/'latest_external_markets.json',ext);dump(DATA/'latest_bjzs.json',bjzs);dump(DATA/'latest_zgzcw.json',{'updated_at':now,'events':events,'errors':errors})
- (DOCS/'index.html').write_text(page(events,bjzs,ext,errors,now,notes,goalodds,moves),encoding='utf8')
+ (DOCS/'index.html').write_text(page(events,bjzs,ext,errors,now,notes,goalodds,moves,forced),encoding='utf8')
 if __name__=='__main__':main()
