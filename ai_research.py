@@ -4,12 +4,19 @@ from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from html import escape
 from urllib.request import Request,urlopen
+from urllib.error import HTTPError
 from api_football import TEAM_MAP
 ROOT=Path(__file__).parent;DATA=ROOT/'data';DOCS=ROOT/'docs';CST=timezone(timedelta(hours=8))
 def load(p,d):
  try:return json.loads(p.read_text(encoding='utf8'))
  except:return d
 def dump(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf8')
+def err_text(e):
+ if isinstance(e,HTTPError):
+  try: body=e.read().decode('utf-8','replace')[:180].replace('\n',' ')
+  except: body=''
+  return f'HTTP {e.code} {body}'
+ return type(e).__name__
 def post(url,payload,headers):
  req=Request(url,data=json.dumps(payload).encode(),headers={'Content-Type':'application/json',**headers},method='POST')
  with urlopen(req,timeout=45) as r:return json.loads(r.read().decode('utf-8'))
@@ -35,7 +42,7 @@ def section(data):
 def main():
  DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);today=datetime.now(CST).strftime('%Y-%m-%d');cache=load(DATA/'ai_research_daily.json',{})
  latest=load(DATA/'latest_zgzcw.json',{});events=latest.get('events',[]);closed=any('已停售' in str(e) for e in latest.get('errors',[]))
- if cache.get('date')==today:data=cache
+ if cache.get('date')==today and cache.get('pipeline_version')==2:data=cache
  elif not events or closed:data={'date':today,'events':[],'status':'无当前可售比赛，不搜索'}
  else:
   out=[]
@@ -44,12 +51,12 @@ def main():
    try:
     sr=tavily(q);sources=[{'title':x.get('title',''), 'url':x.get('url','')} for x in sr.get('results',[])]
    except Exception as ex:
-    sources=[];research={'confirmed':[],'uncertain':[],'risks':['Tavily搜索不可用：'+type(ex).__name__],'summary':'AI联网搜索未完成'}
+    sources=[];research={'confirmed':[],'uncertain':[],'risks':['Tavily搜索不可用：'+err_text(ex)],'summary':'AI联网搜索未完成'}
    else:
     try: research=summarize(home+' vs '+away,sr.get('results',[]))
-    except Exception as ex: research={'confirmed':[],'uncertain':[],'risks':['DeepSeek总结不可用：'+type(ex).__name__],'summary':'AI搜索已完成，但总结未完成'}
+    except Exception as ex: research={'confirmed':[],'uncertain':[],'risks':['DeepSeek总结不可用：'+err_text(ex)],'summary':'AI搜索已完成，但总结未完成'}
    out.append({'code':e['code'],'match':e['home']+' vs '+e['away'],'sources':sources,'research':research})
-  data={'date':today,'updated_at':datetime.now(CST).isoformat(),'events':out};dump(DATA/'ai_research_daily.json',data)
+  data={'date':today,'pipeline_version':2,'updated_at':datetime.now(CST).isoformat(),'events':out};dump(DATA/'ai_research_daily.json',data)
  p=DOCS/'index.html'
  if p.exists():
   html=p.read_text(encoding='utf8');html=re.sub(r'<!-- AI_START -->.*?<!-- AI_END -->','',html,flags=re.S);html=html.replace('</main>',section(data)+'</main>');p.write_text(html,encoding='utf8')
