@@ -76,7 +76,7 @@ def movement_map(history,current):
   else: out[x['code']]=f'中国 {c}；百家无前次对比'
  return out
 def main():
- DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);now=datetime.now(CST).strftime('%Y-%m-%d %H:%M');errors=[];events=[];bjzs={};ext={};goalodds={};notes=load(DATA/'fundamentals_current.json',{})
+ DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);now=datetime.now(CST).strftime('%Y-%m-%d %H:%M');errors=[];events=[];bjzs={};ext={};goalodds={};notes=load(DATA/'fundamentals_current.json',{});daily_by={x['code']:x for x in load(DATA/'fundamentals_daily.json',{}).get('events',[])};ai_by={x['code']:x for x in load(DATA/'ai_research_daily.json',{}).get('events',[])};api_saved=load(DATA/'api_context.json',{})
  market_closed=False
  try:
   snap=fetch_football_target_odds();events=snap['events']
@@ -109,7 +109,7 @@ def main():
  forced=forced_pick(events,bjzs)
  conf_html=''
  for e in events:
-  c=assess(e,bjzs,ext,notes,goalodds,moves.get(e['code'],'首次快照'))
+  c=assess(e,bjzs,ext,notes,goalodds,moves.get(e['code'],'首次快照'),daily_by,ai_by,api_saved)
   f=c['flags']; conf_html+=f"<tr><td>{escape(e['code'])}</td><td>{f['china']}</td><td>{f['average']}</td><td>{f['external']}</td><td>{f['fundamental']}</td><td>{f['injury']}</td><td>{f['movement']}</td><td>{f['model']}</td><td><b>{c['score']}分 / {c['level']}</b></td><td>{c['kelly']*100:.2f}%</td><td>{c['forced_cap']*100:.2f}%上限</td></tr>"
  dump(DATA/'latest_external_markets.json',ext);dump(DATA/'latest_bjzs.json',bjzs);dump(DATA/'latest_zgzcw.json',{'updated_at':now,'events':events,'errors':errors})
  (DOCS/'index.html').write_text(page(events,bjzs,ext,errors,now,notes,goalodds,moves,forced,conf_html,api_rows),encoding='utf8')

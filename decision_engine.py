@@ -47,7 +47,8 @@ def main():
   i=forced['forced_i'];lab=['主胜','平','客胜'][i]
   head=f"<h2>今日综合裁判结论</h2><p class='pick'>严格EV：无候选</p><p><b>强制娱乐推荐：</b>{escape(forced['code'])} {escape(forced['match'])} — {lab} @ {forced['odds'][i]:.2f}</p><p>综合保守概率 {pct(forced['conservative_p'][i])} ｜ 保守EV {forced['ev'][i]*100:.1f}% ｜ 严格Kelly 0% ｜ 娱乐仓上限0.25%</p>"+lines(forced)
  else:head='<h2>今日综合裁判结论</h2><p>当前无中国竞彩可售比赛或无足够数据。</p>'
- section='<!-- DECISION_START --><div class="card decisionbox">'+head+'</div><!-- DECISION_END -->'
+ per_cards=''.join("<div class='decision'><h3>"+escape(d['code'])+" "+escape(d['match'])+"</h3><p><b>本场强制娱乐：</b>"+['主胜','平','客胜'][d['forced_i']]+" @ "+f"{d['odds'][d['forced_i']]:.2f}"+" ｜ 保守概率 "+pct(d['conservative_p'][d['forced_i']])+" ｜ 保守EV "+f"{d['ev'][d['forced_i']]*100:.1f}%"+"</p><p><b>严格EV：</b>"+('候选' if d['strict'] else 'PASS')+" ｜ <b>可信度：</b>"+str(d['confidence'])+"分/"+d['conf_label']+" ｜ <b>Kelly：</b>0%"+"</p><p><b>已确认：</b>"+escape('；'.join(d['confirmed']) or '无')+"</p><p><b>主要风险：</b>"+escape('；'.join(d['risks']) or '无')+"</p><p><b>数据缺口：</b>"+escape('；'.join(d['gaps']) or '无')+"</p></div>" for d in decisions)
+ section='<!-- DECISION_START --><div class="card decisionbox">'+head+"<h2>逐场综合裁判与强制娱乐结果</h2>"+per_cards+'</div><!-- DECISION_END -->'
  p=DOCS/'index.html'
  if p.exists():
   html=p.read_text(encoding='utf8');html=re.sub(r'<!-- DECISION_START -->.*?<!-- DECISION_END -->','',html,flags=re.S);html=html.replace('</header><main>','</header><main>'+section);p.write_text(html,encoding='utf8')
