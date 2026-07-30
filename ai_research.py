@@ -18,7 +18,7 @@ def query_name(cn):
 def tavily(q):
  k=os.getenv('TAVILY_API_KEY','').strip()
  if not k:raise RuntimeError('TAVILY_API_KEY 未配置')
- return post('https://api.tavily.com/search',{'api_key':k,'query':q,'search_depth':'basic','max_results':4,'include_answer':False},{})
+ return post('https://api.tavily.com/search',{'query':q,'search_depth':'basic','max_results':4,'include_answer':False},{'Authorization':'Bearer '+k})
 def summarize(match,results):
  k=os.getenv('DEEPSEEK_API_KEY','').strip()
  if not k:raise RuntimeError('DEEPSEEK_API_KEY 未配置')
@@ -42,9 +42,12 @@ def main():
   for e in events:
    home=query_name(e['home']);away=query_name(e['away']);q=f'{home} {away} injury suspension team news predicted lineup preview'
    try:
-    sr=tavily(q);sources=[{'title':x.get('title',''), 'url':x.get('url','')} for x in sr.get('results',[])];research=summarize(home+' vs '+away,sr.get('results',[]))
+    sr=tavily(q);sources=[{'title':x.get('title',''), 'url':x.get('url','')} for x in sr.get('results',[])]
    except Exception as ex:
-    sources=[];research={'confirmed':[],'uncertain':[],'risks':['搜索或模型服务不可用：'+type(ex).__name__],'summary':'AI联网研究未完成'}
+    sources=[];research={'confirmed':[],'uncertain':[],'risks':['Tavily搜索不可用：'+type(ex).__name__],'summary':'AI联网搜索未完成'}
+   else:
+    try: research=summarize(home+' vs '+away,sr.get('results',[]))
+    except Exception as ex: research={'confirmed':[],'uncertain':[],'risks':['DeepSeek总结不可用：'+type(ex).__name__],'summary':'AI搜索已完成，但总结未完成'}
    out.append({'code':e['code'],'match':e['home']+' vs '+e['away'],'sources':sources,'research':research})
   data={'date':today,'updated_at':datetime.now(CST).isoformat(),'events':out};dump(DATA/'ai_research_daily.json',data)
  p=DOCS/'index.html'
