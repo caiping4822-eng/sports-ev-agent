@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json, os
+import json, os, re
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from html import escape
@@ -64,6 +64,27 @@ def review_html():
   else:rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>PASS</td><td>{s['score']}（{escape(s['outcome'])}）</td><td>0u</td></tr>")
  roi=sum(profits)/len(profits) if profits else 0;brier=sum(briers)/len(briers) if briers else 0
  return f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>足球 EV 昨日复盘</title><style>body{{font-family:"Microsoft YaHei",Arial;background:#f4f7fb;color:#14213d;margin:0}}header{{background:#0c3e85;color:#fff;padding:24px max(16px,calc((100% - 1100px)/2))}}main{{max-width:1100px;margin:20px auto;padding:0 16px}}.card{{background:#fff;padding:18px;border-radius:12px;margin-bottom:15px}}table{{width:100%;border-collapse:collapse}}th,td{{padding:11px;border-bottom:1px solid #e1e9f2;text-align:left}}th{{background:#eff6ff}}.note{{background:#fff7ed;border-left:5px solid #f59e0b;padding:12px}}</style><header><h1>足球 EV 昨日复盘</h1></header><main><div class="card note">强制娱乐推荐按 1u 模拟结算；严格 EV 候选只有在未来满足外部机构和正 EV 门槛后才会出现。代理 CLV 需要最后可售赔率快照累积后才计算。</div><div class="card"><h2>累计指标</h2><p>强制推荐已结算：{len(profits)} 场 ｜ 模拟 ROI：{roi*100:.1f}% ｜ Brier Score：{brier:.4f} ｜ 严格 EV：尚无已结算候选</p></div><div class="card"><h2>锁定与结算记录</h2><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>赛果</th><th>模拟结算</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">尚未有锁定记录。下一次中国竞彩开售时会自动建立。</td></tr>'}</table></div></main>'''
+def review_section():
+ ledger=load(DATA/'prediction_ledger.json',[]);settled=load(DATA/'settlement_history.json',[]);by={x['key']:x for x in settled}
+ rows=[];profits=[];briers=[]
+ for r in ledger:
+  s=by.get(r['key']);fp=r.get('forced')
+  if not s:
+   rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>{escape(fp['selection'])+' @ '+str(fp['odds']) if fp else 'PASS'}</td><td>等待赛果</td><td>—</td></tr>");continue
+  if fp:
+   z=1 if s['forced']['win'] else 0;profits.append(s['forced']['profit_units']);briers.append((fp['probability']-z)**2
+   )
+   rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>{escape(fp['selection'])} @ {fp['odds']:.2f}</td><td>{s['score']}（{escape(s['outcome'])}）</td><td>{'命中' if z else '未命中'} / {s['forced']['profit_units']:+.2f}u</td></tr>")
+  else: rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>PASS</td><td>{s['score']}（{escape(s['outcome'])}）</td><td>0u</td></tr>")
+ roi=sum(profits)/len(profits) if profits else 0;brier=sum(briers)/len(briers) if briers else 0
+ return f"<!-- REVIEW_START --><div class='card'><h2>昨日复盘与累计表现</h2><p class='small'>强制娱乐推荐按1u模拟结算；严格EV候选仅在未来满足外部机构与正EV门槛后出现。代理CLV需最后可售赔率快照累积后计算。</p><p><b>累计指标：</b>强制推荐已结算 {len(profits)} 场 ｜ 模拟ROI {roi*100:.1f}% ｜ Brier Score {brier:.4f} ｜ 严格EV：尚无已结算候选</p><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>赛果</th><th>模拟结算</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">尚未有锁定记录。下一次中国竞彩开售时会自动建立。</td></tr>'}</table></div><!-- REVIEW_END -->"
+def inject_review():
+ p=DOCS/'index.html'
+ if not p.exists():return
+ html=p.read_text(encoding='utf8');section=review_section()
+ html=re.sub(r'<!-- REVIEW_START -->.*?<!-- REVIEW_END -->','',html,flags=re.S)
+ html=html.replace('</main>',section+'</main>')
+ p.write_text(html,encoding='utf8')
 def main():
- DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);lock();settle();(DOCS/'review.html').write_text(review_html(),encoding='utf8')
+ DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);lock();settle();(DOCS/'review.html').write_text(review_html(),encoding='utf8');inject_review()
 if __name__=='__main__':main()
