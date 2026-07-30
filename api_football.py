@@ -43,7 +43,7 @@ def fetch_context(events):
    status='球队别名未收录：'+','.join(missing) if missing else 'API未匹配（联赛/日期/免费覆盖待核验）'
    out[e['code']]={'status':status,'mapping_score':score};continue
   fid=f['fixture']['id'];hid=f['teams']['home']['id'];aid=f['teams']['away']['id']
-  ctx={'status':'已匹配（别名库）','mapping_score':score,'fixture_id':fid,'venue':f['fixture'].get('venue',{}).get('name','-'),'league':f['league']['name'],'injury_home':0,'injury_away':0,'home_form':'-','away_form':'-','lineups':'待确认'}
+  ctx={'status':'已匹配（别名库）','mapping_score':score,'fixture_id':fid,'venue':f['fixture'].get('venue',{}).get('name','-'),'league':f['league']['name'],'league_id':f['league'].get('id'),'season':f['league'].get('season'),'home_team_id':hid,'away_team_id':aid,'injury_home':0,'injury_away':0,'home_form':'-','away_form':'-','lineups':'待确认'}
   try:
    inj=call('/injuries',{'fixture':fid}).get('response',[]);ctx['injury_home']=sum(1 for x in inj if x.get('team',{}).get('id')==hid);ctx['injury_away']=sum(1 for x in inj if x.get('team',{}).get('id')==aid)
   except Exception as ex:errors.append(f"{e['code']}伤停：{type(ex).__name__}")

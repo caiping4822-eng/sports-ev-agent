@@ -102,6 +102,7 @@ def main():
  moves=movement_map(history,current)
  history.append(current);dump(DATA/'market_history.json',history[-400:])
  api_ctx,api_errors=fetch_context(events);errors.extend(api_errors)
+ dump(DATA/'api_context.json',api_ctx)
  api_rows=''
  for e in events:
   c=api_ctx.get(e['code'],{}); api_rows+=f"<tr><td>{escape(e['code'])}</td><td>{escape(str(c.get('status') or '待确认'))}</td><td>{escape(str(c.get('league') or '-'))}<br>{escape(str(c.get('venue') or '-'))}</td><td>主 {c.get('injury_home','-')} / 客 {c.get('injury_away','-')}</td><td>主 {escape(str(c.get('home_form') or '-'))} / 客 {escape(str(c.get('away_form') or '-'))}</td><td>{escape(str(c.get('lineups') or '待确认'))}</td></tr>"
