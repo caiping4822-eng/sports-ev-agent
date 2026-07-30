@@ -30,9 +30,28 @@ def summarize(match,results):
  k=os.getenv('DEEPSEEK_API_KEY','').strip()
  if not k:raise RuntimeError('DEEPSEEK_API_KEY 未配置')
  snippets='\n\n'.join(f"来源:{x.get('url','')}\n标题:{x.get('title','')}\n内容:{x.get('content','')[:1200]}" for x in results)
- prompt=f'''你是足球赛前事实核验助手。只基于下方搜索摘要，禁止补充外部常识、禁止猜测、禁止推荐下注。比赛：{match}。输出严格JSON：{{"confirmed":["仅明确事实"],"uncertain":["媒体推测或待确认"],"risks":["赛制/伤停/旅行等风险"],"summary":"不超过80字中文客观总结"}}。若摘要没有信息，数组写空。\n\n{snippets}'''
+ prompt=f'''你是足球赛前事实核验助手。只基于下方搜索摘要，禁止补充外部常识、禁止猜测、禁止推荐下注。包含“可能、预计、存疑、may、likely、predicted”等词的内容必须放入 uncertain，绝不能放入 confirmed。推荐、赔率观点、tipster观点不得放入 confirmed。比赛：{match}。输出严格JSON：{{"confirmed":["仅明确事实"],"uncertain":["媒体推测或待确认"],"risks":["赛制/伤停/旅行等风险"],"summary":"不超过80字中文客观总结"}}。若摘要没有信息，数组写空。\n\n{snippets}'''
  data=post('https://api.deepseek.com/chat/completions',{'model':'deepseek-chat','messages':[{'role':'user','content':prompt}],'temperature':0.1,'response_format':{'type':'json_object'}},{'Authorization':'Bearer '+k})
  return json.loads(data['choices'][0]['message']['content'])
+def fact_gate(research):
+    """Never allow tentative language or betting opinions into confirmed facts."""
+    hedges=['可能','预计','或将','存疑','待确认','疑似','大概率','有望','传闻','或许','may ','might ','likely','predicted','doubtful','expected']
+    opinions=['推荐','看好','投注','赔率','best bet','value bet','tipster','预测']
+    confirmed=[]; uncertain=list(research.get('uncertain',[]) or []); risks=list(research.get('risks',[]) or [])
+    for item in research.get('confirmed',[]) or []:
+        low=item.lower()
+        if any(w.lower() in low for w in opinions):
+            risks.append('已过滤推荐/观点文本：'+item);continue
+        if any(w.lower() in low for w in hedges):
+            uncertain.append(item);continue
+        confirmed.append(item)
+    # Deduplicate while preserving order.
+    def unique(xs):
+        out=[]
+        for x in xs:
+            if x not in out:out.append(x)
+        return out
+    return {'confirmed':unique(confirmed),'uncertain':unique(uncertain),'risks':unique(risks),'summary':research.get('summary','数据不足')}
 def section(data):
  cards=[]
  for x in data.get('events',[]):
@@ -55,6 +74,7 @@ def main():
    else:
     try: research=summarize(home+' vs '+away,sr.get('results',[]))
     except Exception as ex: research={'confirmed':[],'uncertain':[],'risks':['DeepSeek总结不可用：'+err_text(ex)],'summary':'AI搜索已完成，但总结未完成'}
+   research=fact_gate(research)
    out.append({'code':e['code'],'match':e['home']+' vs '+e['away'],'sources':sources,'research':research})
   data={'date':today,'pipeline_version':2,'updated_at':datetime.now(CST).isoformat(),'events':out};dump(DATA/'ai_research_daily.json',data)
  p=DOCS/'index.html'
