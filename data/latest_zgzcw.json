@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-30 15:46",
+  "updated_at": "2026-07-30 16:35",
   "events": [
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.213656+08:00",
+      "captured_at": "2026-07-30T16:36:00.909189+08:00",
       "source_match_id": "2040651",
       "analysis_match_id": "4556484",
       "code": "周四001",
@@ -33,7 +33,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.213834+08:00",
+      "captured_at": "2026-07-30T16:36:00.909420+08:00",
       "source_match_id": "2040652",
       "analysis_match_id": "4589427",
       "code": "周四002",
@@ -62,7 +62,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.213922+08:00",
+      "captured_at": "2026-07-30T16:36:00.909558+08:00",
       "source_match_id": "2040653",
       "analysis_match_id": "4556486",
       "code": "周四003",
@@ -91,7 +91,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.214004+08:00",
+      "captured_at": "2026-07-30T16:36:00.909667+08:00",
       "source_match_id": "2040654",
       "analysis_match_id": "4589426",
       "code": "周四004",
@@ -104,23 +104,23 @@
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 2.85,
+          "home_win": 2.75,
           "draw": 3.6,
-          "away_win": 2.0
+          "away_win": 2.05
         },
         {
           "market": "handicap_1x2",
           "line": "+1",
-          "home_win": 1.61,
-          "draw": 3.83,
-          "away_win": 4.05
+          "home_win": 1.58,
+          "draw": 3.92,
+          "away_win": 4.15
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.214075+08:00",
+      "captured_at": "2026-07-30T16:36:00.909760+08:00",
       "source_match_id": "2040655",
       "analysis_match_id": "4556488",
       "code": "周四005",
@@ -142,7 +142,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.214156+08:00",
+      "captured_at": "2026-07-30T16:36:00.909863+08:00",
       "source_match_id": "2040656",
       "analysis_match_id": "4465816",
       "code": "周四006",
@@ -171,7 +171,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.214235+08:00",
+      "captured_at": "2026-07-30T16:36:00.909965+08:00",
       "source_match_id": "2040667",
       "analysis_match_id": "4467584",
       "code": "周五001",
@@ -200,7 +200,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.214314+08:00",
+      "captured_at": "2026-07-30T16:36:00.910065+08:00",
       "source_match_id": "2040668",
       "analysis_match_id": "4467604",
       "code": "周五002",
@@ -229,7 +229,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-07-30T15:46:39.214393+08:00",
+      "captured_at": "2026-07-30T16:36:00.910164+08:00",
       "source_match_id": "2040669",
       "analysis_match_id": "4460402",
       "code": "周五003",
@@ -256,7 +256,5 @@
       ]
     }
   ],
-  "errors": [
-    "周四005近期赛果：HTTPError"
-  ]
+  "errors": []
 }
