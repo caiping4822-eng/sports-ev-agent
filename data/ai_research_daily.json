@@ -1,0 +1,123 @@
+{
+  "date": "2026-07-30",
+  "updated_at": "2026-07-30T14:07:06.473745+08:00",
+  "events": [
+    {
+      "code": "周四001",
+      "match": "中日德兰 vs 贝西克塔",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周四002",
+      "match": "帕佛斯 vs 斯海杜克",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周四003",
+      "match": "安德莱赫 vs 哈马比",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周四004",
+      "match": "费伦茨瓦 vs 特温特",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周四005",
+      "match": "本菲卡 vs 圣加仑",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周四006",
+      "match": "科林蒂安 vs 巴竞技",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周五001",
+      "match": "瓦勒伦加 vs 汉坎",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周五002",
+      "match": "博德闪耀 vs 利勒斯特",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    },
+    {
+      "code": "周五003",
+      "match": "纽约城 vs 多伦多",
+      "sources": [],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "搜索或模型服务不可用：HTTPError"
+        ],
+        "summary": "AI联网研究未完成"
+      }
+    }
+  ]
+}
