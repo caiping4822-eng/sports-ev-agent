@@ -3,7 +3,15 @@ import json,os
 from datetime import datetime,timedelta
 from urllib.parse import urlencode
 from urllib.request import Request,urlopen
-from team_resolver import load_map,score_event,unresolved
+import re
+TEAM_MAP={
+"中日德兰":["FC Midtjylland","Midtjylland"],"贝西克塔":["Besiktas","Beşiktaş"],"帕佛斯":["Pafos","Pafos FC"],"斯海杜克":["Hajduk Split","Hajduk"],"安德莱赫":["Anderlecht"],"哈马比":["Hammarby","Hammarby FF"],"费伦茨瓦":["Ferencvaros","Ferencváros"],"特温特":["Twente","FC Twente"],"本菲卡":["Benfica"],"圣加仑":["St Gallen","St. Gallen"],"科林蒂安":["Corinthians"],"巴竞技":["Athletico Paranaense","Athletico-PR"],"图凯拉特":["Kairat","Kairat Almaty"],"奥莫尼亚":["Omonia","Omonia Nicosia"],"波兹莱赫":["Lech Poznan","Lech Poznań"],"奥胡斯":["AGF","Aarhus"],"米拉索":["Mirassol"],"雷莫":["Remo"],"巴西国际":["Internacional"],"弗拉门戈":["Flamengo"],"弗鲁米嫩":["Fluminense"],"巴伊亚":["Bahia"],"维多利亚":["Vitoria","Vitória"],"帕梅拉斯":["Palmeiras"]}
+def norm(x):return re.sub(r'[^a-z0-9]','',x.lower())
+def matches(cn,english,mapping):
+ e=norm(english);return any(norm(a) in e or e in norm(a) for a in mapping.get(cn,[]))
+def score_event(event,fixture,mapping):
+ return 140 if matches(event['home'],fixture['teams']['home']['name'],mapping) and matches(event['away'],fixture['teams']['away']['name'],mapping) else 0
+def unresolved(event,mapping):return [x for x in (event['home'],event['away']) if x not in mapping]
 BASE='https://v3.football.api-sports.io'
 def call(path,params):
  key=os.getenv('API_FOOTBALL_KEY','').strip()
@@ -17,7 +25,7 @@ def form(items,team_id):
   out.append('W' if w else 'L' if w is False else 'D')
  return ''.join(out)
 def fetch_context(events):
- mapping=load_map();days=set();errors=[]
+ mapping=TEAM_MAP;days=set();errors=[]
  for e in events:
   try:
    d=datetime.strptime(e['kickoff'][:10],'%Y-%m-%d');days.update([(d+timedelta(days=i)).strftime('%Y-%m-%d') for i in (-1,0,1)])
