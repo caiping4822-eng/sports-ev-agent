@@ -18,8 +18,8 @@
         0.2335037803195311,
         0.24217057622789115
       ],
-      "confidence": 50,
-      "conf_label": "低",
+      "confidence": 60,
+      "conf_label": "中",
       "strict": false,
       "strict_i": 2,
       "forced_i": 2,
@@ -31,11 +31,10 @@
       "confirmed": [],
       "uncertain": [],
       "risks": [
-        "搜索或模型服务不可用：HTTPError"
+        "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
       ],
       "gaps": [
-        "外部同场机构不足3家",
-        "AI联网研究未完成"
+        "外部同场机构不足3家"
       ]
     },
     {
@@ -56,8 +55,8 @@
         0.23433034885547419,
         0.2113255936826172
       ],
-      "confidence": 50,
-      "conf_label": "低",
+      "confidence": 60,
+      "conf_label": "中",
       "strict": false,
       "strict_i": 0,
       "forced_i": 0,
@@ -69,49 +68,47 @@
       "confirmed": [],
       "uncertain": [],
       "risks": [
-        "搜索或模型服务不可用：HTTPError"
+        "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
       ],
       "gaps": [
-        "外部同场机构不足3家",
-        "AI联网研究未完成"
+        "外部同场机构不足3家"
       ]
     },
     {
       "code": "周四003",
       "match": "安德莱赫 vs 哈马比",
       "odds": [
-        2.02,
+        1.98,
         3.45,
-        2.9
+        3.0
       ],
       "market_p": [
-        0.438739865797982,
-        0.2678353831906286,
-        0.29342475101138926
+        0.4399615909109248,
+        0.26858120375376227,
+        0.29145720533531294
       ],
       "conservative_p": [
-        0.418739865797982,
-        0.24783538319062862,
-        0.27342475101138924
+        0.4199615909109248,
+        0.24858120375376228,
+        0.2714572053353129
       ],
-      "confidence": 50,
-      "conf_label": "低",
+      "confidence": 60,
+      "conf_label": "中",
       "strict": false,
       "strict_i": 1,
       "forced_i": 0,
       "ev": [
-        -0.1541454710880763,
-        -0.14496792799233127,
-        -0.20706822206697117
+        -0.168476049996369,
+        -0.1423948470495201,
+        -0.18562838399406123
       ],
       "confirmed": [],
       "uncertain": [],
       "risks": [
-        "搜索或模型服务不可用：HTTPError"
+        "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
       ],
       "gaps": [
-        "外部同场机构不足3家",
-        "AI联网研究未完成"
+        "外部同场机构不足3家"
       ]
     },
     {
@@ -123,33 +120,32 @@
         2.0
       ],
       "market_p": [
-        0.3318136037899292,
-        0.2560233098880512,
-        0.41216308632201965
+        0.3320497495563984,
+        0.25549383507533985,
+        0.41245641536826166
       ],
       "conservative_p": [
-        0.3118136037899292,
-        0.23602330988805123,
-        0.3921630863220196
+        0.31204974955639836,
+        0.23549383507533986,
+        0.39245641536826165
       ],
-      "confidence": 50,
-      "conf_label": "低",
+      "confidence": 60,
+      "conf_label": "中",
       "strict": false,
       "strict_i": 0,
       "forced_i": 2,
       "ev": [
-        -0.11133122919870186,
-        -0.15031608440301558,
-        -0.21567382735596075
+        -0.11065821376426466,
+        -0.15222219372877654,
+        -0.2150871692634767
       ],
       "confirmed": [],
       "uncertain": [],
       "risks": [
-        "搜索或模型服务不可用：HTTPError"
+        "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
       ],
       "gaps": [
-        "外部同场机构不足3家",
-        "AI联网研究未完成"
+        "外部同场机构不足3家"
       ]
     },
     {
@@ -161,35 +157,34 @@
         4.22
       ],
       "market_p": [
-        0.4859855628536126,
-        0.29342524549652077,
-        0.22058919164986668
+        0.4857316596447031,
+        0.29327194544585844,
+        0.22099639490943837
       ],
       "conservative_p": [
-        0.4659855628536126,
-        0.27342524549652075,
-        0.2005891916498667
+        0.4657316596447031,
+        0.2732719454458584,
+        0.20099639490943838
       ],
-      "confidence": 40,
+      "confidence": 50,
       "conf_label": "低",
       "strict": false,
       "strict_i": 1,
       "forced_i": 1,
       "ev": [
-        -0.18918512063471404,
-        -0.1387104766859597,
-        -0.15351361123756257
+        -0.1896269122182166,
+        -0.13919337184554603,
+        -0.15179521348217007
       ],
       "confirmed": [],
       "uncertain": [],
       "risks": [
-        "搜索或模型服务不可用：HTTPError"
+        "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
       ],
       "gaps": [
         "外部同场机构不足3家",
         "API-Football未匹配",
-        "赛季基本面未返回",
-        "AI联网研究未完成"
+        "赛季基本面未返回"
       ]
     }
   ]

@@ -1,122 +1,268 @@
 {
   "date": "2026-07-30",
-  "updated_at": "2026-07-30T14:07:06.473745+08:00",
+  "pipeline_version": 2,
+  "updated_at": "2026-07-30T15:32:30.581569+08:00",
   "events": [
     {
       "code": "周四001",
       "match": "中日德兰 vs 贝西克塔",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Preview: Besiktas vs FC Midtjylland - prediction, team news, lineups - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/besiktas/europa-league/preview/besiktas-vs-midtjylland-prediction-team-news-lineups_601596.html"
+        },
+        {
+          "title": "Preview: FC Midtjylland vs Besiktas - prediction, team news, lineups - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/fc-midtjylland/europa-league/preview/midtjylland-vs-besiktas-prediction-team-news-lineups_602037.html"
+        },
+        {
+          "title": "Beşiktaş - FC Midtjylland : Predicted Lineups",
+          "url": "https://bulinews.com/fixture/991056/predicted-lineups/be-ikta-fc-midtjylland"
+        },
+        {
+          "title": "FC Midtjylland vs Beşiktaş - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/en-GB/matches/fc-midtjylland-vs-besiktas/2rpotw"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周四002",
       "match": "帕佛斯 vs 斯海杜克",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Preview: Pafos FC vs Hajduk Split - prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/pafos/europa-league/preview/pafos-vs-hajduk-split-prediction-team-news-lineups_601988.html"
+        },
+        {
+          "title": "Hajduk Split vs Pafos FC - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/pafos-fc-vs-hajduk-split/18z527"
+        },
+        {
+          "title": "UEFA Europa League Preview: Pafos FC VS Hajduk Split - prediction, team news, lineups - 7msport",
+          "url": "https://news.7msport.com/news/newsdata/20260729/259537.shtml"
+        },
+        {
+          "title": "Pafos vs Hajduk Split prediction: teams form analysis, possible lineups on July 30, 2026 – Ratingbet.com",
+          "url": "https://ratingbet.com/predictions/pafos-vs-hajduk-split-prediction-teams-form-analysis-possible-lineups-on-july-30-2026"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周四003",
       "match": "安德莱赫 vs 哈马比",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Anderlecht vs Hammarby - prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/anderlecht/europa-league/preview/anderlecht-vs-hammarby-prediction-team-news-lineups_601987.html"
+        },
+        {
+          "title": "Anderlecht vs Hammarby: predictions, best bets and latest ...",
+          "url": "https://www.squawka.com/en/news/anderlecht-vs-hammarby-predictions-betting-tips-30-07-2026"
+        },
+        {
+          "title": "Anderlecht vs Hammarby prediction, preview & betting tips",
+          "url": "https://footballwhispers.com/blog/anderlecht-vs-hammarby-prediction-30-07-2026"
+        },
+        {
+          "title": "Anderlecht vs Hammarby Prediction, Odds & Betting Tips | 30.07.2026 | Europa League",
+          "url": "https://www.mightytips.com/football-predictions/anderlecht-vs-hammarby-prediction-30-07-2026"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周四004",
       "match": "费伦茨瓦 vs 特温特",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Ferencvaros vs FC Twente - prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/ferencvaros/europa-league/preview/ferencvaros-vs-fc-twente-prediction-team-news-lineups_601959.html"
+        },
+        {
+          "title": "Ferencvaros vs Twente Betting Tips - Europa League",
+          "url": "https://www.freetips.com/football/ferencvaros-vs-twente-live-stream-20260728-0045"
+        },
+        {
+          "title": "Ferencvaros vs Twente prediction, preview & betting tips",
+          "url": "https://footballwhispers.com/blog/ferencvaros-vs-twente-prediction-30-07-2026"
+        },
+        {
+          "title": "Champions League injury news, predicted lineups, fantasy updates - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/43596191/champions-league-injury-news-predicted-lineups-fantasy-updates"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周四005",
       "match": "本菲卡 vs 圣加仑",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Preview: Benfica vs. St Gallen - prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/benfica/europa-league/preview/benfica-vs-st-gallen-prediction-team-news-lineups_602000.html"
+        },
+        {
+          "title": "St. Gallen vs Benfica - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/benfica-vs-st-gallen/3amud7"
+        },
+        {
+          "title": "Benfica vs St. Gallen Prediction, Betting Tips, Lineups & Odds | 30 Jul ...",
+          "url": "https://www.sportsgambler.com/betting-tips/football/benfica-vs-st-gallen-prediction-lineups-odds-2026-07-30"
+        },
+        {
+          "title": "Champions League injury news, predicted lineups, fantasy updates - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/43490232/champions-league-injury-news-predicted-lineups-fantasy-updates"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周四006",
       "match": "科林蒂安 vs 巴竞技",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Preview: Corinthians vs. Athletico Paranaense - prediction, team news, lineups - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/corinthians/preview/corinthians-vs-athletico-pr-prediction-team-news-lineups_555459.html"
+        },
+        {
+          "title": "Corinthians vs Athletico Paranaense Prediction, Betting Tips, Lineups & Odds | 31 Jul 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/corinthians-vs-athletico-paranaense-prediction-lineups-odds-2026-07-30"
+        },
+        {
+          "title": "Corinthians vs Athletico Paranaense - live score, predicted ...",
+          "url": "https://www.fotmob.com/matches/corinthians-vs-athletico-paranaense/3c1wu1"
+        },
+        {
+          "title": "Corinthians vs Athletico Paranaense prediction: teams form analysis ...",
+          "url": "https://ratingbet.com/predictions/corinthians-vs-athletico-paranaense-prediction-teams-form-analysis-possible-lineups-on-july-31-2026"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周五001",
       "match": "瓦勒伦加 vs 汉坎",
-      "sources": [],
+      "sources": [
+        {
+          "title": "Champions League injury news, predicted lineups, fantasy updates",
+          "url": "https://www.espn.com/soccer/story/_/id/43490232/champions-league-injury-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Barcelona XI vs. Rayo Vallecano: Verdict on Garcia Pair—Injury News, Predicted Lineup",
+          "url": "https://www.si.com/soccer/barcelona-xi-vs-rayo-vallecano-injury-news-predicted-lineup-3-22-26"
+        },
+        {
+          "title": "Switzerland vs. Canada injury, suspension list, predicted XIs",
+          "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-canada-injury-suspension-list-predicted-xis_599748.html"
+        },
+        {
+          "title": "Predicted XIs Real Madrid-Benfica: No Kylian Mbappe and two at risk of suspension - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/predicted-xis-real-madrid-benfica-130500149.html"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周五002",
       "match": "博德闪耀 vs 利勒斯特",
-      "sources": [],
+      "sources": [
+        {
+          "title": "FPL Team News & Lineups - Injuries, Doubts & Predicted XIs",
+          "url": "https://onefpl.com/team-news"
+        },
+        {
+          "title": "Leo Hjelde Injury: Makes squad list for tour",
+          "url": "https://www.rotowire.com/soccer/headlines/leo-hjelde-injury-makes-squad-list-for-tour-524089"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     },
     {
       "code": "周五003",
       "match": "纽约城 vs 多伦多",
-      "sources": [],
+      "sources": [
+        {
+          "title": "MLS Fantasy: Team-by-team injury breakdown and projected lineups for Round 7 | MLSSoccer.com",
+          "url": "https://www.mlssoccer.com/news/mls-fantasy-team-team-injury-breakdown-and-projected-lineups-round-7"
+        },
+        {
+          "title": "Injury Report | Two Absent vs. Toronto | New York City FC",
+          "url": "https://www.nycfc.com/news/injury-report-two-absent-vs-toronto"
+        },
+        {
+          "title": "Team News: South Africa vs. Canada injury, suspension list, predicted XIs - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
+        },
+        {
+          "title": "Premier League injury news, predicted lineups, fantasy updates - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/43192188/premier-league-injury-news-predicted-lineups-fantasy-updates"
+        }
+      ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索或模型服务不可用：HTTPError"
+          "DeepSeek总结不可用：HTTP 402 {\"error\":{\"message\":\"Insufficient Balance\",\"type\":\"unknown_error\",\"param\":null,\"code\":\"invalid_request_error\"}}"
         ],
-        "summary": "AI联网研究未完成"
+        "summary": "AI搜索已完成，但总结未完成"
       }
     }
   ]
