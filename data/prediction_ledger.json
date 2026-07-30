@@ -126,5 +126,56 @@
     ],
     "fixture_id": null,
     "forced": null
+  },
+  {
+    "key": "周五001|2026-08-01 01:00",
+    "locked_at": "2026-07-30T13:28:14.476799+08:00",
+    "status": "locked",
+    "code": "周五001",
+    "kickoff": "2026-08-01 01:00",
+    "home": "瓦勒伦加",
+    "away": "汉坎",
+    "china_1x2": [
+      1.47,
+      4.25,
+      4.7
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五002|2026-08-01 03:00",
+    "locked_at": "2026-07-30T13:28:14.476799+08:00",
+    "status": "locked",
+    "code": "周五002",
+    "kickoff": "2026-08-01 03:00",
+    "home": "博德闪耀",
+    "away": "利勒斯特",
+    "china_1x2": [
+      1.17,
+      6.1,
+      9.0
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五003|2026-08-01 07:30",
+    "locked_at": "2026-07-30T13:28:14.476799+08:00",
+    "status": "locked",
+    "code": "周五003",
+    "kickoff": "2026-08-01 07:30",
+    "home": "纽约城",
+    "away": "多伦多",
+    "china_1x2": [
+      1.55,
+      3.78,
+      4.55
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

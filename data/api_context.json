@@ -1,0 +1,98 @@
+{
+  "周四001": {
+    "status": "已匹配（别名库）",
+    "mapping_score": 140,
+    "fixture_id": 1556549,
+    "venue": "MCH Arena",
+    "league": "UEFA Europa League",
+    "league_id": 3,
+    "season": 2026,
+    "home_team_id": 397,
+    "away_team_id": 549,
+    "injury_home": 0,
+    "injury_away": 0,
+    "home_form": "",
+    "away_form": "",
+    "lineups": "待确认"
+  },
+  "周四002": {
+    "status": "已匹配（别名库）",
+    "mapping_score": 140,
+    "fixture_id": 1593527,
+    "venue": "Alphamega Stadium",
+    "league": "UEFA Europa League",
+    "league_id": 3,
+    "season": 2026,
+    "home_team_id": 3403,
+    "away_team_id": 608,
+    "injury_home": 0,
+    "injury_away": 0,
+    "home_form": "",
+    "away_form": "",
+    "lineups": "待确认"
+  },
+  "周四003": {
+    "status": "已匹配（别名库）",
+    "mapping_score": 140,
+    "fixture_id": 1556547,
+    "venue": "Lotto Park",
+    "league": "UEFA Europa League",
+    "league_id": 3,
+    "season": 2026,
+    "home_team_id": 554,
+    "away_team_id": 363,
+    "injury_home": 0,
+    "injury_away": 0,
+    "home_form": "",
+    "away_form": "",
+    "lineups": "待确认"
+  },
+  "周四004": {
+    "status": "已匹配（别名库）",
+    "mapping_score": 140,
+    "fixture_id": 1593525,
+    "venue": "Groupama Arena",
+    "league": "UEFA Europa League",
+    "league_id": 3,
+    "season": 2026,
+    "home_team_id": 651,
+    "away_team_id": 415,
+    "injury_home": 0,
+    "injury_away": 0,
+    "home_form": "",
+    "away_form": "",
+    "lineups": "待确认"
+  },
+  "周四005": {
+    "status": "已匹配（别名库）",
+    "mapping_score": 140,
+    "fixture_id": 1556548,
+    "venue": null,
+    "league": "UEFA Europa League",
+    "league_id": 3,
+    "season": 2026,
+    "home_team_id": 211,
+    "away_team_id": 1011,
+    "injury_home": 0,
+    "injury_away": 0,
+    "home_form": "",
+    "away_form": "",
+    "lineups": "待确认"
+  },
+  "周四006": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周五001": {
+    "status": "球队别名未收录：瓦勒伦加,汉坎",
+    "mapping_score": 0
+  },
+  "周五002": {
+    "status": "球队别名未收录：博德闪耀,利勒斯特",
+    "mapping_score": 0
+  },
+  "周五003": {
+    "status": "球队别名未收录：纽约城,多伦多",
+    "mapping_score": 0
+  }
+}
