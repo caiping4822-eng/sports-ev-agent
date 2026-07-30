@@ -1,0 +1,30 @@
+name: Football Closing Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 10,12,14 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  closing-snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Capture only China target and public average odds
+        run: python closing_snapshot.py
+
+      - name: Persist closing proxy snapshots
+        run: |
+          git config user.name "Sports EV Agent"
+          git config user.email "actions@github.com"
+          git add data/closing_snapshots.json
+          git diff --cached --quiet || (git commit -m "Capture pre-close target price snapshot" && git push)
