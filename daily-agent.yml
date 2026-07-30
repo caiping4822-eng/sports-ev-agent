@@ -1,0 +1,29 @@
+name: Daily Sports EV Agent
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+    - cron: '0 6 * * *'
+permissions:
+  contents: write
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run football analysis, lock predictions and settle results
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          python agent.py
+          python lock_and_review.py
+      - name: Persist dashboards, ledger and settlement history
+        run: |
+          git config user.name "Sports EV Agent"
+          git config user.email "actions@github.com"
+          git add docs/ data/
+          git diff --cached --quiet || (git commit -m "Lock predictions and update settlement review" && git push)
