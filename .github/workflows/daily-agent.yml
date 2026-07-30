@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run data, fundamentals, AI research, lock and review
+      - name: Run data, fundamentals, AI research, decision and settlement
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -24,10 +24,11 @@ jobs:
           python agent.py
           python fundamentals_daily.py
           python ai_research.py
+          python decision_engine.py
           python lock_and_review.py
       - name: Persist dashboards and all research snapshots
         run: |
           git config user.name "Sports EV Agent"
           git config user.email "actions@github.com"
           git add docs/ data/
-          git diff --cached --quiet || (git commit -m "Update AI search research and EV data" && git push)
+          git diff --cached --quiet || (git commit -m "Run five-step decision engine" && git push)
