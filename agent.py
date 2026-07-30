@@ -104,7 +104,7 @@ def main():
  api_ctx,api_errors=fetch_context(events);errors.extend(api_errors)
  api_rows=''
  for e in events:
-  c=api_ctx.get(e['code'],{}); api_rows+=f"<tr><td>{escape(e['code'])}</td><td>{escape(c.get('status','待确认'))}</td><td>{escape(c.get('league','-'))}<br>{escape(c.get('venue','-'))}</td><td>主 {c.get('injury_home','-')} / 客 {c.get('injury_away','-')}</td><td>主 {escape(c.get('home_form','-'))} / 客 {escape(c.get('away_form','-'))}</td><td>{escape(c.get('lineups','待确认'))}</td></tr>"
+  c=api_ctx.get(e['code'],{}); api_rows+=f"<tr><td>{escape(e['code'])}</td><td>{escape(str(c.get('status') or '待确认'))}</td><td>{escape(str(c.get('league') or '-'))}<br>{escape(str(c.get('venue') or '-'))}</td><td>主 {c.get('injury_home','-')} / 客 {c.get('injury_away','-')}</td><td>主 {escape(str(c.get('home_form') or '-'))} / 客 {escape(str(c.get('away_form') or '-'))}</td><td>{escape(str(c.get('lineups') or '待确认'))}</td></tr>"
  forced=forced_pick(events,bjzs)
  conf_html=''
  for e in events:
