@@ -44,7 +44,7 @@ def lock():
   key=e['code']+'|'+e['kickoff']
   if key in existing:continue
   t=next((m for m in e['markets'] if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
-  rec={'key':key,'locked_at':now,'status':'locked','code':e['code'],'kickoff':e['kickoff'],'home':e['home'],'away':e['away'],'china_1x2':[t['home_win'],t['draw'],t['away_win']] if t else None,'avg_1x2':b.get('current') if b else None,'fixture_id':ctx.get(e['code'],{}).get('fixture_id'),'forced':None}
+  rec={'key':key,'locked_at':now,'status':'locked','code':e['code'],'league':e.get('league','未知联赛'),'kickoff':e['kickoff'],'home':e['home'],'away':e['away'],'china_1x2':[t['home_win'],t['draw'],t['away_win']] if t else None,'avg_1x2':b.get('current') if b else None,'fixture_id':ctx.get(e['code'],{}).get('fixture_id'),'forced':None}
   local=forced_for_event(e,bjzs)
   if local:
    local['is_global']=bool(global_forced and global_forced[1]['code']==e['code'] and global_forced[2]==local['selection'])
