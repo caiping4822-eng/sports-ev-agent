@@ -73,10 +73,11 @@ def main():
         # Historical replay is permanently isolated from real performance.
         is_replay = forced.get('type') == 'historical_simulation' or bool(settled_forced.get('historical'))
 
-        # A real record needs an identity-verified result. Pending/single-source
-        # results remain visible in the review table but cannot affect real ROI.
-        if not is_replay and not bool(settled.get('verified')):
-            continue
+        # A non-historical record is a real pre-match lock and must remain in
+        # the cumulative real-lock statistics after it has a stored 90-minute
+        # settlement. Do not hide it merely because the optional `verified`
+        # flag is absent/false in a legacy or seeded settlement record.
+        # Identity status stays visible in the separate settlement review.
 
         try:
             odds = float(forced.get('odds', 0))
