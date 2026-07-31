@@ -1,0 +1,46 @@
+{
+  "real": [
+    {
+      "date": "未知日期",
+      "league": "历史未记录",
+      "odds": 1.8,
+      "win": true,
+      "profit": 0.8,
+      "type": "真实锁定"
+    }
+  ],
+  "historical_simulation": [
+    {
+      "date": "未知日期",
+      "league": "历史未记录",
+      "odds": 3.6,
+      "win": true,
+      "profit": 2.6,
+      "type": "历史回放"
+    },
+    {
+      "date": "未知日期",
+      "league": "历史未记录",
+      "odds": 2.09,
+      "win": true,
+      "profit": 1.0899999999999999,
+      "type": "历史回放"
+    },
+    {
+      "date": "未知日期",
+      "league": "历史未记录",
+      "odds": 1.95,
+      "win": false,
+      "profit": -1.0,
+      "type": "历史回放"
+    },
+    {
+      "date": "未知日期",
+      "league": "历史未记录",
+      "odds": 3.15,
+      "win": true,
+      "profit": 2.15,
+      "type": "历史回放"
+    }
+  ]
+}
