@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "key": "周四001|2026-07-31 01:00",
+    "score": "01:00",
+    "outcome": "主胜",
+    "settled_at": "2026-07-31T14:27:26.301700+08:00",
+    "settlement_source": "zgzcw_public_result",
+    "proxy_clv": null
+  },
+  {
+    "key": "周四002|2026-07-31 01:00",
+    "score": "01:00",
+    "outcome": "主胜",
+    "settled_at": "2026-07-31T14:27:26.301716+08:00",
+    "settlement_source": "zgzcw_public_result",
+    "proxy_clv": 0.05263157894736836,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.8,
+      "probability": 0.49640264838326686,
+      "win": true,
+      "profit_units": 0.8
+    }
+  },
+  {
+    "key": "周四003|2026-07-31 02:30",
+    "score": "02:30",
+    "outcome": "客胜",
+    "settled_at": "2026-07-31T14:27:26.302083+08:00",
+    "settlement_source": "zgzcw_public_result",
+    "proxy_clv": null
+  },
+  {
+    "key": "周四004|2026-07-31 02:30",
+    "score": "02:30",
+    "outcome": "客胜",
+    "settled_at": "2026-07-31T14:27:26.302087+08:00",
+    "settlement_source": "zgzcw_public_result",
+    "proxy_clv": null
+  },
+  {
+    "key": "周四005|2026-07-31 03:00",
+    "score": "03:00",
+    "outcome": "主胜",
+    "settled_at": "2026-07-31T14:27:26.302090+08:00",
+    "settlement_source": "zgzcw_public_result",
+    "proxy_clv": null
+  },
+  {
+    "key": "周四006|2026-07-31 06:30",
+    "score": "06:30",
+    "outcome": "客胜",
+    "settled_at": "2026-07-31T14:27:26.302092+08:00",
+    "settlement_source": "zgzcw_public_result",
+    "proxy_clv": null
+  }
+]
