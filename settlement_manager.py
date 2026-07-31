@@ -68,12 +68,15 @@ def settle(ledger):
 def inject(ledger,hist):
  by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[];now=datetime.now(CST)
  for r in ledger:
-  s=by.get(r['key']);fp=r.get('forced');lock=((('历史补录：' if fp.get('type')=='historical_simulation' else ('全局+逐场：' if fp.get('is_global') else '逐场：'))+fp['selection']+' @ '+str(fp['odds'])) if fp else 'PASS')
-  if s and fp:
-   z=1 if s['forced']['win'] else 0;profits.append(s['forced']['profit_units']);briers.append((fp['probability']-z)**2)
+  s=by.get(r['key']);fp=r.get('forced') if isinstance(r.get('forced'),dict) else None;lock=((('历史补录：' if fp.get('type')=='historical_simulation' else ('全局+逐场：' if fp.get('is_global') else '逐场：'))+fp.get('selection','-')+' @ '+str(fp.get('odds','-'))) if fp else 'PASS')
+  sfp=s.get('forced') if isinstance(s,dict) and isinstance(s.get('forced'),dict) else None
+  if s and fp and sfp:
+   z=1 if sfp.get('win') else 0;profit=float(sfp.get('profit_units',0));profits.append(profit);briers.append((float(fp.get('probability',0))-z)**2)
    if s.get('proxy_clv') is not None:clvs.append(s['proxy_clv'])
-   res=f"{s['score']} / {'命中' if z else '未命中'} / {s['forced']['profit_units']:+.2f}u"
-  elif s:res=s['score']+' / PASS / 0u'
+   res=f"{s.get('score','-')} / {'命中' if z else '未命中'} / {profit:+.2f}u"
+  elif s and fp:
+   res=f"{s.get('score','-')} / 历史补录，不计入ROI"
+  elif s:res=str(s.get('score','-'))+' / PASS / 0u'
   else:
    try:
     delta=(parse(r['kickoff'])-now).total_seconds()/3600
