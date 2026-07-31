@@ -66,7 +66,7 @@ def settle(ledger):
   hist.append(rec)
  dump(DATA/'settlement_history.json',hist);return hist
 def inject(ledger,hist):
- by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[]
+ by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[];now=datetime.now(CST)
  for r in ledger:
   s=by.get(r['key']);fp=r.get('forced');lock=fp['selection']+' @ '+str(fp['odds']) if fp else 'PASS'
   if s and fp:
@@ -74,10 +74,16 @@ def inject(ledger,hist):
    if s.get('proxy_clv') is not None:clvs.append(s['proxy_clv'])
    res=f"{s['score']} / {'命中' if z else '未命中'} / {s['forced']['profit_units']:+.2f}u"
   elif s:res=s['score']+' / PASS / 0u'
-  else:res='等待赛果' if r.get('fixture_id') else '待匹配赛果：'+r.get('reconcile_status','-')
-  rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>{escape(lock)}</td><td>{escape(res)}</td><td>{(f'{s.get("proxy_clv")*100:.1f}%' if s and s.get('proxy_clv') is not None else '—')}</td></tr>")
- roi=sum(profits)/len(profits) if profits else 0;clv=sum(clvs)/len(clvs) if clvs else 0;brier=sum(briers)/len(briers) if briers else 0
- sec=f"<!-- FULL_REVIEW_START --><div class='card'><h2>历史锁定、结算与代理CLV</h2><p><b>累计：</b>已结算强制推荐 {len(profits)} 场 ｜ 模拟ROI {roi*100:.1f}% ｜ 平均代理CLV {clv*100:.1f}% ｜ Brier {brier:.4f}</p><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>结算状态</th><th>代理CLV</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">暂无锁定记录</td></tr>'}</table></div><!-- FULL_REVIEW_END -->"
+  else:
+   try:
+    delta=(parse(r['kickoff'])-now).total_seconds()/3600
+    res=f'未开赛（约{max(0,delta):.1f}小时后）' if delta>0 else '已开赛/待官方赛果'
+   except:res='待赛果'
+  clvtxt=f"{s.get('proxy_clv')*100:.1f}%" if s and s.get('proxy_clv') is not None else '—'
+  rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>{escape(lock)}</td><td>{escape(res)}</td><td>{clvtxt}</td></tr>")
+ n=len(profits);roi=sum(profits)/n if n else 0;clv=sum(clvs)/len(clvs) if clvs else 0;brier=sum(briers)/len(briers) if briers else 0
+ note='样本不足30场，ROI/CLV仅记录，不用于评价系统能力。' if n<30 else '样本达到基础评价门槛，可观察长期趋势。'
+ sec=f"<!-- FULL_REVIEW_START --><div class='card'><h2>历史锁定、结算与代理CLV</h2><p><b>累计：</b>已结算强制推荐 {n} 场 ｜ 模拟ROI {roi*100:.1f}% ｜ 平均中国竞彩代理CLV {clv*100:.1f}% ｜ Brier {brier:.4f}</p><p class='small'>{note}</p><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>结算状态</th><th>中国竞彩代理CLV</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">暂无锁定记录</td></tr>'}</table></div><!-- FULL_REVIEW_END -->"
  p=DOCS/'index.html'
  if p.exists():
   html=p.read_text(encoding='utf8');html=re.sub(r'<!-- FULL_REVIEW_START -->.*?<!-- FULL_REVIEW_END -->','',html,flags=re.S);html=html.replace('</main>',sec+'</main>');p.write_text(html,encoding='utf8')
