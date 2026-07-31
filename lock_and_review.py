@@ -34,8 +34,17 @@ def lock():
    rec['forced']={'selection':forced[2],'odds':forced[3],'probability':forced[0],'ev':forced[0]*forced[3]-1,'stake_units':1}
   ledger.append(rec);new.append(rec)
  dump(DATA/'prediction_ledger.json',ledger);return new
+def reconcile_fixture_ids(ledger):
+    pending=[{'code':r['code'],'kickoff':r['kickoff'],'home':r['home'],'away':r['away']} for r in ledger if not r.get('fixture_id')]
+    if not pending:return ledger
+    ctx,_=fetch_context(pending)
+    for r in ledger:
+        if not r.get('fixture_id') and ctx.get(r['code'],{}).get('fixture_id'):
+            r['fixture_id']=ctx[r['code']]['fixture_id']
+    dump(DATA/'prediction_ledger.json',ledger)
+    return ledger
 def settle():
- ledger=load(DATA/'prediction_ledger.json',[]);settled=load(DATA/'settlement_history.json',[]);done={x['key'] for x in settled};out=[]
+ ledger=reconcile_fixture_ids(load(DATA/'prediction_ledger.json',[]));settled=load(DATA/'settlement_history.json',[]);done={x['key'] for x in settled};out=[]
  for r in ledger:
   if r['key'] in done or not r.get('fixture_id'):continue
   try:
@@ -53,7 +62,7 @@ def settle():
  if out:settled+=out;dump(DATA/'settlement_history.json',settled)
  return settled
 def review_html():
- ledger=load(DATA/'prediction_ledger.json',[]);settled=load(DATA/'settlement_history.json',[]);by={x['key']:x for x in settled}
+ ledger=reconcile_fixture_ids(load(DATA/'prediction_ledger.json',[]));settled=load(DATA/'settlement_history.json',[]);by={x['key']:x for x in settled}
  rows=[];profits=[];briers=[]
  for r in ledger:
   s=by.get(r['key']);fp=r.get('forced')
@@ -65,7 +74,7 @@ def review_html():
  roi=sum(profits)/len(profits) if profits else 0;brier=sum(briers)/len(briers) if briers else 0
  return f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>足球 EV 昨日复盘</title><style>body{{font-family:"Microsoft YaHei",Arial;background:#f4f7fb;color:#14213d;margin:0}}header{{background:#0c3e85;color:#fff;padding:24px max(16px,calc((100% - 1100px)/2))}}main{{max-width:1100px;margin:20px auto;padding:0 16px}}.card{{background:#fff;padding:18px;border-radius:12px;margin-bottom:15px}}table{{width:100%;border-collapse:collapse}}th,td{{padding:11px;border-bottom:1px solid #e1e9f2;text-align:left}}th{{background:#eff6ff}}.note{{background:#fff7ed;border-left:5px solid #f59e0b;padding:12px}}</style><header><h1>足球 EV 昨日复盘</h1></header><main><div class="card note">强制娱乐推荐按 1u 模拟结算；严格 EV 候选只有在未来满足外部机构和正 EV 门槛后才会出现。代理 CLV 需要最后可售赔率快照累积后才计算。</div><div class="card"><h2>累计指标</h2><p>强制推荐已结算：{len(profits)} 场 ｜ 模拟 ROI：{roi*100:.1f}% ｜ Brier Score：{brier:.4f} ｜ 严格 EV：尚无已结算候选</p></div><div class="card"><h2>锁定与结算记录</h2><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>赛果</th><th>模拟结算</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">尚未有锁定记录。下一次中国竞彩开售时会自动建立。</td></tr>'}</table></div></main>'''
 def review_section():
- ledger=load(DATA/'prediction_ledger.json',[]);settled=load(DATA/'settlement_history.json',[]);by={x['key']:x for x in settled}
+ ledger=reconcile_fixture_ids(load(DATA/'prediction_ledger.json',[]));settled=load(DATA/'settlement_history.json',[]);by={x['key']:x for x in settled}
  rows=[];profits=[];briers=[]
  for r in ledger:
   s=by.get(r['key']);fp=r.get('forced')
