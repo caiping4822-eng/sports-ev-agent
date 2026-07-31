@@ -22,13 +22,19 @@ def make_forced(events,bjzs):
  return max(all,key=lambda z:(z[0],z[0]*z[3]-1)) if all else None
 def forced_for_event(e,bjzs):
  t=next((m for m in e.get('markets',[]) if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
- if not t or not b:return None
- p=no_vig(*b['current']);odds=[t['home_win'],t['draw'],t['away_win']];labels=['主胜','平','客胜'];c=[]
+ if not t:return None
+ odds=[t['home_win'],t['draw'],t['away_win']];labels=['主胜','平','客胜']
+ if b and b.get('current'):
+  p=no_vig(*b['current']);penalty=.02;source='百家平均'
+ else:
+  # Fallback is explicitly lower quality: devig China price only and apply 4pp penalty.
+  p=no_vig(*odds);penalty=.04;source='中国竞彩内部去水代理'
+ c=[]
  for i,o in enumerate(odds):
-  if o>=1.8:c.append((max(0,p[i]-.02),i,o))
+  if o>=1.8:c.append((max(0,p[i]-penalty),i,o))
  if not c:return None
  pc,i,o=max(c,key=lambda x:(x[0],x[0]*x[2]-1))
- return {'selection':labels[i],'odds':o,'probability':pc,'ev':pc*o-1,'stake_units':1,'type':'per_match'}
+ return {'selection':labels[i],'odds':o,'probability':pc,'ev':pc*o-1,'stake_units':1,'type':'per_match','probability_source':source}
 def lock():
  latest=load(DATA/'latest_zgzcw.json',{});events=latest.get('events',[]);errors=latest.get('errors',[])
  if not events or any('已停售' in str(x) for x in errors):return []
@@ -105,6 +111,18 @@ def inject_review():
  html=re.sub(r'<!-- REVIEW_START -->.*?<!-- REVIEW_END -->','',html,flags=re.S)
  html=html.replace('</main>',section+'</main>')
  p.write_text(html,encoding='utf8')
+def backfill_per_match_simulation():
+ ledger=load(DATA/'prediction_ledger.json',[]);changed=False
+ for r in ledger:
+  if r.get('forced') is not None:continue
+  if not r.get('china_1x2'):continue
+  odds=r['china_1x2'];avg=r.get('avg_1x2');p=no_vig(*(avg if avg else odds));pen=.02 if avg else .04;labels=['主胜','平','客胜'];c=[]
+  for i,o in enumerate(odds):
+   if o>=1.8:c.append((max(0,p[i]-pen),i,o))
+  if c:
+   pc,i,o=max(c,key=lambda x:(x[0],x[0]*x[2]-1))
+   r['forced']={'selection':labels[i],'odds':o,'probability':pc,'ev':pc*o-1,'stake_units':1,'type':'historical_simulation','is_global':False,'probability_source':'历史补录，不计入真实ROI'};changed=True
+ if changed:dump(DATA/'prediction_ledger.json',ledger)
 def main():
- DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);lock();settle();(DOCS/'review.html').write_text(review_html(),encoding='utf8');inject_review()
+ DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);backfill_per_match_simulation();lock();settle();(DOCS/'review.html').write_text(review_html(),encoding='utf8');inject_review()
 if __name__=='__main__':main()

@@ -68,7 +68,7 @@ def settle(ledger):
 def inject(ledger,hist):
  by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[];now=datetime.now(CST)
  for r in ledger:
-  s=by.get(r['key']);fp=r.get('forced');lock=((('全局+逐场：' if fp.get('is_global') else '逐场：')+fp['selection']+' @ '+str(fp['odds'])) if fp else 'PASS')
+  s=by.get(r['key']);fp=r.get('forced');lock=((('历史补录：' if fp.get('type')=='historical_simulation' else ('全局+逐场：' if fp.get('is_global') else '逐场：'))+fp['selection']+' @ '+str(fp['odds'])) if fp else 'PASS')
   if s and fp:
    z=1 if s['forced']['win'] else 0;profits.append(s['forced']['profit_units']);briers.append((fp['probability']-z)**2)
    if s.get('proxy_clv') is not None:clvs.append(s['proxy_clv'])
