@@ -1,5 +1,14 @@
 {
-  "real": [],
+  "real": [
+    {
+      "key": "周四002|2026-07-31 01:00",
+      "league": "欧联",
+      "odds": 1.8,
+      "win": true,
+      "profit": 0.8,
+      "type": "真实锁定"
+    }
+  ],
   "historical_simulation": [
     {
       "key": "周四001|2026-07-31 01:00",
