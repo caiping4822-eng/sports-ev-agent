@@ -1,0 +1,37 @@
+name: Daily Sports EV Agent
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+    - cron: '0 6 * * *'
+permissions:
+  contents: write
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run analysis and identity verified settlement
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python agent.py
+          python fundamentals_daily.py
+          python ai_research.py
+          python decision_engine.py
+          python fixture_registry.py
+          python lock_and_review.py
+          python settlement_manager.py
+          python ui_compact.py
+      - name: Persist verified results and dashboards
+        run: |
+          git config user.name "Sports EV Agent"
+          git config user.email "actions@github.com"
+          git add docs/ data/
+          git diff --cached --quiet || (git commit -m "Use identity verified 90-minute results" && git push)
