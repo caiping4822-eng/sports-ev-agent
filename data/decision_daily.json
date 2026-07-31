@@ -4,19 +4,19 @@
       "code": "周五001",
       "match": "瓦勒伦加 vs 汉坎",
       "odds": [
-        1.49,
-        4.15,
-        4.6
+        1.51,
+        4.1,
+        4.5
       ],
       "market_p": [
-        0.5912449347975488,
-        0.21892795934720555,
-        0.18982710585524573
+        0.5875424132603705,
+        0.2194602867497365,
+        0.19299729998989304
       ],
       "conservative_p": [
-        0.5712449347975488,
-        0.19892795934720556,
-        0.16982710585524574
+        0.5675424132603705,
+        0.1994602867497365,
+        0.17299729998989305
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -24,12 +24,23 @@
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.14884504715165237,
-        -0.17444896870909687,
-        -0.21879531306586963
+        -0.14301095597684055,
+        -0.18221282432608044,
+        -0.2215121500454813
       ],
-      "confirmed": [],
-      "uncertain": [],
+      "confirmed": [
+        "HamKam's Luc Mares is out injured.",
+        "Vålerenga's Ole Christian Sæter and Mohamed Ofkir are out injured.",
+        "Vålerenga's Aaron Kiil Olsen is suspended.",
+        "The first match between HamKam and Vålerenga on May 8, 2026 ended 1-0 to HamKam."
+      ],
+      "uncertain": [
+        "HamKam's Anton Ekeroth is doubtful due to injury.",
+        "Vålerenga's Ivan Näsberg is doubtful due to injury.",
+        "HamKam's Noah Alexandersson has been out injured since March.",
+        "Vålerenga's Odin Thiago Holm and Magnus Sjoeng are set to be sidelined through injury.",
+        "Mame Alassane Niang was sold to Porto earlier this month."
+      ],
       "risks": [],
       "gaps": [
         "外部同场机构不足3家",
@@ -41,19 +52,19 @@
       "code": "周五002",
       "match": "博德闪耀 vs 利勒斯特",
       "odds": [
-        1.17,
-        6.1,
-        9.0
+        1.16,
+        6.2,
+        9.4
       ],
       "market_p": [
-        0.7529115436718673,
-        0.14793629372466402,
-        0.09915216260346862
+        0.7539996866238046,
+        0.14744349992802538,
+        0.09855681344817
       ],
       "conservative_p": [
-        0.7329115436718673,
-        0.12793629372466403,
-        0.07915216260346862
+        0.7339996866238045,
+        0.1274434999280254,
+        0.07855681344816999
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -61,12 +72,21 @@
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.1424934939039153,
-        -0.2195886082795495,
-        -0.28763053656878246
+        -0.1485603635163868,
+        -0.20985030044624253,
+        -0.261565953587202
       ],
-      "confirmed": [],
-      "uncertain": [],
+      "confirmed": [
+        "Lillestrøm are without Camil Jebara, Eric Kitolano and Linus Alperud due to injury.",
+        "Bodø/Glimt have unavailable players: Daniel Bassi (injury), Magnus Bech Riisnæs (injury), Håkon Evjen (injury), August Mikkelsen (injury)."
+      ],
+      "uncertain": [
+        "Possible starting lineups are predicted, not confirmed.",
+        "Thomas Lehne Olsen may lead the line for Lillestrøm despite competition from Fredrik Gulbrandsen and Gustav Nordh.",
+        "Felix Va has managed five goals and five assists from the wing this term.",
+        "Markus Karlsbakk has four goals in the Eliteserien so far this term after hitting 13 alongside 14 assists in their promotion-winning campaign last time around.",
+        "Ylldren Ibrahimaj is a mainstay in a deeper central role."
+      ],
       "risks": [],
       "gaps": [
         "外部同场机构不足3家",
@@ -78,44 +98,50 @@
       "code": "周五003",
       "match": "纽约城 vs 多伦多",
       "odds": [
-        1.52,
-        3.85,
-        4.72
+        1.49,
+        3.95,
+        4.9
       ],
       "market_p": [
-        0.5671202849575303,
-        0.23666088227235363,
-        0.19621883277011598
+        0.5670121928937719,
+        0.2372193868229046,
+        0.19576842028332336
       ],
       "conservative_p": [
-        0.5471202849575303,
-        0.21666088227235364,
-        0.176218832770116
+        0.5470121928937719,
+        0.21721938682290462,
+        0.17576842028332337
       ],
       "confidence": 50,
       "conf_label": "低",
       "strict": false,
-      "strict_i": 1,
+      "strict_i": 2,
       "forced_i": 1,
       "ev": [
-        -0.16837716686455395,
-        -0.16585560325143844,
-        -0.1682471093250526
+        -0.18495183258827985,
+        -0.14198342204952674,
+        -0.13873474061171542
       ],
       "confirmed": [
-        "纽约城队有两名球员缺席：Rio Hope-Gund（右腿问题）和Maxi Moralez（去年受伤康复中）。",
-        "比赛于5月11日在BMO Field进行。"
+        "Kai Trewin (injury)",
+        "Keaton Parks (injury)",
+        "Kevin OToole (injury)",
+        "Aiden O'Neill (injury)",
+        "Maxi Moralez (injury)",
+        "Mac Learned (injury)",
+        "Drew Baiera (injury)",
+        "Alonso Martínez (injury)",
+        "Lazar Stefanovic (injury)",
+        "Nelson Palacio (injury)",
+        "Nicksoen Gomis (injury)",
+        "Markus Cimermancic (injury)",
+        "Matheus Pereira (injury)",
+        "Malachi Jones (injury)",
+        "Matt Freese (international duty)",
+        "Tayvon Gray (yellow card accumulation)"
       ],
-      "uncertain": [
-        "多伦多FC的Terry Dunfield因左膝扭伤仍缺阵。",
-        "多伦多FC主教练Ryan Nelsen可能选择Luis Silva首发，而非Jonathan Osorio。",
-        "纽约城队主教练Nick Cushing可能调整阵容，但具体未知。"
-      ],
-      "risks": [
-        "多伦多FC有球员伤病，可能影响阵容。",
-        "纽约城队有球员缺阵，可能影响实力。",
-        "比赛在客场进行，旅行可能带来疲劳。"
-      ],
+      "uncertain": [],
+      "risks": [],
       "gaps": [
         "外部同场机构不足3家",
         "API-Football未匹配",
