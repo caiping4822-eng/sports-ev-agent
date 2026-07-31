@@ -17,7 +17,17 @@ def rate(rows):
  n=len(rows);wins=sum(1 for x in rows if x['win']);roi=sum(x['profit'] for x in rows)/n if n else 0;avg=sum(x['odds'] for x in rows)/n if n else 0
  return n,wins/n if n else 0,roi,avg
 def main():
- ledger=load(DATA/'prediction_ledger.json',[]);settled={x.get('key'):x for x in load(DATA/'settlement_history.json',[]) if isinstance(x,dict)}
+ ledger=load(DATA/'prediction_ledger.json',[])
+ # Backfill old records from preserved China lottery snapshots.
+ league_map={}
+ for snap in load(DATA/'zgzcw_history.json',[]):
+  for e in snap.get('events',[]):
+   league_map[(e.get('code'),e.get('kickoff'))]=e.get('league','历史未记录')
+ for r in ledger:
+  if not r.get('league') or r.get('league')=='未知联赛':
+   r['league']=league_map.get((r.get('code'),r.get('kickoff')),'历史未记录')
+ dump(DATA/'prediction_ledger.json',ledger)
+ settled={x.get('key'):x for x in load(DATA/'settlement_history.json',[]) if isinstance(x,dict)}
  real=[];sim=[]
  for r in ledger:
   s=settled.get(r.get('key'));fp=r.get('forced') if isinstance(r.get('forced'),dict) else None
