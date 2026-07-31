@@ -2,7 +2,8 @@ from __future__ import annotations
 import json,re
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
-from html import escape
+from html import escape,unescape
+from urllib.request import Request,urlopen
 from api_football import fetch_context,call
 ROOT=Path(__file__).parent;DATA=ROOT/'data';DOCS=ROOT/'docs';CST=timezone(timedelta(hours=8))
 def load(p,d):
@@ -10,6 +11,22 @@ def load(p,d):
  except:return d
 def dump(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf8')
 def parse(s):return datetime.strptime(s,'%Y-%m-%d %H:%M').replace(tzinfo=CST)
+RESULT_URL='https://cp.zgzcw.com/dc/getKaijiangFootBall.action'
+def clean_html(x):return re.sub(r'\s+',' ',unescape(re.sub(r'<[^>]+>',' ',x))).strip()
+def china_results():
+    try:
+        req=Request(RESULT_URL,headers={'User-Agent':'Mozilla/5.0 (compatible; SportsEVResearch/1.0)'})
+        with urlopen(req,timeout=30) as r:raw=r.read().decode('utf-8','replace')
+        out={}
+        for row in re.findall(r'<tr[^>]*>.*?</tr>',raw,re.I|re.S):
+            cells=[clean_html(x) for x in re.findall(r'<td[^>]*>(.*?)</td>',row,re.I|re.S)]
+            if not cells or not re.match(r'周[一二三四五六日]\d{3}',cells[0]):continue
+            score=next((x for x in cells if re.search(r'\d+\s*:\s*\d+',x)),None)
+            if score:
+                m=re.search(r'(\d+)\s*:\s*(\d+)',score)
+                out[cells[0]]={'home':cells[3] if len(cells)>3 else '', 'away':cells[5] if len(cells)>5 else '', 'home_goals':int(m.group(1)), 'away_goals':int(m.group(2)), 'score':m.group(1)+':'+m.group(2)}
+        return out
+    except:return {}
 def reconcile(ledger):
  reg={x['key']:x for x in load(DATA/'fixture_registry.json',[])};todo=[]
  for r in ledger:
@@ -37,18 +54,16 @@ def proxy_clv(r):
  if not last:return None
  return r['forced']['odds']/last-1
 def settle(ledger):
- hist=load(DATA/'settlement_history.json',[]);done={x['key'] for x in hist}
+ hist=load(DATA/'settlement_history.json',[]);done={x['key'] for x in hist};results=china_results()
  for r in ledger:
-  if r['key'] in done or not r.get('fixture_id'):continue
-  try:
-   f=call('/fixtures',{'id':r['fixture_id']}).get('response',[])
-   if not f:continue
-   f=f[0]
-   if f['fixture']['status']['short'] not in ('FT','AET','PEN'):continue
-   hg=f['goals']['home'];ag=f['goals']['away'];out='主胜' if hg>ag else '客胜' if ag>hg else '平';fp=r.get('forced');rec={'key':r['key'],'score':f'{hg}-{ag}','outcome':out,'settled_at':datetime.now(CST).isoformat(),'proxy_clv':proxy_clv(r)}
-   if fp:rec['forced']={'selection':fp['selection'],'odds':fp['odds'],'probability':fp['probability'],'win':fp['selection']==out,'profit_units':fp['odds']-1 if fp['selection']==out else -1}
-   hist.append(rec)
-  except:continue
+  if r['key'] in done:continue
+  z=results.get(r['code'])
+  if not z:continue
+  # China result page is authoritative for China-lottery settlement; score source is home vs away.
+  hg=z['home_goals'];ag=z['away_goals'];out='主胜' if hg>ag else '客胜' if ag>hg else '平'
+  fp=r.get('forced');rec={'key':r['key'],'score':z['score'],'outcome':out,'settled_at':datetime.now(CST).isoformat(),'settlement_source':'zgzcw_public_result','proxy_clv':proxy_clv(r)}
+  if fp:rec['forced']={'selection':fp['selection'],'odds':fp['odds'],'probability':fp['probability'],'win':fp['selection']==out,'profit_units':fp['odds']-1 if fp['selection']==out else -1}
+  hist.append(rec)
  dump(DATA/'settlement_history.json',hist);return hist
 def inject(ledger,hist):
  by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[]
