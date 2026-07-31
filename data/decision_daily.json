@@ -9,14 +9,14 @@
         4.45
       ],
       "market_p": [
-        0.5840369994043656,
-        0.2200518552258155,
-        0.19591114536981885
+        0.5842779816540502,
+        0.220142651855436,
+        0.19557936649051366
       ],
       "conservative_p": [
-        0.5640369994043656,
-        0.2000518552258155,
-        0.17591114536981886
+        0.5642779816540502,
+        0.200142651855436,
+        0.17557936649051367
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -24,27 +24,30 @@
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.13702339091132065,
-        -0.20379361620125425,
-        -0.21719540310430607
+        -0.13665468806930325,
+        -0.20343224561536466,
+        -0.21867181911721412
       ],
       "confirmed": [
-        "Valerenga的Odin Thiago Holm、Magnus Sjoeng和Ole Saeter因伤缺阵",
-        "HamKam的Noah Alexandersson自3月以来因伤缺阵",
-        "HamKam前锋Mame Alassane Niang本月早些时候被卖到波尔图",
-        "Valerenga的Ivan Näsberg和Kolbeinn Finnsson因停赛缺阵",
-        "HamKam的Luc Mares因伤缺阵"
+        "瓦勒伦加球员奥丁·蒂亚戈·霍尔姆、马格努斯·舍恩、奥勒·塞特因伤缺阵（根据sportsmole.co.uk）。",
+        "瓦勒伦加球员奥马尔·布利·德拉梅因伤缺阵（根据fotmob.com和injuriesandsuspensions.com）。",
+        "瓦勒伦加球员伊万·内斯伯格和科尔贝因·芬松停赛（根据fotmob.com）。",
+        "哈姆卡姆前锋诺亚·亚历山德森自3月以来因伤缺阵（根据sportsmole.co.uk）。",
+        "哈姆卡姆头号射手马梅·阿拉塞·尼昂已转会至波尔图（根据sportsmole.co.uk）。",
+        "哈姆卡姆球员哈尔沃·罗德伦·奥普萨尔因伤缺阵（根据injuriesandsuspensions.com）。"
       ],
       "uncertain": [
-        "Valerenga的Omar Bully Drameh因伤缺阵（来源：FotMob）",
-        "HamKam的A. Ekeroth因累计黄牌停赛（来源：mrsupertips）",
-        "Valerenga的K. Finnsson因累计黄牌停赛（来源：mrsupertips）"
+        "瓦勒伦加球员亨里克·比约达尔是否出场不确定（injuriesandsuspensions.com列出其受伤，但fotmob.com未列出）。",
+        "哈姆卡姆球员弗雷德里克·舍尔stad是否出场不确定（injuriesandsuspensions.com列为 doubtful）。",
+        "瓦勒伦加球员马格努斯·舍恩和奥勒·塞特的具体伤情未明确。",
+        "两队首发阵容为预测，可能变动。"
       ],
       "risks": [
-        "关于Valerenga的伤停信息存在矛盾：sportsmole提到Magnus Sjoeng和Ole Saeter受伤，但FotMob未提及Sjoeng，且mrsupertips将Sjoeng列为受伤，而FotMob将Omar Bully Drameh列为受伤，但其他来源未提及",
-        "关于HamKam的停赛信息不一致：mrsupertips提到A. Ekeroth因黄牌停赛，但FotMob和sportsmole未提及，且FotMob明确表示HamKam没有不可用球员",
-        "关于Valerenga的停赛信息不一致：mrsupertips提到K. Finnsson因黄牌停赛，但FotMob将其列为停赛，而sportsmole未提及",
-        "关于HamKam的伤停信息不一致：ratingbet提到Mares受伤，但FotMob和sportsmole未提及，且FotMob明确表示HamKam没有不可用球员"
+        "部分来源（如tips.gg、sportsgambler.com）为预测网站，其数据可能不准确。",
+        "积分榜数据来源不一致（sportsgambler.com显示哈姆卡姆第5，但soccerpunter.com未列出哈姆卡姆，且瓦勒伦加排名有差异）。",
+        "eaglepredict.com的数据可能针对2026年5月8日的比赛，而非本场（2026年8月1日），时效性存疑。",
+        "injuriesandsuspensions.com的数据可能未更新至最新。",
+        "所有来源均未提供官方确认的伤停名单，部分信息可能过时。"
       ],
       "gaps": [
         "外部同场机构不足3家",
@@ -61,14 +64,14 @@
         9.7
       ],
       "market_p": [
-        0.756560408100694,
-        0.1451746180910848,
-        0.09826497380822108
+        0.7568099917183337,
+        0.14499630682454057,
+        0.09819370145712558
       ],
       "conservative_p": [
-        0.736560408100694,
-        0.12517461809108482,
-        0.07826497380822107
+        0.7368099917183337,
+        0.12499630682454056,
+        0.07819370145712558
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -76,22 +79,22 @@
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.15295553068420198,
-        -0.19888244421705714,
-        -0.24082975406025564
+        -0.1526685095239163,
+        -0.2000236363229404,
+        -0.241521095865882
       ],
       "confirmed": [
-        "Lillestrom are without Camil Jebara, Eric Kitolano and Linus Alperud, as the trio remain confined to the treatment room."
+        "Bodo/Glimt有中场球员因伤缺阵，具体为Eric Kitolano（小腿受伤，预计2026-08-09回归）和另一名中场（出场5次，预计2026-08-09回归）（来源：sportsgambler）。",
+        "本赛季首回合赛果：Bodo/Glimt 2-0 Lillestrøm（来源：ESPN）。"
       ],
       "uncertain": [
-        "Bodo/Glimt possible starting lineup: Haikin; Sjovold, Bjortuft, Gundersen, Maatta; Berg, Fet; Hauge, Brynhildsen; Helmersen, Blomberg",
-        "Lillestrom possible starting lineup: Dahlberg; Ranger, Garnas, Gabrielsen, Elkaer; Ibrahimaj; Nordh, Karlsbakk, Nyheim, Va; Gulbrandsen",
-        "Bodo/Glimt predicted lineup (4-3-3): Nikita Khaikin (GK), Fredrik Sjøvold, Odin Björtuft, Jostein Gundersen, Isak Dybvik Määttä, Sondre Auklend, Patrick Berg, Sondre Fet, Ole Didrik Blomberg, Andreas Helmersen, Ola Brynhildsen.",
-        "Lillestrom predicted lineup (4-3-3): Pontus Dahlberg (GK), Lars Ranger, Ruben Gabrielsen, Espen Garnas, Frederik Elkaer, Ylldren Ibrahimaj, Gustav Nyheim, Markus Karlsbakk, Yaw Paintsil, Thomas Lehne Olsen, Félix Va."
+        "Bodo/Glimt其他伤停情况未完全披露，可能影响阵容。",
+        "Lillestrøm的伤停信息未在摘要中提供。"
       ],
       "risks": [
-        "来源仅提供预测阵容，未确认实际首发。",
-        "未提供首回合比分或官方赛程信息。"
+        "部分来源为预测网站（如sportsmole、sportsgambler），其信息可能包含预测成分，需谨慎对待。",
+        "伤停信息可能不完整，且来源更新日期未明确，存在过期风险。",
+        "积分榜数据在不同来源间存在差异（如foxsports显示Bodo/Glimt 13场29分，而sportsgambler显示15场35分），可能因更新时点不同所致。"
       ],
       "gaps": [
         "外部同场机构不足3家",
@@ -108,14 +111,14 @@
         5.2
       ],
       "market_p": [
-        0.5675882324384678,
-        0.23685615806592553,
-        0.19555560949560657
+        0.5673546547851697,
+        0.23675868545742448,
+        0.19588665975740593
       ],
       "conservative_p": [
-        0.5475882324384678,
-        0.21685615806592554,
-        0.17555560949560658
+        0.5473546547851696,
+        0.2167586854574245,
+        0.17588665975740594
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -123,23 +126,22 @@
       "strict_i": 2,
       "forced_i": 1,
       "ev": [
-        -0.2059970629642217,
-        -0.12173255983300157,
-        -0.08711083062284575
+        -0.206335750561504,
+        -0.12212732389743086,
+        -0.0853893692614891
       ],
       "confirmed": [
-        "纽约城队球员Kai Trewin、Keaton Parks、Kevin OToole、Aiden O'Neill、Maxi Moralez、Mac Learned、Drew Baiera、Alonso Martínez因伤缺阵",
-        "多伦多队球员Lazar Stefanovic、Nelson Palacio、Nicksoen Gomis、Markus Cimermancic、Matheus Pereira因伤缺阵",
-        "纽约城队球员Malachi Jones因伤缺阵，Matt Freese因国际比赛缺席，Tayvon Gray因累计黄牌停赛",
-        "比赛将于7月31日晚上7:30在洋基体育场举行"
+        "纽约城FC官方伤病报告确认以下球员因伤或停赛缺阵：Martínez, Parks, O'Toole, Moralez, Baiera, O'Neil, Raul Gustavo, Trewin, Learned。",
+        "比赛时间为2026年7月31日19:30（当地时间），地点为洋基体育场。"
       ],
       "uncertain": [
-        "纽约城队预测首发阵容：Freese, Thiago Martins, Gray, Cavallo, Sands, Perea, Fernández, Shore, Talles Magno, Ojeda, Jones"
+        "纽约城FC的预测首发阵容（Freese, Thiago Martins, Gray, Cavallo, Sands, Perea, Fernández, Shore, Talles Magno, Ojeda, Jones）为预测，并非官方确认。",
+        "多伦多FC的伤停情况未在摘要中明确列出。"
       ],
       "risks": [
-        "来源之间关于纽约城队伤缺名单存在矛盾：fotmob和football-lineups列出了多名球员，但nycfc.com官方报告仅提及四人，且未包括Trewin、O'Toole、Moralez、Baiera、Learned、Martínez等，可能信息过时或来源不准确",
-        "football-lineups的预测首发包含Freese和Gray，但官方报告称他们缺阵，因此预测可能不准确",
-        "比赛日期和时间的来源可能不一致，需进一步核实"
+        "部分来源为预测网站（如football-lineups.com、squawka.com、365scores.com），其内容可能包含预测成分，需谨慎对待。",
+        "纽约城FC官方伤病报告页面未提供具体伤停名单细节，仅列出球员姓名，但未说明具体伤情或停赛原因。",
+        "多伦多FC的近期状态和伤停信息主要来自第三方预览，可能不够权威。"
       ],
       "gaps": [
         "外部同场机构不足3家",
