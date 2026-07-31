@@ -1,1 +1,91 @@
-[]
+[
+  {
+    "key": "周四001|2026-07-31 01:00",
+    "score": "0:2",
+    "outcome": "客胜",
+    "source": "verified_seed",
+    "verified": true,
+    "proxy_clv": -0.013698630136986245,
+    "forced": {
+      "selection": "客胜",
+      "odds": 3.6,
+      "probability": 0.24052762794070984,
+      "win": true,
+      "profit_units": 2.6,
+      "historical": true
+    }
+  },
+  {
+    "key": "周四002|2026-07-31 01:00",
+    "score": "2:0",
+    "outcome": "主胜",
+    "source": "verified_seed",
+    "verified": false,
+    "proxy_clv": 0.05263157894736836,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.8,
+      "probability": 0.49640264838326686,
+      "win": true,
+      "profit_units": 0.8,
+      "historical": false
+    }
+  },
+  {
+    "key": "周四003|2026-07-31 02:30",
+    "score": "3:1",
+    "outcome": "主胜",
+    "source": "verified_seed",
+    "verified": true,
+    "proxy_clv": 0.03980099502487566,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.09,
+      "probability": 0.40637289225934947,
+      "win": true,
+      "profit_units": 1.0899999999999999,
+      "historical": true
+    }
+  },
+  {
+    "key": "周四004|2026-07-31 02:30",
+    "score": "2:2",
+    "outcome": "平",
+    "source": "verified_seed",
+    "verified": true,
+    "proxy_clv": -0.09302325581395343,
+    "forced": {
+      "selection": "客胜",
+      "odds": 1.95,
+      "probability": 0.3912765922277137,
+      "win": false,
+      "profit_units": -1,
+      "historical": true
+    }
+  },
+  {
+    "key": "周四005|2026-07-31 03:00",
+    "score": "5:0",
+    "outcome": "主胜",
+    "source": "verified_seed",
+    "verified": true,
+    "proxy_clv": null,
+    "forced": null
+  },
+  {
+    "key": "周四006|2026-07-31 06:30",
+    "score": "0:0",
+    "outcome": "平",
+    "source": "verified_seed",
+    "verified": true,
+    "proxy_clv": 0.0,
+    "forced": {
+      "selection": "平",
+      "odds": 3.15,
+      "probability": 0.27283250287466465,
+      "win": true,
+      "profit_units": 2.15,
+      "historical": true
+    }
+  }
+]
