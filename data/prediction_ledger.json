@@ -28,7 +28,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "league": "欧联"
   },
   {
     "key": "周四002|2026-07-31 01:00",
@@ -56,7 +57,8 @@
       "ev": -0.10647523291011962,
       "stake_units": 1
     },
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "league": "欧联"
   },
   {
     "key": "周四003|2026-07-31 02:30",
@@ -87,7 +89,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "league": "欧联"
   },
   {
     "key": "周四004|2026-07-31 02:30",
@@ -118,7 +121,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "league": "欧联"
   },
   {
     "key": "周四005|2026-07-31 03:00",
@@ -136,7 +140,8 @@
     ],
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "league": "欧联"
   },
   {
     "key": "周四006|2026-07-31 06:30",
@@ -167,7 +172,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "league": "巴西甲"
   },
   {
     "key": "周五001|2026-08-01 01:00",
@@ -194,7 +200,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：瓦勒伦加,汉坎"
+    "reconcile_status": "球队别名未收录：瓦勒伦加,汉坎",
+    "league": "挪超"
   },
   {
     "key": "周五002|2026-08-01 03:00",
@@ -221,7 +228,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：博德闪耀,利勒斯特"
+    "reconcile_status": "球队别名未收录：博德闪耀,利勒斯特",
+    "league": "挪超"
   },
   {
     "key": "周五003|2026-08-01 07:30",
@@ -248,7 +256,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：纽约城,多伦多"
+    "reconcile_status": "球队别名未收录：纽约城,多伦多",
+    "league": "美职联"
   },
   {
     "key": "周六001|2026-08-01 18:30",
@@ -275,7 +284,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：江原FC,富川FC"
+    "reconcile_status": "球队别名未收录：江原FC,富川FC",
+    "league": "韩K联"
   },
   {
     "key": "周六002|2026-08-01 18:30",
@@ -302,7 +312,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：全北现代,首尔FC"
+    "reconcile_status": "球队别名未收录：全北现代,首尔FC",
+    "league": "韩K联"
   },
   {
     "key": "周六003|2026-08-01 18:30",
@@ -329,7 +340,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：浦项制铁,金泉尚武"
+    "reconcile_status": "球队别名未收录：浦项制铁,金泉尚武",
+    "league": "韩K联"
   },
   {
     "key": "周日001|2026-08-02 18:30",
@@ -356,7 +368,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：蔚山现代,FC安养"
+    "reconcile_status": "球队别名未收录：蔚山现代,FC安养",
+    "league": "韩K联"
   },
   {
     "key": "周日002|2026-08-02 18:30",
@@ -383,7 +396,8 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：济州SK,仁川联队"
+    "reconcile_status": "球队别名未收录：济州SK,仁川联队",
+    "league": "韩K联"
   },
   {
     "key": "周日003|2026-08-02 18:30",
@@ -410,6 +424,7 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     },
-    "reconcile_status": "球队别名未收录：大田市民,光州FC"
+    "reconcile_status": "球队别名未收录：大田市民,光州FC",
+    "league": "韩K联"
   }
 ]

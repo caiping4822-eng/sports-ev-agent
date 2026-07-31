@@ -2,7 +2,7 @@
   "real": [
     {
       "date": "未知日期",
-      "league": "历史未记录",
+      "league": "欧联",
       "odds": 1.8,
       "win": true,
       "profit": 0.8,
@@ -12,7 +12,7 @@
   "historical_simulation": [
     {
       "date": "未知日期",
-      "league": "历史未记录",
+      "league": "欧联",
       "odds": 3.6,
       "win": true,
       "profit": 2.6,
@@ -20,7 +20,7 @@
     },
     {
       "date": "未知日期",
-      "league": "历史未记录",
+      "league": "欧联",
       "odds": 2.09,
       "win": true,
       "profit": 1.0899999999999999,
@@ -28,7 +28,7 @@
     },
     {
       "date": "未知日期",
-      "league": "历史未记录",
+      "league": "欧联",
       "odds": 1.95,
       "win": false,
       "profit": -1.0,
@@ -36,7 +36,7 @@
     },
     {
       "date": "未知日期",
-      "league": "历史未记录",
+      "league": "巴西甲",
       "odds": 3.15,
       "win": true,
       "profit": 2.15,
