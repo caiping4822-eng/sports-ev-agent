@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run analysis and identity verified settlement
+      - name: Run analysis, settlement and segmented statistics
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -28,10 +28,11 @@ jobs:
           python fixture_registry.py
           python lock_and_review.py
           python settlement_manager.py
+          python statistics_report.py
           python ui_compact.py
-      - name: Persist verified results and dashboards
+      - name: Persist segmented performance and dashboards
         run: |
           git config user.name "Sports EV Agent"
           git config user.email "actions@github.com"
           git add docs/ data/
-          git diff --cached --quiet || (git commit -m "Use identity verified 90-minute results" && git push)
+          git diff --cached --quiet || (git commit -m "Update league and odds-band performance statistics" && git push)
