@@ -7,7 +7,7 @@ from urllib.request import Request, urlopen
 from urllib.error import HTTPError
 from api_football import TEAM_MAP
 
-ROOT=Path(__file__).parent; DATA=ROOT/'data'; DOCS=ROOT/'docs'; CST=timezone(timedelta(hours=8)); VERSION=5
+ROOT=Path(__file__).parent; DATA=ROOT/'data'; DOCS=ROOT/'docs'; CST=timezone(timedelta(hours=8)); VERSION=6
 
 def load(p,d):
  try:return json.loads(p.read_text(encoding='utf8'))
