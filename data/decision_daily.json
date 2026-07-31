@@ -9,43 +9,35 @@
         4.45
       ],
       "market_p": [
-        0.5845181490685398,
-        0.22023314147369155,
-        0.19524870945776857
+        0.584757505773672,
+        0.22032332563510393,
+        0.19491916859122405
       ],
       "conservative_p": [
-        0.5645181490685398,
-        0.20023314147369156,
-        0.17524870945776858
+        0.564757505773672,
+        0.20032332563510394,
+        0.17491916859122406
       ],
-      "confidence": 50,
+      "confidence": 40,
       "conf_label": "低",
       "strict": false,
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.13628723192513403,
-        -0.20307209693470762,
-        -0.22014324291292986
+        -0.13592101616628183,
+        -0.20271316397228634,
+        -0.22160969976905287
       ],
-      "confirmed": [
-        "HamKam's Luc Mares is out injured.",
-        "Vålerenga's Ole Christian Sæter and Mohamed Ofkir are out injured.",
-        "Vålerenga's Aaron Kiil Olsen is suspended.",
-        "The first match between HamKam and Vålerenga on May 8, 2026 ended 1-0 to HamKam."
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
       ],
-      "uncertain": [
-        "HamKam's Anton Ekeroth is doubtful due to injury.",
-        "Vålerenga's Ivan Näsberg is doubtful due to injury.",
-        "HamKam's Noah Alexandersson has been out injured since March.",
-        "Vålerenga's Odin Thiago Holm and Magnus Sjoeng are set to be sidelined through injury.",
-        "Mame Alassane Niang was sold to Porto earlier this month."
-      ],
-      "risks": [],
       "gaps": [
         "外部同场机构不足3家",
         "API-Football未匹配",
-        "赛季基本面未返回"
+        "赛季基本面未返回",
+        "AI联网研究未完成"
       ]
     },
     {
@@ -57,41 +49,35 @@
         9.7
       ],
       "market_p": [
-        0.7553984758875428,
-        0.14586187211015347,
-        0.09873965200230368
+        0.7559658308073849,
+        0.14574262882336733,
+        0.09829154036924771
       ],
       "conservative_p": [
-        0.7353984758875428,
-        0.12586187211015348,
-        0.07873965200230368
+        0.7359658308073849,
+        0.12574262882336734,
+        0.07829154036924771
       ],
-      "confidence": 50,
+      "confidence": 40,
       "conf_label": "低",
       "strict": false,
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.15429175272932583,
-        -0.19448401849501762,
-        -0.23622537557765433
+        -0.1536392945715075,
+        -0.195247175530449,
+        -0.24057205841829732
       ],
-      "confirmed": [
-        "Lillestrøm are without Camil Jebara, Eric Kitolano and Linus Alperud due to injury.",
-        "Bodø/Glimt have unavailable players: Daniel Bassi (injury), Magnus Bech Riisnæs (injury), Håkon Evjen (injury), August Mikkelsen (injury)."
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
       ],
-      "uncertain": [
-        "Possible starting lineups are predicted, not confirmed.",
-        "Thomas Lehne Olsen may lead the line for Lillestrøm despite competition from Fredrik Gulbrandsen and Gustav Nordh.",
-        "Felix Va has managed five goals and five assists from the wing this term.",
-        "Markus Karlsbakk has four goals in the Eliteserien so far this term after hitting 13 alongside 14 assists in their promotion-winning campaign last time around.",
-        "Ylldren Ibrahimaj is a mainstay in a deeper central role."
-      ],
-      "risks": [],
       "gaps": [
         "外部同场机构不足3家",
         "API-Football未匹配",
-        "赛季基本面未返回"
+        "赛季基本面未返回",
+        "AI联网研究未完成"
       ]
     },
     {
@@ -103,49 +89,35 @@
         5.2
       ],
       "market_p": [
-        0.5702438950813737,
-        0.23651337124240182,
-        0.19324273367622438
+        0.5682842523131726,
+        0.23714660910778704,
+        0.19456913857904032
       ],
       "conservative_p": [
-        0.5502438950813737,
-        0.21651337124240183,
-        0.1732427336762244
+        0.5482842523131726,
+        0.21714660910778705,
+        0.17456913857904033
       ],
-      "confidence": 50,
+      "confidence": 40,
       "conf_label": "低",
       "strict": false,
       "strict_i": 2,
       "forced_i": 1,
       "ev": [
-        -0.20214635213200816,
-        -0.1231208464682726,
-        -0.09913778488363312
+        -0.20498783414589983,
+        -0.12055623311346253,
+        -0.09224047938899027
       ],
-      "confirmed": [
-        "Kai Trewin (injury)",
-        "Keaton Parks (injury)",
-        "Kevin OToole (injury)",
-        "Aiden O'Neill (injury)",
-        "Maxi Moralez (injury)",
-        "Mac Learned (injury)",
-        "Drew Baiera (injury)",
-        "Alonso Martínez (injury)",
-        "Lazar Stefanovic (injury)",
-        "Nelson Palacio (injury)",
-        "Nicksoen Gomis (injury)",
-        "Markus Cimermancic (injury)",
-        "Matheus Pereira (injury)",
-        "Malachi Jones (injury)",
-        "Matt Freese (international duty)",
-        "Tayvon Gray (yellow card accumulation)"
-      ],
+      "confirmed": [],
       "uncertain": [],
-      "risks": [],
+      "risks": [
+        "球队映射不足"
+      ],
       "gaps": [
         "外部同场机构不足3家",
         "API-Football未匹配",
-        "赛季基本面未返回"
+        "赛季基本面未返回",
+        "AI联网研究未完成"
       ]
     }
   ]

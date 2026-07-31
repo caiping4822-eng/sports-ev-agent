@@ -1,315 +1,195 @@
 {
   "date": "2026-07-31",
-  "pipeline_version": 4,
-  "updated_at": "2026-07-31T13:23:35.480794+08:00",
+  "pipeline_version": 5,
+  "updated_at": "2026-07-31T20:52:12.198721+08:00",
   "events": [
     {
       "code": "周五001",
       "match": "瓦勒伦加 vs 汉坎",
-      "status": "有效来源 5 个",
-      "sources": [
-        {
-          "title": "HamKam vs Vålerenga prediction: team news, lineups, expert analysis",
-          "url": "https://ratingbet.com/predictions/hamkam-vs-vlerenga-prediction-team-news-lineups-expert-analysis"
-        },
-        {
-          "title": "Valerenga vs HamKam Prediction, Betting Tips, Lineups & ...",
-          "url": "https://www.sportsgambler.com/betting-tips/football/valerenga-vs-hamkam-prediction-lineups-odds-2026-07-31"
-        },
-        {
-          "title": "Preview: Valerenga Fotball vs HamKam - prediction, team ...",
-          "url": "https://www.sportsmole.co.uk/football/valerenga-fotball/preview/valerenga-vs-hamkam-prediction-team-news-lineups_602062.html"
-        },
-        {
-          "title": "Norway Eliteserien – Injuries & Suspensions",
-          "url": "https://injuriesandsuspensions.com/norway-eliteserien-injuries-suspensions-128"
-        },
-        {
-          "title": "HamKam (W) vs Vålerenga (W) - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/valerenga-vs-hamkam/db4so0aa"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
-        "confirmed": [
-          "HamKam's Luc Mares is out injured.",
-          "Vålerenga's Ole Christian Sæter and Mohamed Ofkir are out injured.",
-          "Vålerenga's Aaron Kiil Olsen is suspended.",
-          "The first match between HamKam and Vålerenga on May 8, 2026 ended 1-0 to HamKam."
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
         ],
-        "uncertain": [
-          "HamKam's Anton Ekeroth is doubtful due to injury.",
-          "Vålerenga's Ivan Näsberg is doubtful due to injury.",
-          "HamKam's Noah Alexandersson has been out injured since March.",
-          "Vålerenga's Odin Thiago Holm and Magnus Sjoeng are set to be sidelined through injury.",
-          "Mame Alassane Niang was sold to Porto earlier this month."
-        ],
-        "risks": [],
-        "summary": "Vålerenga will be without suspended defender Aaron Kiil Olsen and injured forwards Ole Christian Sæter and Mohamed Ofkir. HamKam have Luc Mares out injured, while Anton Ekeroth is doubtful. The previous meeting this season ended 1-0 to HamKam."
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周五002",
       "match": "博德闪耀 vs 利勒斯特",
-      "status": "有效来源 3 个",
-      "sources": [
-        {
-          "title": "Bodo/Glimt vs Lillestrom - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/news/bodoglimt-vs-lillestrom-prediction-team-news-lineups_602082.html"
-        },
-        {
-          "title": "Bodø/Glimt vs Lillestrøm - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/bodoglimt-vs-lillestrom/2ct7ed"
-        },
-        {
-          "title": "Bodo/Glimt vs Lillestrom Prediction, Betting Tips, Lineups & Odds | 31 Jul ...",
-          "url": "https://www.sportsgambler.com/betting-tips/football/bodo-glimt-vs-lillestrom-prediction-lineups-odds-2026-07-31"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
-        "confirmed": [
-          "Lillestrøm are without Camil Jebara, Eric Kitolano and Linus Alperud due to injury.",
-          "Bodø/Glimt have unavailable players: Daniel Bassi (injury), Magnus Bech Riisnæs (injury), Håkon Evjen (injury), August Mikkelsen (injury)."
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
         ],
-        "uncertain": [
-          "Possible starting lineups are predicted, not confirmed.",
-          "Thomas Lehne Olsen may lead the line for Lillestrøm despite competition from Fredrik Gulbrandsen and Gustav Nordh.",
-          "Felix Va has managed five goals and five assists from the wing this term.",
-          "Markus Karlsbakk has four goals in the Eliteserien so far this term after hitting 13 alongside 14 assists in their promotion-winning campaign last time around.",
-          "Ylldren Ibrahimaj is a mainstay in a deeper central role."
-        ],
-        "risks": [],
-        "summary": "Bodø/Glimt will be missing several injured players, while Lillestrøm also have key absentees. Predicted lineups suggest a 4-3-3 formation for both teams, but these are not confirmed."
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周五003",
       "match": "纽约城 vs 多伦多",
-      "status": "有效来源 3 个",
-      "sources": [
-        {
-          "title": "NYCFC vs Toronto - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/en-GB/matches/toronto-vs-nycfc/2bfn0g2z"
-        },
-        {
-          "title": "New York City FC Today Lineup",
-          "url": "https://m.football-lineups.com/team/New-York-City-FC"
-        },
-        {
-          "title": "Availability Report | Four Absent vs. Toronto  | New York City FC",
-          "url": "https://www.nycfc.com/news/availability-report-four-absent-vs-toronto"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
-        "confirmed": [
-          "Kai Trewin (injury)",
-          "Keaton Parks (injury)",
-          "Kevin OToole (injury)",
-          "Aiden O'Neill (injury)",
-          "Maxi Moralez (injury)",
-          "Mac Learned (injury)",
-          "Drew Baiera (injury)",
-          "Alonso Martínez (injury)",
-          "Lazar Stefanovic (injury)",
-          "Nelson Palacio (injury)",
-          "Nicksoen Gomis (injury)",
-          "Markus Cimermancic (injury)",
-          "Matheus Pereira (injury)",
-          "Malachi Jones (injury)",
-          "Matt Freese (international duty)",
-          "Tayvon Gray (yellow card accumulation)"
-        ],
+        "confirmed": [],
         "uncertain": [],
-        "risks": [],
-        "summary": "New York City FC will face Toronto FC on July 31st at Yankee Stadium. Multiple players are confirmed out due to injuries, international duty, or suspension."
+        "risks": [
+          "球队映射不足"
+        ],
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周六001",
       "match": "江原FC vs 富川FC",
-      "status": "AI研究无效",
+      "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [
-          "搜索/总结未通过：RuntimeError"
+          "球队映射不足"
         ],
-        "summary": "AI研究无效"
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周六002",
       "match": "全北现代 vs 首尔FC",
-      "status": "有效来源 3 个",
-      "sources": [
-        {
-          "title": "Jeonbuk Hyundai Motors FC vs FC Seoul - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/jeonbuk-hyundai-motors-fc-vs-fc-seoul/4f09kz8"
-        },
-        {
-          "title": "Jeonbuk Hyundai Motors FC vs. FC Seoul Odds & Predictions (Aug. 1, 2026) | Polymarket",
-          "url": "https://polymarket.com/sports/kor/kor-jeo-seo-2026-08-01"
-        },
-        {
-          "title": "Jeonbuk chases Seoul atop K League with home revenge bid - CHOSUNBIZ",
-          "url": "https://biz.chosun.com/en/en-sports/2026/07/30/7YR7BSCPLNHC3MFMJCLWFMKLSY?outputType=amp"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
-        "confirmed": [
-          "Jeonbuk Hyundai Motors will host FC Seoul in the K League 1 round 21 match at 7:30 p.m. on Aug. 1 at Jeonju World Cup Stadium.",
-          "FC Seoul leads the league with 42 points, Jeonbuk is second with 33 points.",
-          "Jeonbuk's Kim Youngbin sustained a facial injury requiring stitches after a collision with the opposing goalkeeper during a scoring play.",
-          "Jeonbuk's Lee Dongjun suffered a rib contusion and his availability is a variable for the match."
-        ],
-        "uncertain": [
-          "Lee Dongjun's availability for the match is uncertain due to a rib contusion.",
-          "Predicted lineups are not confirmed and may be subject to change."
-        ],
+        "confirmed": [],
+        "uncertain": [],
         "risks": [
-          "Jeonbuk may be without Lee Dongjun due to injury, which could affect their attacking options.",
-          "Kim Youngbin's facial injury might impact his performance or availability."
+          "球队映射不足"
         ],
-        "summary": "Jeonbuk Hyundai Motors host FC Seoul in a crucial K League 1 match on August 1, 2026. FC Seoul leads the league, while Jeonbuk is second. Jeonbuk's Kim Youngbin sustained a facial injury, and Lee Dongjun's availability is uncertain due to a rib contusion. The match is significant for the title race."
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周六003",
       "match": "浦项制铁 vs 金泉尚武",
-      "status": "有效来源 5 个",
-      "sources": [
-        {
-          "title": "Gimcheon Sangmu - Pohang Steelers : Predicted Lineups",
-          "url": "https://bulinews.com/fixture/654478/predicted-lineups/gimcheon-sangmu-pohang-steelers"
-        },
-        {
-          "title": "Pohang Steelers vs Gimcheon Sangmu - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/pohang-steelers-vs-gimcheon-sangmu/dldxv50"
-        },
-        {
-          "title": "Pohang Steelers VS Gimcheon Sangmu FC: Live Scores, Lineups, H2H & Odds",
-          "url": "https://www.365scores.com/football/match/k-league-1-618/gimcheon-sangmu-fc-pohang-steelers-9822-9823-618"
-        },
-        {
-          "title": "Pohang Steelers FC vs. Gimcheon Sangmu FC Odds & Predictions (Aug. 1, 2026) | Polymarket",
-          "url": "https://polymarket.com/sports/kor/kor-poh-san-2026-08-01"
-        },
-        {
-          "title": "K League 1 Injuries & Suspensions | Injury News",
-          "url": "https://www.sportsgambler.com/injuries/football/south-korea-k-league-1"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
         "confirmed": [],
         "uncertain": [],
-        "risks": [],
-        "summary": ""
+        "risks": [
+          "球队映射不足"
+        ],
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周日001",
       "match": "蔚山现代 vs FC安养",
-      "status": "有效来源 4 个",
-      "sources": [
-        {
-          "title": "Ulsan HD FC vs FC Anyang - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/ulsan-hd-fc-vs-fc-anyang/20w6nu1w"
-        },
-        {
-          "title": "Ulsan HD vs FC Anyang: Scores, Results Lineups, H2H & Odds",
-          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/fc-anyang-ulsan-hyundai-8967-11471-618"
-        },
-        {
-          "title": "Ulsan HD FC vs FC Anyang Head to Head History - AiScore",
-          "url": "https://m.aiscore.com/head-to-head/soccer-fc-anyang-vs-ulsan-hd-fc"
-        },
-        {
-          "title": "Ulsan HD vs FC Anyang live score, H2H and lineups | Sofascore",
-          "url": "https://www.sofascore.com/football/match/fc-anyang-ulsan-hd/dddsAdn"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
-        "confirmed": [
-          "Ulsan HD vs FC Anyang is scheduled for Sunday, August 2, 2026 at Ulsan Munsu Football Stadium.",
-          "Head-to-head record: Ulsan HD 1 win, FC Anyang 2 wins, 2 draws."
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
         ],
-        "uncertain": [
-          "Probable lineups are anticipated but not confirmed.",
-          "Injury and suspension information will be provided before lineups are announced."
-        ],
-        "risks": [],
-        "summary": "Ulsan HD and FC Anyang are set to face off on August 2, 2026, at Ulsan Munsu Football Stadium. Historically, FC Anyang has a slight edge with 2 wins to Ulsan's 1, and 2 draws. Team news and lineups are not yet confirmed."
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周日002",
       "match": "济州SK vs 仁川联队",
-      "status": "有效来源 4 个",
-      "sources": [
-        {
-          "title": "Incheon United vs Jeju United Prediction, Betting Tips, Lineups & Odds | 25 Apr 2026",
-          "url": "https://www.sportsgambler.com/betting-tips/football/incheon-united-vs-jeju-prediction-lineups-odds-2026-04-25"
-        },
-        {
-          "title": "Jeju SK vs Incheon United - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/incheon-united-vs-jeju-sk/gh07y5f"
-        },
-        {
-          "title": "Jeju SK FC vs Incheon United Club Head to Head History - AiScore",
-          "url": "https://m.aiscore.com/head-to-head/soccer-incheon-united-vs-jeju-united"
-        },
-        {
-          "title": "Jeju SK vs Incheon United live score, H2H and lineups",
-          "url": "https://www.sofascore.com/football/match/jeju-sk-incheon-united/YcdsZcd"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
         "confirmed": [],
         "uncertain": [],
-        "risks": [],
-        "summary": "No confirmed facts available from the provided search summaries. The sources mention lineups and injury updates but do not provide specific confirmed details. Head-to-head records show Jeju SK 17 wins, Incheon United 12 wins, and 13 draws, but this is historical data and not specific to the upcoming match. No official schedule or first-leg score is confirmed."
+        "risks": [
+          "球队映射不足"
+        ],
+        "summary": "不进入AI模型"
       }
     },
     {
       "code": "周日003",
       "match": "大田市民 vs 光州FC",
-      "status": "有效来源 3 个",
-      "sources": [
-        {
-          "title": "Daejeon Hana Citizen vs Gwangju FC - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/daejeon-hana-citizen-vs-gwangju-fc/x4u63k4"
-        },
-        {
-          "title": "K League 1 Preview: Incheon United vs Gwangju FC - Relegation Battle, Injury-Hit Visitors Face Mid-Table Hosts",
-          "url": "https://www.chopsoc.com/news/50068867"
-        },
-        {
-          "title": "Who's at risk of suspension for K League 1 final day? - K League United | South Korean football news, opinions, match previews and score predictions",
-          "url": "http://www.kleagueunited.com/2023/11/whos-at-risk-of-suspension-for-k-league.html"
-        }
-      ],
-      "valid": true,
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
       "research": {
         "confirmed": [],
-        "uncertain": [
-          "Gwangju FC's first-choice goalkeeper Kim Kyung-min is expected to be out for approximately two weeks due to shoulder and ankle injuries.",
-          "Gwangju FC's second-choice goalkeeper Noh Hee-dong has just completed a suspension for disciplinary reasons.",
-          "Gwangju FC's key players Choi Kyoung-rok, Shin Chang-moo, and Yoo Je-ho are all out due to injuries, with Shin Chang-moo potentially facing a season-ending injury.",
-          "Gwangju FC may have only inexperienced Kim Dong-hwa as fully fit in goal.",
-          "Daejeon Hana Citizen have scored 6 goals in their last 5 matches.",
-          "Daejeon Hana Citizen haven't won a match in 9 attempts.",
-          "Chang-Geun Lee is ranked 3 in saves per match in the competition (3.1)."
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
         ],
-        "risks": [],
-        "summary": "The match between Daejeon Hana Citizen and Gwangju FC is part of K League 1. Gwangju FC is facing a severe injury crisis, particularly in goal, with first-choice goalkeeper Kim Kyung-min expected to be out for about two weeks and second-choice Noh Hee-dong just returning from suspension. Key players Choi Kyoung-rok, Shin Chang-moo, and Yoo Je-ho are also injured. Daejeon Hana Citizen have scored 6 goals in their last 5 matches but haven't won in 9 attempts. The head-to-head record is close: Daejeon 13 wins, Gwangju 12 wins, and 13 draws."
+        "summary": "不进入AI模型"
       }
     }
   ]
