@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run analysis, research, decision, fixture registry and settlement
+      - name: Run analysis, research, decision and identity-safe settlement
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
@@ -29,9 +29,9 @@ jobs:
           python lock_and_review.py
           python settlement_manager.py
           python ui_compact.py
-      - name: Persist full history and dashboards
+      - name: Persist identity-safe dashboards and history
         run: |
           git config user.name "Sports EV Agent"
           git config user.email "actions@github.com"
           git add docs/ data/
-          git diff --cached --quiet || (git commit -m "Reconcile fixture registry and settle full history" && git push)
+          git diff --cached --quiet || (git commit -m "Use identity-verified football settlement" && git push)
