@@ -1,0 +1,71 @@
+from __future__ import annotations
+import json,re
+from datetime import datetime,timezone,timedelta
+from pathlib import Path
+from html import escape
+from api_football import fetch_context,call
+ROOT=Path(__file__).parent;DATA=ROOT/'data';DOCS=ROOT/'docs';CST=timezone(timedelta(hours=8))
+def load(p,d):
+ try:return json.loads(p.read_text(encoding='utf8'))
+ except:return d
+def dump(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf8')
+def parse(s):return datetime.strptime(s,'%Y-%m-%d %H:%M').replace(tzinfo=CST)
+def reconcile(ledger):
+ reg={x['key']:x for x in load(DATA/'fixture_registry.json',[])};todo=[]
+ for r in ledger:
+  if not r.get('fixture_id'):
+   z=reg.get(r['key'])
+   if z:r['fixture_id']=z['fixture_id'];r['reconcile_status']='注册表匹配'
+   else:todo.append({'code':r['code'],'kickoff':r['kickoff'],'home':r['home'],'away':r['away']})
+ if todo:
+  ctx,_=fetch_context(todo)
+  for r in ledger:
+   if not r.get('fixture_id') and ctx.get(r['code'],{}).get('fixture_id'):
+    r['fixture_id']=ctx[r['code']]['fixture_id'];r['reconcile_status']='回补匹配'
+   elif not r.get('fixture_id'):r['reconcile_status']=ctx.get(r['code'],{}).get('status','未匹配')
+ dump(DATA/'prediction_ledger.json',ledger);return ledger
+def proxy_clv(r):
+ idx={'主胜':0,'平':1,'客胜':2}.get((r.get('forced') or {}).get('selection'))
+ if idx is None:return None
+ snaps=load(DATA/'closing_snapshots.json',[]);last=None
+ for s in snaps:
+  try:before=datetime.fromisoformat(s['captured_at'])<=parse(r['kickoff'])
+  except:before=False
+  if not before:continue
+  for x in s.get('items',[]):
+   if x.get('code')==r['code'] and x.get('kickoff')==r['kickoff']:last=x['china'][idx]
+ if not last:return None
+ return r['forced']['odds']/last-1
+def settle(ledger):
+ hist=load(DATA/'settlement_history.json',[]);done={x['key'] for x in hist}
+ for r in ledger:
+  if r['key'] in done or not r.get('fixture_id'):continue
+  try:
+   f=call('/fixtures',{'id':r['fixture_id']}).get('response',[])
+   if not f:continue
+   f=f[0]
+   if f['fixture']['status']['short'] not in ('FT','AET','PEN'):continue
+   hg=f['goals']['home'];ag=f['goals']['away'];out='主胜' if hg>ag else '客胜' if ag>hg else '平';fp=r.get('forced');rec={'key':r['key'],'score':f'{hg}-{ag}','outcome':out,'settled_at':datetime.now(CST).isoformat(),'proxy_clv':proxy_clv(r)}
+   if fp:rec['forced']={'selection':fp['selection'],'odds':fp['odds'],'probability':fp['probability'],'win':fp['selection']==out,'profit_units':fp['odds']-1 if fp['selection']==out else -1}
+   hist.append(rec)
+  except:continue
+ dump(DATA/'settlement_history.json',hist);return hist
+def inject(ledger,hist):
+ by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[]
+ for r in ledger:
+  s=by.get(r['key']);fp=r.get('forced');lock=fp['selection']+' @ '+str(fp['odds']) if fp else 'PASS'
+  if s and fp:
+   z=1 if s['forced']['win'] else 0;profits.append(s['forced']['profit_units']);briers.append((fp['probability']-z)**2)
+   if s.get('proxy_clv') is not None:clvs.append(s['proxy_clv'])
+   res=f"{s['score']} / {'命中' if z else '未命中'} / {s['forced']['profit_units']:+.2f}u"
+  elif s:res=s['score']+' / PASS / 0u'
+  else:res='等待赛果' if r.get('fixture_id') else '待匹配赛果：'+r.get('reconcile_status','-')
+  rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>{escape(lock)}</td><td>{escape(res)}</td><td>{(f'{s.get("proxy_clv")*100:.1f}%' if s and s.get('proxy_clv') is not None else '—')}</td></tr>")
+ roi=sum(profits)/len(profits) if profits else 0;clv=sum(clvs)/len(clvs) if clvs else 0;brier=sum(briers)/len(briers) if briers else 0
+ sec=f"<!-- FULL_REVIEW_START --><div class='card'><h2>历史锁定、结算与代理CLV</h2><p><b>累计：</b>已结算强制推荐 {len(profits)} 场 ｜ 模拟ROI {roi*100:.1f}% ｜ 平均代理CLV {clv*100:.1f}% ｜ Brier {brier:.4f}</p><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>结算状态</th><th>代理CLV</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">暂无锁定记录</td></tr>'}</table></div><!-- FULL_REVIEW_END -->"
+ p=DOCS/'index.html'
+ if p.exists():
+  html=p.read_text(encoding='utf8');html=re.sub(r'<!-- FULL_REVIEW_START -->.*?<!-- FULL_REVIEW_END -->','',html,flags=re.S);html=html.replace('</main>',sec+'</main>');p.write_text(html,encoding='utf8')
+def main():
+ DATA.mkdir(exist_ok=True);DOCS.mkdir(exist_ok=True);ledger=reconcile(load(DATA/'prediction_ledger.json',[]));hist=settle(ledger);inject(ledger,hist)
+if __name__=='__main__':main()
