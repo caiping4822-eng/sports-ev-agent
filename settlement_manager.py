@@ -68,7 +68,7 @@ def settle(ledger):
 def inject(ledger,hist):
  by={x['key']:x for x in hist};rows=[];profits=[];clvs=[];briers=[];now=datetime.now(CST)
  for r in ledger:
-  s=by.get(r['key']);fp=r.get('forced');lock=fp['selection']+' @ '+str(fp['odds']) if fp else 'PASS'
+  s=by.get(r['key']);fp=r.get('forced');lock=((('全局+逐场：' if fp.get('is_global') else '逐场：')+fp['selection']+' @ '+str(fp['odds'])) if fp else 'PASS')
   if s and fp:
    z=1 if s['forced']['win'] else 0;profits.append(s['forced']['profit_units']);briers.append((fp['probability']-z)**2)
    if s.get('proxy_clv') is not None:clvs.append(s['proxy_clv'])
@@ -83,7 +83,7 @@ def inject(ledger,hist):
   rows.append(f"<tr><td>{escape(r['code'])}</td><td>{escape(r['away'])} vs {escape(r['home'])}</td><td>{escape(lock)}</td><td>{escape(res)}</td><td>{clvtxt}</td></tr>")
  n=len(profits);roi=sum(profits)/n if n else 0;clv=sum(clvs)/len(clvs) if clvs else 0;brier=sum(briers)/len(briers) if briers else 0
  note='样本不足30场，ROI/CLV仅记录，不用于评价系统能力。' if n<30 else '样本达到基础评价门槛，可观察长期趋势。'
- sec=f"<!-- FULL_REVIEW_START --><div class='card'><h2>历史锁定、结算与代理CLV</h2><p><b>累计：</b>已结算强制推荐 {n} 场 ｜ 模拟ROI {roi*100:.1f}% ｜ 平均中国竞彩代理CLV {clv*100:.1f}% ｜ Brier {brier:.4f}</p><p class='small'>{note}</p><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>结算状态</th><th>中国竞彩代理CLV</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">暂无锁定记录</td></tr>'}</table></div><!-- FULL_REVIEW_END -->"
+ sec=f"<!-- FULL_REVIEW_START --><div class='card'><h2>历史锁定、结算与代理CLV</h2><p><b>累计：</b>已结算逐场强制推荐 {n} 场 ｜ 模拟ROI {roi*100:.1f}% ｜ 平均中国竞彩代理CLV {clv*100:.1f}% ｜ Brier {brier:.4f}</p><p class='small'>{note}</p><table><tr><th>编号</th><th>比赛</th><th>赛前锁定</th><th>结算状态</th><th>中国竞彩代理CLV</th></tr>{''.join(rows) if rows else '<tr><td colspan="5">暂无锁定记录</td></tr>'}</table></div><!-- FULL_REVIEW_END -->"
  p=DOCS/'index.html'
  if p.exists():
   html=p.read_text(encoding='utf8');html=re.sub(r'<!-- FULL_REVIEW_START -->.*?<!-- FULL_REVIEW_END -->','',html,flags=re.S);html=html.replace('</main>',sec+'</main>');p.write_text(html,encoding='utf8')

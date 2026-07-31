@@ -20,18 +20,29 @@ def make_forced(events,bjzs):
   for i,label in enumerate(['主胜','平','客胜']):
    if odds[i]>=1.8:all.append((max(0,p[i]-.02),e,label,odds[i],p[i]))
  return max(all,key=lambda z:(z[0],z[0]*z[3]-1)) if all else None
+def forced_for_event(e,bjzs):
+ t=next((m for m in e.get('markets',[]) if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
+ if not t or not b:return None
+ p=no_vig(*b['current']);odds=[t['home_win'],t['draw'],t['away_win']];labels=['主胜','平','客胜'];c=[]
+ for i,o in enumerate(odds):
+  if o>=1.8:c.append((max(0,p[i]-.02),i,o))
+ if not c:return None
+ pc,i,o=max(c,key=lambda x:(x[0],x[0]*x[2]-1))
+ return {'selection':labels[i],'odds':o,'probability':pc,'ev':pc*o-1,'stake_units':1,'type':'per_match'}
 def lock():
  latest=load(DATA/'latest_zgzcw.json',{});events=latest.get('events',[]);errors=latest.get('errors',[])
  if not events or any('已停售' in str(x) for x in errors):return []
  bjzs=load(DATA/'latest_bjzs.json',{});ledger=load(DATA/'prediction_ledger.json',[]);existing={x['key'] for x in ledger}
- ctx,_=fetch_context(events);forced=make_forced(events,bjzs);now=datetime.now(CST).isoformat();new=[]
+ ctx,_=fetch_context(events);global_forced=make_forced(events,bjzs);now=datetime.now(CST).isoformat();new=[]
  for e in events:
   key=e['code']+'|'+e['kickoff']
   if key in existing:continue
   t=next((m for m in e['markets'] if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
   rec={'key':key,'locked_at':now,'status':'locked','code':e['code'],'kickoff':e['kickoff'],'home':e['home'],'away':e['away'],'china_1x2':[t['home_win'],t['draw'],t['away_win']] if t else None,'avg_1x2':b.get('current') if b else None,'fixture_id':ctx.get(e['code'],{}).get('fixture_id'),'forced':None}
-  if forced and forced[1]['code']==e['code']:
-   rec['forced']={'selection':forced[2],'odds':forced[3],'probability':forced[0],'ev':forced[0]*forced[3]-1,'stake_units':1}
+  local=forced_for_event(e,bjzs)
+  if local:
+   local['is_global']=bool(global_forced and global_forced[1]['code']==e['code'] and global_forced[2]==local['selection'])
+   rec['forced']=local
   ledger.append(rec);new.append(rec)
  dump(DATA/'prediction_ledger.json',ledger);return new
 def reconcile_fixture_ids(ledger):
