@@ -19,7 +19,7 @@
     ],
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "球队别名未收录：贝西克塔斯"
+    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
   },
   {
     "key": "周四002|2026-07-31 01:00",
@@ -149,7 +149,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：瓦勒伦加,汉坎"
   },
   {
     "key": "周五002|2026-08-01 03:00",
@@ -167,7 +167,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：博德闪耀,利勒斯特"
   },
   {
     "key": "周五003|2026-08-01 07:30",
@@ -185,7 +185,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：纽约城,多伦多"
   },
   {
     "key": "周六001|2026-08-01 18:30",
@@ -203,7 +203,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：江原FC,富川FC"
   },
   {
     "key": "周六002|2026-08-01 18:30",
@@ -221,7 +221,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：全北现代,首尔FC"
   },
   {
     "key": "周六003|2026-08-01 18:30",
@@ -239,7 +239,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：浦项制铁,金泉尚武"
   },
   {
     "key": "周日001|2026-08-02 18:30",
@@ -257,7 +257,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：蔚山现代,FC安养"
   },
   {
     "key": "周日002|2026-08-02 18:30",
@@ -275,7 +275,7 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：济州SK,仁川联队"
   },
   {
     "key": "周日003|2026-08-02 18:30",
@@ -293,6 +293,6 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null,
-    "reconcile_status": "API未匹配（联赛/日期/免费覆盖待核验）"
+    "reconcile_status": "球队别名未收录：大田市民,光州FC"
   }
 ]
