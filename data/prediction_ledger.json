@@ -177,5 +177,107 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null
+  },
+  {
+    "key": "周六001|2026-08-01 18:30",
+    "locked_at": "2026-07-31T11:24:55.462216+08:00",
+    "status": "locked",
+    "code": "周六001",
+    "kickoff": "2026-08-01 18:30",
+    "home": "江原FC",
+    "away": "富川FC",
+    "china_1x2": [
+      1.37,
+      3.9,
+      7.0
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周六002|2026-08-01 18:30",
+    "locked_at": "2026-07-31T11:24:55.462216+08:00",
+    "status": "locked",
+    "code": "周六002",
+    "kickoff": "2026-08-01 18:30",
+    "home": "全北现代",
+    "away": "首尔FC",
+    "china_1x2": [
+      2.55,
+      3.12,
+      2.4
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周六003|2026-08-01 18:30",
+    "locked_at": "2026-07-31T11:24:55.462216+08:00",
+    "status": "locked",
+    "code": "周六003",
+    "kickoff": "2026-08-01 18:30",
+    "home": "浦项制铁",
+    "away": "金泉尚武",
+    "china_1x2": [
+      2.08,
+      3.02,
+      3.15
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周日001|2026-08-02 18:30",
+    "locked_at": "2026-07-31T11:24:55.462216+08:00",
+    "status": "locked",
+    "code": "周日001",
+    "kickoff": "2026-08-02 18:30",
+    "home": "蔚山现代",
+    "away": "FC安养",
+    "china_1x2": [
+      1.86,
+      3.45,
+      3.32
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周日002|2026-08-02 18:30",
+    "locked_at": "2026-07-31T11:24:55.462216+08:00",
+    "status": "locked",
+    "code": "周日002",
+    "kickoff": "2026-08-02 18:30",
+    "home": "济州SK",
+    "away": "仁川联队",
+    "china_1x2": [
+      3.11,
+      2.9,
+      2.16
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周日003|2026-08-02 18:30",
+    "locked_at": "2026-07-31T11:24:55.462216+08:00",
+    "status": "locked",
+    "code": "周日003",
+    "kickoff": "2026-08-02 18:30",
+    "home": "大田市民",
+    "away": "光州FC",
+    "china_1x2": [
+      1.4,
+      3.9,
+      6.3
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

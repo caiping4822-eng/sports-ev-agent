@@ -1,276 +1,34 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "pipeline_version": 2,
-  "updated_at": "2026-07-30T15:47:16.346434+08:00",
+  "updated_at": "2026-07-31T11:24:54.627724+08:00",
   "events": [
-    {
-      "code": "周四001",
-      "match": "中日德兰 vs 贝西克塔",
-      "sources": [
-        {
-          "title": "Preview: Besiktas vs FC Midtjylland - prediction, team news, lineups - Sports Mole",
-          "url": "https://www.sportsmole.co.uk/football/besiktas/europa-league/preview/besiktas-vs-midtjylland-prediction-team-news-lineups_601596.html"
-        },
-        {
-          "title": "Preview: FC Midtjylland vs Besiktas - prediction, team news, lineups - Sports Mole",
-          "url": "https://www.sportsmole.co.uk/football/fc-midtjylland/europa-league/preview/midtjylland-vs-besiktas-prediction-team-news-lineups_602037.html"
-        },
-        {
-          "title": "Beşiktaş - FC Midtjylland : Predicted Lineups",
-          "url": "https://bulinews.com/fixture/991056/predicted-lineups/be-ikta-fc-midtjylland"
-        },
-        {
-          "title": "FC Midtjylland vs Beşiktaş - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/en-GB/matches/fc-midtjylland-vs-besiktas/2rpotw"
-        }
-      ],
-      "research": {
-        "confirmed": [
-          "FC Midtjylland vs Besiktas 为欧联杯比赛",
-          "Besiktas 门将 Nubel 可能首发",
-          "FC Midtjylland 前锋 Franculino 和 Cho 可能首发",
-          "Besiktas 中场 Ndidi 因伤缺阵",
-          "FC Midtjylland 后卫 Diao、Brumado、Gogorza 因伤缺阵",
-          "Besiktas 后卫 Uduokhai 停赛",
-          "Besiktas 前锋 Trossard 因额外休假缺阵"
-        ],
-        "uncertain": [
-          "FC Midtjylland 队长 Sorensen 是否伤愈存疑",
-          "FC Midtjylland 前锋 Etim 是否停赛存疑",
-          "Besiktas 前锋 Oh 可能首发"
-        ],
-        "risks": [
-          "FC Midtjylland 多名球员伤停，阵容不整",
-          "Besiktas 中场 Ndidi 伤缺影响防守"
-        ],
-        "summary": "FC Midtjylland 对阵 Besiktas 的欧联杯比赛。主队多名伤停，客队 Ndidi 缺阵但 Djalo 复出。双方阵容均有不确定性。"
-      }
-    },
-    {
-      "code": "周四002",
-      "match": "帕佛斯 vs 斯海杜克",
-      "sources": [
-        {
-          "title": "Preview: Pafos FC vs Hajduk Split - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/pafos/europa-league/preview/pafos-vs-hajduk-split-prediction-team-news-lineups_601988.html"
-        },
-        {
-          "title": "Hajduk Split vs Pafos FC - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/pafos-fc-vs-hajduk-split/18z527"
-        },
-        {
-          "title": "UEFA Europa League Preview: Pafos FC VS Hajduk Split - prediction, team news, lineups - 7msport",
-          "url": "https://news.7msport.com/news/newsdata/20260729/259537.shtml"
-        },
-        {
-          "title": "Pafos vs Hajduk Split prediction: teams form analysis, possible lineups on July 30, 2026 – Ratingbet.com",
-          "url": "https://ratingbet.com/predictions/pafos-vs-hajduk-split-prediction-teams-form-analysis-possible-lineups-on-july-30-2026"
-        }
-      ],
-      "research": {
-        "confirmed": [
-          "Pafos FC vs Hajduk Split是欧联杯资格赛次回合，首回合Hajduk Split主场2-0获胜。",
-          "Pafos FC后卫Anderson Silva和Joao Correia因伤缺阵。",
-          "Hajduk Split前锋Roko Brajkovic因前十字韧带受伤长期缺阵。",
-          "两队此前无交锋记录。"
-        ],
-        "uncertain": [
-          "Pafos FC可能采用3-4-3阵型，首发包括Majecki、Goldar、David Luiz、Mmaee、Jajá、Pêpê、Sunjic、Ioannou、Dragomir、Lelê、Biel。",
-          "Hajduk Split可能采用4-2-3-1阵型，首发包括Silic、Hrgovic、van Horenbeeck、Maresic、Akapandje、Pukstas、Pajaziti、Melnjak、De Almeida、Brajkovic（伤缺）、Sego。"
-        ],
-        "risks": [
-          "Pafos FC首回合0-2落后，需净胜2球以上才能翻盘，压力较大。",
-          "Pafos FC近期进攻乏力，近4场3次被零封；防守不稳，近5场失7球。",
-          "Hajduk Split首回合取胜，可能采取防守反击策略。"
-        ],
-        "summary": "欧联杯资格赛次回合，Pafos主场迎战Hajduk Split。首回合Hajduk 2-0获胜。Pafos有伤病，Hajduk前锋Brajkovic长期伤缺。Pafos需大胜翻盘，但近期进攻乏力。"
-      }
-    },
-    {
-      "code": "周四003",
-      "match": "安德莱赫 vs 哈马比",
-      "sources": [
-        {
-          "title": "Anderlecht vs Hammarby - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/anderlecht/europa-league/preview/anderlecht-vs-hammarby-prediction-team-news-lineups_601987.html"
-        },
-        {
-          "title": "Anderlecht vs Hammarby: predictions, best bets and latest ...",
-          "url": "https://www.squawka.com/en/news/anderlecht-vs-hammarby-predictions-betting-tips-30-07-2026"
-        },
-        {
-          "title": "Anderlecht vs Hammarby prediction, preview & betting tips",
-          "url": "https://footballwhispers.com/blog/anderlecht-vs-hammarby-prediction-30-07-2026"
-        },
-        {
-          "title": "Anderlecht vs Hammarby Prediction, Odds & Betting Tips | 30.07.2026 | Europa League",
-          "url": "https://www.mightytips.com/football-predictions/anderlecht-vs-hammarby-prediction-30-07-2026"
-        }
-      ],
-      "research": {
-        "confirmed": [
-          "Anderlecht will be without Nathan Saliba due to suspension after red card in first leg.",
-          "Anderlecht have injury absentees: Cedric Hatenboer, Ilay Camara, Killian Sardella, Lucas Hey.",
-          "Hammarby only missing Sourou Kone (knee injury since April).",
-          "Hammarby can field same starting XI as first leg.",
-          "First leg ended 1-1."
-        ],
-        "uncertain": [
-          "Lukas Ambros may make first start for Anderlecht as Saliba replacement.",
-          "Anderlecht predicted lineup includes Coosemans, Maamar, Petrot, Biancone, Augustinsson, Llansana, Kana, Ambros, Nga Kana, Sikan, Seke.",
-          "Hammarby predicted lineup: Hahn; Skoglund, Fofana, Winther, Persson; Karlsson, Tekie, Lind; Adjei, Besara; Abraham."
-        ],
-        "risks": [
-          "Anderlecht have multiple injuries and a suspension, affecting squad depth.",
-          "Hammarby have poor away league form (2 wins in 7 away matches)."
-        ],
-        "summary": "Anderlecht face Hammarby in Europa League second leg after 1-1 draw. Anderlecht have key absences: Saliba suspended, four injured. Hammarby only miss Kone and can field unchanged XI. Anderlecht's depth is a concern."
-      }
-    },
-    {
-      "code": "周四004",
-      "match": "费伦茨瓦 vs 特温特",
-      "sources": [
-        {
-          "title": "Ferencvaros vs FC Twente - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/ferencvaros/europa-league/preview/ferencvaros-vs-fc-twente-prediction-team-news-lineups_601959.html"
-        },
-        {
-          "title": "Ferencvaros vs Twente Betting Tips - Europa League",
-          "url": "https://www.freetips.com/football/ferencvaros-vs-twente-live-stream-20260728-0045"
-        },
-        {
-          "title": "Ferencvaros vs Twente prediction, preview & betting tips",
-          "url": "https://footballwhispers.com/blog/ferencvaros-vs-twente-prediction-30-07-2026"
-        },
-        {
-          "title": "Champions League injury news, predicted lineups, fantasy updates - ESPN",
-          "url": "https://www.espn.com/soccer/story/_/id/43596191/champions-league-injury-news-predicted-lineups-fantasy-updates"
-        }
-      ],
-      "research": {
-        "confirmed": [
-          "Ferencvaros 首回合客场2-1领先Twente",
-          "Twente后卫Mees Hilgers因十字韧带撕裂缺阵",
-          "Twente门将Lars Unnerstall因腹部伤势存疑，若缺阵则由Remko Pasveer顶替",
-          "Ferencvaros无伤病或停赛报告"
-        ],
-        "uncertain": [
-          "Twente门将Unnerstall能否出战待确认"
-        ],
-        "risks": [
-          "Ferencvaros国内联赛刚遭遇失利，可能影响状态",
-          "Twente需客场净胜至少一球才能晋级，可能采取激进战术"
-        ],
-        "summary": "Ferencvaros首回合客场2-1领先，次回合主场作战。Twente主力门将存疑，后卫Hilgers伤缺。Ferencvaros阵容齐整，但国内联赛刚输球。Twente需客场取胜才能晋级。"
-      }
-    },
-    {
-      "code": "周四005",
-      "match": "本菲卡 vs 圣加仑",
-      "sources": [
-        {
-          "title": "Preview: Benfica vs. St Gallen - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/benfica/europa-league/preview/benfica-vs-st-gallen-prediction-team-news-lineups_602000.html"
-        },
-        {
-          "title": "St. Gallen vs Benfica - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/benfica-vs-st-gallen/3amud7"
-        },
-        {
-          "title": "Benfica vs St. Gallen Prediction, Betting Tips, Lineups & Odds | 30 Jul ...",
-          "url": "https://www.sportsgambler.com/betting-tips/football/benfica-vs-st-gallen-prediction-lineups-odds-2026-07-30"
-        },
-        {
-          "title": "Champions League injury news, predicted lineups, fantasy updates - ESPN",
-          "url": "https://www.espn.com/soccer/story/_/id/43490232/champions-league-injury-news-predicted-lineups-fantasy-updates"
-        }
-      ],
-      "research": {
-        "confirmed": [
-          "本菲卡无新增伤病，仅布鲁马存疑",
-          "圣加仑多名球员因伤缺阵：Stephan Ambrosius, Behar Neziri, Colin Kleine-Bekel, Malamine Efekele, Cyrill May, Nino Weibel, Nevio Scherrer",
-          "首回合圣加仑主场2-1胜本菲卡",
-          "本菲卡总比分1-2落后"
-        ],
-        "uncertain": [
-          "本菲卡预计首发阵容包含Trubin, Bah, A. Silva, Lenglet, Dahl, Figueiredo, M. Silva, R. Silva, Sudakov, Kaminski, Pavlidis",
-          "圣加仑预计首发阵容包含Ati-Zigi, Gaal, Stanic, Ok"
-        ],
-        "risks": [
-          "本菲卡需净胜至少2球才能直接晋级，或净胜1球进入加时",
-          "圣加仑多名长期伤号影响阵容深度"
-        ],
-        "summary": "本菲卡首回合1-2客负圣加仑，总比分落后。本菲卡无新增伤病，圣加仑多人伤缺。本菲卡需净胜至少2球才能直接晋级。"
-      }
-    },
-    {
-      "code": "周四006",
-      "match": "科林蒂安 vs 巴竞技",
-      "sources": [
-        {
-          "title": "Preview: Corinthians vs. Athletico Paranaense - prediction, team news, lineups - Sports Mole",
-          "url": "https://www.sportsmole.co.uk/football/corinthians/preview/corinthians-vs-athletico-pr-prediction-team-news-lineups_555459.html"
-        },
-        {
-          "title": "Corinthians vs Athletico Paranaense Prediction, Betting Tips, Lineups & Odds | 31 Jul 2026",
-          "url": "https://www.sportsgambler.com/betting-tips/football/corinthians-vs-athletico-paranaense-prediction-lineups-odds-2026-07-30"
-        },
-        {
-          "title": "Corinthians vs Athletico Paranaense - live score, predicted ...",
-          "url": "https://www.fotmob.com/matches/corinthians-vs-athletico-paranaense/3c1wu1"
-        },
-        {
-          "title": "Corinthians vs Athletico Paranaense prediction: teams form analysis ...",
-          "url": "https://ratingbet.com/predictions/corinthians-vs-athletico-paranaense-prediction-teams-form-analysis-possible-lineups-on-july-31-2026"
-        }
-      ],
-      "research": {
-        "confirmed": [
-          "Corinthians have suspensions: Kaique Rocha and Madson (yellow card accumulation).",
-          "Corinthians injuries: Vitinho (hip), Alex Santana (thigh), Bidu, Kayke, Hugo, Fabrizio Angileri (suspension).",
-          "Athletico Paranaense injuries: Mycael (lower leg), Bruno Zapelli, Talles Magno (doubtful, thigh), Ryan (ankle strain, out until early November), Fernandinho (muscle injury, out a few more weeks).",
-          "Corinthians recent form: D, W, D, L, L, L (all competitions).",
-          "Athletico Paranaense recent form: D, W, D, L, L, L (all competitions)."
-        ],
-        "uncertain": [
-          "Talles Magno is doubtful with a thigh injury.",
-          "Fernandinho may be sidelined for a few more weeks due to muscle injury."
-        ],
-        "risks": [
-          "Multiple injuries and suspensions for both teams.",
-          "Corinthians have poor recent form (3 losses in last 6).",
-          "Athletico Paranaense also on a losing streak."
-        ],
-        "summary": "Corinthians face Athletico Paranaense with multiple injuries and suspensions on both sides. Corinthians have key players out, while Athletico also missing several. Both teams have poor recent form, making the match unpredictable."
-      }
-    },
     {
       "code": "周五001",
       "match": "瓦勒伦加 vs 汉坎",
       "sources": [
         {
-          "title": "Champions League injury news, predicted lineups, fantasy updates",
-          "url": "https://www.espn.com/soccer/story/_/id/43490232/champions-league-injury-news-predicted-lineups-fantasy-updates"
+          "title": "VALORANT",
+          "url": "https://playvalorant.com"
         },
         {
-          "title": "Barcelona XI vs. Rayo Vallecano: Verdict on Garcia Pair—Injury News, Predicted Lineup",
-          "url": "https://www.si.com/soccer/barcelona-xi-vs-rayo-vallecano-injury-news-predicted-lineup-3-22-26"
+          "title": "VALORANT",
+          "url": "https://playvalorant.com/zh-tw"
         },
         {
-          "title": "Switzerland vs. Canada injury, suspension list, predicted XIs",
-          "url": "https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-canada-injury-suspension-list-predicted-xis_599748.html"
+          "title": "无畏契约 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6"
         },
         {
-          "title": "Predicted XIs Real Madrid-Benfica: No Kylian Mbappe and two at risk of suspension - Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/predicted-xis-real-madrid-benfica-130500149.html"
+          "title": "Threads",
+          "url": "https://www.threads.com/@en_vvvvvvv/post/DNhSEmThV_t/video-%E7%93%A6%E6%89%8B%E9%81%8A%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%B7%9A"
         }
       ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [],
-        "summary": "搜索摘要未包含瓦勒伦加 vs 汉坎的任何信息。"
+        "summary": "搜索摘要未提供任何关于瓦勒伦加对阵汉坎的足球比赛信息。"
       }
     },
     {
@@ -286,19 +44,19 @@
           "url": "https://www.premierleague.com/en/news/4573866/predicted-line-ups-for-every-team-in-matchweek-24"
         },
         {
-          "title": "Premier League injury news, predicted lineups, fantasy ...",
+          "title": "Premier League injury news, predicted lineups, fantasy updates - ESPN",
           "url": "https://www.espn.com/soccer/story/_/id/43192188/premier-league-injury-news-predicted-lineups-fantasy-updates"
         },
         {
-          "title": "Man Utd XI vs. Brentford: Reliable Performer Available Again—Injury News, Predicted Lineup",
-          "url": "https://www.si.com/soccer/man-utd-xi-vs-brentford-injury-news-predicted-lineup-4-27-26"
+          "title": "Man Utd XI vs. Sunderland: Suspended Defender Returns—Injury News, Predicted Lineup",
+          "url": "https://www.si.com/soccer/man-utd-xi-vs-sunderland-injury-news-predicted-lineup-5-9-26"
         }
       ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [],
-        "summary": "搜索摘要未包含博德闪耀 vs 利勒斯特的任何信息。"
+        "summary": "未找到关于博德闪耀对阵利勒斯特的赛前信息。"
       }
     },
     {
@@ -314,19 +72,204 @@
           "url": "https://www.nycfc.com/news/injury-report-two-absent-vs-toronto"
         },
         {
-          "title": "Team News: South Africa vs. Canada injury, suspension list, predicted XIs - Sports Mole",
-          "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/team-news/south-africa-vs-canada-injury-suspension-list-predicted-xis_600165.html"
+          "title": "Premier League injury news, predicted lineups, fantasy updates",
+          "url": "https://www.espn.com/soccer/story/_/id/43192188/premier-league-injury-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Chelsea XI vs. Aston Villa: Neto Suspension Forces Tweak—Injury News, Predicted Lineup",
+          "url": "https://www.si.com/soccer/chelsea-xi-vs-aston-villa-injury-news-predicted-lineup-3-4-26"
+        }
+      ],
+      "research": {
+        "confirmed": [
+          "纽约城队有两名球员缺席：Rio Hope-Gund（右腿问题）和Maxi Moralez（去年受伤康复中）。",
+          "比赛于5月11日在BMO Field进行。"
+        ],
+        "uncertain": [
+          "多伦多FC的Terry Dunfield因左膝扭伤仍缺阵。",
+          "多伦多FC主教练Ryan Nelsen可能选择Luis Silva首发，而非Jonathan Osorio。",
+          "纽约城队主教练Nick Cushing可能调整阵容，但具体未知。"
+        ],
+        "risks": [
+          "多伦多FC有球员伤病，可能影响阵容。",
+          "纽约城队有球员缺阵，可能影响实力。",
+          "比赛在客场进行，旅行可能带来疲劳。"
+        ],
+        "summary": "纽约城客场挑战多伦多，两队均有伤病。纽约城两人缺阵，多伦多一人伤缺，阵容存变数。"
+      }
+    },
+    {
+      "code": "周六001",
+      "match": "江原FC vs 富川FC",
+      "sources": [
+        {
+          "title": "FPL 2026/27 - Predicted Line-ups",
+          "url": "https://www.fantasyfootballscout.co.uk/team-news"
         },
         {
           "title": "Premier League injury news, predicted lineups, fantasy updates - ESPN",
-          "url": "https://www.espn.com/soccer/story/_/id/43192188/premier-league-injury-news-predicted-lineups-fantasy-updates"
+          "url": "https://www.espn.com/soccer/story/_/id/43270148/premier-league-injury-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Barcelona XI vs. Copenhagen: Flick’s Midfield Headache—Injury News, Lineup Prediction",
+          "url": "https://www.si.com/soccer/barcelona-xi-vs-copenhagen-flicks-midfield-headache-injury-news-lineup-prediction-1-27-26"
+        },
+        {
+          "title": "Predicted line-ups for ALL teams in Matchweek 24",
+          "url": "https://www.premierleague.com/en/news/4573866/predicted-line-ups-for-every-team-in-matchweek-24"
         }
       ],
       "research": {
         "confirmed": [],
         "uncertain": [],
         "risks": [],
-        "summary": "搜索摘要未提供纽约城vs多伦多的赛前信息，无法确认事实、推测或风险。"
+        "summary": "未找到关于江原FC与富川FC比赛的任何信息。"
+      }
+    },
+    {
+      "code": "周六002",
+      "match": "全北现代 vs 首尔FC",
+      "sources": [
+        {
+          "title": "FC Seoul injury list and suspended players | BeSoccer",
+          "url": "https://www.besoccer.com/team/injuries-suspensions/fc-seoul"
+        },
+        {
+          "title": "FC Seoul - Suspensions and injuries | Transfermarkt",
+          "url": "https://www.transfermarkt.com/fc-seoul/sperrenundverletzungen/verein/6500"
+        },
+        {
+          "title": "K League 1 Injuries & Suspensions | Injury News",
+          "url": "https://www.sportsgambler.com/injuries/football/south-korea-k-league-1"
+        },
+        {
+          "title": "South Korea - South Korea fixtures, results, rumours, gossip and transfer news - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/south-korea"
+        }
+      ],
+      "research": {
+        "confirmed": [],
+        "uncertain": [
+          "FC Seoul's Sang-min Lee has an unknown injury since 01/02/2024, expected return not specified (Transfermarkt).",
+          "FC Seoul's Seon-Min Moon and Y. Al-Arab are away on international duty (BeSoccer, January 2024)."
+        ],
+        "risks": [
+          "Potential absence of key players due to international duty or injury.",
+          "No current injury or suspension reports from Sportsgambler, but Transfermarkt lists an injury."
+        ],
+        "summary": "根据现有信息，FC Seoul有球员因国际比赛缺席，另有球员受伤，但具体影响待确认。全北现代方面暂无伤停信息。"
+      }
+    },
+    {
+      "code": "周六003",
+      "match": "浦项制铁 vs 金泉尚武",
+      "sources": [
+        {
+          "title": "Premier League injury news, predicted lineups, fantasy updates",
+          "url": "https://www.espn.com/soccer/story/_/id/43270148/premier-league-injury-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Injury and suspension news, predicted lineups, fantasy updates - Ghana Latest Football News, Live Scores, Results - GHANAsoccernet",
+          "url": "https://ghanasoccernet.com/injury-and-suspension-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Team News: Canada vs. Morocco injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/team-news/canada-vs-morocco-injury-suspension-list-predicted-xis_600555.html"
+        },
+        {
+          "title": "Real Madrid XI vs. Bayern Munich: Champions League Quarterfinal—Injury News, Predicted Lineup",
+          "url": "https://www.si.com/soccer/real-madrid-xi-vs-bayern-munich-champions-league-quarterfinal-injury-news-predicted-lineup-4-15-26"
+        }
+      ],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [],
+        "summary": "未找到关于浦项制铁与金泉尚武比赛的任何信息。"
+      }
+    },
+    {
+      "code": "周日001",
+      "match": "蔚山现代 vs FC安养",
+      "sources": [
+        {
+          "title": "Premier League injury news, predicted lineups, fantasy updates",
+          "url": "https://www.espn.com/soccer/story/_/id/42736579/premier-league-injury-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Barcelona XI vs. Osasuna: Conundrum Down Right Flank—Injury News, Predicted Lineup",
+          "url": "https://www.si.com/soccer/barcelona-xi-vs-osasuna-injury-news-predicted-lineup-5-2-26"
+        },
+        {
+          "title": "Team News: PSG vs. Arsenal injury, suspension list, predicted XIs for Champions League final - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/psg/champions-league/team-news/psg-vs-arsenal-injury-suspension-list-predicted-xis_598308.html"
+        },
+        {
+          "title": "Predicted line-ups for Premier League teams on Final Day",
+          "url": "https://www.premierleague.com/en/news/4664153/predicted-line-ups-for-premier-league-teams-in-matchweek-38"
+        }
+      ],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [],
+        "summary": "未找到关于蔚山现代对阵FC安养的任何信息。"
+      }
+    },
+    {
+      "code": "周日002",
+      "match": "济州SK vs 仁川联队",
+      "sources": [
+        {
+          "title": "济州概况",
+          "url": "https://jeju.china-consulate.gov.cn/zjjz/jzgk"
+        },
+        {
+          "title": "济州市 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/%E6%BF%9F%E5%B7%9E%E5%B8%82"
+        },
+        {
+          "title": "济州（中国古代地名）_百度百科",
+          "url": "https://baike.baidu.com/item/%E6%B5%8E%E5%B7%9E/21738"
+        },
+        {
+          "title": "JEJU TOURISM ORGANIZATION |",
+          "url": "https://ijto.or.kr/chinese"
+        }
+      ],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [],
+        "summary": "搜索摘要未提供济州SK与仁川联队比赛的相关信息。"
+      }
+    },
+    {
+      "code": "周日003",
+      "match": "大田市民 vs 光州FC",
+      "sources": [
+        {
+          "title": "Premier League injury news, predicted lineups, fantasy updates - ESPN",
+          "url": "https://www.espn.com/soccer/story/_/id/43394607/premier-league-injury-news-predicted-lineups-fantasy-updates"
+        },
+        {
+          "title": "Predicted line-ups for ALL teams in Matchweek 24",
+          "url": "https://www.premierleague.com/en/news/4573866/predicted-line-ups-for-every-team-in-matchweek-24"
+        },
+        {
+          "title": "Lens predicted XI v Nantes: suspensions and injuries deprive ...",
+          "url": "https://sports.yahoo.com/articles/lens-predicted-xi-v-nantes-083000885.html"
+        },
+        {
+          "title": "Team News: Japan vs. Sweden injury, suspension list, predicted XIs | World Cup 2026 - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/japan/injury-news/team-news/japan-vs-sweden-injury-suspension-list-predicted-xis_599891.html"
+        }
+      ],
+      "research": {
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [],
+        "summary": "未找到关于大田市民与光州FC比赛的相关信息。"
       }
     }
   ]

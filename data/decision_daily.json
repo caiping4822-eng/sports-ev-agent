@@ -1,73 +1,22 @@
 {
   "decisions": [
     {
-      "code": "周四001",
-      "match": "中日德兰 vs 贝西克塔",
+      "code": "周五001",
+      "match": "瓦勒伦加 vs 汉坎",
       "odds": [
-        1.69,
-        3.8,
-        3.65
+        1.49,
+        4.15,
+        4.6
       ],
       "market_p": [
-        0.48228826819045306,
-        0.2537660033729381,
-        0.26394572843660896
+        0.5912449347975488,
+        0.21892795934720555,
+        0.18982710585524573
       ],
       "conservative_p": [
-        0.46228826819045304,
-        0.2337660033729381,
-        0.24394572843660897
-      ],
-      "confidence": 50,
-      "conf_label": "低",
-      "strict": false,
-      "strict_i": 2,
-      "forced_i": 2,
-      "ev": [
-        -0.21873282675813432,
-        -0.11168918718283527,
-        -0.10959809120637731
-      ],
-      "confirmed": [
-        "FC Midtjylland vs Besiktas 为欧联杯比赛",
-        "Besiktas 门将 Nubel 可能首发",
-        "FC Midtjylland 前锋 Franculino 和 Cho 可能首发",
-        "Besiktas 中场 Ndidi 因伤缺阵",
-        "FC Midtjylland 后卫 Diao、Brumado、Gogorza 因伤缺阵",
-        "Besiktas 后卫 Uduokhai 停赛",
-        "Besiktas 前锋 Trossard 因额外休假缺阵"
-      ],
-      "uncertain": [
-        "FC Midtjylland 队长 Sorensen 是否伤愈存疑",
-        "FC Midtjylland 前锋 Etim 是否停赛存疑",
-        "Besiktas 前锋 Oh 可能首发"
-      ],
-      "risks": [
-        "FC Midtjylland 多名球员伤停，阵容不整",
-        "Besiktas 中场 Ndidi 伤缺影响防守"
-      ],
-      "gaps": [
-        "外部同场机构不足3家",
-        "API-Football未匹配"
-      ]
-    },
-    {
-      "code": "周四002",
-      "match": "帕佛斯 vs 斯海杜克",
-      "odds": [
-        1.71,
-        3.65,
-        3.69
-      ],
-      "market_p": [
-        0.5282163567628595,
-        0.2532544176260285,
-        0.21852922561111207
-      ],
-      "conservative_p": [
-        0.5082163567628595,
-        0.23325441762602853,
-        0.19852922561111208
+        0.5712449347975488,
+        0.19892795934720556,
+        0.16982710585524574
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -75,142 +24,73 @@
       "strict_i": 0,
       "forced_i": 1,
       "ev": [
-        -0.1309500299355103,
-        -0.1486213756649959,
-        -0.26742715749499646
+        -0.14884504715165237,
+        -0.17444896870909687,
+        -0.21879531306586963
       ],
-      "confirmed": [
-        "Pafos FC vs Hajduk Split是欧联杯资格赛次回合，首回合Hajduk Split主场2-0获胜。",
-        "Pafos FC后卫Anderson Silva和Joao Correia因伤缺阵。",
-        "Hajduk Split前锋Roko Brajkovic因前十字韧带受伤长期缺阵。",
-        "两队此前无交锋记录。"
-      ],
-      "uncertain": [
-        "Pafos FC可能采用3-4-3阵型，首发包括Majecki、Goldar、David Luiz、Mmaee、Jajá、Pêpê、Sunjic、Ioannou、Dragomir、Lelê、Biel。",
-        "Hajduk Split可能采用4-2-3-1阵型，首发包括Silic、Hrgovic、van Horenbeeck、Maresic、Akapandje、Pukstas、Pajaziti、Melnjak、De Almeida、Brajkovic（伤缺）、Sego。"
-      ],
-      "risks": [
-        "Pafos FC首回合0-2落后，需净胜2球以上才能翻盘，压力较大。",
-        "Pafos FC近期进攻乏力，近4场3次被零封；防守不稳，近5场失7球。",
-        "Hajduk Split首回合取胜，可能采取防守反击策略。"
-      ],
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
       "gaps": [
         "外部同场机构不足3家",
-        "API-Football未匹配"
+        "API-Football未匹配",
+        "赛季基本面未返回"
       ]
     },
     {
-      "code": "周四003",
-      "match": "安德莱赫 vs 哈马比",
+      "code": "周五002",
+      "match": "博德闪耀 vs 利勒斯特",
       "odds": [
-        2.01,
-        3.35,
-        3.0
+        1.17,
+        6.1,
+        9.0
       ],
       "market_p": [
-        0.438320527557626,
-        0.26807429366567853,
-        0.2936051787766955
+        0.7529115436718673,
+        0.14793629372466402,
+        0.09915216260346862
       ],
       "conservative_p": [
-        0.418320527557626,
-        0.24807429366567854,
-        0.2736051787766955
+        0.7329115436718673,
+        0.12793629372466403,
+        0.07915216260346862
       ],
       "confidence": 50,
       "conf_label": "低",
       "strict": false,
       "strict_i": 0,
-      "forced_i": 0,
+      "forced_i": 1,
       "ev": [
-        -0.15917573960917186,
-        -0.16895111621997683,
-        -0.17918446366991359
+        -0.1424934939039153,
+        -0.2195886082795495,
+        -0.28763053656878246
       ],
-      "confirmed": [
-        "Anderlecht will be without Nathan Saliba due to suspension after red card in first leg.",
-        "Anderlecht have injury absentees: Cedric Hatenboer, Ilay Camara, Killian Sardella, Lucas Hey.",
-        "Hammarby only missing Sourou Kone (knee injury since April).",
-        "Hammarby can field same starting XI as first leg.",
-        "First leg ended 1-1."
-      ],
-      "uncertain": [
-        "Lukas Ambros may make first start for Anderlecht as Saliba replacement.",
-        "Anderlecht predicted lineup includes Coosemans, Maamar, Petrot, Biancone, Augustinsson, Llansana, Kana, Ambros, Nga Kana, Sikan, Seke.",
-        "Hammarby predicted lineup: Hahn; Skoglund, Fofana, Winther, Persson; Karlsson, Tekie, Lind; Adjei, Besara; Abraham."
-      ],
-      "risks": [
-        "Anderlecht have multiple injuries and a suspension, affecting squad depth.",
-        "Hammarby have poor away league form (2 wins in 7 away matches)."
-      ],
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
       "gaps": [
         "外部同场机构不足3家",
-        "API-Football未匹配"
+        "API-Football未匹配",
+        "赛季基本面未返回"
       ]
     },
     {
-      "code": "周四004",
-      "match": "费伦茨瓦 vs 特温特",
+      "code": "周五003",
+      "match": "纽约城 vs 多伦多",
       "odds": [
-        2.64,
-        3.5,
-        2.15
+        1.52,
+        3.85,
+        4.72
       ],
       "market_p": [
-        0.33660784143266975,
-        0.253151351821264,
-        0.4102408067460663
+        0.5671202849575303,
+        0.23666088227235363,
+        0.19621883277011598
       ],
       "conservative_p": [
-        0.31660784143266973,
-        0.23315135182126404,
-        0.39024080674606626
-      ],
-      "confidence": 50,
-      "conf_label": "低",
-      "strict": false,
-      "strict_i": 2,
-      "forced_i": 2,
-      "ev": [
-        -0.1641552986177519,
-        -0.18397026862557586,
-        -0.16098226549595762
-      ],
-      "confirmed": [
-        "Ferencvaros 首回合客场2-1领先Twente",
-        "Twente后卫Mees Hilgers因十字韧带撕裂缺阵",
-        "Twente门将Lars Unnerstall因腹部伤势存疑，若缺阵则由Remko Pasveer顶替",
-        "Ferencvaros无伤病或停赛报告"
-      ],
-      "uncertain": [
-        "Twente门将Unnerstall能否出战待确认"
-      ],
-      "risks": [
-        "Ferencvaros国内联赛刚遭遇失利，可能影响状态",
-        "Twente需客场净胜至少一球才能晋级，可能采取激进战术"
-      ],
-      "gaps": [
-        "外部同场机构不足3家",
-        "API-Football未匹配"
-      ]
-    },
-    {
-      "code": "周四006",
-      "match": "科林蒂安 vs 巴竞技",
-      "odds": [
-        1.74,
-        3.15,
-        4.22
-      ],
-      "market_p": [
-        0.48502832969293447,
-        0.293771101896036,
-        0.2212005684110295
-      ],
-      "conservative_p": [
-        0.46502832969293445,
-        0.273771101896036,
-        0.2012005684110295
+        0.5471202849575303,
+        0.21666088227235364,
+        0.176218832770116
       ],
       "confidence": 50,
       "conf_label": "低",
@@ -218,25 +98,23 @@
       "strict_i": 1,
       "forced_i": 1,
       "ev": [
-        -0.19085070633429402,
-        -0.13762102902748663,
-        -0.15093360130545552
+        -0.16837716686455395,
+        -0.16585560325143844,
+        -0.1682471093250526
       ],
       "confirmed": [
-        "Corinthians have suspensions: Kaique Rocha and Madson (yellow card accumulation).",
-        "Corinthians injuries: Vitinho (hip), Alex Santana (thigh), Bidu, Kayke, Hugo, Fabrizio Angileri (suspension).",
-        "Athletico Paranaense injuries: Mycael (lower leg), Bruno Zapelli, Talles Magno (doubtful, thigh), Ryan (ankle strain, out until early November), Fernandinho (muscle injury, out a few more weeks).",
-        "Corinthians recent form: D, W, D, L, L, L (all competitions).",
-        "Athletico Paranaense recent form: D, W, D, L, L, L (all competitions)."
+        "纽约城队有两名球员缺席：Rio Hope-Gund（右腿问题）和Maxi Moralez（去年受伤康复中）。",
+        "比赛于5月11日在BMO Field进行。"
       ],
       "uncertain": [
-        "Talles Magno is doubtful with a thigh injury.",
-        "Fernandinho may be sidelined for a few more weeks due to muscle injury."
+        "多伦多FC的Terry Dunfield因左膝扭伤仍缺阵。",
+        "多伦多FC主教练Ryan Nelsen可能选择Luis Silva首发，而非Jonathan Osorio。",
+        "纽约城队主教练Nick Cushing可能调整阵容，但具体未知。"
       ],
       "risks": [
-        "Multiple injuries and suspensions for both teams.",
-        "Corinthians have poor recent form (3 losses in last 6).",
-        "Athletico Paranaense also on a losing streak."
+        "多伦多FC有球员伤病，可能影响阵容。",
+        "纽约城队有球员缺阵，可能影响实力。",
+        "比赛在客场进行，旅行可能带来疲劳。"
       ],
       "gaps": [
         "外部同场机构不足3家",
