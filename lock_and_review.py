@@ -4,6 +4,7 @@ from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from html import escape
 from api_football import fetch_context,call
+from recommendation_engine import build_decisions, global_forced, forced_payload
 ROOT=Path(__file__).parent;DATA=ROOT/'data';DOCS=ROOT/'docs';CST=timezone(timedelta(hours=8))
 def load(p,d):
  try:return json.loads(p.read_text(encoding='utf8'))
@@ -11,43 +12,22 @@ def load(p,d):
 def dump(p,x):p.write_text(json.dumps(x,ensure_ascii=False,indent=2),encoding='utf8')
 def no_vig(a,b,c):
  x=[1/a,1/b,1/c];s=sum(x);return [v/s for v in x]
-def make_forced(events,bjzs):
- all=[]
- for e in events:
-  t=next((m for m in e.get('markets',[]) if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
-  if not t or not b:continue
-  p=no_vig(*b['current']);odds=[t['home_win'],t['draw'],t['away_win']]
-  for i,label in enumerate(['主胜','平','客胜']):
-   if odds[i]>=1.8:all.append((max(0,p[i]-.02),e,label,odds[i],p[i]))
- return max(all,key=lambda z:(z[0],z[0]*z[3]-1)) if all else None
-def forced_for_event(e,bjzs):
- t=next((m for m in e.get('markets',[]) if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
- if not t:return None
- odds=[t['home_win'],t['draw'],t['away_win']];labels=['主胜','平','客胜']
- if b and b.get('current'):
-  p=no_vig(*b['current']);penalty=.02;source='百家平均'
- else:
-  # Fallback is explicitly lower quality: devig China price only and apply 4pp penalty.
-  p=no_vig(*odds);penalty=.04;source='中国竞彩内部去水代理'
- c=[]
- for i,o in enumerate(odds):
-  if o>=1.8:c.append((max(0,p[i]-penalty),i,o))
- if not c:return None
- pc,i,o=max(c,key=lambda x:(x[0],x[0]*x[2]-1))
- return {'selection':labels[i],'odds':o,'probability':pc,'ev':pc*o-1,'stake_units':1,'type':'per_match','probability_source':source}
 def lock():
  latest=load(DATA/'latest_zgzcw.json',{});events=latest.get('events',[]);errors=latest.get('errors',[])
  if not events or any('已停售' in str(x) for x in errors):return []
  bjzs=load(DATA/'latest_bjzs.json',{});ledger=load(DATA/'prediction_ledger.json',[]);existing={x['key'] for x in ledger}
- ctx,_=fetch_context(events);global_forced=make_forced(events,bjzs);now=datetime.now(CST).isoformat();new=[]
+ # The ledger uses the same composite rule as the dashboard: no separate odds-only lock rule.
+ decisions=build_decisions(events,bjzs);by_code={d['code']:d for d in decisions};global_pick=global_forced(decisions)
+ ctx,_=fetch_context(events);now=datetime.now(CST).isoformat();new=[]
  for e in events:
   key=e['code']+'|'+e['kickoff']
   if key in existing:continue
   t=next((m for m in e['markets'] if m.get('market')=='1X2'),None);b=bjzs.get(e.get('analysis_match_id') or e.get('source_match_id'))
   rec={'key':key,'locked_at':now,'status':'locked','code':e['code'],'league':e.get('league','未知联赛'),'kickoff':e['kickoff'],'home':e['home'],'away':e['away'],'china_1x2':[t['home_win'],t['draw'],t['away_win']] if t else None,'avg_1x2':b.get('current') if b else None,'fixture_id':ctx.get(e['code'],{}).get('fixture_id'),'forced':None}
-  local=forced_for_event(e,bjzs)
-  if local:
-   local['is_global']=bool(global_forced and global_forced[1]['code']==e['code'] and global_forced[2]==local['selection'])
+  decision=by_code.get(e['code'])
+  if decision:
+   local=forced_payload(decision)
+   local['is_global']=bool(global_pick and global_pick['code']==e['code'] and global_pick['forced_i']==decision['forced_i'])
    rec['forced']=local
   ledger.append(rec);new.append(rec)
  dump(DATA/'prediction_ledger.json',ledger);return new
