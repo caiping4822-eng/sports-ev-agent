@@ -1,16 +1,4 @@
 {
-  "周五001": {
-    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
-    "mapping_score": 0
-  },
-  "周五002": {
-    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
-    "mapping_score": 0
-  },
-  "周五003": {
-    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
-    "mapping_score": 0
-  },
   "周六001": {
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
@@ -23,6 +11,58 @@
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
   },
+  "周六004": {
+    "status": "球队别名未收录：图尔库,玛丽港",
+    "mapping_score": 0
+  },
+  "周六005": {
+    "status": "球队别名未收录：赫根,卡尔马",
+    "mapping_score": 0
+  },
+  "周六006": {
+    "status": "球队别名未收录：费特斯塔,桑纳菲",
+    "mapping_score": 0
+  },
+  "周六007": {
+    "status": "球队别名未收录：拉赫蒂,雅罗",
+    "mapping_score": 0
+  },
+  "周六008": {
+    "status": "球队别名未收录：斯达,维京",
+    "mapping_score": 0
+  },
+  "周六009": {
+    "status": "球队别名未收录：赫尔火花,库普斯",
+    "mapping_score": 0
+  },
+  "周六010": {
+    "status": "球队别名未收录：迈阿密,哥伦布",
+    "mapping_score": 0
+  },
+  "周六011": {
+    "status": "球队别名未收录：温哥华,洛杉矶",
+    "mapping_score": 0
+  },
+  "周六012": {
+    "status": "球队别名未收录：桑托斯",
+    "mapping_score": 0
+  },
+  "周六013": {
+    "status": "球队别名未收录：芝加哥,夏洛特",
+    "mapping_score": 0
+  },
+  "周六014": {
+    "status": "球队别名未收录：圣路易斯,盐湖城",
+    "mapping_score": 0
+  },
+  "周六015": {
+    "status": "球队别名未收录：洛城银河,达拉斯",
+    "mapping_score": 0
+  },
+  "周六016": {
+    "status": "球队别名未收录：波特兰,西雅图",
+    "mapping_score": 0
+  },
   "周日001": {
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
@@ -32,6 +72,66 @@
     "mapping_score": 0
   },
   "周日003": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周日004": {
+    "status": "球队别名未收录：布鲁马波,马尔默",
+    "mapping_score": 0
+  },
+  "周日005": {
+    "status": "球队别名未收录：哥德堡,代格福什",
+    "mapping_score": 0
+  },
+  "周日006": {
+    "status": "球队别名未收录：瓦萨,国际图尔",
+    "mapping_score": 0
+  },
+  "周日007": {
+    "status": "球队别名未收录：奥卢,埃尔维斯",
+    "mapping_score": 0
+  },
+  "周日008": {
+    "status": "球队别名未收录：索尔纳,奥尔格里",
+    "mapping_score": 0
+  },
+  "周日009": {
+    "status": "球队别名未收录：KF奥斯陆,克里斯蒂",
+    "mapping_score": 0
+  },
+  "周日010": {
+    "status": "球队别名未收录：莫尔德,萨普斯堡",
+    "mapping_score": 0
+  },
+  "周日011": {
+    "status": "球队别名未收录：奥勒松,特罗姆瑟",
+    "mapping_score": 0
+  },
+  "周日012": {
+    "status": "球队别名未收录：布兰,罗森博格",
+    "mapping_score": 0
+  },
+  "周日013": {
+    "status": "球队别名未收录：格雷米奥",
+    "mapping_score": 0
+  },
+  "周日014": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周一001": {
+    "status": "球队别名未收录：塞纳乔琪,赫尔辛基",
+    "mapping_score": 0
+  },
+  "周一002": {
+    "status": "球队别名未收录：哈斯塔德,天狼星",
+    "mapping_score": 0
+  },
+  "周一003": {
+    "status": "球队别名未收录：佐加顿斯,瓦斯特拉",
+    "mapping_score": 0
+  },
+  "周一004": {
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
   }
