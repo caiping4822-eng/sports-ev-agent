@@ -1,0 +1,51 @@
+name: Daily Sports EV Agent (Enhanced)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'   # 09:00 Beijing
+    - cron: '0 6 * * *'   # 14:00 Beijing
+    - cron: '0 12 * * *'  # 20:00 Beijing (extra for evening matches)
+
+permissions:
+  contents: write
+
+jobs:
+  scan-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Run full pipeline + enhanced settlement & stats
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          python agent.py || true
+          python fundamentals_daily.py || true
+          python ai_research.py || true
+          python decision_engine.py || true
+          python fixture_registry.py || true
+          python lock_and_review.py || true
+          python settlement_manager.py
+          python improved_result_verifier.py || true
+          python enhanced_statistics_report.py
+          python ui_compact.py || true
+
+      - name: Commit data & docs
+        run: |
+          git config user.name "Sports EV Agent"
+          git config user.email "actions@github.com"
+          git add data/ docs/
+          git diff --cached --quiet || git commit -m "Daily update: settlement + cumulative league stats $(date +%Y-%m-%d)"
+          git push
