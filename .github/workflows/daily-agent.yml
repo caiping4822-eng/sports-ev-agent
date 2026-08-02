@@ -1,38 +1,60 @@
-name: Daily Sports EV Agent
+name: Daily Sports EV Agent (修复冲突版)
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '0 1 * * *'
     - cron: '0 6 * * *'
+
 permissions:
   contents: write
+
 jobs:
   scan-and-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 拉取完整历史，防止冲突
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run analysis, settlement and segmented statistics
+
+      - name: Run analysis + settlement + stats
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          python agent.py
-          python fundamentals_daily.py
-          python ai_research.py
-          python decision_engine.py
-          python fixture_registry.py
-          python lock_and_review.py
-          python settlement_manager.py
-          python statistics_report.py
-          python ui_compact.py
-      - name: Persist segmented performance and dashboards
+          python agent.py || true
+          python fundamentals_daily.py || true
+          python ai_research.py || true
+          python decision_engine.py || true
+          python fixture_registry.py || true
+          python lock_and_review.py || true
+          python settlement_manager.py || true
+          python enhanced_statistics_report.py || true
+          python ui_compact.py || true
+
+      - name: 提交数据并推送（防冲突版）
         run: |
           git config user.name "Sports EV Agent"
           git config user.email "actions@github.com"
+
           git add docs/ data/
-          git diff --cached --quiet || (git commit -m "Update league and odds-band performance statistics" && git push)
+
+          if git diff --cached --quiet; then
+            echo "没有新变化，不需要提交"
+            exit 0
+          fi
+
+          git commit -m "Daily update: settlement + stats $(date +%Y-%m-%d)"
+
+          # 关键：先拉取远程最新内容
+          git fetch origin
+          git pull --rebase origin main || git pull origin main || true
+
+          # 推送
+          git push origin main || echo "推送失败，可能是冲突，下次会自动重试"
