@@ -1,0 +1,66 @@
+{
+  "real_locks": [
+    {
+      "key": "周四002|2026-07-31 01:00",
+      "league": "欧联",
+      "odds": 1.8,
+      "win": true,
+      "profit": 0.8,
+      "kickoff": "2026-07-31 01:00",
+      "selection": "主胜"
+    }
+  ],
+  "historical": [
+    {
+      "key": "周四001|2026-07-31 01:00",
+      "league": "欧联",
+      "odds": 3.6,
+      "win": true,
+      "profit": 2.6,
+      "kickoff": "2026-07-31 01:00",
+      "selection": "客胜"
+    },
+    {
+      "key": "周四003|2026-07-31 02:30",
+      "league": "欧联",
+      "odds": 2.09,
+      "win": true,
+      "profit": 1.0899999999999999,
+      "kickoff": "2026-07-31 02:30",
+      "selection": "主胜"
+    },
+    {
+      "key": "周四004|2026-07-31 02:30",
+      "league": "欧联",
+      "odds": 1.95,
+      "win": false,
+      "profit": -1.0,
+      "kickoff": "2026-07-31 02:30",
+      "selection": "客胜"
+    },
+    {
+      "key": "周四006|2026-07-31 06:30",
+      "league": "巴西甲",
+      "odds": 3.15,
+      "win": true,
+      "profit": 2.15,
+      "kickoff": "2026-07-31 06:30",
+      "selection": "平"
+    }
+  ],
+  "summary": {
+    "real": {
+      "count": 1,
+      "wins": 1,
+      "hit_rate": 1.0,
+      "roi": 0.8
+    },
+    "historical": {
+      "count": 4,
+      "wins": 3,
+      "hit_rate": 0.75,
+      "roi": 1.21
+    }
+  },
+  "updated_at": "2026-08-02T04:59:55.961680"
+}
