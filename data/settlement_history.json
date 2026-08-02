@@ -87,5 +87,37 @@
       "profit_units": 2.15,
       "historical": true
     }
+  },
+  {
+    "key": "周六001|2026-08-01 18:30",
+    "score": "0:3",
+    "outcome": "客胜",
+    "source": "verified_seed",
+    "verified": false,
+    "proxy_clv": 0.0,
+    "forced": {
+      "selection": "平",
+      "odds": 3.9,
+      "probability": 0.18707361541922196,
+      "win": false,
+      "profit_units": -1,
+      "historical": true
+    }
+  },
+  {
+    "key": "周六003|2026-08-01 18:30",
+    "score": "1:2",
+    "outcome": "客胜",
+    "source": "verified_seed",
+    "verified": false,
+    "proxy_clv": 0.024630541871921263,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.08,
+      "probability": 0.38570234398073977,
+      "win": false,
+      "profit_units": -1,
+      "historical": true
+    }
   }
 ]

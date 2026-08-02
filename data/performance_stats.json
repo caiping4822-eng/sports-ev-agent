@@ -46,6 +46,24 @@
       "profit": 2.15,
       "kickoff": "2026-07-31 06:30",
       "selection": "平"
+    },
+    {
+      "key": "周六001|2026-08-01 18:30",
+      "league": "韩K联",
+      "odds": 3.9,
+      "win": false,
+      "profit": -1.0,
+      "kickoff": "2026-08-01 18:30",
+      "selection": "平"
+    },
+    {
+      "key": "周六003|2026-08-01 18:30",
+      "league": "韩K联",
+      "odds": 2.08,
+      "win": false,
+      "profit": -1.0,
+      "kickoff": "2026-08-01 18:30",
+      "selection": "主胜"
     }
   ],
   "summary": {
@@ -56,11 +74,11 @@
       "roi": 0.8
     },
     "historical": {
-      "count": 4,
+      "count": 6,
       "wins": 3,
-      "hit_rate": 0.75,
-      "roi": 1.21
+      "hit_rate": 0.5,
+      "roi": 0.47333333333333333
     }
   },
-  "updated_at": "2026-08-02T04:59:55.961680"
+  "updated_at": "2026-08-02T06:24:06.944173"
 }
