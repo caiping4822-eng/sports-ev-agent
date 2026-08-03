@@ -1,5 +1,239 @@
 {
   "pipeline_version": 2,
-  "decisions": [],
-  "global_forced_code": null
+  "decisions": [
+    {
+      "code": "周一001",
+      "match": "塞纳乔琪 vs 赫尔辛基",
+      "odds": [
+        3.3,
+        3.87,
+        1.76
+      ],
+      "market_p": [
+        0.2834477732172312,
+        0.24510337949288427,
+        0.4714488472898845
+      ],
+      "base_p": [
+        0.2634477732172312,
+        0.22510337949288428,
+        0.4514488472898845
+      ],
+      "conservative_p": [
+        0.26144777321723117,
+        0.22310337949288428,
+        0.4494488472898845
+      ],
+      "ev": [
+        -0.13722234838313718,
+        -0.13658992136253778,
+        -0.2089700287698033
+      ],
+      "forced_i": 0,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.19556293436648892,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一002",
+      "match": "哈斯塔德 vs 天狼星",
+      "odds": [
+        7.3,
+        5.2,
+        1.25
+      ],
+      "market_p": [
+        0.12884041340556368,
+        0.187168568367841,
+        0.6839910182265952
+      ],
+      "base_p": [
+        0.10884041340556368,
+        0.167168568367841,
+        0.6639910182265952
+      ],
+      "conservative_p": [
+        0.10684041340556368,
+        0.165168568367841,
+        0.6619910182265952
+      ],
+      "ev": [
+        -0.2200649821393852,
+        -0.1411234444872268,
+        -0.17251122721675594
+      ],
+      "forced_i": 1,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.12354608913914507,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一003",
+      "match": "佐加顿斯 vs 瓦斯特拉",
+      "odds": [
+        1.38,
+        4.5,
+        5.5
+      ],
+      "market_p": [
+        0.6460291375076167,
+        0.1970936351718153,
+        0.156877227320568
+      ],
+      "base_p": [
+        0.6260291375076167,
+        0.1770936351718153,
+        0.136877227320568
+      ],
+      "conservative_p": [
+        0.6240291375076167,
+        0.1750936351718153,
+        0.134877227320568
+      ],
+      "ev": [
+        -0.138839790239489,
+        -0.2120786417268311,
+        -0.258175249736876
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.13097003910851784,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一004",
+      "match": "巴竞技 vs 维多利亚",
+      "odds": [
+        1.46,
+        3.55,
+        6.15
+      ],
+      "market_p": [
+        0.5786870503597122,
+        0.26303956834532377,
+        0.15827338129496404
+      ],
+      "base_p": [
+        0.5586870503597122,
+        0.24303956834532378,
+        0.13827338129496405
+      ],
+      "conservative_p": [
+        0.5526870503597122,
+        0.23703956834532378,
+        0.13227338129496405
+      ],
+      "ev": [
+        -0.19307690647482023,
+        -0.1585095323741006,
+        -0.186518705035971
+      ],
+      "forced_i": 1,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 49,
+      "conf_label": "低",
+      "global_score": 0.18868349640287774,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.006,
+      "confirmed": [
+        "Athletico Paranaense在2026年4月26日主场3-1战胜Vitoria。",
+        "Athletico Paranaense目前排名第5，Vitoria排名第13。"
+      ],
+      "uncertain": [
+        "双方伤停名单未取得相关来源。",
+        "双方首发阵容未取得相关来源。",
+        "比赛具体开球时间（2026-08-04 08:00）未在资料中确认。"
+      ],
+      "risks": [
+        "伤停与阵容信息未取得相关来源。",
+        "部分资料来自预测网站（如sportsgambler），可能包含预测性内容。",
+        "不同来源的积分榜数据存在差异（如ESPN与AiScore），需注意时效性。"
+      ],
+      "context": [
+        "巴西甲级联赛第22轮，Athletico Paranaense主场对阵Vitoria。",
+        "Athletico Paranaense目前以21场11胜4平6负积37分排名第5。",
+        "Vitoria目前以21场7胜5平9负积26分排名第13。",
+        "双方首回合交锋（2026年4月26日）Athletico Paranaense主场3-1战胜Vitoria。"
+      ],
+      "motivation": [
+        "Athletico Paranaense排名第5，距离前四的解放者杯资格区有积分差距，但具体分差未在资料中明确。",
+        "Vitoria排名第13，距离降级区有一定积分优势，但具体分差未在资料中明确。"
+      ],
+      "form_schedule": [
+        "Athletico Paranaense近期联赛战绩为：胜、负、胜、胜、平、胜（根据BBC数据）。",
+        "Vitoria近期联赛战绩为：负、胜、胜、平、负、胜（根据BBC数据）。",
+        "Athletico Paranaense主场战绩：21场中主场11场，具体主场胜平负未明确。",
+        "Vitoria客场战绩：21场中客场10场，具体客场胜平负未明确。"
+      ],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回"
+      ]
+    }
+  ],
+  "global_forced_code": "周一001"
 }
