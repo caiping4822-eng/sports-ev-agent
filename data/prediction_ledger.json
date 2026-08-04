@@ -1338,5 +1338,236 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周二001|2026-08-05 08:30",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周二001",
+    "league": "巴西杯",
+    "kickoff": "2026-08-05 08:30",
+    "home": "雷莫",
+    "away": "桑托斯",
+    "china_1x2": [
+      3.3,
+      2.95,
+      2.05
+    ],
+    "avg_1x2": [
+      3.16,
+      3.04,
+      2.28
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "客胜",
+      "odds": 2.05,
+      "probability": 0.38460947503201026,
+      "market_probability": 0.4046094750320103,
+      "base_probability": 0.38460947503201026,
+      "ev": -0.211550576184379,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.29230320102432783,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二002|2026-08-05 00:00",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周二002",
+    "league": "欧冠",
+    "kickoff": "2026-08-05 00:00",
+    "home": "米亚尔比",
+    "away": "布拉迪斯",
+    "china_1x2": [
+      2.0,
+      3.2,
+      3.16
+    ],
+    "avg_1x2": [
+      2.06,
+      3.37,
+      3.43
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.0,
+      "probability": 0.4321083736520763,
+      "market_probability": 0.45210837365207635,
+      "base_probability": 0.4321083736520763,
+      "ev": -0.13578325269584735,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.32840236397557804,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二003|2026-08-05 02:00",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周二003",
+    "league": "欧冠",
+    "kickoff": "2026-08-05 02:00",
+    "home": "奥林匹亚",
+    "away": "奈梅亨",
+    "china_1x2": [
+      1.41,
+      4.05,
+      5.8
+    ],
+    "avg_1x2": [
+      1.51,
+      4.25,
+      5.66
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 4.05,
+      "probability": 0.1990363181108739,
+      "market_probability": 0.2190363181108739,
+      "base_probability": 0.1990363181108739,
+      "ev": -0.19390291165096074,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.15126760176426418,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二004|2026-08-05 02:00",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周二004",
+    "league": "欧冠",
+    "kickoff": "2026-08-05 02:00",
+    "home": "圣吉联合",
+    "away": "博德闪耀",
+    "china_1x2": [
+      2.3,
+      3.55,
+      2.42
+    ],
+    "avg_1x2": [
+      2.34,
+      3.55,
+      2.75
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.3,
+      "probability": 0.3783962129404803,
+      "market_probability": 0.39839621294048033,
+      "base_probability": 0.3783962129404803,
+      "ev": -0.12968871023689532,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.28758112183476503,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二005|2026-08-05 02:00",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周二005",
+    "league": "欧冠",
+    "kickoff": "2026-08-05 02:00",
+    "home": "布斯巴达",
+    "away": "里昂",
+    "china_1x2": [
+      3.45,
+      3.48,
+      1.81
+    ],
+    "avg_1x2": [
+      3.37,
+      3.53,
+      2.02
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "客胜",
+      "odds": 1.81,
+      "probability": 0.44048052767466256,
+      "market_probability": 0.4604805276746626,
+      "base_probability": 0.44048052767466256,
+      "ev": -0.2027302449088607,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.33476520103274354,
+      "is_global": true
+    }
+  },
+  {
+    "key": "周三002|2026-08-06 00:30",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周三002",
+    "league": "欧冠",
+    "kickoff": "2026-08-06 00:30",
+    "home": "奥胡斯",
+    "away": "沙巴巴库",
+    "china_1x2": [
+      1.57,
+      3.65,
+      4.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周三003|2026-08-06 02:00",
+    "locked_at": "2026-08-04T19:00:03.670711+08:00",
+    "status": "locked",
+    "code": "周三003",
+    "league": "欧冠",
+    "kickoff": "2026-08-06 02:00",
+    "home": "费内巴切",
+    "away": "格风暴",
+    "china_1x2": [
+      1.22,
+      5.15,
+      8.75
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
