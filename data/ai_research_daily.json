@@ -1,6 +1,55 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "pipeline_version": 7,
-  "updated_at": "2026-08-04T02:26:32.813501+08:00",
-  "events": []
+  "updated_at": "2026-08-05T02:13:20.283495+08:00",
+  "events": [
+    {
+      "code": "周三002",
+      "match": "奥胡斯 vs 沙巴巴库",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三003",
+      "match": "费内巴切 vs 格风暴",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    }
+  ]
 }
