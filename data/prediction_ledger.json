@@ -1587,5 +1587,62 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周三001|2026-08-06 08:30",
+    "locked_at": "2026-08-05T18:18:05.711740+08:00",
+    "status": "locked",
+    "code": "周三001",
+    "league": "巴西杯",
+    "kickoff": "2026-08-06 08:30",
+    "home": "弗鲁米嫩",
+    "away": "达伽马",
+    "china_1x2": [
+      1.9,
+      2.9,
+      3.88
+    ],
+    "avg_1x2": [
+      2.09,
+      3.06,
+      3.57
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.9,
+      "probability": 0.42083144679975304,
+      "market_probability": 0.44083144679975306,
+      "base_probability": 0.42083144679975304,
+      "ev": -0.20042025108046924,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.31983189956781233,
+      "is_global": true
+    }
+  },
+  {
+    "key": "周四001|2026-08-07 07:00",
+    "locked_at": "2026-08-05T18:18:05.711740+08:00",
+    "status": "locked",
+    "code": "周四001",
+    "league": "巴西杯",
+    "kickoff": "2026-08-07 07:00",
+    "home": "维多利亚",
+    "away": "巴竞技",
+    "china_1x2": [
+      2.1,
+      3.2,
+      2.95
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

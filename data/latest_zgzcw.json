@@ -1,10 +1,39 @@
 {
-  "updated_at": "2026-08-05 02:13",
+  "updated_at": "2026-08-05 18:17",
   "events": [
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-05T02:13:15.929998+08:00",
+      "captured_at": "2026-08-05T18:18:00.893332+08:00",
+      "source_match_id": "2040717",
+      "analysis_match_id": "4546337",
+      "code": "周三001",
+      "league": "巴西杯",
+      "deadline": "2026-08-05 21:40",
+      "kickoff": "2026-08-06 08:30",
+      "home": "弗鲁米嫩",
+      "away": "达伽马",
+      "markets": [
+        {
+          "market": "1X2",
+          "line": "0",
+          "home_win": 1.9,
+          "draw": 2.9,
+          "away_win": 3.88
+        },
+        {
+          "market": "handicap_1x2",
+          "line": "-1",
+          "home_win": 4.4,
+          "draw": 3.22,
+          "away_win": 1.69
+        }
+      ]
+    },
+    {
+      "source": "zgzcw_public_page",
+      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+      "captured_at": "2026-08-05T18:18:00.893629+08:00",
       "source_match_id": "2040722",
       "analysis_match_id": "4602274",
       "code": "周三002",
@@ -17,23 +46,23 @@
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 1.57,
-          "draw": 3.65,
-          "away_win": 4.6
+          "home_win": 1.63,
+          "draw": 3.7,
+          "away_win": 4.07
         },
         {
           "market": "handicap_1x2",
           "line": "-1",
-          "home_win": 2.8,
-          "draw": 3.4,
-          "away_win": 2.09
+          "home_win": 3.02,
+          "draw": 3.45,
+          "away_win": 1.97
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-05T02:13:15.930234+08:00",
+      "captured_at": "2026-08-05T18:18:00.893769+08:00",
       "source_match_id": "2040723",
       "analysis_match_id": "4602269",
       "code": "周三003",
@@ -46,16 +75,45 @@
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 1.24,
+          "home_win": 1.27,
           "draw": 5.05,
-          "away_win": 8.0
+          "away_win": 6.95
         },
         {
           "market": "handicap_1x2",
           "line": "-1",
-          "home_win": 1.81,
+          "home_win": 1.88,
           "draw": 3.72,
-          "away_win": 3.25
+          "away_win": 3.04
+        }
+      ]
+    },
+    {
+      "source": "zgzcw_public_page",
+      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+      "captured_at": "2026-08-05T18:18:00.893878+08:00",
+      "source_match_id": "2040718",
+      "analysis_match_id": "4546344",
+      "code": "周四001",
+      "league": "巴西杯",
+      "deadline": "2026-08-06 21:40",
+      "kickoff": "2026-08-07 07:00",
+      "home": "维多利亚",
+      "away": "巴竞技",
+      "markets": [
+        {
+          "market": "1X2",
+          "line": "0",
+          "home_win": 2.1,
+          "draw": 3.2,
+          "away_win": 2.95
+        },
+        {
+          "market": "handicap_1x2",
+          "line": "-1",
+          "home_win": 4.85,
+          "draw": 3.55,
+          "away_win": 1.56
         }
       ]
     }
