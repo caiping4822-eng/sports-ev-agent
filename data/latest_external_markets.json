@@ -1,25 +1,4 @@
 {
-  "2040717": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2040722": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2040723": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
   "2040718": {
     "available": false,
     "errors": [

@@ -18532,5 +18532,40 @@
     ],
     "raw_sha256": "5aec0717ff29da9bd699c7b256d23d83e590936d09050b941d084804aeb593ba",
     "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
+  },
+  {
+    "events": [
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-08-06T01:12:36.954417+08:00",
+        "source_match_id": "2040718",
+        "analysis_match_id": "4546344",
+        "code": "周四001",
+        "league": "巴西杯",
+        "deadline": "2026-08-06 21:40",
+        "kickoff": "2026-08-07 07:00",
+        "home": "维多利亚",
+        "away": "巴竞技",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 2.1,
+            "draw": 3.2,
+            "away_win": 2.95
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "-1",
+            "home_win": 4.85,
+            "draw": 3.55,
+            "away_win": 1.56
+          }
+        ]
+      }
+    ],
+    "raw_sha256": "3424d6d12200321f543434fd562d0c63542eaa7c5838b41139893c7c21b86864",
+    "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
   }
 ]

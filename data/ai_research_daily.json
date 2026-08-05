@@ -1,53 +1,78 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "pipeline_version": 7,
-  "updated_at": "2026-08-05T02:13:20.283495+08:00",
+  "updated_at": "2026-08-06T01:12:51.466981+08:00",
   "events": [
     {
-      "code": "周三002",
-      "match": "奥胡斯 vs 沙巴巴库",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
+      "code": "周四001",
+      "match": "维多利亚 vs 巴竞技",
+      "status": "有效来源 6 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Vitoria VS Athletico Paranaense: Live Scores, Lineups, H2H & Odds",
+          "url": "https://www.365scores.com/football/match/brasileirao-serie-a-113/athletico-paranaense-vitoria-1210-1228-113",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Athletico Paranaense vs Vitória Prediction, Betting Tips, Lineups & Odds | 04 Aug 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/athletico-paranaense-vs-vitoria-prediction-lineups-odds-2026-08-03",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Athletico Paranaense Table - Home, Away, Form Guide | Serie A Table | LiveScore",
+          "url": "https://www.livescore.com/en/football/team/athletico-paranaense/4504/tables/24199",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Athletico Paranaense vs Vitória: Serie A stats & head-to-head",
+          "url": "https://www.bbc.com/sport/football/live/c4gxj5q1jjvt",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Athletico Paranaense vs Vitoria - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/vitoria-vs-athletico-paranaense/2oiw9e",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Athletico-PR 3-1 Vitória (Apr 26, 2026) Final Score",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401841088/vitoria-athletico-paranaense",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
       "deepseek": {
-        "success": false,
+        "success": true,
         "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
+        "model": "deepseek-chat"
       },
       "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
+        "summary": "本场比赛为巴西甲级联赛第22轮，由维多利亚主场迎战巴拉纳竞技。根据现有资料，巴拉纳竞技目前排名第3，积37分，维多利亚排名第13，积26分。双方近期交锋中，巴拉纳竞技在2026年4月26日以3-1战胜维多利亚。伤停与阵容信息未取得相关来源。",
+        "competition_context": [
+          "巴西甲级联赛第22轮，维多利亚主场对阵巴拉纳竞技。",
+          "巴拉纳竞技目前以21战11胜4平6负积37分排名第3。",
+          "维多利亚以21战7胜5平9负积26分排名第13。"
+        ],
+        "motivation_evidence": [
+          "巴拉纳竞技排名第3，距离榜首有一定差距，但仍有提升空间。",
+          "维多利亚排名第13，距离降级区有一定安全距离，但需争取积分提升排名。"
+        ],
+        "form_schedule": [
+          "巴拉纳竞技近期联赛状态为DWWWW（平胜胜胜胜）。",
+          "维多利亚近期联赛状态为LLDWL（负负平负胜）。",
+          "双方最近一次交锋为2026年4月26日，巴拉纳竞技主场3-1战胜维多利亚。"
+        ],
+        "confirmed": [
+          "2026年4月26日，巴拉纳竞技3-1战胜维多利亚。",
+          "巴拉纳竞技目前排名第3，维多利亚排名第13。"
+        ],
+        "uncertain": [
+          "本场比赛的具体首发阵容和伤停情况未在摘要中明确。",
+          "双方近期赛程安排（如休息天数）未在摘要中提供。"
+        ],
         "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三003",
-      "match": "费内巴切 vs 格风暴",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
+          "伤停与阵容信息未取得相关来源。",
+          "部分来源为预测网站，可能包含主观预测内容。",
+          "部分数据更新日期较早（如2026年4月），可能无法反映最新情况。"
         ]
       }
     }
