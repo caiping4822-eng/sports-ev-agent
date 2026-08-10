@@ -29681,5 +29681,98 @@
     ],
     "raw_sha256": "956355f8ad56309d08a0e4aad99c6a3ce0f0457a8bfe729fc9a7b2ab00caebb3",
     "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
+  },
+  {
+    "events": [
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-08-10T14:03:50.417830+08:00",
+        "source_match_id": "2040794",
+        "analysis_match_id": "4467126",
+        "code": "周一001",
+        "league": "瑞典超",
+        "deadline": "2026-08-10 21:40",
+        "kickoff": "2026-08-11 01:00",
+        "home": "天狼星",
+        "away": "布鲁马波",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 1.25,
+            "draw": 5.25,
+            "away_win": 7.25
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "-1",
+            "home_win": 1.8,
+            "draw": 3.9,
+            "away_win": 3.15
+          }
+        ]
+      },
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-08-10T14:03:50.418062+08:00",
+        "source_match_id": "2040795",
+        "analysis_match_id": "4467127",
+        "code": "周一002",
+        "league": "瑞典超",
+        "deadline": "2026-08-10 21:40",
+        "kickoff": "2026-08-11 01:00",
+        "home": "瓦斯特拉",
+        "away": "佐加顿斯",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 3.75,
+            "draw": 3.8,
+            "away_win": 1.67
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "+1",
+            "home_win": 1.95,
+            "draw": 3.65,
+            "away_win": 2.92
+          }
+        ]
+      },
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-08-10T14:03:50.418176+08:00",
+        "source_match_id": "2040796",
+        "analysis_match_id": "4578157",
+        "code": "周一003",
+        "league": "葡超",
+        "deadline": "2026-08-10 21:40",
+        "kickoff": "2026-08-11 03:15",
+        "home": "圣克拉拉",
+        "away": "葡国民",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 1.7,
+            "draw": 3.18,
+            "away_win": 4.42
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "-1",
+            "home_win": 3.42,
+            "draw": 3.22,
+            "away_win": 1.9
+          }
+        ]
+      }
+    ],
+    "raw_sha256": "1725d5f9b80e9f88645d55061c127be12b00c27c9b58d2a6806b749f634264dc",
+    "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
   }
 ]
