@@ -3965,5 +3965,77 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周四001|2026-08-14 00:15",
+    "locked_at": "2026-08-12T14:04:11.138610+08:00",
+    "status": "locked",
+    "code": "周四001",
+    "league": "沙特联",
+    "kickoff": "2026-08-14 00:15",
+    "home": "艾卜哈",
+    "away": "哈森姆",
+    "china_1x2": [
+      2.32,
+      3.15,
+      2.63
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四005|2026-08-14 02:00",
+    "locked_at": "2026-08-12T14:04:11.138610+08:00",
+    "status": "locked",
+    "code": "周四005",
+    "league": "沙特联",
+    "kickoff": "2026-08-14 02:00",
+    "home": "利雅青年",
+    "away": "卡达西亚",
+    "china_1x2": [
+      4.45,
+      4.2,
+      1.5
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四009|2026-08-14 06:00",
+    "locked_at": "2026-08-12T14:04:11.138610+08:00",
+    "status": "locked",
+    "code": "周四009",
+    "league": "解放者杯",
+    "kickoff": "2026-08-14 06:00",
+    "home": "米拉索",
+    "away": "基多体育",
+    "china_1x2": [
+      1.49,
+      3.6,
+      5.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四010|2026-08-14 08:30",
+    "locked_at": "2026-08-12T14:04:11.138610+08:00",
+    "status": "locked",
+    "code": "周四010",
+    "league": "解放者杯",
+    "kickoff": "2026-08-14 08:30",
+    "home": "罗萨里奥",
+    "away": "科林蒂安",
+    "china_1x2": [
+      2.02,
+      2.7,
+      3.8
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
