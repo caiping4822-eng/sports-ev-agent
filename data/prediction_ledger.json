@@ -4307,5 +4307,307 @@
       "global_composite_score": 0.12984336640705216,
       "is_global": false
     }
+  },
+  {
+    "key": "周五001|2026-08-14 18:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五001",
+    "league": "日职联",
+    "kickoff": "2026-08-14 18:00",
+    "home": "东京绿茵",
+    "away": "柏太阳神",
+    "china_1x2": [
+      3.9,
+      3.05,
+      1.84
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五002|2026-08-14 23:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五002",
+    "league": "芬超",
+    "kickoff": "2026-08-14 23:00",
+    "home": "瓦萨",
+    "away": "图尔库",
+    "china_1x2": [
+      1.54,
+      3.8,
+      4.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五003|2026-08-15 00:30",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五003",
+    "league": "德乙",
+    "kickoff": "2026-08-15 00:30",
+    "home": "基尔",
+    "away": "圣保利",
+    "china_1x2": [
+      2.3,
+      3.23,
+      2.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五004|2026-08-15 00:30",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五004",
+    "league": "德乙",
+    "kickoff": "2026-08-15 00:30",
+    "home": "不伦瑞克",
+    "away": "波鸿",
+    "china_1x2": [
+      2.43,
+      3.18,
+      2.48
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五005|2026-08-15 00:50",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五005",
+    "league": "沙特联",
+    "kickoff": "2026-08-15 00:50",
+    "home": "未来体育",
+    "away": "费哈",
+    "china_1x2": [
+      1.72,
+      3.4,
+      3.95
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五006|2026-08-15 01:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五006",
+    "league": "瑞典超",
+    "kickoff": "2026-08-15 01:00",
+    "home": "埃夫斯堡",
+    "away": "瓦斯特拉",
+    "china_1x2": [
+      1.65,
+      3.65,
+      4.01
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五007|2026-08-15 01:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五007",
+    "league": "挪超",
+    "kickoff": "2026-08-15 01:00",
+    "home": "罗森博格",
+    "away": "维京",
+    "china_1x2": [
+      2.43,
+      3.65,
+      2.25
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五008|2026-08-15 02:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五008",
+    "league": "沙特联",
+    "kickoff": "2026-08-15 02:00",
+    "home": "达曼协作",
+    "away": "利雅体育",
+    "china_1x2": [
+      1.85,
+      3.4,
+      3.4
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五009|2026-08-15 02:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五009",
+    "league": "沙特联",
+    "kickoff": "2026-08-15 02:00",
+    "home": "利雅新月",
+    "away": "费萨里",
+    "china_1x2": null,
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五010|2026-08-15 02:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五010",
+    "league": "荷甲",
+    "kickoff": "2026-08-15 02:00",
+    "home": "特尔斯达",
+    "away": "鹿斯巴达",
+    "china_1x2": [
+      2.17,
+      3.45,
+      2.65
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五011|2026-08-15 02:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五011",
+    "league": "荷乙",
+    "kickoff": "2026-08-15 02:00",
+    "home": "瓦尔韦克",
+    "away": "多德勒支",
+    "china_1x2": [
+      1.77,
+      3.5,
+      3.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五012|2026-08-15 02:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五012",
+    "league": "荷乙",
+    "kickoff": "2026-08-15 02:00",
+    "home": "赫拉克勒",
+    "away": "登博思",
+    "china_1x2": [
+      1.51,
+      4.25,
+      4.35
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五013|2026-08-15 02:45",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五013",
+    "league": "法乙",
+    "kickoff": "2026-08-15 02:45",
+    "home": "阿纳西",
+    "away": "罗德兹",
+    "china_1x2": [
+      1.97,
+      3.2,
+      3.25
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五014|2026-08-15 02:45",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五014",
+    "league": "法乙",
+    "kickoff": "2026-08-15 02:45",
+    "home": "兰斯",
+    "away": "敦刻尔克",
+    "china_1x2": [
+      1.56,
+      3.6,
+      4.75
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五015|2026-08-15 02:45",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五015",
+    "league": "法乙",
+    "kickoff": "2026-08-15 02:45",
+    "home": "圣埃蒂安",
+    "away": "克莱蒙",
+    "china_1x2": [
+      1.35,
+      4.3,
+      6.4
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五016|2026-08-15 03:00",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五016",
+    "league": "英冠",
+    "kickoff": "2026-08-15 03:00",
+    "home": "狼队",
+    "away": "布莱克本",
+    "china_1x2": [
+      1.38,
+      4.05,
+      6.35
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五017|2026-08-15 03:15",
+    "locked_at": "2026-08-13T17:48:09.973563+08:00",
+    "status": "locked",
+    "code": "周五017",
+    "league": "葡超",
+    "kickoff": "2026-08-15 03:15",
+    "home": "里斯本",
+    "away": "吉马良斯",
+    "china_1x2": [
+      1.14,
+      6.0,
+      11.8
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
