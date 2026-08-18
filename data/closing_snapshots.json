@@ -6868,5 +6868,71 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-08-18T22:05:11.324855+08:00",
+    "items": [
+      {
+        "code": "周三001",
+        "kickoff": "2026-08-19 18:30",
+        "china": [
+          2.63,
+          3.0,
+          2.41
+        ],
+        "average": null
+      },
+      {
+        "code": "周三002",
+        "kickoff": "2026-08-20 03:00",
+        "china": [
+          1.2,
+          5.1,
+          10.0
+        ],
+        "average": null
+      },
+      {
+        "code": "周三003",
+        "kickoff": "2026-08-20 06:00",
+        "china": [
+          5.05,
+          3.05,
+          1.66
+        ],
+        "average": null
+      },
+      {
+        "code": "周三006",
+        "kickoff": "2026-08-20 03:00",
+        "china": [
+          1.58,
+          3.7,
+          4.45
+        ],
+        "average": null
+      },
+      {
+        "code": "周三007",
+        "kickoff": "2026-08-20 03:00",
+        "china": [
+          2.35,
+          3.5,
+          2.4
+        ],
+        "average": null
+      },
+      {
+        "code": "周三008",
+        "kickoff": "2026-08-20 03:00",
+        "china": [
+          1.68,
+          3.5,
+          4.05
+        ],
+        "average": null
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
