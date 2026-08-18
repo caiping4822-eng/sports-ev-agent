@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-18",
   "pipeline_version": 9,
-  "updated_at": "2026-08-17T11:36:14.867117+08:00",
+  "updated_at": "2026-08-18T11:27:49.479810+08:00",
   "events": [
     {
-      "code": "周一001",
-      "match": "赫尔火花 vs 埃尔维斯",
+      "code": "周二001",
+      "match": "门多萨 vs 弗鲁米嫩",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周一002",
-      "match": "赫根 vs 哈斯塔德",
+      "code": "周二002",
+      "match": "索列夫 vs 雅典AEK",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周一003",
-      "match": "卡迪夫城 vs 雷克瑟姆",
+      "code": "周二003",
+      "match": "萨迪纳摩 vs 维京",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周一004",
-      "match": "拉科 vs 埃尔切",
+      "code": "周二004",
+      "match": "费内巴切 vs 里昂",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,92 +100,58 @@
       }
     },
     {
-      "code": "周一005",
-      "match": "卡沙比亚 vs 本菲卡",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周一006",
-      "match": "巴西国际 vs 雷莫",
-      "status": "有效来源 12 个（伤停/背景/赛程三路）",
+      "code": "周三001",
+      "match": "FC安养 vs 济州SK",
+      "status": "有效来源 10 个（伤停/背景/赛程三路）",
       "sources": [
         {
-          "title": "Internacional vs Remo - prediction, team news, lineups",
-          "url": "https://www.sportsmole.co.uk/football/internacional/preview/internacional-vs-remo-prediction-team-news-lineups_603106.html",
+          "title": "Jeju SK vs FC Anyang - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/jeju-sk-vs-fc-anyang/20w7bzef",
           "category": "伤停与阵容"
         },
         {
-          "title": "Internacional vs Remo - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/remo-vs-altos/96j37sq",
+          "title": "Jeju vs FC Anyang Prediction, Betting Tips, Lineups & Odds",
+          "url": "https://www.sportsgambler.com/betting-tips/football/jeju-vs-fc-anyang-prediction-lineups-odds-2026-08-15",
           "category": "伤停与阵容"
         },
         {
-          "title": "Internacional vs Remo: prediction, lineups, injuries & team news — Serie A, 17.08.2026",
-          "url": "https://newsedge.bet/en/match/internacional-vs-remo-2026-08-17",
+          "title": "Jeju SK, which was in tension due to the rise of key resources, was relieved first. Injured captain .. - MK",
+          "url": "https://www.mk.co.kr/en/sports/11984524",
           "category": "伤停与阵容"
         },
         {
-          "title": "Internacional vs Remo Prediction, Betting Tips, Lineups & Odds | 17 Aug 2026",
-          "url": "https://www.sportsgambler.com/betting-tips/football/internacional-vs-remo-prediction-lineups-odds-2026-08-17",
+          "title": "Jeju SK FC vs. FC Anyang Odds & Predictions (Aug. 15, 2026) | Polymarket",
+          "url": "https://polymarket.com/sports/kor/kor-jej-any-2026-08-15",
           "category": "伤停与阵容"
         },
         {
-          "title": "Internacional Brazil Serie A Standings",
-          "url": "https://www.foxsports.com/soccer/internacional-team-standings",
+          "title": "Jeju United FC vs FC Anyang: K League 1 Mid-Table Clash Preview | Tiki",
+          "url": "https://www.tikitaka.gg/articles/1506982-jeju-united-fc-vs-fc-anyang-preview",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Remo Table - Home, Away, Form Guide | Serie A Table | LiveScore",
-          "url": "https://www.livescore.com/en/football/team/remo/4748/tables/24199",
+          "title": "Key Matches in the Key Races: Alternative K League 1 Round 36 Preview - K League United | South Korean football news, opinions, match previews and score predictions",
+          "url": "http://www.kleagueunited.com/2025/11/key-matches-in-key-races-alternative-k.html",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Serie A Table and Standings - Football",
-          "url": "https://www.bbc.com/sport/football/brazilian-league/table",
+          "title": "Jeju SK 2 - 0 FC Anyang (08/15) - Game Report",
+          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/fc-anyang-jeju-united-9817-11471-618",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Internacional vs Remo - live score, predicted lineups and ...",
-          "url": "https://www.fotmob.com/matches/remo-vs-internacional/vrfbe",
+          "title": "Jeju United Table - Home, Away, Form Guide | K-League 1 Table | LiveScore",
+          "url": "https://www.livescore.com/en/football/team/jeju-united/8269/tables/24390",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Jeju SK FC vs FC Anyang Head to Head History - AiScore",
+          "url": "https://m.aiscore.com/en/head-to-head/soccer-fc-anyang-vs-jeju-united",
           "category": "近期状态与赛程"
         },
         {
-          "title": "Internacional vs. Remo (Aug 17, 2026) Live Score",
-          "url": "https://www.espn.com/soccer/match/_/gameId/401841191/remo-internacional",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Remo vs Internacional: Serie A stats & head-to-head - BBC Sport",
-          "url": "https://www.bbc.com/sport/football/live/cz6e3exjwg0t",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Internacional vs Remo: Scores, Results Lineups, H2H & Odds",
-          "url": "https://www.365scores.com/en-us/football/match/brasileirao-serie-a-113/internacional-remo-1219-7383-113",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Internacional-Remo - Brasileirão 2026 Head to Head Statistics",
-          "url": "https://www.whoscored.com/matches/1955867/show/brazil-brasileir%C3%A3o-2026-internacional-brazil",
+          "title": "Jeju SK FC - FC Anyang: Head-to-Head Record & History | worldfootball.net",
+          "url": "https://www.worldfootball.net/match-report/co51/south-korea-k-league-1/ma10864670/jeju-sk-fc_fc-anyang/head-to-head",
           "category": "近期状态与赛程"
         }
       ],
@@ -196,34 +162,140 @@
         "model": "deepseek-chat"
       },
       "research": {
-        "summary": "本场比赛为巴西甲级联赛第23轮，由国际体育会主场对阵雷莫。根据现有资料，国际体育会目前排名第16位，雷莫排名第19位，两队均处于联赛中下游。双方历史交锋记录为1场平局，无胜负。伤停方面，国际体育会有多名球员缺阵，包括门将罗切特、中场蒂亚戈·迈亚等；雷莫则有后卫泽·伊瓦尔多解禁复出，但仍有球员因伤缺阵。比赛将于2026年8月18日07:00（北京时间）进行。",
-        "competition_context": [
-          "巴西甲级联赛第23轮，国际体育会主场对阵雷莫。",
-          "国际体育会目前22轮积23分，排名第16位；雷莫22轮积22分，排名第19位。",
-          "双方历史交锋记录为1场平局，无胜负。"
-        ],
-        "motivation_evidence": [
-          "国际体育会排名第16位，仅比降级区高1分，有保级压力。",
-          "雷莫排名第19位，处于降级区，急需抢分保级。"
-        ],
-        "form_schedule": [
-          "国际体育会近期5场联赛战绩为1胜2平2负，状态一般。",
-          "雷莫近期5场联赛战绩为2胜1平2负，状态尚可。",
-          "国际体育会上一场联赛为8月8日主场2-2战平米内罗竞技。",
-          "雷莫上一场联赛为8月9日客场0-0战平帕尔梅拉斯。"
-        ],
-        "confirmed": [
-          "国际体育会：门将塞尔吉奥·罗切特、中场蒂亚戈·迈亚、前锋杜普莱克斯·查姆巴、凯基因伤缺阵；后卫维克托·加布里埃尔停赛。",
-          "雷莫：后卫泽·伊瓦尔多解禁复出；前锋杜普莱克斯·查姆巴、中场帕特里克·德·保拉、若昂·卢卡斯因伤缺阵。"
-        ],
+        "summary": "根据现有搜索摘要，无法确认2026年8月19日FC Anyang对阵Jeju SK的赛前事实。摘要中提及的比赛日期为2026年8月15日，且结果存在矛盾（有来源显示Jeju 2-0 Anyang，另有来源显示Anyang 2-1 Jeju）。伤停信息不明确，仅提及Jeju队长Lee Chang-min的伤势不严重。联赛背景和战意依据部分来自2025年或2026年5月的旧信息，不适用于本场比赛。",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
         "uncertain": [
-          "国际体育会中场罗德里戈·维拉格拉伤愈复出，但能否首发存在不确定性。",
-          "雷莫左后卫马尔隆预计首发，但马伊克因肌肉伤病缺阵。"
+          "比赛日期：搜索摘要中提及的比赛日期为2026年8月15日，而非8月19日，存在矛盾。",
+          "近期战绩：摘要中提及的近期比赛结果不一致，需进一步核实。",
+          "伤停信息：仅提及Jeju队长Lee Chang-min的伤势不严重，但未确认其是否出战。"
         ],
         "risks": [
-          "部分来源显示比赛时间为2026年8月17日23:00 UTC，与开赛时间2026-08-18 07:00（北京时间）一致，但需注意时区转换。",
-          "伤停信息来自多个来源，可能存在更新延迟，建议赛前关注官方名单。",
-          "历史交锋记录样本较少，参考价值有限。"
+          "来源问题：部分来源（如FotMob、SportsGambler）提供的是预测阵容，并非官方确认。",
+          "来源问题：搜索结果中包含2025年或2026年5月的旧信息，可能不适用于本场比赛。",
+          "来源问题：不同来源对同一场比赛的结果描述存在矛盾，需以官方数据为准。"
+        ]
+      }
+    },
+    {
+      "code": "周三002",
+      "match": "马竞 vs 马拉加",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三003",
+      "match": "波特诺 vs 帕梅拉斯",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三006",
+      "match": "凯尔特人 vs LA林茨",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三007",
+      "match": "奈梅亨 vs 博德闪耀",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三008",
+      "match": "布拉迪斯 vs 采列",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
         ]
       }
     }
