@@ -7068,5 +7068,41 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-08-19T22:05:35.103674+08:00",
+    "items": [
+      {
+        "code": "周四001",
+        "kickoff": "2026-08-21 02:00",
+        "china": [
+          10.0,
+          5.72,
+          1.17
+        ],
+        "average": null
+      },
+      {
+        "code": "周四002",
+        "kickoff": "2026-08-21 03:00",
+        "china": [
+          2.01,
+          2.84,
+          3.58
+        ],
+        "average": null
+      },
+      {
+        "code": "周四003",
+        "kickoff": "2026-08-21 08:30",
+        "china": [
+          1.86,
+          2.67,
+          4.6
+        ],
+        "average": null
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
