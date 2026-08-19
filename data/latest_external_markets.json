@@ -1,32 +1,4 @@
 {
-  "2040930": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2040943": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2040950": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2040944": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
   "2040937": {
     "available": false,
     "errors": [
@@ -48,6 +20,20 @@
       "soccer_brazil_campeonato:RuntimeError"
     ]
   },
+  "2040932": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
+  "2040933": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
   "2040945": {
     "available": false,
     "errors": [
@@ -63,6 +49,27 @@
     ]
   },
   "2040947": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
+  "2040934": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
+  "2040935": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
+  "2040936": {
     "available": false,
     "errors": [
       "soccer_uefa_champs_league:RuntimeError",
