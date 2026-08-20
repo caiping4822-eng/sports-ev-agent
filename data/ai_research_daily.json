@@ -1,264 +1,8 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "pipeline_version": 9,
-  "updated_at": "2026-08-19T11:32:30.260801+08:00",
+  "updated_at": "2026-08-20T11:32:34.653652+08:00",
   "events": [
-    {
-      "code": "周三001",
-      "match": "FC安养 vs 济州SK",
-      "status": "有效来源 10 个（伤停/背景/赛程三路）",
-      "sources": [
-        {
-          "title": "Jeju SK vs FC Anyang - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/jeju-sk-vs-fc-anyang/20w7bzef",
-          "category": "伤停与阵容"
-        },
-        {
-          "title": "Jeju vs FC Anyang Prediction, Betting Tips, Lineups & Odds",
-          "url": "https://www.sportsgambler.com/betting-tips/football/jeju-vs-fc-anyang-prediction-lineups-odds-2026-08-15",
-          "category": "伤停与阵容"
-        },
-        {
-          "title": "Korea Cup Preview: FC Anyang VS Jeju SK FC - prediction, team news, lineups - 7msport",
-          "url": "https://news.7msport.com/news/newsdata/20260818/263131.shtml",
-          "category": "伤停与阵容"
-        },
-        {
-          "title": "Jeju United FC vs FC Anyang: K League 1 Mid-Table Clash Preview | Tiki",
-          "url": "https://www.tikitaka.gg/articles/1506982-jeju-united-fc-vs-fc-anyang-preview",
-          "category": "联赛背景与战意依据"
-        },
-        {
-          "title": "K League 1: Jeju United vs FC Anyang – Mid-Table Battle for Crucial Points",
-          "url": "https://www.chopsoc.com/news/50068872",
-          "category": "联赛背景与战意依据"
-        },
-        {
-          "title": "Key Matches in the Key Races: Alternative K League 1 Round 36 Preview - K League United | South Korean football news, opinions, match previews and score predictions",
-          "url": "http://www.kleagueunited.com/2025/11/key-matches-in-key-races-alternative-k.html",
-          "category": "联赛背景与战意依据"
-        },
-        {
-          "title": "Jeju SK 2 - 0 FC Anyang (08/15) - Game Report",
-          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/fc-anyang-jeju-united-9817-11471-618",
-          "category": "联赛背景与战意依据"
-        },
-        {
-          "title": "Jeju SK FC vs FC Anyang Head to Head History - AiScore",
-          "url": "https://m.aiscore.com/en/head-to-head/soccer-fc-anyang-vs-jeju-united",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Jeju SK vs FC Anyang H2H, Fixtures, Predictions and Winning Tips, Head to Head(win%) - isfa.com",
-          "url": "https://www.isfa.com/h2h/4708599",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Jeju SK live score, schedule & player stats",
-          "url": "https://www.sofascore.com/football/team/jeju-united/7649",
-          "category": "近期状态与赛程"
-        }
-      ],
-      "valid": true,
-      "deepseek": {
-        "success": true,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat"
-      },
-      "research": {
-        "summary": "根据现有搜索摘要，本场比赛为2026年8月19日FC Anyang对阵Jeju SK的韩国杯赛事。近期两队曾在K联赛1交锋，Jeju SK以2-0获胜。但关于本场比赛的伤停、阵容等详细信息尚未确认。",
-        "competition_context": [
-          "本场比赛为韩国杯（Korea Cup）赛事。",
-          "近期K联赛1中，Jeju SK于2026年8月15日以2-0击败FC Anyang。"
-        ],
-        "motivation_evidence": [
-          "韩国杯为淘汰赛制，双方均有晋级动力。",
-          "FC Anyang在K联赛1中排名第10，面临保级压力，可能更重视联赛，但杯赛仍具战意。"
-        ],
-        "form_schedule": [
-          "Jeju SK近期取得两连胜，包括2-0战胜FC Anyang。",
-          "FC Anyang近期遭遇三连败，状态不佳。",
-          "Jeju SK近期客场表现优异，取得两连胜。"
-        ],
-        "confirmed": [],
-        "uncertain": [
-          "两队本场比赛的具体首发阵容尚未公布。",
-          "伤停信息未明确。"
-        ],
-        "risks": [
-          "部分来源（如7msport）可能为预测性内容，非官方信息。",
-          "比赛开赛时间与部分来源显示的日期（8月15日）不一致，需核实。"
-        ]
-      }
-    },
-    {
-      "code": "周三002",
-      "match": "马竞 vs 马拉加",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三003",
-      "match": "波特诺 vs 帕梅拉斯",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三004",
-      "match": "纽约红牛 vs 纳什威尔",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三005",
-      "match": "科罗拉多 vs 洛杉矶",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三006",
-      "match": "凯尔特人 vs LA林茨",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三007",
-      "match": "奈梅亨 vs 博德闪耀",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三008",
-      "match": "布拉迪斯 vs 采列",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
     {
       "code": "周四001",
       "match": "费哈 vs 利雅新月",
@@ -328,6 +72,270 @@
         "uncertain": [],
         "risks": [
           "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周四004",
+      "match": "图凯拉特 vs 安德莱赫",
+      "status": "有效来源 8 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Preview: Kairat vs Anderlecht - prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/kairat/preview/kairat-vs-anderlecht-prediction-team-news-lineups_603245.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Kairat vs Anderlecht Prediction 20/08/2026 - Football",
+          "url": "https://scores24.live/en/soccer/m-20-08-2026-kairat-almaty-rsc-anderlecht-prediction",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Kairat Almaty vs Anderlecht prediction, preview & betting tips",
+          "url": "https://footballwhispers.com/blog/kairat-almaty-vs-anderlecht-prediction-20-08-2026",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Kairat vs RSC Anderlecht Stats, H2H, xG | FootyStats",
+          "url": "https://footystats.org/europe/rsc-anderlecht-vs-fk-kairat-almaty-h2h-stats",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Kairat Almaty vs Anderlecht Prediction and Betting Tips",
+          "url": "https://www.sportskeeda.com/football/kairat-almaty-vs-anderlecht-prediction-betting-tips-august-20th-2026",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Kairat Almaty vs Anderlecht: Scores, Results Lineups, H2H ...",
+          "url": "https://www.365scores.com/en-us/football/match/uefa-europa-league-qualifiers-596/anderlecht-kairat-almaty-1173-10564-596",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Kairat vs Anderlecht Match Preview, Stats & Prediction - Europa League",
+          "url": "https://statz.ai/h2h/kairat-vs-anderlecht/19788667",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Form and head to head stats Anderlecht vs K Almaty",
+          "url": "https://www.skysports.com/football/anderlecht-vs-kairat-almaty/577486",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "本场比赛为欧联杯资格赛附加赛首回合，Kairat主场对阵Anderlecht。Kairat在欧冠资格赛第三轮被淘汰后转战欧联杯，而Anderlecht从欧联杯资格赛第二轮打起。双方无历史交锋记录，伤停信息未获取。",
+        "competition_context": [
+          "本场比赛是2026-2027赛季欧联杯资格赛附加赛首回合，胜者将进入欧联杯联赛阶段，败者将进入欧协联联赛阶段。",
+          "Kairat在欧冠资格赛第三轮被莱夫斯基索菲亚双杀（两回合均0-1），从而降入欧联杯资格赛。",
+          "Anderlecht在欧联杯资格赛第二轮开始参赛，前两轮保持不败。",
+          "Kairat在哈萨克斯坦超级联赛中排名第二，21场比赛积48分，仅输1场。",
+          "Anderlecht在比利时甲级联赛中排名第八，联赛刚开始，积3分。"
+        ],
+        "motivation_evidence": [
+          "本场比赛为两回合淘汰赛，胜者晋级欧联杯联赛阶段，败者进入欧协联，双方均有强烈战意。",
+          "Kairat在欧冠资格赛出局后，欧联杯成为其进入欧战正赛的唯一途径。",
+          "Anderlecht作为比利时传统强队，渴望重返欧战正赛。"
+        ],
+        "form_schedule": [
+          "Kairat在欧冠资格赛第三轮两回合均0-1负于莱夫斯基索菲亚。",
+          "Kairat在最近5场欧洲比赛中仅打入7球，且对阵莱夫斯基索菲亚两回合均未进球。",
+          "Anderlecht在欧联杯资格赛前两轮保持不败，进球分布在西坎、茨韦特科维奇和德格雷夫等球员。",
+          "Anderlecht在周末的联赛中失利，这是他们自5月以来的首场失利。",
+          "Kairat在联赛中状态良好，近期击败了乌利套，巩固了争冠位置。"
+        ],
+        "confirmed": [],
+        "uncertain": [
+          "双方伤停情况未获取到明确信息。",
+          "比赛具体场地存在矛盾：部分来源显示为阿拉木图，另一来源显示为希萨尔中央体育场。"
+        ],
+        "risks": [
+          "伤停与阵容信息未获取到可靠来源。",
+          "比赛场地信息存在矛盾，需进一步核实。",
+          "部分数据来源（如FootyStats）未提供有效信息，可能影响分析准确性。"
+        ]
+      }
+    },
+    {
+      "code": "周四005",
+      "match": "米亚尔比 vs 萨尔茨堡",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周四006",
+      "match": "特拉布宗 vs 费伦茨瓦",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周四007",
+      "match": "波兹莱赫 vs 图恩",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周四008",
+      "match": "贝红星 vs 比尔森",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周四009",
+      "match": "本菲卡 vs 奥胡斯",
+      "status": "有效来源 8 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Benfica vs AGF Aarhus prediction, preview & betting tips – 20/08/26",
+          "url": "https://footballwhispers.com/blog/benfica-vs-agf-aarhus-prediction-preview-betting-tips-20-08-26",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Benfica vs AGF Stats, H2H, xG | FootyStats",
+          "url": "https://footystats.org/europe/sl-benfica-vs-aarhus-gymnastikforening-h2h-stats",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Prediction: Benfica vs AGF - SoccerNews",
+          "url": "https://www.soccernews.com/prediction-benfica-vs-agf/403477",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Preview: Benfica vs Aarhus - prediction, team news, lineups",
+          "url": "https://www.sportsmole.co.uk/football/benfica/europa-league/preview/benfica-vs-aarhus-prediction-team-news-lineups_603235.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Form and head to head stats Benfica vs AGF Aarhus - Sky Sports",
+          "url": "https://www.skysports.com/football/benfica-vs-agf-aarhus/577481",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "AGF vs. Benfica (Aug 27, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401910977/benfica-agf",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Benfica vs AGF Aarhus Live Score, H2H Stats & Odds",
+          "url": "https://oddspedia.com/us/soccer/benfica-agf-aarhus-2084762",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Benfica vs AGF Aarhus: Who will win the 2026/27 Europa League match?",
+          "url": "https://www.facebook.com/groups/2890781957911908/posts/4644121919244561",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "本场比赛为2026-27赛季欧联杯资格赛附加赛，本菲卡对阵AGF。本菲卡在首回合客场1-1战平AGF，总比分2-7（注：原文数据可能有误，实际首回合为1-1，总比分2-7可能为笔误）。本菲卡近期状态出色，而AGF近期表现不佳。",
+        "competition_context": [
+          "本场比赛是2026-27赛季欧联杯资格赛附加赛，首回合本菲卡客场1-1战平AGF。",
+          "本菲卡在2025-26赛季葡超排名第三，获得欧联杯资格赛席位。",
+          "AGF在丹麦超排名第十，通过欧冠资格赛第三轮（被淘汰）后进入欧联杯资格赛。"
+        ],
+        "motivation_evidence": [
+          "本菲卡作为葡超强队，主场作战，战意强烈，希望晋级欧联杯正赛。",
+          "AGF在欧冠资格赛被淘汰后，欧联杯成为其唯一欧战机会，同样有较强战意。"
+        ],
+        "form_schedule": [
+          "本菲卡近期各项赛事近10场取得5胜，场均进球3.3个，最近一场7-0大胜卡萨皮亚。",
+          "AGF近7场仅2胜，且连续两场失利（0-4负萨巴赫，1-2负维堡）。",
+          "本菲卡欧联杯资格赛第三轮两回合总比分7-2淘汰哈茨。",
+          "AGF欧冠资格赛第三轮两回合总比分2-5负于萨巴赫，降入欧联杯资格赛。"
+        ],
+        "confirmed": [
+          "本菲卡首回合客场1-1战平AGF。",
+          "AGF多名防守和中场球员因伤缺阵。"
+        ],
+        "uncertain": [
+          "本菲卡具体伤停情况未明确。",
+          "AGF具体伤停名单未详细列出。"
+        ],
+        "risks": [
+          "部分来源数据存在矛盾，如总比分2-7可能为笔误，需核实。",
+          "伤停信息未从官方渠道确认，存在不确定性。"
         ]
       }
     }

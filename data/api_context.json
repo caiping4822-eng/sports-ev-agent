@@ -1,36 +1,4 @@
 {
-  "周三001": {
-    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
-    "mapping_score": 0
-  },
-  "周三002": {
-    "status": "球队别名未收录：马竞,马拉加",
-    "mapping_score": 0
-  },
-  "周三003": {
-    "status": "球队别名未收录：波特诺",
-    "mapping_score": 0
-  },
-  "周三004": {
-    "status": "球队别名未收录：纽约红牛,纳什威尔",
-    "mapping_score": 0
-  },
-  "周三005": {
-    "status": "球队别名未收录：科罗拉多,洛杉矶",
-    "mapping_score": 0
-  },
-  "周三006": {
-    "status": "球队别名未收录：凯尔特人,LA林茨",
-    "mapping_score": 0
-  },
-  "周三007": {
-    "status": "球队别名未收录：奈梅亨",
-    "mapping_score": 0
-  },
-  "周三008": {
-    "status": "球队别名未收录：布拉迪斯,采列",
-    "mapping_score": 0
-  },
   "周四001": {
     "status": "球队别名未收录：费哈,利雅新月",
     "mapping_score": 0
@@ -41,6 +9,30 @@
   },
   "周四003": {
     "status": "球队别名未收录：罗萨里奥",
+    "mapping_score": 0
+  },
+  "周四004": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周四005": {
+    "status": "球队别名未收录：米亚尔比,萨尔茨堡",
+    "mapping_score": 0
+  },
+  "周四006": {
+    "status": "球队别名未收录：特拉布宗",
+    "mapping_score": 0
+  },
+  "周四007": {
+    "status": "球队别名未收录：图恩",
+    "mapping_score": 0
+  },
+  "周四008": {
+    "status": "球队别名未收录：贝红星,比尔森",
+    "mapping_score": 0
+  },
+  "周四009": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
   }
 }
