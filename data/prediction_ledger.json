@@ -7188,5 +7188,199 @@
     ],
     "fixture_id": null,
     "forced": null
+  },
+  {
+    "key": "周五001|2026-08-21 18:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五001",
+    "league": "日职联",
+    "kickoff": "2026-08-21 18:00",
+    "home": "柏太阳神",
+    "away": "长崎航海",
+    "china_1x2": [
+      1.37,
+      4.1,
+      6.45
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五002|2026-08-21 18:30",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五002",
+    "league": "日职联",
+    "kickoff": "2026-08-21 18:30",
+    "home": "FC东京",
+    "away": "千叶市原",
+    "china_1x2": [
+      1.37,
+      4.05,
+      6.55
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五003|2026-08-22 00:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五003",
+    "league": "沙特联",
+    "kickoff": "2026-08-22 00:00",
+    "home": "利雅体育",
+    "away": "利雅胜利",
+    "china_1x2": [
+      10.0,
+      6.0,
+      1.16
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五004|2026-08-22 00:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五004",
+    "league": "芬超",
+    "kickoff": "2026-08-22 00:00",
+    "home": "塞纳乔琪",
+    "away": "拉赫蒂",
+    "china_1x2": [
+      2.29,
+      3.25,
+      2.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五005|2026-08-22 01:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五005",
+    "league": "瑞典超",
+    "kickoff": "2026-08-22 01:00",
+    "home": "天狼星",
+    "away": "赫根",
+    "china_1x2": [
+      1.7,
+      3.95,
+      3.5
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五006|2026-08-22 02:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五006",
+    "league": "沙特联",
+    "kickoff": "2026-08-22 02:00",
+    "home": "卡达西亚",
+    "away": "吉达联合",
+    "china_1x2": [
+      1.45,
+      4.3,
+      4.82
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五007|2026-08-22 02:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五007",
+    "league": "法乙",
+    "kickoff": "2026-08-22 02:00",
+    "home": "敦刻尔克",
+    "away": "蒙彼利埃",
+    "china_1x2": [
+      2.27,
+      3.15,
+      2.7
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五008|2026-08-22 02:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五008",
+    "league": "荷乙",
+    "kickoff": "2026-08-22 02:00",
+    "home": "登博思",
+    "away": "埃因FC",
+    "china_1x2": [
+      1.74,
+      3.85,
+      3.4
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五009|2026-08-22 02:45",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五009",
+    "league": "法甲",
+    "kickoff": "2026-08-22 02:45",
+    "home": "马赛",
+    "away": "斯特拉斯",
+    "china_1x2": [
+      1.65,
+      3.75,
+      3.9
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五010|2026-08-22 03:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五010",
+    "league": "英超",
+    "kickoff": "2026-08-22 03:00",
+    "home": "阿森纳",
+    "away": "考文垂",
+    "china_1x2": null,
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五011|2026-08-22 03:00",
+    "locked_at": "2026-08-20T16:04:34.697525+08:00",
+    "status": "locked",
+    "code": "周五011",
+    "league": "西甲",
+    "kickoff": "2026-08-22 03:00",
+    "home": "贝蒂斯",
+    "away": "皇家社会",
+    "china_1x2": [
+      2.0,
+      3.26,
+      3.1
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

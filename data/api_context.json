@@ -34,5 +34,49 @@
   "周四009": {
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
+  },
+  "周五001": {
+    "status": "球队别名未收录：柏太阳神,长崎航海",
+    "mapping_score": 0
+  },
+  "周五002": {
+    "status": "球队别名未收录：FC东京,千叶市原",
+    "mapping_score": 0
+  },
+  "周五003": {
+    "status": "球队别名未收录：利雅体育,利雅胜利",
+    "mapping_score": 0
+  },
+  "周五004": {
+    "status": "球队别名未收录：塞纳乔琪,拉赫蒂",
+    "mapping_score": 0
+  },
+  "周五005": {
+    "status": "球队别名未收录：天狼星,赫根",
+    "mapping_score": 0
+  },
+  "周五006": {
+    "status": "球队别名未收录：卡达西亚,吉达联合",
+    "mapping_score": 0
+  },
+  "周五007": {
+    "status": "球队别名未收录：敦刻尔克,蒙彼利埃",
+    "mapping_score": 0
+  },
+  "周五008": {
+    "status": "球队别名未收录：登博思,埃因FC",
+    "mapping_score": 0
+  },
+  "周五009": {
+    "status": "球队别名未收录：马赛,斯特拉斯",
+    "mapping_score": 0
+  },
+  "周五010": {
+    "status": "球队别名未收录：阿森纳,考文垂",
+    "mapping_score": 0
+  },
+  "周五011": {
+    "status": "球队别名未收录：贝蒂斯,皇家社会",
+    "mapping_score": 0
   }
 }
