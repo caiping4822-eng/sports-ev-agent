@@ -7322,5 +7322,111 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-08-20T22:08:49.273773+08:00",
+    "items": [
+      {
+        "code": "周五001",
+        "kickoff": "2026-08-21 18:00",
+        "china": [
+          1.39,
+          4.0,
+          6.25
+        ],
+        "average": null
+      },
+      {
+        "code": "周五002",
+        "kickoff": "2026-08-21 18:30",
+        "china": [
+          1.37,
+          4.05,
+          6.55
+        ],
+        "average": null
+      },
+      {
+        "code": "周五003",
+        "kickoff": "2026-08-22 00:00",
+        "china": [
+          10.0,
+          6.0,
+          1.16
+        ],
+        "average": null
+      },
+      {
+        "code": "周五004",
+        "kickoff": "2026-08-22 00:00",
+        "china": [
+          2.29,
+          3.25,
+          2.6
+        ],
+        "average": null
+      },
+      {
+        "code": "周五005",
+        "kickoff": "2026-08-22 01:00",
+        "china": [
+          1.7,
+          3.95,
+          3.5
+        ],
+        "average": null
+      },
+      {
+        "code": "周五006",
+        "kickoff": "2026-08-22 02:00",
+        "china": [
+          1.45,
+          4.3,
+          4.82
+        ],
+        "average": null
+      },
+      {
+        "code": "周五007",
+        "kickoff": "2026-08-22 02:00",
+        "china": [
+          2.27,
+          3.15,
+          2.7
+        ],
+        "average": null
+      },
+      {
+        "code": "周五008",
+        "kickoff": "2026-08-22 02:00",
+        "china": [
+          1.74,
+          3.85,
+          3.4
+        ],
+        "average": null
+      },
+      {
+        "code": "周五009",
+        "kickoff": "2026-08-22 02:45",
+        "china": [
+          1.65,
+          3.75,
+          3.9
+        ],
+        "average": null
+      },
+      {
+        "code": "周五011",
+        "kickoff": "2026-08-22 03:00",
+        "china": [
+          2.0,
+          3.26,
+          3.1
+        ],
+        "average": null
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
