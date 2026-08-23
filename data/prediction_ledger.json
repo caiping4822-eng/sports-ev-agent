@@ -9235,5 +9235,41 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周一002|2026-08-25 00:40",
+    "locked_at": "2026-08-23T15:48:04.916112+08:00",
+    "status": "locked",
+    "code": "周一002",
+    "league": "沙特联",
+    "kickoff": "2026-08-25 00:40",
+    "home": "未来体育",
+    "away": "卡达西亚",
+    "china_1x2": [
+      5.2,
+      4.5,
+      1.4
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一005|2026-08-25 02:00",
+    "locked_at": "2026-08-23T15:48:04.916112+08:00",
+    "status": "locked",
+    "code": "周一005",
+    "league": "沙特联",
+    "kickoff": "2026-08-25 02:00",
+    "home": "吉达联合",
+    "away": "哈森姆",
+    "china_1x2": [
+      1.37,
+      4.3,
+      6.0
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

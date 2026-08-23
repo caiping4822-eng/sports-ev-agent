@@ -195,6 +195,13 @@
       "soccer_brazil_campeonato:RuntimeError"
     ]
   },
+  "2041029": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
   "2041030": {
     "available": false,
     "errors": [
@@ -203,6 +210,13 @@
     ]
   },
   "2041031": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
+  "2041032": {
     "available": false,
     "errors": [
       "soccer_uefa_champs_league:RuntimeError",
