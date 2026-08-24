@@ -10614,5 +10614,31 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-08-24T22:25:32.568527+08:00",
+    "items": [
+      {
+        "code": "周二005",
+        "kickoff": "2026-08-26 03:00",
+        "china": [
+          1.8,
+          3.7,
+          3.3
+        ],
+        "average": null
+      },
+      {
+        "code": "周二006",
+        "kickoff": "2026-08-26 03:00",
+        "china": [
+          1.44,
+          4.5,
+          4.7
+        ],
+        "average": null
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
