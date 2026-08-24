@@ -9289,5 +9289,41 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周二005|2026-08-26 03:00",
+    "locked_at": "2026-08-24T16:29:24.882778+08:00",
+    "status": "locked",
+    "code": "周二005",
+    "league": "欧冠",
+    "kickoff": "2026-08-26 03:00",
+    "home": "LA林茨",
+    "away": "凯尔特人",
+    "china_1x2": [
+      1.8,
+      3.7,
+      3.3
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二006|2026-08-26 03:00",
+    "locked_at": "2026-08-24T16:29:24.882778+08:00",
+    "status": "locked",
+    "code": "周二006",
+    "league": "欧冠",
+    "kickoff": "2026-08-26 03:00",
+    "home": "博德闪耀",
+    "away": "奈梅亨",
+    "china_1x2": [
+      1.44,
+      4.5,
+      4.7
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
