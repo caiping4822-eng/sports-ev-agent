@@ -1,11 +1,166 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "pipeline_version": 9,
-  "updated_at": "2026-08-24T12:02:57.049334+08:00",
+  "updated_at": "2026-08-25T11:36:30.933265+08:00",
   "events": [
     {
-      "code": "周一001",
-      "match": "博洛尼亚 vs 拉齐奥",
+      "code": "周二001",
+      "match": "金泉尚武 vs 全北现代",
+      "status": "有效来源 6 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Gimcheon Sangmu vs Jeonbuk Hyundai Motors FC",
+          "url": "https://www.fotmob.com/matches/jeonbuk-hyundai-motors-fc-vs-gimcheon-sangmu/7fqlu5o",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Jeonbuk Hyundai and Gimcheon Sangmu Unveil Final Round Lineups",
+          "url": "https://www.chosun.com/english/sports-en/2025/10/25/4XM4VBLHAVHGNBMZIIJHTJMIRE",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Gimcheon Sangmu FC VS Jeonbuk Hyundai Motors - 7M Sports",
+          "url": "https://news.7msport.com/news/newsdata/20260824/264165.shtml",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Gimcheon Sangmu FC vs Jeonbuk Hyundai Motors live ...",
+          "url": "https://www.sofascore.com/football/match/gimcheon-sangmu-fc-jeonbuk-hyundai-motors/iNcsXcd",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Gimcheon Sangmu (SRL) vs Jeonbuk Hyundai Motors (SRL) H2H Stats & Results | Head-to-Head",
+          "url": "https://scores24.live/en/soccer/m-25-08-2026-gimcheon-sangmu-srl-jeonbuk-srl-h2h",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Gimcheon Sangmu Football Club vs Jeonbuk Hyundai Motors Head to Head History - AiScore",
+          "url": "https://m.aiscore.com/head-to-head/soccer-gimcheon-sangmu-football-club-vs-jeonbuk-hyundai-motors",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "本场比赛为2026年8月25日K联赛第25轮，由金泉尚武主场对阵全北现代。根据现有资料，全北现代排名联赛第二，落后榜首13分，战意较强；金泉尚武近期状态不佳，近4场3平1负。历史交锋中全北现代占据明显优势。但伤停信息尚未公布，需关注赛前官方名单。",
+        "competition_context": [
+          "K League 1, Round 25",
+          "全北现代目前排名联赛第2，落后榜首13分",
+          "历史交锋记录：金泉尚武6胜9平21负（另一来源显示8胜15平31负，存在差异）"
+        ],
+        "motivation_evidence": [
+          "全北现代排名第2，落后榜首13分，球队旨在全取三分缩小差距，战意较高"
+        ],
+        "form_schedule": [
+          "金泉尚武近4场比赛3平1负，状态不佳",
+          "金泉尚武上一场0-0战平济州SK",
+          "全北现代近3场比赛1胜2平保持不败",
+          "全北现代上一场1-0击败蔚山HD，Bruno Mota打入唯一进球"
+        ],
+        "confirmed": [
+          "全北现代球员Compagno因伤无法出战"
+        ],
+        "uncertain": [
+          "金泉尚武和全北现代的具体伤停名单尚未公布",
+          "双方首发阵容尚未确定"
+        ],
+        "risks": [
+          "历史交锋数据来源不一致（FotMob显示6胜9平21负，AiScore显示8胜15平31负），需进一步核实",
+          "部分信息来自非官方渠道（如7M Sport），可能存在偏差",
+          "伤停信息可能随赛前官方公告而变化"
+        ]
+      }
+    },
+    {
+      "code": "周二002",
+      "match": "济州SK vs 浦项制铁",
+      "status": "有效来源 8 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Jeju SK vs Pohang Steelers - live score, predicted lineups ...",
+          "url": "https://www.fotmob.com/matches/pohang-steelers-vs-jeju-sk/dldi806",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Pohang Steelers - league table, form guide and next opponent",
+          "url": "https://www.fotmob.com/teams/109373/table/pohang-steelers",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "LIVE  Jeju SK FC vs Pohang Steelers | Korean K League 1 ...",
+          "url": "https://www.youtube.com/watch?v=tYHQno8yrcs",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Jeju United vs Pohang Steelers Prediction, Stats, H2H",
+          "url": "https://www.forebet.com/en/football/matches/jeju-united-pohang-steelers-2430979",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Jeju United vs Pohang Steelers - Head-to-Head Record, Stats & ELO | TheyScored",
+          "url": "https://www.theyscored.com/head-to-head/jeju-united-vs-pohang-steelers",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Jeju SK FC vs Pohang Steelers Head to Head History",
+          "url": "https://www.aiscore.com/zht/head-to-head/soccer-jeju-sk-fc-vs-pohang-steelers",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Jeju United vs Pohang Steelers Stats, H2H, xG",
+          "url": "https://footystats.org/south-korea/jeju-united-fc-vs-pohang-steelers-fc-h2h-stats",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Jeju vs Pohang Steelers Prediction, Betting Tips, Lineups & ...",
+          "url": "https://www.sportsgambler.com/betting-tips/football/jeju-vs-pohang-steelers-prediction-lineups-odds-2026-08-25",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "根据现有搜索摘要，本场比赛为2026年8月25日K联赛1第25轮，济州SK主场对阵浦项制铁。济州SK目前排名第5，浦项制铁排名第7，两队积分差距为4分。近期状态方面，济州SK近5场取得2胜2平1负，浦项制铁近5场1胜4负。历史交锋中济州SK略占优势。但伤停信息、首发阵容等关键细节尚未确认。",
+        "competition_context": [
+          "K联赛1 2026赛季常规赛第25轮",
+          "济州SK目前排名第5，积35分（24场9胜8平7负，进27球失24球）",
+          "浦项制铁目前排名第7，积31分（24场9胜4平11负，进22球失28球）",
+          "两队历史交锋记录：济州SK 20胜，浦项制铁 18胜，13平（来源：FotMob）"
+        ],
+        "motivation_evidence": [
+          "济州SK与浦项制铁积分差距仅4分，争夺争冠组资格的关键战",
+          "浦项制铁近期状态不佳，急需抢分提升排名"
+        ],
+        "form_schedule": [
+          "济州SK近5场联赛：2胜2平1负（来源：TheyScored）",
+          "浦项制铁近5场联赛：1胜4负（来源：TheyScored）",
+          "济州SK上一场联赛（8月22日）主场0-0战平金泉尚武（来源：SportsGambler）",
+          "浦项制铁上一场联赛（8月22日）客场0-3负于富川FC 1995（来源：TheyScored）"
+        ],
+        "confirmed": [],
+        "uncertain": [
+          "伤停名单和停赛情况尚未公布",
+          "首发阵容尚未公布",
+          "比赛场地（济州世界杯体育场）和开球时间（当地时间12:30）已确认，但具体天气等条件未知"
+        ],
+        "risks": [
+          "伤停信息来自FotMob，但具体内容未在摘要中提供，需进一步核实",
+          "部分数据来源（如TheyScored、SportsGambler）可能非官方，存在误差风险",
+          "历史交锋数据在不同来源间存在差异（FotMob vs FootyStats），需以官方为准"
+        ]
+      }
+    },
+    {
+      "code": "周二003",
+      "match": "达曼协作 vs 利雅胜利",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +183,8 @@
       }
     },
     {
-      "code": "周一002",
-      "match": "未来体育 vs 卡达西亚",
+      "code": "周二004",
+      "match": "斯托克城 vs 赫尔城",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +207,8 @@
       }
     },
     {
-      "code": "周一003",
-      "match": "马尔默 vs 佐加顿斯",
+      "code": "周二005",
+      "match": "LA林茨 vs 凯尔特人",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +231,8 @@
       }
     },
     {
-      "code": "周一004",
-      "match": "奥萨苏纳 vs 莱万特",
+      "code": "周二006",
+      "match": "博德闪耀 vs 奈梅亨",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +255,8 @@
       }
     },
     {
-      "code": "周一005",
-      "match": "吉达联合 vs 哈森姆",
+      "code": "周二007",
+      "match": "诺丁汉 vs 利兹联",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +279,8 @@
       }
     },
     {
-      "code": "周一006",
-      "match": "罗马 vs 佛罗伦萨",
+      "code": "周二008",
+      "match": "伯明翰 vs 布伦特",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +303,8 @@
       }
     },
     {
-      "code": "周一007",
-      "match": "兰斯 vs 阿纳西",
+      "code": "周二009",
+      "match": "巴伦西亚 vs 贝蒂斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +327,174 @@
       }
     },
     {
-      "code": "周一008",
-      "match": "富勒姆 vs 切尔西",
+      "code": "周三001",
+      "match": "大田市民 vs 蔚山现代",
+      "status": "有效来源 9 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Daejeon Hana Citizen vs Ulsan HD FC - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/ulsan-hd-fc-vs-daejeon-hana-citizen/gh0p61q",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Ulsan HD Scores, Stats and Highlights - ESPN",
+          "url": "https://www.espn.com/soccer/team/_/id/7120/ulsan-hyundai",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Daejeon Hana Citizen Table - Standings, Points, League Position",
+          "url": "https://forzafootball.com/team/daejeon-hana-citizen-13031/tables",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Daejeon Hana Citizen vs Ulsan HD: Scores, Results Lineups, H2H & Odds",
+          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/daejeon-citizen-ulsan-hyundai-8967-9816-618",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Daejeon Citizen Table - Home, Away, Form Guide | K-League 1 Table | LiveScore",
+          "url": "https://www.livescore.com/en/football/team/daejeon-citizen/9803/tables/24390",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Daejeon Hana Citizen 2-2 Ulsan HD FC - K League 1 2026 Head to Head Statistics",
+          "url": "https://www.whoscored.com/matches/1963680/show/south-korea-k-league-1-2026-daejeon-hana-citizen-ulsan-hd-fc",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Ulsan HD Scores, Stats and Highlights - ESPN",
+          "url": "https://www.espn.com/soccer/team/_/id/7120",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Daejeon Hana Citizen vs Ulsan HD FC Head to Head History - AiScore",
+          "url": "https://m.aiscore.com/head-to-head/soccer-daejeon-citizen-vs-ulsan-hd-fc",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Daejeon Citizen vs Ulsan Hyundai Live Score, H2H Stats & Odds",
+          "url": "https://oddspedia.com/football/ulsan-hyundai-daejeon-citizen-147512",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "本场比赛为2026赛季K联赛1常规赛，大田韩亚市民主场对阵蔚山HD。根据现有资料，两队历史交锋记录存在多个版本，积分榜排名和近期战绩数据亦有出入，且未获取到明确的伤停名单和官方赛果。",
+        "competition_context": [
+          "K League 1 2026赛季常规赛",
+          "根据forzafootball数据，蔚山HD以37分排名第2，大田韩亚市民以26分排名第10",
+          "根据365scores数据，蔚山HD以37分排名第2，大田韩亚市民以29分排名第10",
+          "根据whoscored数据，两队此前交锋比分为2-2"
+        ],
+        "motivation_evidence": [
+          "蔚山HD排名第2，处于争冠区，有争夺亚冠资格的动力",
+          "大田韩亚市民排名第10，处于保级区，有保级压力"
+        ],
+        "form_schedule": [
+          "根据forzafootball数据，蔚山HD近期战绩为WWWLL，大田韩亚市民为DLWWL",
+          "根据365scores数据，蔚山HD近期战绩为LLWWW，大田韩亚市民为WLWWL",
+          "根据aiscore数据，大田韩亚市民近5场3胜2负，蔚山HD近5场2胜3负"
+        ],
+        "confirmed": [],
+        "uncertain": [
+          "两队具体伤停名单未明确",
+          "积分榜排名数据存在矛盾",
+          "近期战绩数据存在矛盾",
+          "历史交锋记录存在多个版本"
+        ],
+        "risks": [
+          "来源数据不一致，可能影响分析准确性",
+          "未获取到官方赛果和伤停信息",
+          "部分来源可能包含过时或错误数据"
+        ]
+      }
+    },
+    {
+      "code": "周三002",
+      "match": "FC安养 vs 仁川联队",
+      "status": "有效来源 8 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Incheon United vs FC Anyang Prediction, Betting Tips, Lineups & Odds | 12 Jul 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/incheon-united-vs-fc-anyang-prediction-lineups-odds-2026-07-12",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "FC Anyang vs Incheon United - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/incheon-united-vs-fc-anyang/20w6brdo",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "FC Anyang VS Incheon United: Live Scores, Lineups, H2H & Odds",
+          "url": "https://www.365scores.com/football/match/k-league-1-618/fc-anyang-incheon-united-9819-11471-618",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Incheon United Table - Home, Away, Form Guide | K-League 1 Table | LiveScore",
+          "url": "https://www.livescore.com/en/football/team/incheon-united/8277/tables/24390",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "K League 1 Preview: Incheon United vs Gwangju FC - Relegation Battle, Injury-Hit Visitors Face Mid-Table Hosts",
+          "url": "https://www.chopsoc.com/news/50068867",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "The mighty fall again: Incheon United relegated to K League 2",
+          "url": "https://www.koreajoongangdaily.com/sports/the-mighty-fall-again-incheon-united-relegated-to-k-league-2/12444719",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "2026 K League 1 Team Guide & Season Preview",
+          "url": "http://www.kleagueunited.com/2026/02/2026-k-league-1-team-guide-season.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "FC Anyang vs Incheon United - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/fc-anyang-vs-icheon/dl1ri53h",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "本场比赛为2026赛季K League 1第25轮，FC Anyang主场对阵Incheon United。根据现有资料，FC Anyang目前排名第6，Incheon United排名第8，两队均处于争冠组边缘。历史交锋中FC Anyang略占优势。但关于本场比赛的伤停、阵容等具体信息尚未确认。",
+        "competition_context": [
+          "K League 1 2026赛季第25轮",
+          "FC Anyang目前排名第6，Incheon United排名第8",
+          "历史交锋记录：FC Anyang 2胜，Incheon United 1胜，0平"
+        ],
+        "motivation_evidence": [
+          "FC Anyang排名第6，处于争冠组边缘，有争取更好排名的动力",
+          "Incheon United排名第8，处于保级区边缘，需要积分提升排名"
+        ],
+        "form_schedule": [
+          "FC Anyang近期联赛战绩：LLL LW（近5场1胜4负）",
+          "Incheon United近期联赛战绩：WDDDW（近5场3胜2平）"
+        ],
+        "confirmed": [],
+        "uncertain": [
+          "两队具体伤停名单尚未公布",
+          "首发阵容尚未确认"
+        ],
+        "risks": [
+          "部分来源为预测性内容，实际阵容和伤停情况需以官方公布为准",
+          "历史交锋数据可能不完整，需进一步核实"
+        ]
+      }
+    },
+    {
+      "code": "周三005",
+      "match": "雅典AEK vs 索列夫",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -196,8 +517,8 @@
       }
     },
     {
-      "code": "周一009",
-      "match": "吉维森特 vs 卡沙比亚",
+      "code": "周三006",
+      "match": "采列 vs 布拉迪斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -220,8 +541,8 @@
       }
     },
     {
-      "code": "周一010",
-      "match": "马拉加 vs 拉科",
+      "code": "周三007",
+      "match": "维京 vs 萨迪纳摩",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -244,8 +565,32 @@
       }
     },
     {
-      "code": "周一011",
-      "match": "博塔弗戈 vs 巴竞技",
+      "code": "周三008",
+      "match": "里昂 vs 费内巴切",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三010",
+      "match": "皇马 vs 皇家社会",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
