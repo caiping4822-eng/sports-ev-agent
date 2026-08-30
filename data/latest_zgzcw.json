@@ -1,39 +1,10 @@
 {
-  "updated_at": "2026-08-30 19:26",
+  "updated_at": "2026-08-30 19:41",
   "events": [
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756077+08:00",
-      "source_match_id": "2041154",
-      "analysis_match_id": "4467144",
-      "code": "周日005",
-      "league": "瑞典超",
-      "deadline": "2026-08-30 19:40",
-      "kickoff": "2026-08-30 20:00",
-      "home": "索尔纳",
-      "away": "哈马比",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 6.0,
-          "draw": 4.75,
-          "away_win": 1.33
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 2.75,
-          "draw": 3.7,
-          "away_win": 2.02
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756290+08:00",
+      "captured_at": "2026-08-30T19:41:55.395532+08:00",
       "source_match_id": "2041155",
       "analysis_match_id": "4552179",
       "code": "周日006",
@@ -46,16 +17,16 @@
         {
           "market": "handicap_1x2",
           "line": "-2",
-          "home_win": 1.95,
-          "draw": 4.25,
-          "away_win": 2.62
+          "home_win": 1.92,
+          "draw": 4.35,
+          "away_win": 2.65
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756390+08:00",
+      "captured_at": "2026-08-30T19:41:55.395770+08:00",
       "source_match_id": "2041156",
       "analysis_match_id": "4467592",
       "code": "周日007",
@@ -84,7 +55,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756482+08:00",
+      "captured_at": "2026-08-30T19:41:55.395891+08:00",
       "source_match_id": "2041157",
       "analysis_match_id": "4558503",
       "code": "周日008",
@@ -104,16 +75,16 @@
         {
           "market": "handicap_1x2",
           "line": "-1",
-          "home_win": 5.1,
-          "draw": 3.95,
-          "away_win": 1.47
+          "home_win": 4.95,
+          "draw": 3.9,
+          "away_win": 1.49
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756571+08:00",
+      "captured_at": "2026-08-30T19:41:55.396003+08:00",
       "source_match_id": "2041158",
       "analysis_match_id": "4558496",
       "code": "周日009",
@@ -126,23 +97,23 @@
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 2.57,
-          "draw": 3.2,
-          "away_win": 2.34
+          "home_win": 2.75,
+          "draw": 3.1,
+          "away_win": 2.26
         },
         {
           "market": "handicap_1x2",
           "line": "-1",
-          "home_win": 5.75,
-          "draw": 4.45,
-          "away_win": 1.37
+          "home_win": 6.25,
+          "draw": 4.6,
+          "away_win": 1.33
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756666+08:00",
+      "captured_at": "2026-08-30T19:41:55.396115+08:00",
       "source_match_id": "2041159",
       "analysis_match_id": "4550856",
       "code": "周日010",
@@ -171,7 +142,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756752+08:00",
+      "captured_at": "2026-08-30T19:41:55.396285+08:00",
       "source_match_id": "2041160",
       "analysis_match_id": "4566221",
       "code": "周日011",
@@ -200,7 +171,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756837+08:00",
+      "captured_at": "2026-08-30T19:41:55.396403+08:00",
       "source_match_id": "2041161",
       "analysis_match_id": "4552181",
       "code": "周日012",
@@ -229,7 +200,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756912+08:00",
+      "captured_at": "2026-08-30T19:41:55.396501+08:00",
       "source_match_id": "2041162",
       "analysis_match_id": "4565352",
       "code": "周日013",
@@ -251,7 +222,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.756997+08:00",
+      "captured_at": "2026-08-30T19:41:55.396609+08:00",
       "source_match_id": "2041163",
       "analysis_match_id": "4558502",
       "code": "周日014",
@@ -280,7 +251,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757081+08:00",
+      "captured_at": "2026-08-30T19:41:55.396714+08:00",
       "source_match_id": "2041164",
       "analysis_match_id": "4566217",
       "code": "周日015",
@@ -309,7 +280,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757166+08:00",
+      "captured_at": "2026-08-30T19:41:55.396820+08:00",
       "source_match_id": "2041165",
       "analysis_match_id": "4549058",
       "code": "周日016",
@@ -338,7 +309,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757270+08:00",
+      "captured_at": "2026-08-30T19:41:55.396925+08:00",
       "source_match_id": "2041166",
       "analysis_match_id": "4565343",
       "code": "周日017",
@@ -367,7 +338,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757356+08:00",
+      "captured_at": "2026-08-30T19:41:55.397031+08:00",
       "source_match_id": "2041167",
       "analysis_match_id": "4552182",
       "code": "周日018",
@@ -396,7 +367,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757440+08:00",
+      "captured_at": "2026-08-30T19:41:55.397137+08:00",
       "source_match_id": "2041168",
       "analysis_match_id": "4549099",
       "code": "周日019",
@@ -425,7 +396,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757526+08:00",
+      "captured_at": "2026-08-30T19:41:55.397263+08:00",
       "source_match_id": "2041169",
       "analysis_match_id": "4549144",
       "code": "周日020",
@@ -454,7 +425,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757610+08:00",
+      "captured_at": "2026-08-30T19:41:55.397370+08:00",
       "source_match_id": "2041170",
       "analysis_match_id": "4550855",
       "code": "周日021",
@@ -483,7 +454,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757696+08:00",
+      "captured_at": "2026-08-30T19:41:55.397475+08:00",
       "source_match_id": "2041171",
       "analysis_match_id": "4465822",
       "code": "周日022",
@@ -512,7 +483,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757779+08:00",
+      "captured_at": "2026-08-30T19:41:55.397580+08:00",
       "source_match_id": "2041172",
       "analysis_match_id": "4565341",
       "code": "周日023",
@@ -541,7 +512,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757863+08:00",
+      "captured_at": "2026-08-30T19:41:55.397685+08:00",
       "source_match_id": "2041173",
       "analysis_match_id": "4578183",
       "code": "周日024",
@@ -570,7 +541,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.757946+08:00",
+      "captured_at": "2026-08-30T19:41:55.397790+08:00",
       "source_match_id": "2041174",
       "analysis_match_id": "4460542",
       "code": "周日025",
@@ -599,7 +570,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758030+08:00",
+      "captured_at": "2026-08-30T19:41:55.397895+08:00",
       "source_match_id": "2041175",
       "analysis_match_id": "4468186",
       "code": "周一001",
@@ -628,7 +599,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758115+08:00",
+      "captured_at": "2026-08-30T19:41:55.398001+08:00",
       "source_match_id": "2041176",
       "analysis_match_id": "4468184",
       "code": "周一002",
@@ -657,7 +628,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758215+08:00",
+      "captured_at": "2026-08-30T19:41:55.398105+08:00",
       "source_match_id": "2041177",
       "analysis_match_id": "4549153",
       "code": "周一003",
@@ -686,7 +657,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758303+08:00",
+      "captured_at": "2026-08-30T19:41:55.398228+08:00",
       "source_match_id": "2041178",
       "analysis_match_id": "4467145",
       "code": "周一004",
@@ -715,7 +686,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758388+08:00",
+      "captured_at": "2026-08-30T19:41:55.398334+08:00",
       "source_match_id": "2041179",
       "analysis_match_id": "4467151",
       "code": "周一005",
@@ -744,7 +715,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758473+08:00",
+      "captured_at": "2026-08-30T19:41:55.398445+08:00",
       "source_match_id": "2041180",
       "analysis_match_id": "4565348",
       "code": "周一006",
@@ -773,7 +744,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758558+08:00",
+      "captured_at": "2026-08-30T19:41:55.398551+08:00",
       "source_match_id": "2041181",
       "analysis_match_id": "4549057",
       "code": "周一007",
@@ -802,7 +773,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758642+08:00",
+      "captured_at": "2026-08-30T19:41:55.398655+08:00",
       "source_match_id": "2041182",
       "analysis_match_id": "4553164",
       "code": "周一008",
@@ -831,7 +802,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758726+08:00",
+      "captured_at": "2026-08-30T19:41:55.398759+08:00",
       "source_match_id": "2041183",
       "analysis_match_id": "4558480",
       "code": "周一009",
@@ -860,7 +831,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758801+08:00",
+      "captured_at": "2026-08-30T19:41:55.398852+08:00",
       "source_match_id": "2041184",
       "analysis_match_id": "4578180",
       "code": "周一010",
@@ -882,7 +853,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758884+08:00",
+      "captured_at": "2026-08-30T19:41:55.398955+08:00",
       "source_match_id": "2041185",
       "analysis_match_id": "4578181",
       "code": "周一011",
@@ -911,7 +882,7 @@
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-08-30T19:26:12.758959+08:00",
+      "captured_at": "2026-08-30T19:41:55.399047+08:00",
       "source_match_id": "2041186",
       "analysis_match_id": "4565344",
       "code": "周一012",
