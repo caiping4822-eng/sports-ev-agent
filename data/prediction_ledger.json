@@ -14975,5 +14975,359 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周六005|2026-09-05 19:30",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周六005",
+    "league": "英冠",
+    "kickoff": "2026-09-05 19:30",
+    "home": "林肯城",
+    "away": "南安普敦",
+    "china_1x2": [
+      3.7,
+      3.6,
+      1.72
+    ],
+    "avg_1x2": [
+      3.98,
+      3.81,
+      1.8
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.6,
+      "probability": 0.2234618341796353,
+      "market_probability": 0.2454618341796353,
+      "base_probability": 0.2254618341796353,
+      "ev": -0.19553739695331285,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.1671494519663672,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周六019|2026-09-06 00:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周六019",
+    "league": "挪超",
+    "kickoff": "2026-09-06 00:00",
+    "home": "布兰",
+    "away": "利勒斯特",
+    "china_1x2": [
+      1.65,
+      3.9,
+      3.75
+    ],
+    "avg_1x2": [
+      1.75,
+      4.01,
+      3.94
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "客胜",
+      "odds": 3.75,
+      "probability": 0.21418482830111843,
+      "market_probability": 0.23618482830111842,
+      "base_probability": 0.21618482830111843,
+      "ev": -0.19680689387080585,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.16021025156923657,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周六024|2026-09-06 02:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周六024",
+    "league": "沙特联",
+    "kickoff": "2026-09-06 02:00",
+    "home": "吉达联合",
+    "away": "利雅胜利",
+    "china_1x2": [
+      5.2,
+      4.75,
+      1.38
+    ],
+    "avg_1x2": [
+      4.89,
+      4.48,
+      1.52
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 4.75,
+      "probability": 0.18361223360701087,
+      "market_probability": 0.20561223360701086,
+      "base_probability": 0.18561223360701087,
+      "ev": -0.12784189036669835,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.13734195073804414,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周六029|2026-09-06 03:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周六029",
+    "league": "巴西甲",
+    "kickoff": "2026-09-06 03:00",
+    "home": "布拉干",
+    "away": "巴伊亚",
+    "china_1x2": [
+      1.88,
+      3.25,
+      3.45
+    ],
+    "avg_1x2": [
+      2.06,
+      3.45,
+      3.37
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.88,
+      "probability": 0.4308211499589106,
+      "market_probability": 0.4528211499589106,
+      "base_probability": 0.4328211499589106,
+      "ev": -0.19005623807724814,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.32225422016926514,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周日006|2026-09-06 19:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周日006",
+    "league": "英冠",
+    "kickoff": "2026-09-06 19:00",
+    "home": "伯明翰",
+    "away": "狼队",
+    "china_1x2": [
+      2.62,
+      3.0,
+      2.42
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周日015|2026-09-06 23:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周日015",
+    "league": "挪超",
+    "kickoff": "2026-09-06 23:00",
+    "home": "莫尔德",
+    "away": "KF奥斯陆",
+    "china_1x2": [
+      1.22,
+      5.7,
+      7.5
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周日024|2026-09-07 05:30",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周日024",
+    "league": "巴西甲",
+    "kickoff": "2026-09-07 05:30",
+    "home": "博塔弗戈",
+    "away": "帕梅拉斯",
+    "china_1x2": [
+      3.1,
+      3.22,
+      2.02
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一001|2026-09-08 00:30",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一001",
+    "league": "意甲",
+    "kickoff": "2026-09-08 00:30",
+    "home": "卡利亚里",
+    "away": "莱切",
+    "china_1x2": [
+      1.83,
+      3.05,
+      3.95
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一002|2026-09-08 01:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一002",
+    "league": "西甲",
+    "kickoff": "2026-09-08 01:00",
+    "home": "赫塔菲",
+    "away": "塞尔塔",
+    "china_1x2": [
+      2.34,
+      2.65,
+      3.08
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一003|2026-09-08 01:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一003",
+    "league": "瑞典超",
+    "kickoff": "2026-09-08 01:00",
+    "home": "马尔默",
+    "away": "索尔纳",
+    "china_1x2": [
+      1.67,
+      3.85,
+      3.7
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一004|2026-09-08 01:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一004",
+    "league": "瑞典超",
+    "kickoff": "2026-09-08 01:00",
+    "home": "卡尔马",
+    "away": "佐加顿斯",
+    "china_1x2": [
+      4.3,
+      3.85,
+      1.57
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一006|2026-09-08 02:45",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一006",
+    "league": "意甲",
+    "kickoff": "2026-09-08 02:45",
+    "home": "乌迪内斯",
+    "away": "拉齐奥",
+    "china_1x2": [
+      2.75,
+      2.9,
+      2.38
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一007|2026-09-08 03:15",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一007",
+    "league": "葡超",
+    "kickoff": "2026-09-08 03:15",
+    "home": "埃斯托里",
+    "away": "阿罗卡",
+    "china_1x2": [
+      2.19,
+      3.25,
+      2.75
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一008|2026-09-08 03:30",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一008",
+    "league": "西甲",
+    "kickoff": "2026-09-08 03:30",
+    "home": "埃尔切",
+    "away": "皇家社会",
+    "china_1x2": [
+      2.75,
+      3.3,
+      2.16
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周一009|2026-09-08 07:00",
+    "locked_at": "2026-09-05T13:10:17.737423+08:00",
+    "status": "locked",
+    "code": "周一009",
+    "league": "巴西甲",
+    "kickoff": "2026-09-08 07:00",
+    "home": "维多利亚",
+    "away": "格雷米奥",
+    "china_1x2": [
+      1.94,
+      3.1,
+      3.45
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

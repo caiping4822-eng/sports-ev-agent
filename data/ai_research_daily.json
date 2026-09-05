@@ -1,344 +1,8 @@
 {
-  "date": "2026-09-04",
+  "date": "2026-09-05",
   "pipeline_version": 9,
-  "updated_at": "2026-09-04T13:20:23.668238+08:00",
+  "updated_at": "2026-09-05T13:10:16.468562+08:00",
   "events": [
-    {
-      "code": "周五001",
-      "match": "汉诺威 vs 卡斯鲁厄",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五002",
-      "match": "里昂 vs 欧塞尔",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五003",
-      "match": "费特斯塔 vs 博德闪耀",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五004",
-      "match": "利雅青年 vs 利雅新月",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五005",
-      "match": "格勒诺布 vs 阿纳西",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五006",
-      "match": "鹿斯巴达 vs 兹沃勒",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五007",
-      "match": "埃门 vs 福伦丹",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五008",
-      "match": "斯图加特 vs 科隆",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五009",
-      "match": "热那亚 vs 科莫",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五010",
-      "match": "伊维奇 vs 利物浦",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五011",
-      "match": "贝蒂斯 vs 皇马",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五012",
-      "match": "巴黎圣曼 vs 摩纳哥",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五013",
-      "match": "波尔图 vs 摩雷伦斯",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周五014",
-      "match": "纽约城 vs 纳什威尔",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
     {
       "code": "周六001",
       "match": "福冈黄蜂 vs 水户蜀葵",
@@ -393,38 +57,38 @@
       "status": "有效来源 8 个（伤停/背景/赛程三路）",
       "sources": [
         {
+          "title": "Line-ups: Ulsan HD FC - Jeju SK FC, 30.11.2025 | worldfootball.net",
+          "url": "https://www.worldfootball.net/match-report/ma11672942/lineup",
+          "category": "伤停与阵容"
+        },
+        {
           "title": "Jeju SK vs Ulsan HD FC - live score, predicted lineups and ...",
           "url": "https://www.fotmob.com/matches/ulsan-hd-fc-vs-jeju-sk/gh0dos5",
           "category": "伤停与阵容"
         },
         {
-          "title": "Jeju Sk vs Ulsan Hd Fc 05-09-2026 | Live Scores & Result",
-          "url": "https://www.xscores.com/soccer/match/south-korea/jeju-sk-vs-ulsan-hd-fc/2026/2624302",
+          "title": "The Goddess of Fortune does not seem to favor Jeju SK yet.Jeju lost 0-2 against Ulsan HD in the four.. - MK",
+          "url": "https://www.mk.co.kr/en/sports/11991976",
           "category": "伤停与阵容"
         },
         {
           "title": "Jeju SK VS Ulsan HD: Live Scores, Lineups, H2H & Odds",
           "url": "https://www.365scores.com/football/match/k-league-1-618/jeju-united-ulsan-hyundai-8967-9817-618",
-          "category": "伤停与阵容"
-        },
-        {
-          "title": "Ulsan HD Eyes Winning Streak Against Jeju SK with Lee Dong-kyung, Yago Key",
-          "url": "https://www.chosun.com/english/sports-en/2026/09/03/Y2U7MSQN25BGBLCB3J7WAI62MI",
-          "category": "伤停与阵容"
-        },
-        {
-          "title": "Jeju SK v Ulsan HD LIVE 05/09/2026 | Soccer - Flashscore",
-          "url": "https://www.flashscoreusa.com/game/soccer/jeju-sk-vFZJewv4/ulsan-hyundai-EVEwgyOM",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Jeju SK FC vs Ulsan HD FC Head to Head History - AiScore",
-          "url": "https://www.aiscore.com/head-to-head/soccer-jeju-sk-fc-vs-ulsan-hd-fc",
-          "category": "近期状态与赛程"
+          "title": "Jeju SK FC VS Ulsan HD FC - prediction & tips, team news, lineups",
+          "url": "https://news.7msport.com/news/newsdata/20260904/266005.shtml",
+          "category": "联赛背景与战意依据"
         },
         {
-          "title": "Jeju SK - fixtures, team info and top players",
-          "url": "https://www.fotmob.com/teams/133898/overview/jeju-sk",
+          "title": "Jeju vs Ulsan Prediction, Betting Tips, Lineups & Odds | 05 Sep 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/jeju-vs-ulsan-prediction-lineups-odds-2026-09-05",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Jeju SK FC vs Ulsan HD FC Head to Head History",
+          "url": "https://www.aiscore.com/head-to-head/soccer-jeju-sk-fc-vs-ulsan-hd-fc",
           "category": "近期状态与赛程"
         },
         {
@@ -440,35 +104,58 @@
         "model": "deepseek-chat"
       },
       "research": {
-        "summary": "本场比赛为2026赛季K联赛第27轮，济州SK主场迎战蔚山HD。根据现有资料，两队积分接近，蔚山HD以40分排名第2，济州SK以38分排名第4。近期交锋中蔚山HD略占优势，但济州SK在2025年8月曾客场1-0击败蔚山HD。伤停信息尚未公布，需关注赛前官方名单。",
+        "summary": "本场比赛为K联赛第27轮，济州SK主场迎战蔚山HD。根据现有资料，济州SK排名第4，蔚山HD排名第2，两队积分差距为2分。近期交锋中蔚山HD占据优势，但具体伤停信息未明确。",
         "competition_context": [
-          "K联赛2026赛季第27轮，济州SK主场对阵蔚山HD。",
-          "截至第26轮，蔚山HD以40分排名第2，济州SK以38分排名第4。",
-          "两队历史交锋记录：济州SK 16胜，蔚山HD 23胜，13平。"
+          "K联赛第27轮，济州SK主场对阵蔚山HD。",
+          "蔚山HD目前排名第2，26轮积40分；济州SK排名第4，26轮积38分。",
+          "两队近10次交锋，蔚山HD取得8胜，济州SK仅2胜。"
         ],
         "motivation_evidence": [
-          "蔚山HD目前排名第2，与榜首FC首尔（56分）差距较大，但需稳固亚冠资格区位置。",
-          "济州SK排名第4，与第3名全北现代（39分）仅差1分，有争夺更高排名的动力。"
+          "济州SK仅落后蔚山HD2分，本场取胜即可反超对手，战意强烈。",
+          "蔚山HD需保住第2名位置，同样有抢分动力。"
         ],
         "form_schedule": [
-          "蔚山HD近5场联赛战绩：胜平负负胜（WLLLW）。",
-          "济州SK近5场联赛战绩：胜平负胜胜（WLDWW）。",
-          "两队最近一次交锋为2025年11月30日，济州SK主场0-2负于蔚山HD。"
+          "蔚山HD上轮3-1战胜金泉尚武，结束此前3连败。",
+          "济州SK上轮获胜，具体对手未明确。"
         ],
         "confirmed": [],
         "uncertain": [
-          "伤停名单尚未公布，需等待赛前官方信息。",
-          "首发阵容和战术安排未确定。"
+          "两队具体伤停名单未在摘要中明确。",
+          "济州SK上轮对手及比分未提供。"
         ],
         "risks": [
-          "部分来源（如FotMob、365Scores）未提供具体伤停细节，仅说明赛前更新。",
-          "历史交锋数据可能包含不同赛季，需注意时效性。"
+          "部分来源为预测网站，信息可能不准确。",
+          "伤停信息未明确，可能影响比赛结果。"
         ]
       }
     },
     {
       "code": "周六004",
       "match": "纽卡斯尔 vs 伯恩茅斯",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六005",
+      "match": "林肯城 vs 南安普敦",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -803,6 +490,30 @@
       }
     },
     {
+      "code": "周六019",
+      "match": "布兰 vs 利勒斯特",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
       "code": "周六020",
       "match": "赫尔城 vs 维拉",
       "status": "球队别名未确认，AI搜索跳过",
@@ -877,6 +588,30 @@
     {
       "code": "周六023",
       "match": "马里迪莫 vs 本菲卡",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六024",
+      "match": "吉达联合 vs 利雅胜利",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -995,6 +730,30 @@
       }
     },
     {
+      "code": "周六029",
+      "match": "布拉干 vs 巴伊亚",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
       "code": "周日001",
       "match": "鹿岛鹿角 vs 浦和红钻",
       "status": "球队别名未确认，AI搜索跳过",
@@ -1045,15 +804,15 @@
     {
       "code": "周日003",
       "match": "FC安养 vs 江原FC",
-      "status": "有效来源 9 个（伤停/背景/赛程三路）",
+      "status": "有效来源 8 个（伤停/背景/赛程三路）",
       "sources": [
         {
-          "title": "FC Anyang vs Gangwon FC - live score, predicted lineups and H2H stats",
+          "title": "FC Anyang vs Gangwon FC - live score, predicted lineups ...",
           "url": "https://www.fotmob.com/matches/gangwon-fc-vs-fc-anyang/293cp69t",
           "category": "伤停与阵容"
         },
         {
-          "title": "FC Anyang VS Gangwon FC: Live Scores, Lineups, H2H & Odds",
+          "title": "FC Anyang VS Gangwon FC: Live Scores, Lineups, H2H & ...",
           "url": "https://www.365scores.com/football/match/k-league-1-618/fc-anyang-gangwon-fc-9825-11471-618",
           "category": "伤停与阵容"
         },
@@ -1063,33 +822,28 @@
           "category": "伤停与阵容"
         },
         {
-          "title": "Gangwon FC Standings, 2026-2027 Tables - AiScore",
-          "url": "https://m.aiscore.com/team-gangwon-fc/jr7owi6oezf3q0e/standings",
+          "title": "FC Anyang vs Gangwon FC Prediction, Tip and Match Preview - Sunday 6th September 2026 - South Korea K League 1",
+          "url": "https://www.soccervital.com/fc-anyang-vs-gangwon-fc-soccer-prediction-jggag874j.html",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Re-examining the Key K League 1 Races with 6 games to go - Yahoo Sports",
-          "url": "https://sports.yahoo.com/article/examining-key-k-league-1-000000565.html",
+          "title": "FC Anyang vs Gangwon FC Prediction, Stats, H2H - 06 Sep 2026",
+          "url": "https://www.forebet.com/en/football/matches/fc-anyang-gangwon-fc-2430995",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "FC Anyang vs Gangwon FC: Scores, Results Lineups, H2H & Odds",
+          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/fc-anyang-gangwon-fc-9825-11471-618",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Anyang vs Gangwon Stats, H2H, xG | FootyStats",
+          "url": "https://footystats.org/south-korea/gangwon-fc-vs-fc-anyang-h2h-stats",
           "category": "联赛背景与战意依据"
         },
         {
           "title": "FC Anyang vs Gangwon FC Head to Head History - AiScore",
           "url": "https://www.aiscore.com/head-to-head/soccer-fc-anyang-vs-gangwon-football-club",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "FC Anyang 2-1 Gangwon FC - K League 1 2026 Head to Head Statistics",
-          "url": "https://www.whoscored.com/matches/1963590/show/south-korea-k-league-1-2026-fc-anyang-gangwon-fc",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "FC Anyang vs Gangwon FC: Scores, Results Lineups, H2H ...",
-          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/fc-anyang-gangwon-fc-9825-11471-618",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Gangwon FC vs. FC Anyang Historical Head-to-Head",
-          "url": "https://fbref.com/en/stathead/matchup/teams/79c65a57/5f4cdc77/Gangwon-FC-vs-FC-Anyang-History",
           "category": "近期状态与赛程"
         }
       ],
@@ -1100,48 +854,41 @@
         "model": "deepseek-chat"
       },
       "research": {
-        "summary": "本场比赛为2026赛季K联赛1常规赛，FC Anyang主场对阵Gangwon FC。根据现有资料，两队历史交锋记录完整，但具体伤停信息尚未公布。近期状态方面，FC Anyang在联赛中排名第7，Gangwon FC排名第4，但具体积分和赛程细节有限。",
+        "summary": "本场比赛为2026赛季K联赛1常规赛第27轮，FC Anyang主场迎战Gangwon FC。根据现有资料，FC Anyang目前排名第8，积34分；Gangwon FC排名第5，积37分。双方历史交锋记录显示FC Anyang 5胜6平6负略处下风。近期状态方面，FC Anyang近5场2胜3负，Gangwon FC近5场1胜2平2负。伤停信息尚未公布。",
         "competition_context": [
-          "K League 1 2026赛季常规赛",
-          "FC Anyang目前排名第7，Gangwon FC排名第4",
-          "两队本赛季已交锋2次，FC Anyang 5胜6平6负（历史总交锋）"
+          "比赛为2026赛季K联赛1常规赛，FC Anyang主场对阵Gangwon FC。",
+          "截至赛前，FC Anyang以26战8胜10平8负积34分排名第8；Gangwon FC以25战9胜10平6负积37分排名第5。",
+          "双方历史交锋记录：FC Anyang 5胜6平6负，略处下风。"
         ],
         "motivation_evidence": [
-          "FC Anyang在积分榜上排名第7，距离降级附加赛区仅2分，有保级压力",
-          "Gangwon FC排名第4，正在争夺进入Final A的资格，仅领先Gwangju FC 1分"
+          "FC Anyang目前排名第8，距离争冠组（前6）有3分差距，仍有冲击争冠组的动力。",
+          "Gangwon FC排名第5，处于争冠组边缘，需巩固排名，战意较强。"
         ],
         "form_schedule": [
-          "FC Anyang近期联赛状态不佳，近5场联赛1平4负（llllwd）",
-          "Gangwon FC近期联赛状态一般，近6场联赛2胜2平2负（dllwld）",
-          "两队最近一次交锋在2026年7月26日，FC Anyang主场2-1战胜Gangwon FC"
+          "FC Anyang近5场联赛战绩为2胜3负（具体为负负负胜平，按时间顺序），主场近5场2胜1平2负。",
+          "Gangwon FC近5场联赛战绩为1胜2平2负（具体为负胜负平平，按时间顺序），客场近5场1胜2平2负。",
+          "两队均无近期杯赛赛程，休息天数未明确。"
         ],
-        "confirmed": [
-          "FC Anyang 2-1 Gangwon FC（2026年7月26日）"
-        ],
+        "confirmed": [],
         "uncertain": [
-          "具体伤停名单尚未公布",
-          "两队首发阵容尚未确定"
+          "伤停名单尚未公布，需等待官方赛前信息。",
+          "双方首发阵容未确定。"
         ],
         "risks": [
-          "部分来源（如365scores）可能包含不准确或过时的数据",
-          "伤停信息需等待官方公布，当前无法确认",
-          "赛程和积分数据可能因更新延迟存在误差"
+          "伤停信息来源于FotMob和365Scores，但未提供具体球员名单，存在不确定性。",
+          "历史交锋数据来源多样，但部分数据可能不完整或存在差异。",
+          "赛程和积分数据来自多个网站，可能存在更新延迟，需以官方为准。"
         ]
       }
     },
     {
       "code": "周日004",
       "match": "金泉尚武 vs 光州FC",
-      "status": "有效来源 5 个（伤停/背景/赛程三路）",
+      "status": "有效来源 7 个（伤停/背景/赛程三路）",
       "sources": [
         {
           "title": "Gimcheon Sangmu vs Gwangju FC - live score, predicted lineups and H2H stats",
           "url": "https://www.fotmob.com/matches/gimcheon-sangmu-vs-gwangju-fc/x4ue8ma",
-          "category": "伤停与阵容"
-        },
-        {
-          "title": "Gimcheon Sangmu FC VS Gwangju FC: Live Scores, Lineups, H2H & Odds",
-          "url": "https://www.365scores.com/football/match/k-league-1-618/gimcheon-sangmu-fc-gwangju-fc-9823-9826-618",
           "category": "伤停与阵容"
         },
         {
@@ -1150,13 +897,28 @@
           "category": "联赛背景与战意依据"
         },
         {
+          "title": "Gwangju FC - league table, form guide and next opponent",
+          "url": "https://www.fotmob.com/teams/245905/table/gwangju-fc",
+          "category": "联赛背景与战意依据"
+        },
+        {
           "title": "2026 K League 1 Round 4 Preview | OneFootball",
           "url": "https://onefootball.com/fr/news/2026-k-league-1-round-4-preview-42564947",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Gimcheon Sangmu v Gwangju FC results, H2H stats | Football - Flashscore",
-          "url": "https://www.flashscore.com/match/football/gimcheon-sangmu-IaoBca9i/gwangju-fc-8SWdrMTR",
+          "title": "Key Matches in the Key Races: Alternative K League 1 Round 36 Preview - K League United | South Korean football news, opinions, match previews and score predictions",
+          "url": "http://www.kleagueunited.com/2025/11/key-matches-in-key-races-alternative-k.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Gwangju FC - Gimcheon Sangmu: Head-to-Head Record & History | worldfootball.net",
+          "url": "https://www.worldfootball.net/match-report/co51/south-korea-k-league-1/ma10864679/gwangju-fc_gimcheon-sangmu/head-to-head",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Gimcheon Sangmu FC vs Gwangju FC live score, H2H and lineups",
+          "url": "https://www.sofascore.com/football/match/gwangju-fc-gimcheon-sangmu-fc/XcdsmDu",
           "category": "近期状态与赛程"
         }
       ],
@@ -1167,36 +929,63 @@
         "model": "deepseek-chat"
       },
       "research": {
-        "summary": "本场比赛为2026赛季K联赛1第?轮，由金泉尚武主场对阵光州FC。根据现有资料，两队本赛季表现均不佳，金泉尚武排名第11，光州FC排名第12，处于保级区边缘。历史交锋记录显示金泉尚武13胜11平5负占优。但关于本场比赛的具体伤停、阵容及近期状态信息有限，需谨慎对待。",
+        "summary": "本场比赛为2026赛季K联赛1第30轮，由金泉尚武主场对阵光州FC。根据现有资料，两队本赛季此前两次交锋均以1:1战平。积分榜上，金泉尚武排名第11，光州FC排名第12，两队均处于保级区边缘，本场比赛对双方保级形势至关重要。",
         "competition_context": [
-          "2026赛季K联赛1，金泉尚武目前排名第11，光州FC排名第12。",
-          "两队历史交锋记录：金泉尚武13胜，光州FC 11胜，5平。",
-          "上赛季（2025）金泉尚武与光州FC三次交手，取得2平1负。"
+          "2026赛季K联赛1第30轮，金泉尚武主场对阵光州FC。",
+          "积分榜上，金泉尚武26轮积27分排名第11，光州FC 26轮积21分排名第12。",
+          "两队本赛季此前两次交锋（3月17日和7月22日）均以1:1战平。"
         ],
         "motivation_evidence": [
-          "两队积分接近，处于保级区，本场比赛对双方保级至关重要。",
-          "金泉尚武积27分，光州FC积12分，分差较大，但光州FC急需抢分逃离降级区。"
+          "两队分别排名第11和第12，处于保级区边缘，本场比赛为保级关键战。",
+          "金泉尚武仅领先光州FC 6分，若光州FC获胜将缩小差距，保级形势将更加严峻。"
         ],
         "form_schedule": [
-          "金泉尚武近期联赛战绩：4平7负（近11场不胜），状态低迷。",
-          "光州FC近期联赛战绩：1胜9平16负，状态同样糟糕。",
-          "两队均无近期具体赛程信息。"
+          "金泉尚武近期联赛状态不佳，近5轮联赛取得4平1负（DDDDL）。",
+          "光州FC近期联赛状态低迷，近5轮联赛取得1平4负（DLLDL）。",
+          "两队均无近期杯赛任务，本场比赛为联赛第30轮，具体休息天数未在资料中明确。"
         ],
-        "confirmed": [],
+        "confirmed": [
+          "无明确伤停或停赛信息。",
+          "无官方赛果信息。"
+        ],
         "uncertain": [
-          "两队具体伤停名单尚未公布。",
-          "本场比赛的具体开球时间（当地时间10:00 vs 18:00）存在矛盾，需核实。"
+          "两队具体伤停名单未公布。",
+          "两队近期比赛的具体日期和休息天数未在资料中明确。"
         ],
         "risks": [
-          "部分来源（如365scores）显示比赛时间为当地时间10:00，与用户提供的18:00不符，需确认时区。",
-          "关于两队近期战绩的数据来源不一致，可能影响分析准确性。",
-          "伤停信息在赛前才公布，当前无法确认。"
+          "部分资料来源于AI生成内容，可能存在误差。",
+          "积分榜数据可能非最新，需以官方为准。",
+          "伤停信息可能随时更新，需关注赛前官方公告。"
         ]
       }
     },
     {
       "code": "周日005",
       "match": "FC东京 vs 京都",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日006",
+      "match": "伯明翰 vs 狼队",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -1411,6 +1200,30 @@
       }
     },
     {
+      "code": "周日015",
+      "match": "莫尔德 vs KF奥斯陆",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
       "code": "周日016",
       "match": "阿森纳 vs 切尔西",
       "status": "球队别名未确认，AI搜索跳过",
@@ -1581,6 +1394,222 @@
     {
       "code": "周日023",
       "match": "西班牙人 vs 塞维利亚",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日024",
+      "match": "博塔弗戈 vs 帕梅拉斯",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一001",
+      "match": "卡利亚里 vs 莱切",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一002",
+      "match": "赫塔菲 vs 塞尔塔",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一003",
+      "match": "马尔默 vs 索尔纳",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一004",
+      "match": "卡尔马 vs 佐加顿斯",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一006",
+      "match": "乌迪内斯 vs 拉齐奥",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一007",
+      "match": "埃斯托里 vs 阿罗卡",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一008",
+      "match": "埃尔切 vs 皇家社会",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周一009",
+      "match": "维多利亚 vs 格雷米奥",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
