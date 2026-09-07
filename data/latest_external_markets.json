@@ -1,74 +1,4 @@
 {
-  "2041310": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041311": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041312": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041313": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041314": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041315": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041316": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041317": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041318": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
-  "2041319": {
-    "available": false,
-    "errors": [
-      "soccer_uefa_champs_league:RuntimeError",
-      "soccer_brazil_campeonato:RuntimeError"
-    ]
-  },
   "2041320": {
     "available": false,
     "errors": [
@@ -91,6 +21,13 @@
     ]
   },
   "2041323": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  },
+  "2041324": {
     "available": false,
     "errors": [
       "soccer_uefa_champs_league:RuntimeError",
