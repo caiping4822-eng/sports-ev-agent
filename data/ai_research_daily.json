@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "pipeline_version": 9,
-  "updated_at": "2026-09-07T13:34:04.837525+08:00",
+  "updated_at": "2026-09-08T00:51:49.986222+08:00",
   "events": [
     {
-      "code": "周一001",
-      "match": "卡利亚里 vs 莱切",
+      "code": "周二002",
+      "match": "雅典AEK vs LA林茨",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周一002",
-      "match": "赫塔菲 vs 塞尔塔",
+      "code": "周二003",
+      "match": "布鲁日 vs 维拉",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周一003",
-      "match": "马尔默 vs 索尔纳",
+      "code": "周二008",
+      "match": "皇马 vs 国际米兰",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周一004",
-      "match": "卡尔马 vs 佐加顿斯",
+      "code": "周二009",
+      "match": "多特蒙德 vs 比利亚雷",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周一005",
-      "match": "利雅新月 vs 未来体育",
+      "code": "周二010",
+      "match": "里尔 vs 贝蒂斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,80 +124,8 @@
       }
     },
     {
-      "code": "周一006",
-      "match": "乌迪内斯 vs 拉齐奥",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周一007",
-      "match": "埃斯托里 vs 阿罗卡",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周一008",
-      "match": "埃尔切 vs 皇家社会",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周一009",
-      "match": "维多利亚 vs 格雷米奥",
+      "code": "周二011",
+      "match": "波尔图 vs 曼城",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
