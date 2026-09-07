@@ -15467,5 +15467,113 @@
       "global_composite_score": 0.08812203004481405,
       "is_global": false
     }
+  },
+  {
+    "key": "周二002|2026-09-09 00:45",
+    "locked_at": "2026-09-07T19:48:00.624424+08:00",
+    "status": "locked",
+    "code": "周二002",
+    "league": "欧冠",
+    "kickoff": "2026-09-09 00:45",
+    "home": "雅典AEK",
+    "away": "LA林茨",
+    "china_1x2": [
+      1.68,
+      3.65,
+      3.85
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二003|2026-09-09 00:45",
+    "locked_at": "2026-09-07T19:48:00.624424+08:00",
+    "status": "locked",
+    "code": "周二003",
+    "league": "欧冠",
+    "kickoff": "2026-09-09 00:45",
+    "home": "布鲁日",
+    "away": "维拉",
+    "china_1x2": [
+      2.6,
+      3.35,
+      2.25
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二008|2026-09-09 03:00",
+    "locked_at": "2026-09-07T19:48:00.624424+08:00",
+    "status": "locked",
+    "code": "周二008",
+    "league": "欧冠",
+    "kickoff": "2026-09-09 03:00",
+    "home": "皇马",
+    "away": "国际米兰",
+    "china_1x2": [
+      1.45,
+      4.2,
+      4.95
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二009|2026-09-09 03:00",
+    "locked_at": "2026-09-07T19:48:00.624424+08:00",
+    "status": "locked",
+    "code": "周二009",
+    "league": "欧冠",
+    "kickoff": "2026-09-09 03:00",
+    "home": "多特蒙德",
+    "away": "比利亚雷",
+    "china_1x2": [
+      1.62,
+      3.85,
+      3.96
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二010|2026-09-09 03:00",
+    "locked_at": "2026-09-07T19:48:00.624424+08:00",
+    "status": "locked",
+    "code": "周二010",
+    "league": "欧冠",
+    "kickoff": "2026-09-09 03:00",
+    "home": "里尔",
+    "away": "贝蒂斯",
+    "china_1x2": [
+      1.9,
+      3.3,
+      3.33
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二011|2026-09-09 03:00",
+    "locked_at": "2026-09-07T19:48:00.624424+08:00",
+    "status": "locked",
+    "code": "周二011",
+    "league": "欧冠",
+    "kickoff": "2026-09-09 03:00",
+    "home": "波尔图",
+    "away": "曼城",
+    "china_1x2": [
+      4.85,
+      4.05,
+      1.48
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
