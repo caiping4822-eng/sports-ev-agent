@@ -1,10 +1,30 @@
 {
+  "周二001": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
   "周二002": {
     "status": "球队别名未收录：雅典AEK,LA林茨",
     "mapping_score": 0
   },
   "周二003": {
     "status": "球队别名未收录：布鲁日,维拉",
+    "mapping_score": 0
+  },
+  "周二004": {
+    "status": "球队别名未收录：奈梅亨,SBV精英",
+    "mapping_score": 0
+  },
+  "周二005": {
+    "status": "球队别名未收录：卡达西亚,吉达国民",
+    "mapping_score": 0
+  },
+  "周二006": {
+    "status": "球队别名未收录：南安普敦,斯旺西",
+    "mapping_score": 0
+  },
+  "周二007": {
+    "status": "球队别名未收录：桑德兰,赫尔城",
     "mapping_score": 0
   },
   "周二008": {
@@ -21,6 +41,54 @@
   },
   "周二011": {
     "status": "球队别名未收录：波尔图,曼城",
+    "mapping_score": 0
+  },
+  "周二012": {
+    "status": "球队别名未收录：普拉腾斯",
+    "mapping_score": 0
+  },
+  "周三001": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周三003": {
+    "status": "球队别名未收录：巴塞罗那,费耶诺德",
+    "mapping_score": 0
+  },
+  "周三004": {
+    "status": "球队别名未收录：斯图加特,维京",
+    "mapping_score": 0
+  },
+  "周三005": {
+    "status": "球队别名未收录：特尔斯达",
+    "mapping_score": 0
+  },
+  "周三006": {
+    "status": "球队别名未收录：里斯本,加拉塔萨",
+    "mapping_score": 0
+  },
+  "周三007": {
+    "status": "球队别名未收录：那不勒斯,阿森纳",
+    "mapping_score": 0
+  },
+  "周三008": {
+    "status": "球队别名未收录：利物浦,马竞",
+    "mapping_score": 0
+  },
+  "周三009": {
+    "status": "球队别名未收录：巴黎圣曼,布拉迪斯",
+    "mapping_score": 0
+  },
+  "周三011": {
+    "status": "球队别名未收录：切尔西,利兹联",
+    "mapping_score": 0
+  },
+  "周三013": {
+    "status": "球队别名未收录：基多体育",
+    "mapping_score": 0
+  },
+  "周三014": {
+    "status": "球队别名未收录：拉普大学",
     "mapping_score": 0
   }
 }
