@@ -18408,5 +18408,23 @@
     ],
     "fixture_id": null,
     "forced": null
+  },
+  {
+    "key": "周一014|2026-09-14 18:00",
+    "locked_at": "2026-09-14T13:58:25.859312+08:00",
+    "status": "locked",
+    "code": "周一014",
+    "league": "亚运女足",
+    "kickoff": "2026-09-14 18:00",
+    "home": "中国女足",
+    "away": "中国香港女",
+    "china_1x2": null,
+    "avg_1x2": [
+      30.28,
+      13.14,
+      1.04
+    ],
+    "fixture_id": null,
+    "forced": null
   }
 ]
