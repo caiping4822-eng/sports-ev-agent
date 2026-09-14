@@ -18390,5 +18390,23 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周一007|2026-09-15 02:15",
+    "locked_at": "2026-09-14T13:38:00.088371+08:00",
+    "status": "locked",
+    "code": "周一007",
+    "league": "亚精英赛",
+    "kickoff": "2026-09-15 02:15",
+    "home": "吉达国民",
+    "away": "棉农",
+    "china_1x2": null,
+    "avg_1x2": [
+      1.21,
+      6.13,
+      9.98
+    ],
+    "fixture_id": null,
+    "forced": null
   }
 ]
