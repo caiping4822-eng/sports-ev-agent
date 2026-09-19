@@ -1,4 +1,284 @@
 {
+  "4566260": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.16,
+      3.6,
+      3.0
+    ],
+    "current": [
+      2.52,
+      3.71,
+      2.56
+    ]
+  },
+  "4566264": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.5,
+      3.6,
+      2.55
+    ],
+    "current": [
+      2.68,
+      3.58,
+      2.48
+    ]
+  },
+  "4566524": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.58,
+      3.73,
+      2.58
+    ],
+    "current": [
+      3.2,
+      3.69,
+      2.12
+    ]
+  },
+  "4566266": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.19,
+      3.77,
+      3.05
+    ],
+    "current": [
+      2.26,
+      3.77,
+      2.86
+    ]
+  },
+  "4558562": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.67,
+      3.75,
+      4.83
+    ],
+    "current": [
+      1.76,
+      3.86,
+      4.45
+    ]
+  },
+  "4558575": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.4,
+      5.0,
+      6.8
+    ],
+    "current": [
+      1.6,
+      4.29,
+      5.14
+    ]
+  },
+  "4467625": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      3.8,
+      3.7,
+      1.71
+    ],
+    "current": [
+      5.22,
+      4.52,
+      1.51
+    ]
+  },
+  "4565420": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.81,
+      3.71,
+      5.15
+    ],
+    "current": [
+      1.6,
+      3.84,
+      5.83
+    ]
+  },
+  "4550884": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.21,
+      3.5,
+      3.0
+    ],
+    "current": [
+      1.81,
+      3.84,
+      4.1
+    ]
+  },
+  "4549063": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.43,
+      3.35,
+      2.8
+    ],
+    "current": [
+      2.67,
+      3.47,
+      2.56
+    ]
+  },
+  "4558576": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.75,
+      3.7,
+      4.5
+    ],
+    "current": [
+      1.62,
+      3.98,
+      5.43
+    ]
+  },
+  "4566255": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.26,
+      3.83,
+      2.7
+    ],
+    "current": [
+      2.41,
+      3.87,
+      2.63
+    ]
+  },
+  "4565422": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.62,
+      3.8,
+      5.25
+    ],
+    "current": [
+      1.8,
+      3.79,
+      4.3
+    ]
+  },
+  "4552204": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.33,
+      5.23,
+      7.35
+    ],
+    "current": [
+      1.21,
+      6.99,
+      10.56
+    ]
+  },
+  "4549116": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.39,
+      3.25,
+      2.9
+    ],
+    "current": [
+      3.57,
+      3.58,
+      2.02
+    ]
+  },
+  "4550878": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.96,
+      3.28,
+      3.83
+    ],
+    "current": [
+      2.08,
+      3.48,
+      3.46
+    ]
+  },
+  "4550881": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.9,
+      3.8,
+      3.6
+    ],
+    "current": [
+      2.19,
+      3.74,
+      3.03
+    ]
+  },
+  "4565427": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      8.75,
+      5.41,
+      1.4
+    ],
+    "current": [
+      9.55,
+      6.61,
+      1.26
+    ]
+  },
+  "4578211": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.24,
+      5.8,
+      11.0
+    ],
+    "current": [
+      1.17,
+      7.43,
+      13.83
+    ]
+  },
+  "4465856": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.25,
+      3.3,
+      3.1
+    ],
+    "current": [
+      2.05,
+      3.5,
+      3.35
+    ]
+  },
   "4555265": {
     "source": "zgzcw_bjzs_public_average",
     "source_url": "https://plzx.zgzcw.com/bjzs",
@@ -50,9 +330,9 @@
       3.46
     ],
     "current": [
-      2.06,
-      3.37,
-      3.42
+      2.09,
+      3.33,
+      3.35
     ]
   },
   "4558577": {
@@ -64,9 +344,9 @@
       2.95
     ],
     "current": [
-      1.95,
-      3.69,
-      3.74
+      1.89,
+      3.76,
+      3.82
     ]
   },
   "4563595": {
@@ -78,9 +358,9 @@
       2.45
     ],
     "current": [
-      2.29,
-      3.29,
-      3.06
+      2.27,
+      3.26,
+      3.11
     ]
   },
   "4565426": {
@@ -92,9 +372,9 @@
       3.75
     ],
     "current": [
-      2.52,
-      3.31,
-      2.81
+      2.61,
+      3.25,
+      2.74
     ]
   },
   "4549076": {
@@ -106,9 +386,9 @@
       3.9
     ],
     "current": [
-      2.24,
-      3.27,
-      3.3
+      2.22,
+      3.17,
+      3.42
     ]
   },
   "4549107": {
@@ -120,9 +400,9 @@
       3.8
     ],
     "current": [
-      1.94,
-      3.35,
-      4.13
+      1.97,
+      3.28,
+      4.12
     ]
   },
   "4467175": {
@@ -134,289 +414,9 @@
       2.08
     ],
     "current": [
-      3.17,
-      3.59,
-      2.07
-    ]
-  },
-  "4566260": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.16,
-      3.6,
-      3.0
-    ],
-    "current": [
-      2.5,
-      3.74,
-      2.58
-    ]
-  },
-  "4566264": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.5,
-      3.6,
-      2.55
-    ],
-    "current": [
-      2.67,
-      3.57,
-      2.49
-    ]
-  },
-  "4566524": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.58,
-      3.73,
-      2.58
-    ],
-    "current": [
-      3.03,
-      3.76,
-      2.18
-    ]
-  },
-  "4566266": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.19,
-      3.77,
-      3.05
-    ],
-    "current": [
-      2.32,
-      3.81,
-      2.77
-    ]
-  },
-  "4558562": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.67,
-      3.75,
-      4.83
-    ],
-    "current": [
-      1.81,
-      3.78,
-      4.28
-    ]
-  },
-  "4558575": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.4,
-      5.0,
-      6.8
-    ],
-    "current": [
-      1.61,
-      4.25,
-      5.15
-    ]
-  },
-  "4467625": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      3.8,
-      3.7,
-      1.71
-    ],
-    "current": [
-      5.31,
-      4.6,
-      1.5
-    ]
-  },
-  "4565420": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.81,
-      3.71,
-      5.15
-    ],
-    "current": [
-      1.63,
-      3.95,
-      5.34
-    ]
-  },
-  "4550884": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.21,
-      3.5,
-      3.0
-    ],
-    "current": [
-      1.86,
-      3.84,
-      3.9
-    ]
-  },
-  "4549063": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.43,
-      3.35,
-      2.8
-    ],
-    "current": [
-      2.61,
-      3.52,
-      2.61
-    ]
-  },
-  "4558576": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.75,
-      3.7,
-      4.5
-    ],
-    "current": [
-      1.63,
-      3.99,
-      5.33
-    ]
-  },
-  "4566255": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.26,
-      3.83,
-      2.7
-    ],
-    "current": [
-      2.42,
-      3.87,
-      2.61
-    ]
-  },
-  "4565422": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.62,
-      3.8,
-      5.25
-    ],
-    "current": [
-      1.79,
-      3.82,
-      4.27
-    ]
-  },
-  "4552204": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.33,
-      5.23,
-      7.35
-    ],
-    "current": [
-      1.22,
-      6.82,
-      10.21
-    ]
-  },
-  "4549116": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.39,
-      3.25,
-      2.9
-    ],
-    "current": [
-      3.64,
-      3.61,
-      1.99
-    ]
-  },
-  "4550878": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.96,
-      3.28,
-      3.83
-    ],
-    "current": [
-      2.08,
-      3.5,
-      3.43
-    ]
-  },
-  "4550881": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.9,
-      3.8,
-      3.6
-    ],
-    "current": [
-      2.14,
-      3.75,
-      3.11
-    ]
-  },
-  "4565427": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      8.75,
-      5.41,
-      1.4
-    ],
-    "current": [
-      9.63,
-      6.66,
-      1.25
-    ]
-  },
-  "4578211": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.24,
-      5.8,
-      11.0
-    ],
-    "current": [
-      1.17,
-      7.28,
-      13.49
-    ]
-  },
-  "4465856": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      2.25,
-      3.3,
-      3.1
-    ],
-    "current": [
-      2.05,
-      3.51,
-      3.35
+      3.44,
+      3.65,
+      1.97
     ]
   }
 }
