@@ -21719,5 +21719,19 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周一001|2026-09-21 15:00",
+    "locked_at": "2026-09-20T13:36:51.975124+08:00",
+    "status": "locked",
+    "code": "周一001",
+    "league": "亚运女足",
+    "kickoff": "2026-09-21 15:00",
+    "home": "中国女足",
+    "away": "菲律宾女",
+    "china_1x2": null,
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
