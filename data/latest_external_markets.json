@@ -1,1 +1,9 @@
-{}
+{
+  "2041616": {
+    "available": false,
+    "errors": [
+      "soccer_uefa_champs_league:RuntimeError",
+      "soccer_brazil_campeonato:RuntimeError"
+    ]
+  }
+}
