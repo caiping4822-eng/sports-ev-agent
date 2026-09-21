@@ -21733,5 +21733,59 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null
+  },
+  {
+    "key": "周二002|2026-09-23 02:00",
+    "locked_at": "2026-09-21T13:46:38.322404+08:00",
+    "status": "locked",
+    "code": "周二002",
+    "league": "英锦赛",
+    "kickoff": "2026-09-23 02:00",
+    "home": "米尔顿",
+    "away": "克劳利",
+    "china_1x2": [
+      1.44,
+      4.3,
+      4.95
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二003|2026-09-23 02:00",
+    "locked_at": "2026-09-21T13:46:38.322404+08:00",
+    "status": "locked",
+    "code": "周二003",
+    "league": "英锦赛",
+    "kickoff": "2026-09-23 02:00",
+    "home": "诺茨郡",
+    "away": "格里姆",
+    "china_1x2": [
+      2.08,
+      3.45,
+      2.79
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二004|2026-09-23 02:00",
+    "locked_at": "2026-09-21T13:46:38.322404+08:00",
+    "status": "locked",
+    "code": "周二004",
+    "league": "英锦赛",
+    "kickoff": "2026-09-23 02:00",
+    "home": "维冈竞技",
+    "away": "布莱克浦",
+    "china_1x2": [
+      2.05,
+      3.55,
+      2.78
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
