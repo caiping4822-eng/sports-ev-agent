@@ -1,9 +1,93 @@
 {
-  "updated_at": "2026-09-21 20:32",
-  "events": [],
-  "errors": [
-    "竞彩页读取失败：HTTPError",
-    "百家指数读取失败：HTTPError",
-    "总进球读取失败：HTTPError"
-  ]
+  "updated_at": "2026-09-22 01:25",
+  "events": [
+    {
+      "source": "zgzcw_public_page",
+      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+      "captured_at": "2026-09-22T01:25:44.927472+08:00",
+      "source_match_id": "2041643",
+      "analysis_match_id": "4568754",
+      "code": "周二002",
+      "league": "英锦赛",
+      "deadline": "2026-09-22 21:40",
+      "kickoff": "2026-09-23 02:00",
+      "home": "米尔顿",
+      "away": "克劳利",
+      "markets": [
+        {
+          "market": "1X2",
+          "line": "0",
+          "home_win": 1.45,
+          "draw": 4.25,
+          "away_win": 4.88
+        },
+        {
+          "market": "handicap_1x2",
+          "line": "-1",
+          "home_win": 2.35,
+          "draw": 3.7,
+          "away_win": 2.31
+        }
+      ]
+    },
+    {
+      "source": "zgzcw_public_page",
+      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+      "captured_at": "2026-09-22T01:25:44.928081+08:00",
+      "source_match_id": "2041655",
+      "analysis_match_id": "4568695",
+      "code": "周二003",
+      "league": "英锦赛",
+      "deadline": "2026-09-22 21:40",
+      "kickoff": "2026-09-23 02:00",
+      "home": "诺茨郡",
+      "away": "格里姆",
+      "markets": [
+        {
+          "market": "1X2",
+          "line": "0",
+          "home_win": 2.08,
+          "draw": 3.45,
+          "away_win": 2.79
+        },
+        {
+          "market": "handicap_1x2",
+          "line": "-1",
+          "home_win": 4.2,
+          "draw": 3.88,
+          "away_win": 1.58
+        }
+      ]
+    },
+    {
+      "source": "zgzcw_public_page",
+      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+      "captured_at": "2026-09-22T01:25:44.928224+08:00",
+      "source_match_id": "2041644",
+      "analysis_match_id": "4638625",
+      "code": "周二004",
+      "league": "英锦赛",
+      "deadline": "2026-09-22 21:40",
+      "kickoff": "2026-09-23 02:00",
+      "home": "维冈竞技",
+      "away": "布莱克浦",
+      "markets": [
+        {
+          "market": "1X2",
+          "line": "0",
+          "home_win": 2.1,
+          "draw": 3.5,
+          "away_win": 2.72
+        },
+        {
+          "market": "handicap_1x2",
+          "line": "-1",
+          "home_win": 4.15,
+          "draw": 4.05,
+          "away_win": 1.56
+        }
+      ]
+    }
+  ],
+  "errors": []
 }
