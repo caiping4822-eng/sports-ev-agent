@@ -134279,5 +134279,62 @@
     ],
     "raw_sha256": "61f7bca455842a0273a636cc5848e36a60c33a257ae65446080e5402f3fc92d2",
     "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
+  },
+  {
+    "events": [
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-09-22T23:57:04.436647+08:00",
+        "source_match_id": "2041645",
+        "analysis_match_id": "4594058",
+        "code": "周三001",
+        "league": "亚运男足",
+        "deadline": "2026-09-23 13:10",
+        "kickoff": "2026-09-23 13:30",
+        "home": "中国U23",
+        "away": "阿联酋U23",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 1.95,
+            "draw": 2.9,
+            "away_win": 3.68
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "-1",
+            "home_win": 4.35,
+            "draw": 3.38,
+            "away_win": 1.66
+          }
+        ]
+      },
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-09-22T23:57:04.436875+08:00",
+        "source_match_id": "2041646",
+        "analysis_match_id": "4594052",
+        "code": "周三002",
+        "league": "亚运男足",
+        "deadline": "2026-09-23 18:10",
+        "kickoff": "2026-09-23 18:30",
+        "home": "日本U23",
+        "away": "泰国U23",
+        "markets": [
+          {
+            "market": "handicap_1x2",
+            "line": "-2",
+            "home_win": 1.8,
+            "draw": 4.15,
+            "away_win": 3.0
+          }
+        ]
+      }
+    ],
+    "raw_sha256": "ed506ca35b90cbb21327e9d0f9ada23aebefb66b0bc934297a1a2405dad7a78a",
+    "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
   }
 ]
