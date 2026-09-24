@@ -1,16 +1,4 @@
 {
-  "周四001": {
-    "status": "球队别名未收录：日本,乌拉圭",
-    "mapping_score": 0
-  },
-  "周四002": {
-    "status": "球队别名未收录：韩国,厄瓜多尔",
-    "mapping_score": 0
-  },
-  "周四003": {
-    "status": "球队别名未收录：中国,马尔代夫",
-    "mapping_score": 0
-  },
   "周四004": {
     "status": "球队别名未收录：科索沃,爱尔兰",
     "mapping_score": 0
@@ -29,6 +17,58 @@
   },
   "周四008": {
     "status": "球队别名未收录：挪威,丹麦",
+    "mapping_score": 0
+  },
+  "周五001": {
+    "status": "球队别名未收录：乌兹U23,沙特U23",
+    "mapping_score": 0
+  },
+  "周五002": {
+    "status": "球队别名未收录：中国女足,越南女",
+    "mapping_score": 0
+  },
+  "周五003": {
+    "status": "球队别名未收录：澳大利亚,巴西",
+    "mapping_score": 0
+  },
+  "周五004": {
+    "status": "球队别名未收录：韩国U23,越南U23",
+    "mapping_score": 0
+  },
+  "周五005": {
+    "status": "球队别名未收录：韩国女,乌兹女",
+    "mapping_score": 0
+  },
+  "周五006": {
+    "status": "球队别名未收录：格鲁吉亚,北爱尔兰",
+    "mapping_score": 0
+  },
+  "周五007": {
+    "status": "球队别名未收录：亚美尼亚,拉脱维亚",
+    "mapping_score": 0
+  },
+  "周五008": {
+    "status": "球队别名未收录：意大利,比利时",
+    "mapping_score": 0
+  },
+  "周五009": {
+    "status": "球队别名未收录：黑山,塞浦路斯",
+    "mapping_score": 0
+  },
+  "周五010": {
+    "status": "球队别名未收录：波兰,波黑",
+    "mapping_score": 0
+  },
+  "周五011": {
+    "status": "球队别名未收录：土耳其,法国",
+    "mapping_score": 0
+  },
+  "周五012": {
+    "status": "球队别名未收录：瑞典,罗马尼亚",
+    "mapping_score": 0
+  },
+  "周五013": {
+    "status": "球队别名未收录：多德勒支,阿尔梅勒",
     "mapping_score": 0
   }
 }
