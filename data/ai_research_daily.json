@@ -1,56 +1,8 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "pipeline_version": 9,
-  "updated_at": "2026-09-23T13:25:43.434845+08:00",
+  "updated_at": "2026-09-24T13:44:30.806701+08:00",
   "events": [
-    {
-      "code": "周三002",
-      "match": "日本U23 vs 泰国U23",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三003",
-      "match": "西雅图 vs 盐湖城",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
     {
       "code": "周四001",
       "match": "日本 vs 乌拉圭",
