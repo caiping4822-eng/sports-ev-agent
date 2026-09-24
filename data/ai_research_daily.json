@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "pipeline_version": 9,
-  "updated_at": "2026-09-24T13:44:30.806701+08:00",
+  "updated_at": "2026-09-25T00:08:25.677904+08:00",
   "events": [
     {
-      "code": "周四001",
-      "match": "日本 vs 乌拉圭",
+      "code": "周五001",
+      "match": "乌兹U23 vs 沙特U23",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周四002",
-      "match": "韩国 vs 厄瓜多尔",
+      "code": "周五002",
+      "match": "中国女足 vs 越南女",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周四003",
-      "match": "中国 vs 马尔代夫",
+      "code": "周五003",
+      "match": "澳大利亚 vs 巴西",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周四004",
-      "match": "科索沃 vs 爱尔兰",
+      "code": "周五004",
+      "match": "韩国U23 vs 越南U23",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周四005",
-      "match": "葡萄牙 vs 威尔士",
+      "code": "周五005",
+      "match": "韩国女 vs 乌兹女",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周四006",
-      "match": "荷兰 vs 德国",
+      "code": "周五006",
+      "match": "格鲁吉亚 vs 北爱尔兰",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周四007",
-      "match": "塞尔维亚 vs 希腊",
+      "code": "周五007",
+      "match": "亚美尼亚 vs 拉脱维亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,128 @@
       }
     },
     {
-      "code": "周四008",
-      "match": "挪威 vs 丹麦",
+      "code": "周五008",
+      "match": "意大利 vs 比利时",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五009",
+      "match": "黑山 vs 塞浦路斯",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五010",
+      "match": "波兰 vs 波黑",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五011",
+      "match": "土耳其 vs 法国",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五012",
+      "match": "瑞典 vs 罗马尼亚",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五013",
+      "match": "多德勒支 vs 阿尔梅勒",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
