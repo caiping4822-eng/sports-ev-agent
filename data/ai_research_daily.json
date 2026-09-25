@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "pipeline_version": 9,
-  "updated_at": "2026-09-25T00:08:25.677904+08:00",
+  "updated_at": "2026-09-26T00:09:16.155370+08:00",
   "events": [
     {
-      "code": "周五001",
-      "match": "乌兹U23 vs 沙特U23",
+      "code": "周六001",
+      "match": "中国U23 vs 泰国U23",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周五002",
-      "match": "中国女足 vs 越南女",
+      "code": "周六002",
+      "match": "磐城FC vs 仙台七夕",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周五003",
-      "match": "澳大利亚 vs 巴西",
+      "code": "周六003",
+      "match": "富山胜利 vs 横滨FC",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周五004",
-      "match": "韩国U23 vs 越南U23",
+      "code": "周六004",
+      "match": "秋田闪电 vs 新泻天鹅",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周五005",
-      "match": "韩国女 vs 乌兹女",
+      "code": "周六005",
+      "match": "大宫松鼠 vs 甲府风林",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周五006",
-      "match": "格鲁吉亚 vs 北爱尔兰",
+      "code": "周六006",
+      "match": "大分三神 vs 藤枝FC",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周五007",
-      "match": "亚美尼亚 vs 拉脱维亚",
+      "code": "周六007",
+      "match": "日本U23 vs 朝鲜U23",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "code": "周五008",
-      "match": "意大利 vs 比利时",
+      "code": "周六008",
+      "match": "斯洛文尼 vs 苏格兰",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -196,8 +196,8 @@
       }
     },
     {
-      "code": "周五009",
-      "match": "黑山 vs 塞浦路斯",
+      "code": "周六009",
+      "match": "赫拉克勒 vs 维迪斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -220,8 +220,8 @@
       }
     },
     {
-      "code": "周五010",
-      "match": "波兰 vs 波黑",
+      "code": "周六010",
+      "match": "法罗群岛 vs 哈萨克",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -244,8 +244,8 @@
       }
     },
     {
-      "code": "周五011",
-      "match": "土耳其 vs 法国",
+      "code": "周六011",
+      "match": "冰岛 vs 爱沙尼亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -268,8 +268,8 @@
       }
     },
     {
-      "code": "周五012",
-      "match": "瑞典 vs 罗马尼亚",
+      "code": "周六012",
+      "match": "保加利亚 vs 卢森堡",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -292,8 +292,211 @@
       }
     },
     {
-      "code": "周五013",
-      "match": "多德勒支 vs 阿尔梅勒",
+      "code": "周六013",
+      "match": "罗达JC vs 瓦尔韦克",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六014",
+      "match": "捷克 vs 克罗地亚",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六015",
+      "match": "北马其顿 vs 瑞士",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六016",
+      "match": "英格兰 vs 西班牙",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日001",
+      "match": "江原FC vs 仁川联队",
+      "status": "有效来源 12 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Preview: Incheon United vs Gangwon FC - K League United | South Korean football news, opinions, match previews and score predictions",
+          "url": "http://www.kleagueunited.com/2018/07/preview-incheon-united-vs-gangwon-fc.html",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Gangwon FC vs Incheon United - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/incheon-united-vs-gangwon-fc/khfpglp",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Gangwon FC vs Incheon United predicted lineup · 27 Sept 2026",
+          "url": "https://starting11.com/fixtures/gangwon-fc-vs-incheon-united",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Gangwon FC vs Incheon United live score, H2H and lineups",
+          "url": "https://www.sofascore.com/football/match/gangwon-fc-incheon-united/YcdsvJn",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "GANGWON FC vs INCHEON UNITED Predictions & Odds (Korea Republic K - League)",
+          "url": "https://www.bettingclosed.com/prediction/715185/gangwon-fc-incheon-united",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Preview: Gangwon FC vs Incheon United - K League United | South Korean football news, opinions, match previews and score predictions",
+          "url": "http://www.kleagueunited.com/2020/10/preview-gangwon-fc-vs-incheon-united.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Preview: Gangwon FC vs Incheon United - K League United | South Korean football news, opinions, match previews and score predictions",
+          "url": "http://www.kleagueunited.com/2018/11/preview-gangwon-fc-vs-incheon-united.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "K League 1 Preview: Incheon United vs Gwangju FC - Relegation Battle, Injury-Hit Visitors Face Mid-Table Hosts",
+          "url": "https://www.chopsoc.com/news/50068867",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Incheon United FC vs Gangwon FC Predictions & Preview – Football Tips by BetOnValue",
+          "url": "https://www.betonvalue.com/predictions/incheon-united-fc-vs-gangwon-fc-predictions-betting-tips-match-preview-2026-05-02",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Gangwon FC vs Incheon United Club Head to Head History",
+          "url": "https://m.aiscore.com/head-to-head/soccer-gangwon-fc-vs-incheon-united",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Incheon United vs Gangwon FC: K League 1 Preview & Tactical Breakdown | Tiki",
+          "url": "https://www.tikitaka.gg/articles/1506958-incheon-united-vs-gangwon-fc-preview",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Gangwon FC vs Incheon United: Scores, Results Lineups, H2H & Odds",
+          "url": "https://www.365scores.com/en-us/football/match/k-league-1-618/gangwon-fc-incheon-united-9819-9825-618",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "本次检索材料多为2018、2020年旧文或2026年5月另一场比赛的预览，与2026-09-27这场K League 1比赛并非同一场次，因此无法确认本场具体伤停、停赛与官方阵容。可确认的仅有赛事级别（K League 1）、场地（春川松岩体育场）以及部分历史交锋统计，但这些统计口径互相矛盾。战意与近期状态信息均来自其他时间点的比赛，不能直接用于本场。",
+        "competition_context": [
+          "赛事为K League 1（韩国K联赛1），比赛地点为春川松岩体育场（Chuncheon Songam Stadium）。",
+          "Sofascore页面称本赛季两队已交手1次，Gangwon FC排名第4，Incheon United排名第7。",
+          "历史交锋统计口径不一致：FotMob称Gangwon 18胜、Incheon 12胜、7平；Starting11称25次交手Gangwon 13胜、Incheon 7胜、5平。",
+          "BetOnValue（2026-05-02场次）称Gangwon FC在K League 1中赢下双方最近3次交锋，包括上赛季主场3-1取胜。"
+        ],
+        "motivation_evidence": [
+          "Sofascore显示Gangwon FC排名第4、Incheon United排名第7，但未给出积分差距或赛制相关的具体战意依据。",
+          "其余战意描述（如Incheon保级压力、Gangwon已无压力）均出自2018、2020年旧文，与本场赛季无关，不能作为本场战意依据。"
+        ],
+        "form_schedule": [
+          "BetOnValue（2026-05-02场次）称Incheon United近5场3胜1平1负，Gangwon FC近5场3胜1平1负。",
+          "Tiki（2026-05-02场次）称Gangwon FC近5场3胜1平1负，期间进10球失3球，含两场客场零封。",
+          "AiScore称双方最近6次交手中Gangwon FC 4胜1平1负，Incheon United 1胜1平4负。",
+          "以上数据均非2026-09-27本场赛前的近期战绩，未提供本场前的休息天数。"
+        ],
+        "confirmed": [
+          "无本场（2026-09-27）明确可确认的伤停、停赛或官方赛果信息。"
+        ],
+        "uncertain": [
+          "本场双方实际伤停、停赛名单。",
+          "本场双方预计首发与阵型。",
+          "本场赛前最新积分、排名与积分差距。",
+          "本场赛前双方近期战绩与休息天数。"
+        ],
+        "risks": [
+          "检索材料中多篇为2018年、2020年旧文，其伤停（如Kim Dong-min停赛、Park Jung-soo停赛）与战意描述不适用于2026-09-27本场。",
+          "BetOnValue、Tiki等来源对应的是2026-05-02 Incheon United vs Gangwon FC，与本场主客及日期均不同，不能直接套用。",
+          "历史交锋统计存在来源冲突（FotMob与Starting11的胜平负场次不一致），需以官方数据为准。",
+          "部分页面（FotMob、365scores、Starting11）仅为通用模板或预测页，未提供本场实质赛前信息。"
+        ]
+      }
+    },
+    {
+      "code": "周日003",
+      "match": "格拉夫 vs 登博思",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
