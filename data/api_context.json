@@ -1,8 +1,4 @@
 {
-  "周六001": {
-    "status": "球队别名未收录：中国U23,泰国U23",
-    "mapping_score": 0
-  },
   "周六002": {
     "status": "球队别名未收录：磐城FC,仙台七夕",
     "mapping_score": 0
@@ -63,12 +59,52 @@
     "status": "球队别名未收录：英格兰,西班牙",
     "mapping_score": 0
   },
+  "周六017": {
+    "status": "球队别名未收录：美国,秘鲁",
+    "mapping_score": 0
+  },
+  "周六018": {
+    "status": "球队别名未收录：加拿大,智利",
+    "mapping_score": 0
+  },
+  "周六019": {
+    "status": "球队别名未收录：纽约红牛,圣路易斯",
+    "mapping_score": 0
+  },
+  "周六020": {
+    "status": "球队别名未收录：费城联合,奥兰多",
+    "mapping_score": 0
+  },
+  "周六021": {
+    "status": "球队别名未收录：达拉斯,洛杉矶",
+    "mapping_score": 0
+  },
+  "周六022": {
+    "status": "球队别名未收录：纳什威尔",
+    "mapping_score": 0
+  },
+  "周六023": {
+    "status": "球队别名未收录：盐湖城,新英格兰",
+    "mapping_score": 0
+  },
+  "周六024": {
+    "status": "球队别名未收录：圣何塞,波特兰",
+    "mapping_score": 0
+  },
+  "周六025": {
+    "status": "球队别名未收录：洛城银河,科罗拉多",
+    "mapping_score": 0
+  },
   "周日001": {
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
   },
   "周日003": {
     "status": "球队别名未收录：格拉夫,登博思",
+    "mapping_score": 0
+  },
+  "周日009": {
+    "status": "球队别名未收录：哥伦布,迈阿密",
     "mapping_score": 0
   }
 }
