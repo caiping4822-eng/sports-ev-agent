@@ -3,8 +3,32 @@
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
   },
+  "周日002": {
+    "status": "球队别名未收录：中国,新西兰",
+    "mapping_score": 0
+  },
   "周日003": {
     "status": "球队别名未收录：格拉夫,登博思",
+    "mapping_score": 0
+  },
+  "周日004": {
+    "status": "球队别名未收录：丹麦,威尔士",
+    "mapping_score": 0
+  },
+  "周日005": {
+    "status": "球队别名未收录：塞尔维亚,荷兰",
+    "mapping_score": 0
+  },
+  "周日006": {
+    "status": "球队别名未收录：奥地利,科索沃",
+    "mapping_score": 0
+  },
+  "周日007": {
+    "status": "球队别名未收录：德国,希腊",
+    "mapping_score": 0
+  },
+  "周日008": {
+    "status": "球队别名未收录：挪威,葡萄牙",
     "mapping_score": 0
   },
   "周日009": {
