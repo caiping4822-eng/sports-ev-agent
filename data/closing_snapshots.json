@@ -20597,5 +20597,39 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-09-29T01:53:57.747536+08:00",
+    "items": [
+      {
+        "code": "周二001",
+        "kickoff": "2026-09-29 14:00",
+        "china": [
+          1.32,
+          4.25,
+          7.3
+        ],
+        "average": [
+          1.37,
+          4.14,
+          6.83
+        ]
+      },
+      {
+        "code": "周二007",
+        "kickoff": "2026-09-29 18:30",
+        "china": [
+          1.15,
+          5.8,
+          11.5
+        ],
+        "average": [
+          1.19,
+          5.47,
+          10.57
+        ]
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
