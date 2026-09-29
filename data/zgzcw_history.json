@@ -141955,5 +141955,69 @@
     ],
     "raw_sha256": "0a21178f8d41c333f6a9d2b80d87c2f99054716a2ec339934cef8a8a7f949683",
     "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
+  },
+  {
+    "events": [
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-09-30T01:16:10.990402+08:00",
+        "source_match_id": "2041789",
+        "analysis_match_id": "4649994",
+        "code": "周三001",
+        "league": "亚运男足",
+        "deadline": "2026-09-30 13:40",
+        "kickoff": "2026-09-30 14:00",
+        "home": "韩国U23",
+        "away": "中国U23",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 1.21,
+            "draw": 4.73,
+            "away_win": 11.0
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "-1",
+            "home_win": 1.79,
+            "draw": 3.56,
+            "away_win": 3.45
+          }
+        ]
+      },
+      {
+        "source": "zgzcw_public_page",
+        "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
+        "captured_at": "2026-09-30T01:16:10.990662+08:00",
+        "source_match_id": "2041790",
+        "analysis_match_id": "4649993",
+        "code": "周三002",
+        "league": "亚运男足",
+        "deadline": "2026-09-30 18:10",
+        "kickoff": "2026-09-30 18:30",
+        "home": "乌兹U23",
+        "away": "日本U23",
+        "markets": [
+          {
+            "market": "1X2",
+            "line": "0",
+            "home_win": 4.7,
+            "draw": 3.4,
+            "away_win": 1.61
+          },
+          {
+            "market": "handicap_1x2",
+            "line": "+1",
+            "home_win": 2.0,
+            "draw": 3.3,
+            "away_win": 3.07
+          }
+        ]
+      }
+    ],
+    "raw_sha256": "99e293f33017b0b69809e7c48b5e1ee2ca25ff2851d2ae7cc26fef8df38329a1",
+    "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini"
   }
 ]

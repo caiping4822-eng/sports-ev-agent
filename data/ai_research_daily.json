@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "pipeline_version": 9,
-  "updated_at": "2026-09-29T02:57:10.622865+08:00",
+  "updated_at": "2026-09-30T01:16:15.833492+08:00",
   "events": [
     {
-      "code": "周二001",
-      "match": "朝鲜女 vs 中国女足",
+      "code": "周三001",
+      "match": "韩国U23 vs 中国U23",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周二007",
-      "match": "日本女 vs 韩国女",
+      "code": "周三002",
+      "match": "乌兹U23 vs 日本U23",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
