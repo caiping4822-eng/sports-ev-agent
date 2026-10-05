@@ -1,5 +1,363 @@
 {
   "pipeline_version": 2,
-  "decisions": [],
-  "global_forced_code": null
+  "decisions": [
+    {
+      "code": "周一001",
+      "match": "塞浦路斯 vs 拉脱维亚",
+      "odds": [
+        1.47,
+        3.7,
+        5.6
+      ],
+      "market_p": [
+        0.5798526768963406,
+        0.25163418053992137,
+        0.16851314256373798
+      ],
+      "base_p": [
+        0.5598526768963406,
+        0.23163418053992138,
+        0.148513142563738
+      ],
+      "conservative_p": [
+        0.5598526768963406,
+        0.23163418053992138,
+        0.148513142563738
+      ],
+      "ev": [
+        -0.17701656496237939,
+        -0.14295353200229088,
+        -0.16832640164306734
+      ],
+      "forced_i": 1,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.17604197721034026,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一002",
+      "match": "法国 vs 比利时",
+      "odds": [
+        1.34,
+        4.5,
+        6.2
+      ],
+      "market_p": [
+        0.6370790288292992,
+        0.20146943646738527,
+        0.16145153470331555
+      ],
+      "base_p": [
+        0.6170790288292992,
+        0.18146943646738528,
+        0.14145153470331556
+      ],
+      "conservative_p": [
+        0.6170790288292992,
+        0.18146943646738528,
+        0.14145153470331556
+      ],
+      "ev": [
+        -0.17311410136873895,
+        -0.18338753589676626,
+        -0.12300048483944348
+      ],
+      "forced_i": 1,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.13791677171521283,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一003",
+      "match": "罗马尼亚 vs 瑞典",
+      "odds": [
+        4.23,
+        3.9,
+        1.57
+      ],
+      "market_p": [
+        0.22528801024036407,
+        0.23837291992604182,
+        0.5363390698335941
+      ],
+      "base_p": [
+        0.20528801024036408,
+        0.21837291992604183,
+        0.5163390698335941
+      ],
+      "conservative_p": [
+        0.20528801024036408,
+        0.21837291992604183,
+        0.5163390698335941
+      ],
+      "ev": [
+        -0.1316317166832598,
+        -0.1483456122884369,
+        -0.18934766036125716
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.16596341914379178,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一004",
+      "match": "意大利 vs 土耳其",
+      "odds": [
+        1.29,
+        4.82,
+        6.8
+      ],
+      "market_p": [
+        0.6765695185575339,
+        0.18830960755080464,
+        0.13512087389166155
+      ],
+      "base_p": [
+        0.6565695185575339,
+        0.16830960755080465,
+        0.11512087389166155
+      ],
+      "conservative_p": [
+        0.6565695185575339,
+        0.16830960755080465,
+        0.11512087389166155
+      ],
+      "ev": [
+        -0.15302532106078126,
+        -0.1887476916051215,
+        -0.2171780575367015
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.12791530173861154,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一005",
+      "match": "北爱尔兰 vs 格鲁吉亚",
+      "odds": [
+        2.2,
+        2.85,
+        3.09
+      ],
+      "market_p": [
+        0.3893579839618481,
+        0.3161900406670042,
+        0.29445197537114765
+      ],
+      "base_p": [
+        0.3693579839618481,
+        0.29619004066700416,
+        0.2744519753711476
+      ],
+      "conservative_p": [
+        0.3693579839618481,
+        0.29619004066700416,
+        0.2744519753711476
+      ],
+      "ev": [
+        -0.18741243528393414,
+        -0.15585838409903807,
+        -0.15194339610315388
+      ],
+      "forced_i": 0,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.28071206781100455,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一006",
+      "match": "黑山 vs 亚美尼亚",
+      "odds": [
+        1.39,
+        4.23,
+        5.75
+      ],
+      "market_p": [
+        0.6155019524894241,
+        0.22065164334526519,
+        0.16384640416531077
+      ],
+      "base_p": [
+        0.5955019524894241,
+        0.2006516433452652,
+        0.14384640416531078
+      ],
+      "conservative_p": [
+        0.5955019524894241,
+        0.2006516433452652,
+        0.14384640416531078
+      ],
+      "ev": [
+        -0.17225228603970066,
+        -0.15124354864952816,
+        -0.17288317604946302
+      ],
+      "forced_i": 1,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.15249524894240155,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一007",
+      "match": "波黑 vs 波兰",
+      "odds": [
+        2.9,
+        3.1,
+        2.17
+      ],
+      "market_p": [
+        0.32251887712706384,
+        0.27875525368209353,
+        0.39872586919084263
+      ],
+      "base_p": [
+        0.3025188771270638,
+        0.2587552536820935,
+        0.3787258691908426
+      ],
+      "conservative_p": [
+        0.3025188771270638,
+        0.2587552536820935,
+        0.3787258691908426
+      ],
+      "ev": [
+        -0.1226952563315149,
+        -0.1978587135855101,
+        -0.1781648638558716
+      ],
+      "forced_i": 2,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 40,
+      "conf_label": "低",
+      "global_score": 0.2878316605850404,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    }
+  ],
+  "global_forced_code": "周一007"
 }
