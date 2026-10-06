@@ -1,56 +1,8 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "pipeline_version": 9,
-  "updated_at": "2026-10-06T15:04:43.880412+08:00",
+  "updated_at": "2026-10-07T01:36:28.940424+08:00",
   "events": [
-    {
-      "code": "周二001",
-      "match": "韩国 vs 乌兹别克",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周二002",
-      "match": "中国 vs 塔吉克斯坦",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
     {
       "code": "周二003",
       "match": "哈萨克 vs 法罗群岛",
