@@ -24759,5 +24759,431 @@
       "global_composite_score": 0.2878316605850404,
       "is_global": true
     }
+  },
+  {
+    "key": "周二001|2026-10-06 19:00",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二001",
+    "league": "国际赛",
+    "kickoff": "2026-10-06 19:00",
+    "home": "韩国",
+    "away": "乌兹别克",
+    "china_1x2": [
+      1.48,
+      3.75,
+      5.35
+    ],
+    "avg_1x2": [
+      1.64,
+      3.88,
+      4.67
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.75,
+      "probability": 0.216283097294472,
+      "market_probability": 0.238283097294472,
+      "base_probability": 0.218283097294472,
+      "ev": -0.18893838514572991,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.16177975677626508,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二002|2026-10-06 19:35",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二002",
+    "league": "国际赛",
+    "kickoff": "2026-10-06 19:35",
+    "home": "中国",
+    "away": "塔吉克斯坦",
+    "china_1x2": [
+      1.65,
+      3.58,
+      4.1
+    ],
+    "avg_1x2": [
+      1.79,
+      3.49,
+      4.19
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.58,
+      "probability": 0.24236449385448863,
+      "market_probability": 0.2643644938544886,
+      "base_probability": 0.24436449385448863,
+      "ev": -0.13233511200093062,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.1812886414031575,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二003|2026-10-06 22:00",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二003",
+    "league": "欧国联",
+    "kickoff": "2026-10-06 22:00",
+    "home": "哈萨克",
+    "away": "法罗群岛",
+    "china_1x2": [
+      2.32,
+      2.9,
+      2.85
+    ],
+    "avg_1x2": [
+      2.49,
+      2.99,
+      3.03
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.32,
+      "probability": 0.3547105345225472,
+      "market_probability": 0.3767105345225472,
+      "base_probability": 0.3567105345225472,
+      "ev": -0.17707155990769052,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.2653234798228653,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二004|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二004",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "爱沙尼亚",
+    "away": "冰岛",
+    "china_1x2": [
+      5.05,
+      3.65,
+      1.52
+    ],
+    "avg_1x2": [
+      5.61,
+      3.97,
+      1.57
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.65,
+      "probability": 0.21405352658506716,
+      "market_probability": 0.23605352658506715,
+      "base_probability": 0.21605352658506716,
+      "ev": -0.21870462796450485,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.16011203788563022,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二005|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二005",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "卢森堡",
+    "away": "保加利亚",
+    "china_1x2": [
+      1.9,
+      3.05,
+      3.65
+    ],
+    "avg_1x2": [
+      2.2,
+      3.12,
+      3.44
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.9,
+      "probability": 0.404500508646999,
+      "market_probability": 0.426500508646999,
+      "base_probability": 0.406500508646999,
+      "ev": -0.2314490335707019,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.30256638046795525,
+      "is_global": true
+    }
+  },
+  {
+    "key": "周二006|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二006",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "苏格兰",
+    "away": "斯洛文尼",
+    "china_1x2": [
+      1.6,
+      3.4,
+      4.75
+    ],
+    "avg_1x2": [
+      1.76,
+      3.46,
+      5.01
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.4,
+      "probability": 0.2514834903758475,
+      "market_probability": 0.2734834903758475,
+      "base_probability": 0.2534834903758475,
+      "ev": -0.1449561327221185,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.18810965080113393,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二007|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二007",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "英格兰",
+    "away": "捷克",
+    "china_1x2": null,
+    "avg_1x2": [
+      1.1,
+      9.71,
+      21.64
+    ],
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二008|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二008",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "克罗地亚",
+    "away": "西班牙",
+    "china_1x2": [
+      10.5,
+      5.8,
+      1.16
+    ],
+    "avg_1x2": [
+      9.24,
+      6.04,
+      1.27
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 5.8,
+      "probability": 0.13401633712334746,
+      "market_probability": 0.15601633712334745,
+      "base_probability": 0.13601633712334746,
+      "ev": -0.22270524468458475,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.1002442201682639,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二009|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二009",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "瑞士",
+    "away": "北马其顿",
+    "china_1x2": null,
+    "avg_1x2": [
+      1.09,
+      10.37,
+      26.92
+    ],
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二010|2026-10-07 02:45",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二010",
+    "league": "欧国联",
+    "kickoff": "2026-10-07 02:45",
+    "home": "摩尔多瓦",
+    "away": "斯洛伐克",
+    "china_1x2": [
+      7.8,
+      4.55,
+      1.28
+    ],
+    "avg_1x2": [
+      8.01,
+      4.7,
+      1.38
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 4.55,
+      "probability": 0.17829789732327295,
+      "market_probability": 0.20029789732327294,
+      "base_probability": 0.18029789732327295,
+      "ev": -0.18874456717910815,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.13336682719780815,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二011|2026-10-07 08:00",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二011",
+    "league": "国际赛",
+    "kickoff": "2026-10-07 08:00",
+    "home": "美国",
+    "away": "加拿大",
+    "china_1x2": [
+      1.62,
+      3.75,
+      4.07
+    ],
+    "avg_1x2": [
+      1.77,
+      3.72,
+      4.02
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.75,
+      "probability": 0.22631961806646145,
+      "market_probability": 0.24831961806646144,
+      "base_probability": 0.22831961806646145,
+      "ev": -0.15130143225076953,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.16928707431371318,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周二012|2026-10-07 08:30",
+    "locked_at": "2026-10-06T15:04:44.546577+08:00",
+    "status": "locked",
+    "code": "周二012",
+    "league": "美职联",
+    "kickoff": "2026-10-07 08:30",
+    "home": "芝加哥",
+    "away": "温哥华",
+    "china_1x2": [
+      2.56,
+      3.65,
+      2.15
+    ],
+    "avg_1x2": [
+      2.74,
+      3.76,
+      2.25
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "客胜",
+      "odds": 2.15,
+      "probability": 0.3912962122002294,
+      "market_probability": 0.41329621220022944,
+      "base_probability": 0.3932962122002294,
+      "ev": -0.15871314376950674,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "data_confidence": 37,
+      "global_composite_score": 0.2926895667257716,
+      "is_global": false
+    }
   }
 ]
