@@ -25185,5 +25185,347 @@
       "global_composite_score": 0.2926895667257716,
       "is_global": false
     }
+  },
+  {
+    "key": "周三001|2026-10-08 00:00",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周三001",
+    "league": "芬超",
+    "kickoff": "2026-10-08 00:00",
+    "home": "赫尔火花",
+    "away": "国际图尔",
+    "china_1x2": [
+      3.65,
+      3.65,
+      1.72
+    ],
+    "avg_1x2": [
+      3.64,
+      3.56,
+      1.9
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.65,
+      "probability": 0.23962520271487778,
+      "market_probability": 0.25962520271487777,
+      "base_probability": 0.23962520271487778,
+      "ev": -0.1253680100906961,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.1821151540633071,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周三002|2026-10-08 06:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周三002",
+    "league": "巴西甲",
+    "kickoff": "2026-10-08 06:30",
+    "home": "巴西国际",
+    "away": "科林蒂安",
+    "china_1x2": [
+      2.13,
+      2.92,
+      3.15
+    ],
+    "avg_1x2": [
+      2.21,
+      3.17,
+      3.27
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.13,
+      "probability": 0.4014071704142156,
+      "market_probability": 0.4214071704142156,
+      "base_probability": 0.4014071704142156,
+      "ev": -0.14500272701772088,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.30506944951480386,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周三003|2026-10-08 06:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周三003",
+    "league": "巴西甲",
+    "kickoff": "2026-10-08 06:30",
+    "home": "雷莫",
+    "away": "格雷米奥",
+    "china_1x2": [
+      2.03,
+      3.13,
+      3.15
+    ],
+    "avg_1x2": [
+      2.07,
+      3.45,
+      3.32
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.03,
+      "probability": 0.4297426171769168,
+      "market_probability": 0.4497426171769168,
+      "base_probability": 0.4297426171769168,
+      "ev": -0.127622487130859,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.32660438905445677,
+      "is_global": true
+    }
+  },
+  {
+    "key": "周三004|2026-10-08 06:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周三004",
+    "league": "巴西甲",
+    "kickoff": "2026-10-08 06:30",
+    "home": "布拉干",
+    "away": "米拉索",
+    "china_1x2": [
+      1.62,
+      3.6,
+      4.28
+    ],
+    "avg_1x2": [
+      1.78,
+      3.69,
+      4.17
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.6,
+      "probability": 0.23265759187966548,
+      "market_probability": 0.25265759187966547,
+      "base_probability": 0.23265759187966548,
+      "ev": -0.16243266923320432,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.17681976982854578,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周三005|2026-10-08 07:00",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周三005",
+    "league": "巴西甲",
+    "kickoff": "2026-10-08 07:00",
+    "home": "维多利亚",
+    "away": "沙佩科",
+    "china_1x2": [
+      1.45,
+      3.92,
+      5.4
+    ],
+    "avg_1x2": [
+      1.62,
+      3.85,
+      5.08
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.92,
+      "probability": 0.22187205727620607,
+      "market_probability": 0.24187205727620606,
+      "base_probability": 0.22187205727620607,
+      "ev": -0.13026153547727226,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.16862276352991662,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周三006|2026-10-08 07:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周三006",
+    "league": "巴西甲",
+    "kickoff": "2026-10-08 07:30",
+    "home": "博塔弗戈",
+    "away": "达伽马",
+    "china_1x2": [
+      2.77,
+      3.35,
+      2.13
+    ],
+    "avg_1x2": [
+      2.89,
+      3.47,
+      2.29
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "客胜",
+      "odds": 2.13,
+      "probability": 0.3877754780890264,
+      "market_probability": 0.4077754780890264,
+      "base_probability": 0.3877754780890264,
+      "ev": -0.1740382316703738,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.29470936334766007,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四001|2026-10-08 23:00",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周四001",
+    "league": "芬超",
+    "kickoff": "2026-10-08 23:00",
+    "home": "赫尔辛基",
+    "away": "瓦萨",
+    "china_1x2": [
+      1.43,
+      4.2,
+      5.2
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四002|2026-10-09 00:00",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周四002",
+    "league": "芬超",
+    "kickoff": "2026-10-09 00:00",
+    "home": "库普斯",
+    "away": "奥卢",
+    "china_1x2": [
+      1.41,
+      3.95,
+      6.0
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四003|2026-10-09 06:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周四003",
+    "league": "巴西甲",
+    "kickoff": "2026-10-09 06:30",
+    "home": "桑托斯",
+    "away": "弗拉门戈",
+    "china_1x2": [
+      4.02,
+      3.6,
+      1.66
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四004|2026-10-09 07:00",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周四004",
+    "league": "巴西甲",
+    "kickoff": "2026-10-09 07:00",
+    "home": "巴竞技",
+    "away": "米竞技",
+    "china_1x2": [
+      1.95,
+      3.12,
+      3.38
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四005|2026-10-09 08:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周四005",
+    "league": "巴西甲",
+    "kickoff": "2026-10-09 08:30",
+    "home": "弗鲁米嫩",
+    "away": "科里蒂巴",
+    "china_1x2": [
+      1.33,
+      4.25,
+      7.05
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四006|2026-10-09 08:30",
+    "locked_at": "2026-10-07T14:46:23.886674+08:00",
+    "status": "locked",
+    "code": "周四006",
+    "league": "巴西甲",
+    "kickoff": "2026-10-09 08:30",
+    "home": "帕梅拉斯",
+    "away": "巴伊亚",
+    "china_1x2": [
+      1.42,
+      4.0,
+      5.7
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
