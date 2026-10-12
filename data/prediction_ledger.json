@@ -27741,7 +27741,16 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.27,
+      "probability": 0.3499340337161007,
+      "ev": -0.20564974346445142,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   },
   {
     "key": "周二005|2026-10-14 03:00",
@@ -27759,7 +27768,16 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "平",
+      "odds": 5.6,
+      "probability": 0.11822480161731738,
+      "ev": -0.3379411109430227,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   },
   {
     "key": "周二006|2026-10-14 03:00",
@@ -27777,7 +27795,16 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "平",
+      "odds": 5.7,
+      "probability": 0.11547324300614092,
+      "ev": -0.3418025148649967,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   },
   {
     "key": "周二007|2026-10-14 03:00",
@@ -27795,7 +27822,16 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.04,
+      "probability": 0.39413173652694605,
+      "ev": -0.19597125748503008,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   },
   {
     "key": "周二008|2026-10-14 03:00",
@@ -27827,7 +27863,16 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "客胜",
+      "odds": 3.73,
+      "probability": 0.1975919358501773,
+      "ev": -0.26298207927883865,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   },
   {
     "key": "周二010|2026-10-14 03:00",
@@ -27845,7 +27890,16 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "平",
+      "odds": 6.3,
+      "probability": 0.10060150375939847,
+      "ev": -0.36621052631578965,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   },
   {
     "key": "周二011|2026-10-14 03:00",
@@ -27863,6 +27917,15 @@
     ],
     "avg_1x2": null,
     "fixture_id": null,
-    "forced": null
+    "forced": {
+      "selection": "客胜",
+      "odds": 3.37,
+      "probability": 0.22287639301337928,
+      "ev": -0.2489065555449118,
+      "stake_units": 1,
+      "type": "historical_simulation",
+      "is_global": false,
+      "probability_source": "历史补录，不计入真实ROI"
+    }
   }
 ]
