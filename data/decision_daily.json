@@ -1,5 +1,614 @@
 {
   "pipeline_version": 2,
-  "decisions": [],
-  "global_forced_code": null
+  "decisions": [
+    {
+      "code": "周三002",
+      "match": "神户胜利 vs 全北现代",
+      "odds": [
+        1.49,
+        3.85,
+        5.1
+      ],
+      "market_p": [
+        0.5534810126582279,
+        0.24764918625678117,
+        0.19886980108499097
+      ],
+      "base_p": [
+        0.5334810126582279,
+        0.22764918625678118,
+        0.17886980108499098
+      ],
+      "conservative_p": [
+        0.5314810126582279,
+        0.22564918625678118,
+        0.17686980108499098
+      ],
+      "ev": [
+        -0.20809329113924047,
+        -0.13125063291139238,
+        -0.09796401446654601
+      ],
+      "forced_i": 1,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.16878559132007231,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三003",
+      "match": "柏太阳神 vs 狮子港",
+      "odds": [
+        1.13,
+        6.3,
+        11.75
+      ],
+      "market_p": [
+        0.7952980737176236,
+        0.13030307422492138,
+        0.0743988520574551
+      ],
+      "base_p": [
+        0.7752980737176236,
+        0.11030307422492137,
+        0.054398852057455094
+      ],
+      "conservative_p": [
+        0.7732980737176236,
+        0.10830307422492137,
+        0.05239885205745509
+      ],
+      "ev": [
+        -0.12617317669908545,
+        -0.31769063238299533,
+        -0.38431348832490264
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.08101069952024119,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三004",
+      "match": "横滨水手 vs 清水鼓动",
+      "odds": [
+        2.07,
+        3.2,
+        3.0
+      ],
+      "market_p": [
+        0.44761904761904764,
+        0.27619047619047615,
+        0.27619047619047615
+      ],
+      "base_p": [
+        0.4276190476190476,
+        0.25619047619047614,
+        0.25619047619047614
+      ],
+      "conservative_p": [
+        0.4256190476190476,
+        0.25419047619047613,
+        0.25419047619047613
+      ],
+      "ev": [
+        -0.11896857142857153,
+        -0.1865904761904763,
+        -0.23742857142857154
+      ],
+      "forced_i": 0,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.3183630476190476,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三005",
+      "match": "费耶诺德 vs 科莫",
+      "odds": [
+        3.4,
+        3.85,
+        1.74
+      ],
+      "market_p": [
+        0.2690025430912687,
+        0.2314213054535179,
+        0.49957615145521334
+      ],
+      "base_p": [
+        0.2490025430912687,
+        0.21142130545351792,
+        0.4795761514552133
+      ],
+      "conservative_p": [
+        0.2470025430912687,
+        0.20942130545351792,
+        0.4775761514552133
+      ],
+      "ev": [
+        -0.16019135348968638,
+        -0.19372797400395603,
+        -0.16901749646792885
+      ],
+      "forced_i": 0,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.18475790223226898,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三006",
+      "match": "LA林茨 vs 利物浦",
+      "odds": [
+        8.75,
+        5.5,
+        1.2
+      ],
+      "market_p": [
+        0.10779476541799815,
+        0.15853233507035572,
+        0.7336728995116462
+      ],
+      "base_p": [
+        0.08779476541799815,
+        0.13853233507035573,
+        0.7136728995116461
+      ],
+      "conservative_p": [
+        0.08579476541799815,
+        0.13653233507035573,
+        0.7116728995116461
+      ],
+      "ev": [
+        -0.24929580259251627,
+        -0.24907215711304354,
+        -0.14599252058602463
+      ],
+      "forced_i": 1,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.10212618663262608,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三008",
+      "match": "罗马 vs 皇马",
+      "odds": [
+        3.47,
+        3.95,
+        1.7
+      ],
+      "market_p": [
+        0.26761147818315295,
+        0.2403736686988626,
+        0.4920148531179844
+      ],
+      "base_p": [
+        0.24761147818315296,
+        0.2203736686988626,
+        0.47201485311798436
+      ],
+      "conservative_p": [
+        0.24561147818315296,
+        0.2183736686988626,
+        0.47001485311798435
+      ],
+      "ev": [
+        -0.1477281707044592,
+        -0.13742400863949267,
+        -0.20097474969942664
+      ],
+      "forced_i": 0,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.1837173856809984,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三009",
+      "match": "博德闪耀 vs 多特蒙德",
+      "odds": [
+        3.18,
+        3.9,
+        1.79
+      ],
+      "market_p": [
+        0.30676234303096483,
+        0.23679900163793777,
+        0.4564386553310975
+      ],
+      "base_p": [
+        0.2867623430309648,
+        0.21679900163793778,
+        0.4364386553310975
+      ],
+      "conservative_p": [
+        0.2847623430309648,
+        0.21479900163793778,
+        0.4344386553310975
+      ],
+      "ev": [
+        -0.09445574916153188,
+        -0.16228389361204265,
+        -0.22235480695733545
+      ],
+      "forced_i": 0,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.2130022325871617,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三010",
+      "match": "贝蒂斯 vs 波尔图",
+      "odds": [
+        1.83,
+        3.5,
+        3.36
+      ],
+      "market_p": [
+        0.4654000089271102,
+        0.25672880927229175,
+        0.2778711818005981
+      ],
+      "base_p": [
+        0.4454000089271102,
+        0.23672880927229176,
+        0.2578711818005981
+      ],
+      "conservative_p": [
+        0.4434000089271102,
+        0.23472880927229176,
+        0.2558711818005981
+      ],
+      "ev": [
+        -0.1885779836633883,
+        -0.17844916754697882,
+        -0.1402728291499904
+      ],
+      "forced_i": 0,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.3316632066774784,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三011",
+      "match": "曼城 vs 巴黎圣曼",
+      "odds": [
+        2.06,
+        3.65,
+        2.7
+      ],
+      "market_p": [
+        0.43986493384707875,
+        0.24063857704102273,
+        0.31949648911189843
+      ],
+      "base_p": [
+        0.41986493384707874,
+        0.22063857704102274,
+        0.2994964891118984
+      ],
+      "conservative_p": [
+        0.41786493384707873,
+        0.21863857704102274,
+        0.2974964891118984
+      ],
+      "ev": [
+        -0.13919823627501782,
+        -0.201969193800267,
+        -0.1967594793978742
+      ],
+      "forced_i": 0,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.3125629705176149,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三012",
+      "match": "维拉 vs 费内巴切",
+      "odds": [
+        1.52,
+        3.9,
+        4.65
+      ],
+      "market_p": [
+        0.5774725760162335,
+        0.23042701330088147,
+        0.192100410682885
+      ],
+      "base_p": [
+        0.5574725760162335,
+        0.21042701330088148,
+        0.172100410682885
+      ],
+      "conservative_p": [
+        0.5554725760162335,
+        0.20842701330088148,
+        0.170100410682885
+      ],
+      "ev": [
+        -0.15568168445532515,
+        -0.18713464812656222,
+        -0.20903309032458461
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.15590340594905935,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周三013",
+      "match": "弗鲁米嫩 vs 帕梅拉斯",
+      "odds": [
+        2.7,
+        2.68,
+        2.6
+      ],
+      "market_p": [
+        0.3282208191818539,
+        0.322502686443494,
+        0.3492764943746521
+      ],
+      "base_p": [
+        0.3082208191818539,
+        0.302502686443494,
+        0.32927649437465206
+      ],
+      "conservative_p": [
+        0.3042208191818539,
+        0.294502686443494,
+        0.31727649437465205
+      ],
+      "ev": [
+        -0.17860378820899447,
+        -0.21073280033143604,
+        -0.1750811146259046
+      ],
+      "forced_i": 2,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 46,
+      "conf_label": "低",
+      "global_score": 0.24874477158972721,
+      "home_adverse": 1,
+      "away_adverse": 2,
+      "direction_adjustment": 0.004,
+      "risk_penalty": 0.008,
+      "confirmed": [
+        "Palmeiras的Gustavo Gómez因停赛缺席。",
+        "Fluminense的Germán Cano、Alisson、John Kennedy因伤缺阵。",
+        "Palmeiras的Paulinho、Jefté因伤缺阵。",
+        "2026年8月15日巴甲官方赛果：Fluminense 3-2 Palmeiras。"
+      ],
+      "uncertain": [
+        "本场Copa Libertadores的具体赛制阶段、首回合比分及是否两回合制未在摘要中明确。",
+        "Palmeiras的Andreas Pereira、Mauricio、Sosa的复出信息来自一篇关于Palmeiras对阵LDU的报道，并非本场赛前官方确认。",
+        "Fluminense与Palmeiras的历史交锋总记录在不同来源中存在差异（如28场与34场），无法统一确认。",
+        "本场开赛时间在不同来源中表述为10月14日或10月15日，存在日期差异。"
+      ],
+      "risks": [
+        "部分伤停信息来自预测阵容或非官方页面，可能不是本场最终官方名单。",
+        "历史交锋统计在不同来源间不一致，引用时需注明来源。",
+        "检索摘要未提供本场Copa Libertadores的首回合比分和赛制细节，无法确认两回合总比分背景。",
+        "开赛日期在不同来源中存在10月14日与10月15日的差异，可能影响赛程判断。"
+      ],
+      "context": [
+        "检索摘要显示本场赛事为Copa Libertadores，但未提供该场次首回合比分或具体赛制阶段。",
+        "2026赛季巴甲剩余10轮时，Palmeiras排名第2，28场16胜9平3负积57分；Fluminense排名第5，28场13胜9平6负积48分。",
+        "UFMG研究给出的夺冠概率：Palmeiras 21.3%，Fluminense 0.56%；解放者杯资格概率：Palmeiras 99.85%，Fluminense 77.8%。",
+        "两队最近一次交锋为2026年8月15日巴甲，Fluminense 3-2 Palmeiras。"
+      ],
+      "motivation": [
+        "巴甲剩余10轮，Palmeiras处于争冠集团，Fluminense处于解放者杯资格竞争区，联赛积分战意明确。",
+        "UFMG概率显示Palmeiras仍有21.3%夺冠可能，Fluminense夺冠概率仅0.56%，但解放者杯资格概率为77.8%。"
+      ],
+      "form_schedule": [
+        "Fluminense最近5场战绩为L L W W L（由旧到新），2胜3负。",
+        "Palmeiras最近5场战绩为W L D W W（由旧到新），3胜1平1负。",
+        "巴甲最近6场战绩：Palmeiras为L W D D W D；Fluminense为W W D W L W。",
+        "摘要未明确给出两队的休息天数。"
+      ],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回"
+      ]
+    }
+  ],
+  "global_forced_code": "周三010"
 }
