@@ -1,4 +1,16 @@
 {
+  "周二001": {
+    "status": "球队别名未收录：纽喷气机,大阪钢巴",
+    "mapping_score": 0
+  },
+  "周二002": {
+    "status": "球队别名未收录：上海海港",
+    "mapping_score": 0
+  },
+  "周二003": {
+    "status": "球队别名未收录：武里兰联,北京国安",
+    "mapping_score": 0
+  },
   "周二004": {
     "status": "球队别名未收录：朗斯,里斯本",
     "mapping_score": 0
@@ -29,6 +41,54 @@
   },
   "周二011": {
     "status": "球队别名未收录：马竞,曼联",
+    "mapping_score": 0
+  },
+  "周二012": {
+    "status": "球队别名未收录：斯托克城,米堡",
+    "mapping_score": 0
+  },
+  "周三002": {
+    "status": "球队别名未收录：神户胜利",
+    "mapping_score": 0
+  },
+  "周三003": {
+    "status": "球队别名未收录：柏太阳神,狮子港",
+    "mapping_score": 0
+  },
+  "周三004": {
+    "status": "球队别名未收录：横滨水手,清水鼓动",
+    "mapping_score": 0
+  },
+  "周三005": {
+    "status": "球队别名未收录：费耶诺德,科莫",
+    "mapping_score": 0
+  },
+  "周三006": {
+    "status": "球队别名未收录：LA林茨,利物浦",
+    "mapping_score": 0
+  },
+  "周三008": {
+    "status": "球队别名未收录：罗马,皇马",
+    "mapping_score": 0
+  },
+  "周三009": {
+    "status": "球队别名未收录：多特蒙德",
+    "mapping_score": 0
+  },
+  "周三010": {
+    "status": "球队别名未收录：贝蒂斯,波尔图",
+    "mapping_score": 0
+  },
+  "周三011": {
+    "status": "球队别名未收录：曼城,巴黎圣曼",
+    "mapping_score": 0
+  },
+  "周三012": {
+    "status": "球队别名未收录：维拉,费内巴切",
+    "mapping_score": 0
+  },
+  "周三013": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
   }
 }
