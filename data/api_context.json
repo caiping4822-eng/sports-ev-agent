@@ -50,5 +50,49 @@
   "周四014": {
     "status": "球队别名未收录：拉普大学",
     "mapping_score": 0
+  },
+  "周五001": {
+    "status": "球队别名未收录：悉尼FC,西悉尼",
+    "mapping_score": 0
+  },
+  "周五002": {
+    "status": "球队别名未收录：科特布斯,纽伦堡",
+    "mapping_score": 0
+  },
+  "周五003": {
+    "status": "球队别名未收录：布鲁马波,佐加顿斯",
+    "mapping_score": 0
+  },
+  "周五004": {
+    "status": "球队别名未收录：海伦芬,SBV精英",
+    "mapping_score": 0
+  },
+  "周五005": {
+    "status": "球队别名未收录：登博思,奥斯",
+    "mapping_score": 0
+  },
+  "周五006": {
+    "status": "球队别名未收录：法兰克福,科隆",
+    "mapping_score": 0
+  },
+  "周五007": {
+    "status": "球队别名未收录：弗洛西诺,萨索洛",
+    "mapping_score": 0
+  },
+  "周五008": {
+    "status": "球队别名未收录：勒芒,图卢兹",
+    "mapping_score": 0
+  },
+  "周五009": {
+    "status": "球队别名未收录：伯恩利,狼队",
+    "mapping_score": 0
+  },
+  "周五010": {
+    "status": "球队别名未收录：拉科,莱万特",
+    "mapping_score": 0
+  },
+  "周五011": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
   }
 }
