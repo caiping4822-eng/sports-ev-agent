@@ -23493,5 +23493,131 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-10-20T22:35:16.392185+08:00",
+    "items": [
+      {
+        "code": "周三001",
+        "kickoff": "2026-10-21 18:00",
+        "china": [
+          2.09,
+          3.45,
+          2.78
+        ],
+        "average": null
+      },
+      {
+        "code": "周三002",
+        "kickoff": "2026-10-21 18:00",
+        "china": [
+          2.34,
+          3.4,
+          2.45
+        ],
+        "average": null
+      },
+      {
+        "code": "周三003",
+        "kickoff": "2026-10-21 18:00",
+        "china": [
+          2.15,
+          3.67,
+          2.55
+        ],
+        "average": null
+      },
+      {
+        "code": "周三004",
+        "kickoff": "2026-10-22 00:45",
+        "china": [
+          2.15,
+          3.45,
+          2.67
+        ],
+        "average": null
+      },
+      {
+        "code": "周三005",
+        "kickoff": "2026-10-22 00:45",
+        "china": [
+          1.9,
+          3.5,
+          3.15
+        ],
+        "average": null
+      },
+      {
+        "code": "周三006",
+        "kickoff": "2026-10-22 02:00",
+        "china": [
+          3.32,
+          3.1,
+          1.98
+        ],
+        "average": null
+      },
+      {
+        "code": "周三007",
+        "kickoff": "2026-10-22 03:00",
+        "china": [
+          1.15,
+          6.6,
+          9.2
+        ],
+        "average": null
+      },
+      {
+        "code": "周三008",
+        "kickoff": "2026-10-22 03:00",
+        "china": [
+          1.15,
+          6.5,
+          9.4
+        ],
+        "average": null
+      },
+      {
+        "code": "周三009",
+        "kickoff": "2026-10-22 03:00",
+        "china": [
+          1.41,
+          4.65,
+          4.87
+        ],
+        "average": null
+      },
+      {
+        "code": "周三010",
+        "kickoff": "2026-10-22 03:00",
+        "china": [
+          1.89,
+          3.55,
+          3.14
+        ],
+        "average": null
+      },
+      {
+        "code": "周三012",
+        "kickoff": "2026-10-22 03:00",
+        "china": [
+          1.86,
+          3.7,
+          3.12
+        ],
+        "average": null
+      },
+      {
+        "code": "周三013",
+        "kickoff": "2026-10-22 08:30",
+        "china": [
+          1.64,
+          3.3,
+          4.62
+        ],
+        "average": null
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
