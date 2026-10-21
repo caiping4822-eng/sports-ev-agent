@@ -50,5 +50,49 @@
   "周三013": {
     "status": "API未匹配（联赛/日期/免费覆盖待核验）",
     "mapping_score": 0
+  },
+  "周四001": {
+    "status": "球队别名未收录：格风暴,马赛",
+    "mapping_score": 0
+  },
+  "周四002": {
+    "status": "球队别名未收录：桑德兰",
+    "mapping_score": 0
+  },
+  "周四003": {
+    "status": "球队别名未收录：萨迪纳摩,奈梅亨",
+    "mapping_score": 0
+  },
+  "周四004": {
+    "status": "球队别名未收录：尤文图斯,雷恩",
+    "mapping_score": 0
+  },
+  "周四005": {
+    "status": "球队别名未收录：OFI克里,勒沃库森",
+    "mapping_score": 0
+  },
+  "周四006": {
+    "status": "球队别名未收录：伯恩茅斯,AC米兰",
+    "mapping_score": 0
+  },
+  "周四007": {
+    "status": "球队别名未收录：凯尔特人,塞尔塔",
+    "mapping_score": 0
+  },
+  "周四008": {
+    "status": "球队别名未收录：水晶宫",
+    "mapping_score": 0
+  },
+  "周四009": {
+    "status": "球队别名未收录：霍芬海姆,里昂",
+    "mapping_score": 0
+  },
+  "周四010": {
+    "status": "球队别名未收录：皇家社会",
+    "mapping_score": 0
+  },
+  "周四013": {
+    "status": "球队别名未收录：拉普大学",
+    "mapping_score": 0
   }
 }
