@@ -31860,5 +31860,83 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周四011|2026-10-23 03:00",
+    "locked_at": "2026-10-22T13:39:15.612756+08:00",
+    "status": "locked",
+    "code": "周四011",
+    "league": "欧协联",
+    "kickoff": "2026-10-23 03:00",
+    "home": "阿贾克斯",
+    "away": "亚特兰大",
+    "china_1x2": [
+      1.82,
+      3.6,
+      3.32
+    ],
+    "avg_1x2": [
+      2.15,
+      3.68,
+      2.98
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.82,
+      "probability": 0.4137048257096981,
+      "market_probability": 0.4337048257096981,
+      "base_probability": 0.4137048257096981,
+      "ev": -0.2470572172083495,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.31441566753937056,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四012|2026-10-23 03:00",
+    "locked_at": "2026-10-22T13:39:15.612756+08:00",
+    "status": "locked",
+    "code": "周四012",
+    "league": "欧协联",
+    "kickoff": "2026-10-23 03:00",
+    "home": "摩纳哥",
+    "away": "弗赖堡",
+    "china_1x2": [
+      1.95,
+      3.45,
+      3.07
+    ],
+    "avg_1x2": [
+      2.17,
+      3.54,
+      3.05
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.95,
+      "probability": 0.41020563965048035,
+      "market_probability": 0.43020563965048036,
+      "base_probability": 0.41020563965048035,
+      "ev": -0.20009900268156333,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.31175628613436507,
+      "is_global": false
+    }
   }
 ]
