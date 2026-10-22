@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "pipeline_version": 9,
-  "updated_at": "2026-10-22T00:18:36.597760+08:00",
+  "updated_at": "2026-10-23T00:17:31.826771+08:00",
   "events": [
     {
-      "code": "周四001",
-      "match": "格风暴 vs 马赛",
+      "code": "周五001",
+      "match": "布里斯班 vs 珀斯光荣",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周四002",
-      "match": "波兹莱赫 vs 桑德兰",
+      "code": "周五002",
+      "match": "波鸿 vs 沃夫斯堡",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周四003",
-      "match": "萨迪纳摩 vs 奈梅亨",
+      "code": "周五003",
+      "match": "埃夫斯堡 vs 马尔默",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周四004",
-      "match": "尤文图斯 vs 雷恩",
+      "code": "周五004",
+      "match": "前进之鹰 vs 特尔斯达",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周四005",
-      "match": "OFI克里 vs 勒沃库森",
+      "code": "周五005",
+      "match": "布雷达 vs 赫拉克勒",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周四006",
-      "match": "伯恩茅斯 vs AC米兰",
+      "code": "周五006",
+      "match": "斯图加特 vs 门兴",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周四007",
-      "match": "凯尔特人 vs 塞尔塔",
+      "code": "周五007",
+      "match": "都灵 vs 蒙扎",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "code": "周四008",
-      "match": "贝西克塔 vs 水晶宫",
+      "code": "周五008",
+      "match": "布雷斯特 vs 尼斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -196,8 +196,8 @@
       }
     },
     {
-      "code": "周四009",
-      "match": "霍芬海姆 vs 里昂",
+      "code": "周五009",
+      "match": "伊维奇 vs 诺丁汉",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -220,8 +220,8 @@
       }
     },
     {
-      "code": "周四010",
-      "match": "利勒斯特 vs 皇家社会",
+      "code": "周五010",
+      "match": "博尔顿 vs 米堡",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -244,8 +244,32 @@
       }
     },
     {
-      "code": "周四013",
-      "match": "弗拉门戈 vs 拉普大学",
+      "code": "周五011",
+      "match": "阿拉维斯 vs 马拉加",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五012",
+      "match": "吉马良斯 vs 马里迪莫",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
