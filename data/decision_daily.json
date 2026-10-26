@@ -1,5 +1,218 @@
 {
   "pipeline_version": 2,
-  "decisions": [],
-  "global_forced_code": null
+  "decisions": [
+    {
+      "code": "周一001",
+      "match": "圣克拉拉 vs 本菲卡",
+      "odds": [
+        9.35,
+        4.95,
+        1.22
+      ],
+      "market_p": [
+        0.11519453052711973,
+        0.2037283181811506,
+        0.6810771512917297
+      ],
+      "base_p": [
+        0.09519453052711972,
+        0.18372831818115062,
+        0.6610771512917297
+      ],
+      "conservative_p": [
+        0.09319453052711972,
+        0.18172831818115062,
+        0.6590771512917297
+      ],
+      "ev": [
+        -0.12863113957143069,
+        -0.10044482500330443,
+        -0.1959258754240898
+      ],
+      "forced_i": 1,
+      "strict_i": 1,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.13593278199950065,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一002",
+      "match": "布洛涅 vs 兰斯",
+      "odds": [
+        3.46,
+        3.05,
+        1.95
+      ],
+      "market_p": [
+        0.2956636005256242,
+        0.2956636005256242,
+        0.40867279894875164
+      ],
+      "base_p": [
+        0.27566360052562416,
+        0.27566360052562416,
+        0.3886727989487516
+      ],
+      "conservative_p": [
+        0.27366360052562416,
+        0.27366360052562416,
+        0.3866727989487516
+      ],
+      "ev": [
+        -0.05312394218134042,
+        -0.16532601839684635,
+        -0.2459880420499344
+      ],
+      "forced_i": 2,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.2892312536136662,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一003",
+      "match": "塞维利亚 vs 奥萨苏纳",
+      "odds": [
+        1.68,
+        3.3,
+        4.32
+      ],
+      "market_p": [
+        0.4965409475601358,
+        0.278297286243144,
+        0.2251617661967203
+      ],
+      "base_p": [
+        0.47654094756013576,
+        0.25829728624314396,
+        0.2051617661967203
+      ],
+      "conservative_p": [
+        0.47454094756013576,
+        0.25629728624314396,
+        0.2031617661967203
+      ],
+      "ev": [
+        -0.20277120809897198,
+        -0.15421895539762498,
+        -0.1223411700301682
+      ],
+      "forced_i": 1,
+      "strict_i": 2,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.1917103701098717,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    },
+    {
+      "code": "周一004",
+      "match": "弗拉门戈 vs 米竞技",
+      "odds": [
+        1.2,
+        5.4,
+        9.0
+      ],
+      "market_p": [
+        0.7220959359594933,
+        0.17709196908512292,
+        0.10081209495538382
+      ],
+      "base_p": [
+        0.7020959359594933,
+        0.15709196908512293,
+        0.08081209495538381
+      ],
+      "conservative_p": [
+        0.7000959359594933,
+        0.15509196908512293,
+        0.07881209495538381
+      ],
+      "ev": [
+        -0.15988487684860808,
+        -0.16250336694033607,
+        -0.2906911454015457
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 37,
+      "conf_label": "低",
+      "global_score": 0.11600879287567195,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.002,
+      "confirmed": [],
+      "uncertain": [],
+      "risks": [
+        "球队映射不足"
+      ],
+      "context": [],
+      "motivation": [],
+      "form_schedule": [],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回",
+        "AI联网研究未完成"
+      ]
+    }
+  ],
+  "global_forced_code": "周一002"
 }
