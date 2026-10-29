@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pipeline_version": 9,
-  "updated_at": "2026-10-29T01:39:05.055930+08:00",
+  "updated_at": "2026-10-30T01:46:58.756718+08:00",
   "events": [
     {
-      "code": "周三004",
-      "match": "帕德博恩 vs 斯图加特",
+      "code": "周五001",
+      "match": "布里斯班 vs 奥克兰FC",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周三005",
-      "match": "威尼斯 vs 国际米兰",
+      "code": "周五002",
+      "match": "科特布斯 vs 波鸿",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周三006",
-      "match": "AC米兰 vs 博洛尼亚",
+      "code": "周五003",
+      "match": "尼斯 vs 雷恩",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周三007",
-      "match": "帕尔马 vs 乌迪内斯",
+      "code": "周五004",
+      "match": "勒阿弗尔 vs 巴黎圣曼",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周三008",
-      "match": "鹿斯巴达 vs 福图纳",
+      "code": "周五005",
+      "match": "博德闪耀 vs 维京",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周三009",
-      "match": "布鲁马波 vs 赫根",
+      "code": "周五006",
+      "match": "福伦丹 vs 格拉夫",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周三010",
-      "match": "桑德兰 vs 布伦特",
+      "code": "周五007",
+      "match": "埃弗斯堡 vs 美因茨",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "code": "周三011",
-      "match": "伯恩茅斯 vs 维拉",
+      "code": "周五008",
+      "match": "谢菲联 vs 雷克瑟姆",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -196,8 +196,8 @@
       }
     },
     {
-      "code": "周三012",
-      "match": "富勒姆 vs 水晶宫",
+      "code": "周五009",
+      "match": "比利亚雷 vs 西班牙人",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -220,8 +220,8 @@
       }
     },
     {
-      "code": "周三013",
-      "match": "蒙扎 vs 那不勒斯",
+      "code": "周五010",
+      "match": "里尔 vs 朗斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -244,8 +244,8 @@
       }
     },
     {
-      "code": "周三014",
-      "match": "热那亚 vs 尤文图斯",
+      "code": "周五011",
+      "match": "卡沙比亚 vs 里斯本",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -268,87 +268,63 @@
       }
     },
     {
-      "code": "周三015",
-      "match": "利物浦 vs 切尔西",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三016",
-      "match": "弗鲁米嫩 vs 巴西国际",
+      "code": "周五012",
+      "match": "科林蒂安 vs 米拉索",
       "status": "有效来源 11 个（伤停/背景/赛程三路）",
       "sources": [
+        {
+          "title": "Preview: Mirassol vs Corinthians - prediction, team news, lineups - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/mirassol/preview/mirassol-vs-corinthians-prediction-team-news-lineups_596899.html",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Corinthians vs Mirassol - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/corinthians-vs-mirassol/6x6eonh",
+          "category": "伤停与阵容"
+        },
         {
           "title": "Brazil Série A Injuries & Suspensions | Injury News",
           "url": "https://www.sportsgambler.com/injuries/football/brazil-serie-a",
           "category": "伤停与阵容"
         },
         {
-          "title": "Fluminense - league table, form guide and next opponent",
-          "url": "https://www.fotmob.com/teams/9863/table/fluminense",
+          "title": "Mirassol FC SP Brazil Serie A Standings | FOX Sports",
+          "url": "https://www.foxsports.com/soccer/mirassol-fc-sp-team-standings",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Fluminense Brazil Serie A Standings | FOX Sports",
-          "url": "https://www.foxsports.com/soccer/fluminense-team-standings",
+          "title": "Corinthians relegation risk hits 66% as Seedorf prepares side for Mirassol decider | OneFootball",
+          "url": "https://onefootball.com/en/news/corinthians-relegation-risk-hits-66-as-seedorf-prepares-side-for-mirassol-decider-43683711",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Fluminense vs Internacional Prediction, Betting Tips, Lineups & Odds | 28 Oct 2026",
-          "url": "https://www.sportsgambler.com/betting-tips/football/fluminense-vs-internacional-prediction-lineups-odds-2026-10-28",
+          "title": "🇧🇷 10 rounds to go: title, Libertadores and relegation chances - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/10-rounds-title-libertadores-relegation-135900229.html",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Fluminense Standings | Serie A Table | LiveScore",
-          "url": "https://www.livescore.com/en/football/team/fluminense/4840/tables/24199",
+          "title": "Brasileirão Table & Standings | OddsCalendar",
+          "url": "https://www.oddscalendar.com/football/brazil/brasileirao-serie-a/standings",
           "category": "联赛背景与战意依据"
         },
         {
-          "title": "Internacional vs Fluminense: Serie A stats & head-to-head - BBC Sport",
-          "url": "https://www.bbc.com/sport/football/live/cze252rnywjt",
-          "category": "联赛背景与战意依据"
-        },
-        {
-          "title": "Fluminense vs Internacional: Lineups, Team News, H2H & Live Score (28 Oct)",
-          "url": "https://www.oddalerts.com/livescores/fluminense-vs-internacional/5162-7688",
+          "title": "Corinthians vs Mirassol Stats, H2H, xG | FootyStats",
+          "url": "https://footystats.org/brazil/sc-corinthians-paulista-vs-mirassol-futebol-clube-h2h-stats",
           "category": "近期状态与赛程"
         },
         {
-          "title": "Fluminense vs Internacional - live score, predicted lineups and H2H stats",
-          "url": "https://www.fotmob.com/matches/internacional-vs-fluminense/2um15i",
+          "title": "Corinthians vs Mirassol Stats, Predicted Lineups & Prediction - Campeonato Brasileiro",
+          "url": "https://statz.ai/h2h/corinthians-vs-mirassol/19621756",
           "category": "近期状态与赛程"
         },
         {
-          "title": "Internacional vs Fluminense RJ head-to-head record, results and stats | All Football",
-          "url": "https://m.dongqiudi.com/en/h2h/50000228-50000232",
+          "title": "Corinthians vs Mirassol: Scores, Results Lineups, H2H & Odds",
+          "url": "https://www.365scores.com/en-us/football/match/brasileirao-serie-a-113/corinthians-mirassol-1267-1269-113",
           "category": "近期状态与赛程"
         },
         {
-          "title": "Fluminense vs Internacional Stats, H2H, xG | FootyStats",
-          "url": "https://footystats.org/brazil/fluminense-fc-vs-sc-internacional-h2h-stats",
-          "category": "近期状态与赛程"
-        },
-        {
-          "title": "Fluminense vs Internacional: Scores, Results Lineups, H2H & Odds",
-          "url": "https://www.365scores.com/en-us/football/match/brasileirao-serie-a-113/fluminense-internacional-1216-1219-113",
+          "title": "Corinthians vs Mirassol - SP head-to-head record, results and stats | All Football",
+          "url": "https://m.dongqiudi.com/en/h2h/50000240-50006957",
           "category": "近期状态与赛程"
         }
       ],
@@ -359,65 +335,45 @@
         "model": "deepseek-chat"
       },
       "research": {
-        "summary": "本场为巴西甲级联赛第32轮前后的一场比赛，Fluminense主场对阵Internacional。多份摘要显示Fluminense排名第5、积51分，Internacional排名第16、积35分，两队积分与排名差距明显。伤停摘要称双方均无球员报告伤停或停赛。但各来源的轮次、积分与近期战绩存在不一致，需以官方信息为准。",
+        "summary": "本场为2026赛季巴西甲级联赛第31轮前后的一场比赛，科林蒂安主场对阵米拉索尔。积分榜显示科林蒂安处于降级区附近、米拉索尔排名略高，双方均有保级压力。伤停信息在不同来源间存在明显冲突，且部分来源的阵容描述与本场主客方向不一致，需谨慎对待。",
         "competition_context": [
           "巴西甲级联赛（Série A）赛事。",
-          "Fluminense：32场14胜9平9负，进50球失41球，积51分，排名第5。",
-          "Internacional：32场8胜11平13负，进36球失40球，积35分，排名第16。",
-          "另有来源显示Internacional为30场积32分排名第17，与32轮数据不一致。"
+          "FOX Sports积分榜：31轮后米拉索尔第14位，36分（9胜9平13负，进36失44）；科林蒂安第16位，33分（8胜9平14负，进32失39）。",
+          "FootyStats：两队上次交锋科林蒂安1-0米拉索尔；近11次交手科林蒂安8胜、米拉索尔2胜、1平。",
+          "statz.ai：最近一次交锋为2026年5月4日米拉索尔2-1科林蒂安；近3次交手科林蒂安1胜、米拉索尔2胜。",
+          "All Football：2022年以来6次交手科林蒂安4胜、米拉索尔2胜、0平，总比分12-5。"
         ],
         "motivation_evidence": [
-          "Fluminense积51分排名第5，处于联赛上游，涉及解放者杯资格竞争区间。",
-          "Internacional积35分排名第16，处于联赛下游，涉及保级压力区间。"
+          "OneFootball（2026年10月28日）：科林蒂安降级风险升至66%，本场需取胜以避免积分榜形势恶化。",
+          "Yahoo Sports：科林蒂安降级风险21.4%，米拉索尔17.8%（与OneFootball的66%数据不一致）。",
+          "OddsCalendar：本场推荐“米拉索尔或平局”，给出87%的高概率评估。"
         ],
         "form_schedule": [
-          "Fluminense近10场联赛：5胜1平4负。",
-          "Fluminense近10个主场：6胜3平1负。",
-          "Internacional近10场联赛：3胜3平4负。",
-          "Internacional近10个客场：1胜3平6负。",
-          "Fluminense近5场联赛战绩记为LLLWW（按来源顺序）。",
-          "Internacional近5场联赛战绩记为WLDWL。"
+          "statz.ai：科林蒂安近5场为负、负、负、平、负。",
+          "statz.ai：米拉索尔近5场为胜、平、负、胜、平。",
+          "FootyStats：科林蒂安主场状态“非常差”，米拉索尔客场表现“差”。",
+          "Sports Mole：科林蒂安此前连续7场零封（该描述与本场伤停段落同源，需注意上下文）。"
         ],
         "confirmed": [
-          "伤停摘要显示：Internacional无球员报告受伤或停赛。",
-          "伤停摘要显示：Fluminense无球员报告受伤或停赛。"
+          "Sports Mole：科林蒂安门将Hugo Souza与边后卫Matheuzinho停赛期满回归。",
+          "Sports Mole：科林蒂安Gustavo Henrique、Carrillo因累计黄牌停赛，Andre因上轮红牌缺阵。",
+          "Sports Mole：科林蒂安Memphis Depay、Charles、Hugo、Tchoca、Kayke、Gui Negao因伤缺阵。",
+          "FotMob：科林蒂安不可用球员为José Martínez、André Ramalho、Zakaria Labyad、Kayke（均为伤病）；米拉索尔不可用球员为José Aldo、Negueba（均为伤病）。",
+          "SportsGambler：米拉索尔当前无伤停或停赛报告。"
         ],
         "uncertain": [
-          "各来源的联赛轮次不一致：有32轮与30轮两种数据。",
-          "各来源的积分与排名不一致：Internacional有35分第16与32分第17两种记录。",
-          "Fluminense近期战绩在不同来源中顺序与结果不一致（如LWLDD与LLLWW）。",
-          "开赛时间存在差异：任务给出2026-10-29 06:30，部分摘要写10月28日22:30。",
-          "历史交锋统计口径不一：有29场、15场、38场等不同样本。"
+          "科林蒂安伤停名单在Sports Mole与FotMob之间冲突：Hugo Souza是否停赛回归、André Ramalho是否伤缺、Kayke伤情表述不一致。",
+          "Sports Mole的预览标题为“Mirassol vs Corinthians”，其阵容段落可能对应另一回合或另一场比赛，与本场主客方向存在错位风险。",
+          "米拉索尔伤停：FotMob称José Aldo、Negueba伤缺，SportsGambler称无伤停，二者矛盾。",
+          "科林蒂安降级风险数据冲突：OneFootball为66%，Yahoo Sports为21.4%。",
+          "各来源积分榜轮次不完全一致（31轮与32/33轮并存），排名与积分可能非同一时点。"
         ],
         "risks": [
-          "伤停信息仅来自单一聚合网站，未获俱乐部官方确认。",
-          "联赛积分榜数据在多个来源间存在冲突，排名与战意判断可能受影响。",
-          "开赛时间与日期在不同来源间不一致，需以官方赛程为准。",
-          "三路检索未取得材料，缺少官方赛果与官方伤停公告的交叉验证。"
-        ]
-      }
-    },
-    {
-      "code": "周三017",
-      "match": "迈阿密 vs 辛辛那提",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
+          "伤停与阵容信息存在多源直接冲突，不能据此确认最终首发或可用名单。",
+          "Sports Mole预览的主客方向与本场（科林蒂安主场）不一致，其阵容信息可能不适用于本场。",
+          "降级概率与积分榜数据来源时点不同，战意判断存在不确定性。",
+          "缺少官方首发、官方伤停公告及明确休息天数信息。",
+          "检索摘要未提供本场官方赛果或赛前官方确认信息。"
         ]
       }
     }
