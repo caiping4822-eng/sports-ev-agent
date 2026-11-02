@@ -1,1 +1,128 @@
-{}
+{
+  "4639791": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.42,
+      4.4,
+      6.34
+    ],
+    "current": [
+      1.38,
+      4.7,
+      6.76
+    ]
+  },
+  "4549156": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.9,
+      3.5,
+      2.3
+    ],
+    "current": [
+      2.8,
+      3.64,
+      2.34
+    ]
+  },
+  "4467210": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.8,
+      3.75,
+      4.0
+    ],
+    "current": [
+      1.82,
+      3.72,
+      3.84
+    ]
+  },
+  "4549095": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.31,
+      5.1,
+      8.65
+    ],
+    "current": [
+      1.5,
+      4.5,
+      5.89
+    ]
+  },
+  "4553231": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.22,
+      3.31,
+      3.12
+    ],
+    "current": [
+      2.28,
+      3.28,
+      2.92
+    ]
+  },
+  "4558688": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.15,
+      3.58,
+      3.28
+    ],
+    "current": [
+      2.19,
+      3.52,
+      3.15
+    ]
+  },
+  "4565496": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.21,
+      3.2,
+      3.25
+    ],
+    "current": [
+      2.16,
+      3.23,
+      3.49
+    ]
+  },
+  "4578233": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.13,
+      7.6,
+      13.0
+    ],
+    "current": [
+      1.14,
+      8.02,
+      15.02
+    ]
+  },
+  "4465951": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.0,
+      3.6,
+      3.4
+    ],
+    "current": [
+      2.02,
+      3.71,
+      3.23
+    ]
+  }
+}
