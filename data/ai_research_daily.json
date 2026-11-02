@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "pipeline_version": 9,
-  "updated_at": "2026-11-02T01:24:33.042428+08:00",
+  "updated_at": "2026-11-03T05:03:58.774426+08:00",
   "events": [
     {
-      "code": "周一001",
-      "match": "国际图尔 vs 赫尔火花",
+      "code": "周二004",
+      "match": "加拉塔萨 vs 斯图加特",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周一002",
-      "match": "萨索洛 vs 佛罗伦萨",
+      "code": "周二005",
+      "match": "马竞 vs 拜仁",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周一003",
-      "match": "盖斯 vs 索尔纳",
+      "code": "周二006",
+      "match": "LA林茨 vs 布拉迪斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周一004",
-      "match": "亚特兰大 vs 帕尔马",
+      "code": "周二007",
+      "match": "费耶诺德 vs 国际米兰",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周一005",
-      "match": "圣旺红星 vs 南锡",
+      "code": "周二008",
+      "match": "曼联 vs 罗马",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周一006",
-      "match": "纽卡斯尔 vs 埃弗顿",
+      "code": "周二009",
+      "match": "巴塞罗那 vs 维拉",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周一007",
-      "match": "拉科 vs 奥萨苏纳",
+      "code": "周二010",
+      "match": "比利亚雷 vs 巴黎圣曼",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,32 +172,8 @@
       }
     },
     {
-      "code": "周一008",
-      "match": "本菲卡 vs 阿维卡",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周一009",
-      "match": "布拉干 vs 桑托斯",
+      "code": "周二011",
+      "match": "博德闪耀 vs 里尔",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
