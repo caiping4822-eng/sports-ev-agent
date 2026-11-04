@@ -1,245 +1,115 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "pipeline_version": 9,
-  "updated_at": "2026-11-04T02:49:03.664528+08:00",
+  "updated_at": "2026-11-05T03:04:51.819976+08:00",
   "events": [
     {
-      "code": "周三001",
-      "match": "浦项制铁 vs 大阪钢巴",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
+      "code": "周四013",
+      "match": "帕梅拉斯 vs 雷莫",
+      "status": "有效来源 12 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Preview: Remo vs Palmeiras - prediction, team news, lineups - Sports Mole",
+          "url": "https://www.sportsmole.co.uk/football/remo/preview/remo-vs-palmeiras-prediction-team-news-lineups_597300.html",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Palmeiras vs Remo Prediction, Betting Tips, Lineups & Odds | 05 Nov 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/palmeiras-vs-remo-prediction-lineups-odds-2026-11-05",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "Remo 1-1 Palmeiras (May 10, 2026) Final Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401841110/palmeiras-remo",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Palmeiras v Remo: title push meets survival fight | OneFootball",
+          "url": "https://onefootball.com/en/news/palmeiras-v-remo-title-push-meets-survival-fight-43717954",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Clube do Remo PA Brazil Serie A Standings | FOX Sports",
+          "url": "https://www.foxsports.com/soccer/clube-do-remo-pa-team-standings",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Palmeiras vs Remo: Brazilian Serie A stats & head-to-head - BBC Sport",
+          "url": "https://www.bbc.com/sport/football/live/cx30eyqm369nt",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Brasileirão Table & Standings | OddsCalendar",
+          "url": "https://www.oddscalendar.com/football/brazil/brasileirao-serie-a/standings",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Palmeiras-Remo - Brasileirão 2026 Head to Head Statistics",
+          "url": "https://www.whoscored.com/matches/1956094/show/brazil-brasileir%C3%A3o-2026-palmeiras-remo",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Palmeiras vs Remo - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/matches/remo-vs-palmeiras/168209",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Palmeiras vs Remo Head-to-Head Record & History | Sports Pundit",
+          "url": "https://sportspundit.com/soccer/teams/h2h/palmeiras-vs-remo",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Remo vs Palmeiras: Serie A stats & head-to-head - BBC Sport",
+          "url": "https://www.bbc.com/sport/football/live/c4g87x226z6t",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Palmeiras vs. Remo (Nov 5, 2026) Live Score - ESPN",
+          "url": "https://www.espn.com/soccer/match/_/gameId/401841300/remo-palmeiras",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
       "deepseek": {
-        "success": false,
+        "success": true,
         "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
+        "model": "deepseek-chat"
       },
       "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
+        "summary": "本场为2026赛季巴西甲级联赛第34轮，Palmeiras主场对阵Remo。赛前Palmeiras积70分排名第2，落后榜首Flamengo 3分；Remo积29分排名第19，处于降级区。双方首回合（2026年5月10日）1-1战平。摘要中关于伤停名单存在多处互相矛盾的信息，需以官方名单为准。",
+        "competition_context": [
+          "巴西甲级联赛（Brasileirão Série A）2026赛季，第33轮后Palmeiras 33场20胜10平3负积70分排名第2，Remo 33场6胜11平16负积29分排名第19。",
+          "榜首Flamengo 33场积73分，Palmeiras落后3分。",
+          "Remo处于降级区，排名第19，第20位为Chapecoense（32场21分）。",
+          "双方本赛季首回合于2026年5月10日进行，Remo 1-1 Palmeiras。",
+          "历史交锋记录：1场，0胜1平0负（双方各无胜绩）。"
+        ],
+        "motivation_evidence": [
+          "Palmeiras取胜可升至73分，继续紧追榜首Flamengo。",
+          "Remo取胜可升至32分，有望缩小与安全区的差距；失分则可能进一步深陷降级区。"
+        ],
+        "form_schedule": [
+          "Palmeiras近6场联赛（由旧到新）：平、胜、胜、胜、胜、平。",
+          "Remo近6场联赛（由旧到新）：负、平、平、平、负、胜。",
+          "Palmeiras近期赛程：11月1日巴西杯半决赛1-0胜Vasco；10月28日联赛客场0-0平Santos；10月24日联赛主场2-0胜Bragantino；10月21日解放者杯半决赛次回合1-0胜Fluminense，总比分战平后点球5-3晋级；10月17日联赛客场2-0胜Athletico Paranaense。",
+          "Remo近期赛程：10月29日联赛主场2-1胜Botafogo；10月24日联赛客场0-1负Cruzeiro；10月18日联赛主场1-1平Bragantino；10月10日联赛客场0-0平Vasco da Gama；10月7日联赛主场1-1平Grêmio；9月19日联赛主场1-2负São Paulo。"
+        ],
+        "confirmed": [
+          "首回合官方赛果：2026年5月10日，Remo 1-1 Palmeiras。"
+        ],
+        "uncertain": [
+          "Palmeiras伤停：Sports Mole称Piquerez与Vitor Roque因伤缺阵；FotMob称Ramón Sosa、Paulinho、Jefté因伤缺阵；SportsGambler预测首发中却包含Piquerez。三处信息互相矛盾。",
+          "Palmeiras主帅Abel Ferreira是否因停赛缺席巴西甲级联赛场次指挥，仅Sports Mole提及，未见其他来源确认。",
+          "Remo伤停：Sports Mole称Gabriel Taliari腿筋重伤缺阵、Vitor Bueno小腿伤存疑；FotMob称Poveda、Jáderson、Matheus Felipe、João Lucas因伤缺阵；SportsGambler预测首发中却包含Gabriel Taliari。信息互相矛盾。",
+          "Palmeiras多名球员（Andreas Pereira、Allan、Giay、Ramon Sosa）再吃一黄即停赛，仅Sports Mole提及。",
+          "OneFootball称Abel Ferreira可能轮换主力，属预测性报道，非官方确认。"
+        ],
         "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三002",
-      "match": "武里兰联 vs 鹿岛鹿角",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三004",
-      "match": "费内巴切 vs 利物浦",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三005",
-      "match": "莱红牛 vs 曼城",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三006",
-      "match": "波尔图 vs 那不勒斯",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三007",
-      "match": "埃因霍温 vs 布鲁日",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三008",
-      "match": "多特蒙德 vs 贝蒂斯",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三009",
-      "match": "维京 vs 沙巴巴库",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三010",
-      "match": "朗斯 vs 科莫",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三011",
-      "match": "斯拉维亚 vs 阿森纳",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
+          "伤停与阵容信息在Sports Mole、FotMob、SportsGambler之间明显冲突，无法据此确认最终缺阵名单。",
+          "开赛时间存在来源差异：用户给出2026-11-06 06:30，而多个来源标注比赛日期为2026年11月5日（当地时间），需核实时区换算。",
+          "部分来源（如BBC某页面）显示的是2026年5月首回合的阵容与积分数据，与11月赛前信息混用，存在误读风险。",
+          "积分榜数据存在细微差异：FotMob/ESPN显示Bragantino 34场47分、Santos 34场47分，与其他来源的33场数据不一致，可能为轮次更新时点不同。",
+          "缺少官方首发名单与最终伤停公告，赛前事实边界有限。"
         ]
       }
     }

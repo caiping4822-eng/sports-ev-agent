@@ -1,5 +1,84 @@
 {
   "pipeline_version": 2,
-  "decisions": [],
-  "global_forced_code": null
+  "decisions": [
+    {
+      "code": "周四013",
+      "match": "帕梅拉斯 vs 雷莫",
+      "odds": [
+        1.11,
+        6.0,
+        14.0
+      ],
+      "market_p": [
+        0.7669927690344533,
+        0.15065929391748192,
+        0.08234793704806465
+      ],
+      "base_p": [
+        0.7469927690344533,
+        0.13065929391748193,
+        0.06234793704806464
+      ],
+      "conservative_p": [
+        0.7369927690344533,
+        0.12065929391748194,
+        0.05234793704806464
+      ],
+      "ev": [
+        -0.1819380263717567,
+        -0.27604423649510834,
+        -0.267128881327095
+      ],
+      "forced_i": 1,
+      "strict_i": 0,
+      "strict": false,
+      "confidence": 46,
+      "conf_label": "低",
+      "global_score": 0.09459688643130584,
+      "home_adverse": 0,
+      "away_adverse": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.01,
+      "confirmed": [
+        "首回合官方赛果：2026年5月10日，Remo 1-1 Palmeiras。"
+      ],
+      "uncertain": [
+        "Palmeiras伤停：Sports Mole称Piquerez与Vitor Roque因伤缺阵；FotMob称Ramón Sosa、Paulinho、Jefté因伤缺阵；SportsGambler预测首发中却包含Piquerez。三处信息互相矛盾。",
+        "Palmeiras主帅Abel Ferreira是否因停赛缺席巴西甲级联赛场次指挥，仅Sports Mole提及，未见其他来源确认。",
+        "Remo伤停：Sports Mole称Gabriel Taliari腿筋重伤缺阵、Vitor Bueno小腿伤存疑；FotMob称Poveda、Jáderson、Matheus Felipe、João Lucas因伤缺阵；SportsGambler预测首发中却包含Gabriel Taliari。信息互相矛盾。",
+        "Palmeiras多名球员（Andreas Pereira、Allan、Giay、Ramon Sosa）再吃一黄即停赛，仅Sports Mole提及。",
+        "OneFootball称Abel Ferreira可能轮换主力，属预测性报道，非官方确认。"
+      ],
+      "risks": [
+        "伤停与阵容信息在Sports Mole、FotMob、SportsGambler之间明显冲突，无法据此确认最终缺阵名单。",
+        "开赛时间存在来源差异：用户给出2026-11-06 06:30，而多个来源标注比赛日期为2026年11月5日（当地时间），需核实时区换算。",
+        "部分来源（如BBC某页面）显示的是2026年5月首回合的阵容与积分数据，与11月赛前信息混用，存在误读风险。",
+        "积分榜数据存在细微差异：FotMob/ESPN显示Bragantino 34场47分、Santos 34场47分，与其他来源的33场数据不一致，可能为轮次更新时点不同。",
+        "缺少官方首发名单与最终伤停公告，赛前事实边界有限。"
+      ],
+      "context": [
+        "巴西甲级联赛（Brasileirão Série A）2026赛季，第33轮后Palmeiras 33场20胜10平3负积70分排名第2，Remo 33场6胜11平16负积29分排名第19。",
+        "榜首Flamengo 33场积73分，Palmeiras落后3分。",
+        "Remo处于降级区，排名第19，第20位为Chapecoense（32场21分）。",
+        "双方本赛季首回合于2026年5月10日进行，Remo 1-1 Palmeiras。",
+        "历史交锋记录：1场，0胜1平0负（双方各无胜绩）。"
+      ],
+      "motivation": [
+        "Palmeiras取胜可升至73分，继续紧追榜首Flamengo。",
+        "Remo取胜可升至32分，有望缩小与安全区的差距；失分则可能进一步深陷降级区。"
+      ],
+      "form_schedule": [
+        "Palmeiras近6场联赛（由旧到新）：平、胜、胜、胜、胜、平。",
+        "Remo近6场联赛（由旧到新）：负、平、平、平、负、胜。",
+        "Palmeiras近期赛程：11月1日巴西杯半决赛1-0胜Vasco；10月28日联赛客场0-0平Santos；10月24日联赛主场2-0胜Bragantino；10月21日解放者杯半决赛次回合1-0胜Fluminense，总比分战平后点球5-3晋级；10月17日联赛客场2-0胜Athletico Paranaense。",
+        "Remo近期赛程：10月29日联赛主场2-1胜Botafogo；10月24日联赛客场0-1负Cruzeiro；10月18日联赛主场1-1平Bragantino；10月10日联赛客场0-0平Vasco da Gama；10月7日联赛主场1-1平Grêmio；9月19日联赛主场1-2负São Paulo。"
+      ],
+      "gaps": [
+        "外部同场机构不足3家",
+        "API-Football未匹配",
+        "赛季基本面未返回"
+      ]
+    }
+  ],
+  "global_forced_code": "周四013"
 }
