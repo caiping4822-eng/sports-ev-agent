@@ -26869,5 +26869,25 @@
       }
     ],
     "source": "zgzcw_public_low_frequency"
+  },
+  {
+    "captured_at": "2026-11-05T01:40:12.302846+08:00",
+    "items": [
+      {
+        "code": "周四013",
+        "kickoff": "2026-11-06 06:30",
+        "china": [
+          1.11,
+          6.0,
+          14.0
+        ],
+        "average": [
+          1.21,
+          6.16,
+          11.27
+        ]
+      }
+    ],
+    "source": "zgzcw_public_low_frequency"
   }
 ]
