@@ -37773,5 +37773,704 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周四001|2026-11-05 18:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四001",
+    "league": "亚冠二级",
+    "kickoff": "2026-11-05 18:00",
+    "home": "町田泽维",
+    "away": "上海申花",
+    "china_1x2": [
+      1.19,
+      5.2,
+      9.35
+    ],
+    "avg_1x2": [
+      1.29,
+      5.03,
+      7.88
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 5.2,
+      "probability": 0.16058528734080293,
+      "market_probability": 0.18058528734080292,
+      "base_probability": 0.16058528734080293,
+      "ev": -0.16495650582782473,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.12204481837901023,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四002|2026-11-06 01:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四002",
+    "league": "欧联",
+    "kickoff": "2026-11-06 01:45",
+    "home": "水晶宫",
+    "away": "霍芬海姆",
+    "china_1x2": [
+      1.76,
+      3.45,
+      3.55
+    ],
+    "avg_1x2": [
+      1.88,
+      3.91,
+      3.65
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "客胜",
+      "odds": 3.55,
+      "probability": 0.23806496912334166,
+      "market_probability": 0.25806496912334165,
+      "base_probability": 0.23806496912334166,
+      "ev": -0.1548693596121371,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.18092937653373967,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四003|2026-11-06 01:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四003",
+    "league": "欧联",
+    "kickoff": "2026-11-06 01:45",
+    "home": "布斯巴达",
+    "away": "伯恩茅斯",
+    "china_1x2": [
+      6.25,
+      4.9,
+      1.29
+    ],
+    "avg_1x2": [
+      6.02,
+      4.51,
+      1.48
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 4.9,
+      "probability": 0.18848679992324724,
+      "market_probability": 0.20848679992324723,
+      "base_probability": 0.18848679992324724,
+      "ev": -0.07641468037608845,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.14324996794166792,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四004|2026-11-06 01:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四004",
+    "league": "欧联",
+    "kickoff": "2026-11-06 01:45",
+    "home": "奈梅亨",
+    "away": "奥莫尼亚",
+    "china_1x2": [
+      1.61,
+      3.72,
+      4.0
+    ],
+    "avg_1x2": [
+      1.77,
+      3.95,
+      4.05
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 3.72,
+      "probability": 0.2177020641631435,
+      "market_probability": 0.2377020641631435,
+      "base_probability": 0.2177020641631435,
+      "ev": -0.1901483213131061,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.16545356876398906,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四005|2026-11-06 01:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四005",
+    "league": "欧联",
+    "kickoff": "2026-11-06 01:45",
+    "home": "皇家社会",
+    "away": "里昂",
+    "china_1x2": [
+      1.44,
+      4.3,
+      4.7
+    ],
+    "avg_1x2": [
+      1.66,
+      4.13,
+      4.55
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 4.3,
+      "probability": 0.20749794429568405,
+      "market_probability": 0.22749794429568404,
+      "base_probability": 0.20749794429568405,
+      "ev": -0.10775883952855858,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.1576984376647199,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四006|2026-11-06 01:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四006",
+    "league": "欧联",
+    "kickoff": "2026-11-06 01:45",
+    "home": "AC米兰",
+    "away": "费伦茨瓦",
+    "china_1x2": [
+      1.16,
+      5.7,
+      9.8
+    ],
+    "avg_1x2": [
+      1.32,
+      5.34,
+      8.29
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 5.7,
+      "probability": 0.15575915271714516,
+      "market_probability": 0.17575915271714515,
+      "base_probability": 0.15575915271714516,
+      "ev": -0.11217282951227259,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.11837695606503032,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四007|2026-11-06 01:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四007",
+    "league": "欧协联",
+    "kickoff": "2026-11-06 01:45",
+    "home": "特拉布宗",
+    "away": "弗赖堡",
+    "china_1x2": [
+      2.22,
+      3.6,
+      2.43
+    ],
+    "avg_1x2": [
+      2.4,
+      3.57,
+      2.64
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 2.22,
+      "probability": 0.3673927197395679,
+      "market_probability": 0.3873927197395679,
+      "base_probability": 0.3673927197395679,
+      "ev": -0.18438816217815923,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.2792184670020716,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四008|2026-11-06 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四008",
+    "league": "欧联",
+    "kickoff": "2026-11-06 04:00",
+    "home": "桑德兰",
+    "away": "萨迪纳摩",
+    "china_1x2": [
+      1.27,
+      4.66,
+      7.25
+    ],
+    "avg_1x2": [
+      1.45,
+      4.6,
+      6.31
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 4.66,
+      "probability": 0.1840227001594363,
+      "market_probability": 0.2040227001594363,
+      "base_probability": 0.1840227001594363,
+      "ev": -0.14245421725702678,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.1398572521211716,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四009|2026-11-06 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四009",
+    "league": "欧联",
+    "kickoff": "2026-11-06 04:00",
+    "home": "塞尔塔",
+    "away": "圣吉联合",
+    "china_1x2": [
+      1.97,
+      3.3,
+      3.05
+    ],
+    "avg_1x2": [
+      2.28,
+      3.45,
+      2.98
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 1.97,
+      "probability": 0.39220621135942646,
+      "market_probability": 0.4122062113594265,
+      "base_probability": 0.39220621135942646,
+      "ev": -0.22735376362192994,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.2980767206331641,
+      "is_global": true
+    }
+  },
+  {
+    "key": "周四010|2026-11-06 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四010",
+    "league": "欧联",
+    "kickoff": "2026-11-06 04:00",
+    "home": "本菲卡",
+    "away": "波兹莱赫",
+    "china_1x2": null,
+    "avg_1x2": [
+      1.14,
+      8.44,
+      15.61
+    ],
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周四011|2026-11-06 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四011",
+    "league": "欧联",
+    "kickoff": "2026-11-06 04:00",
+    "home": "阿尔克马",
+    "away": "尤文图斯",
+    "china_1x2": [
+      3.62,
+      3.6,
+      1.71
+    ],
+    "avg_1x2": [
+      3.49,
+      3.61,
+      2.0
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "主胜",
+      "odds": 3.62,
+      "probability": 0.24941404311370993,
+      "market_probability": 0.2694140431137099,
+      "base_probability": 0.24941404311370993,
+      "ev": -0.09712116392837,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.18955467276641955,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周四012|2026-11-06 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周四012",
+    "league": "欧联",
+    "kickoff": "2026-11-06 04:00",
+    "home": "勒沃库森",
+    "away": "马赛",
+    "china_1x2": [
+      1.16,
+      5.75,
+      9.65
+    ],
+    "avg_1x2": [
+      1.31,
+      5.71,
+      7.93
+    ],
+    "fixture_id": null,
+    "forced": {
+      "selection": "平",
+      "odds": 5.75,
+      "probability": 0.14450536590618654,
+      "market_probability": 0.16450536590618653,
+      "base_probability": 0.14450536590618654,
+      "ev": -0.1690941460394274,
+      "stake_units": 1,
+      "type": "per_match",
+      "probability_source": "百家平均去水＋确认事实小幅调整＋来源风险惩罚",
+      "home_adverse_facts": 0,
+      "away_adverse_facts": 0,
+      "direction_adjustment": 0.0,
+      "risk_penalty": 0.0,
+      "data_confidence": 40,
+      "global_composite_score": 0.10982407808870177,
+      "is_global": false
+    }
+  },
+  {
+    "key": "周五001|2026-11-06 16:40",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五001",
+    "league": "澳超",
+    "kickoff": "2026-11-06 16:40",
+    "home": "悉尼FC",
+    "away": "中央海岸",
+    "china_1x2": [
+      1.37,
+      4.25,
+      5.75
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五002|2026-11-07 01:30",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五002",
+    "league": "德乙",
+    "kickoff": "2026-11-07 01:30",
+    "home": "不伦瑞克",
+    "away": "科特布斯",
+    "china_1x2": [
+      1.77,
+      3.75,
+      3.25
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五003|2026-11-07 02:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五003",
+    "league": "瑞典超",
+    "kickoff": "2026-11-07 02:00",
+    "home": "哈马比",
+    "away": "埃夫斯堡",
+    "china_1x2": [
+      1.28,
+      4.7,
+      6.9
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五004|2026-11-07 03:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五004",
+    "league": "法乙",
+    "kickoff": "2026-11-07 03:00",
+    "home": "蒙彼利埃",
+    "away": "梅斯",
+    "china_1x2": [
+      1.88,
+      3.35,
+      3.25
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五005|2026-11-07 03:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五005",
+    "league": "荷甲",
+    "kickoff": "2026-11-07 03:00",
+    "home": "威廉二世",
+    "away": "兹沃勒",
+    "china_1x2": [
+      2.55,
+      3.45,
+      2.19
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五006|2026-11-07 03:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五006",
+    "league": "荷乙",
+    "kickoff": "2026-11-07 03:00",
+    "home": "奥斯",
+    "away": "瓦尔韦克",
+    "china_1x2": [
+      3.7,
+      3.75,
+      1.66
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五007|2026-11-07 03:30",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五007",
+    "league": "德甲",
+    "kickoff": "2026-11-07 03:30",
+    "home": "汉堡",
+    "away": "门兴",
+    "china_1x2": [
+      2.33,
+      3.35,
+      2.43
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五008|2026-11-07 03:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五008",
+    "league": "意甲",
+    "kickoff": "2026-11-07 03:45",
+    "home": "威尼斯",
+    "away": "乌迪内斯",
+    "china_1x2": [
+      2.16,
+      3.3,
+      2.68
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五009|2026-11-07 03:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五009",
+    "league": "法甲",
+    "kickoff": "2026-11-07 03:45",
+    "home": "图卢兹",
+    "away": "斯特拉斯",
+    "china_1x2": [
+      1.84,
+      3.6,
+      3.15
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五010|2026-11-07 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五010",
+    "league": "英超",
+    "kickoff": "2026-11-07 04:00",
+    "home": "埃弗顿",
+    "away": "考文垂",
+    "china_1x2": [
+      1.51,
+      3.75,
+      4.75
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五011|2026-11-07 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五011",
+    "league": "英冠",
+    "kickoff": "2026-11-07 04:00",
+    "home": "德比郡",
+    "away": "博尔顿",
+    "china_1x2": [
+      2.22,
+      3.28,
+      2.6
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五012|2026-11-07 04:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五012",
+    "league": "西甲",
+    "kickoff": "2026-11-07 04:00",
+    "home": "塞维利亚",
+    "away": "阿拉维斯",
+    "china_1x2": [
+      1.8,
+      3.1,
+      3.83
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五013|2026-11-07 04:45",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五013",
+    "league": "葡超",
+    "kickoff": "2026-11-07 04:45",
+    "home": "法马利康",
+    "away": "阿罗卡",
+    "china_1x2": [
+      2.0,
+      3.15,
+      3.12
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五014|2026-11-07 07:00",
+    "locked_at": "2026-11-05T15:37:16.198473+08:00",
+    "status": "locked",
+    "code": "周五014",
+    "league": "巴西甲",
+    "kickoff": "2026-11-07 07:00",
+    "home": "维多利亚",
+    "away": "弗鲁米嫩",
+    "china_1x2": [
+      2.69,
+      3.1,
+      2.25
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
