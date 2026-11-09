@@ -40238,5 +40238,77 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周二001|2026-11-11 03:00",
+    "locked_at": "2026-11-09T15:31:25.145105+08:00",
+    "status": "locked",
+    "code": "周二001",
+    "league": "英锦赛",
+    "kickoff": "2026-11-11 03:00",
+    "home": "伯顿",
+    "away": "诺茨郡",
+    "china_1x2": [
+      2.2,
+      3.38,
+      2.57
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周二002|2026-11-11 03:30",
+    "locked_at": "2026-11-09T15:31:25.145105+08:00",
+    "status": "locked",
+    "code": "周二002",
+    "league": "英锦赛",
+    "kickoff": "2026-11-11 03:30",
+    "home": "布罗姆利",
+    "away": "米尔顿",
+    "china_1x2": [
+      4.11,
+      3.92,
+      1.56
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周三005|2026-11-12 03:00",
+    "locked_at": "2026-11-09T15:31:25.145105+08:00",
+    "status": "locked",
+    "code": "周三005",
+    "league": "英锦赛",
+    "kickoff": "2026-11-12 03:00",
+    "home": "谢周三",
+    "away": "阿克宁顿",
+    "china_1x2": [
+      1.37,
+      4.4,
+      5.5
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周三006|2026-11-12 03:00",
+    "locked_at": "2026-11-09T15:31:25.145105+08:00",
+    "status": "locked",
+    "code": "周三006",
+    "league": "英锦赛",
+    "kickoff": "2026-11-12 03:00",
+    "home": "巴恩斯利",
+    "away": "奥德汉姆",
+    "china_1x2": [
+      1.75,
+      3.72,
+      3.35
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]

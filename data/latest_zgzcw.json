@@ -1,646 +1,122 @@
 {
-  "updated_at": "2026-11-09 01:23",
+  "updated_at": "2026-11-09 15:31",
   "events": [
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.240514+08:00",
-      "source_match_id": "2042620",
-      "analysis_match_id": "4552252",
-      "code": "周日009",
-      "league": "荷甲",
-      "deadline": "2026-11-08 21:10",
-      "kickoff": "2026-11-08 21:30",
-      "home": "特温特",
-      "away": "阿贾克斯",
+      "captured_at": "2026-11-09T15:31:20.461463+08:00",
+      "source_match_id": "2042684",
+      "analysis_match_id": "4568692",
+      "code": "周二001",
+      "league": "英锦赛",
+      "deadline": "2026-11-10 21:40",
+      "kickoff": "2026-11-11 03:00",
+      "home": "伯顿",
+      "away": "诺茨郡",
       "markets": [
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 1.73,
-          "draw": 4.0,
-          "away_win": 3.21
+          "home_win": 2.2,
+          "draw": 3.38,
+          "away_win": 2.57
         },
         {
           "market": "handicap_1x2",
           "line": "-1",
-          "home_win": 3.12,
-          "draw": 3.8,
-          "away_win": 1.8
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.240720+08:00",
-      "source_match_id": "2042621",
-      "analysis_match_id": "4467693",
-      "code": "周日010",
-      "league": "挪超",
-      "deadline": "2026-11-08 21:10",
-      "kickoff": "2026-11-08 21:30",
-      "home": "特罗姆瑟",
-      "away": "博德闪耀",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 6.7,
-          "draw": 5.25,
-          "away_win": 1.25
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 3.0,
-          "draw": 4.0,
-          "away_win": 1.8
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.240819+08:00",
-      "source_match_id": "2042622",
-      "analysis_match_id": "4558726",
-      "code": "周日011",
-      "league": "英超",
-      "deadline": "2026-11-08 21:40",
-      "kickoff": "2026-11-08 22:00",
-      "home": "桑德兰",
-      "away": "切尔西",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 4.12,
-          "draw": 3.68,
-          "away_win": 1.6
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 1.97,
-          "draw": 3.85,
-          "away_win": 2.69
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.240927+08:00",
-      "source_match_id": "2042623",
-      "analysis_match_id": "4558713",
-      "code": "周日012",
-      "league": "英超",
-      "deadline": "2026-11-08 21:40",
-      "kickoff": "2026-11-08 22:00",
-      "home": "伊维奇",
-      "away": "伯恩茅斯",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 4.1,
-          "draw": 3.65,
-          "away_win": 1.61
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 1.96,
-          "draw": 3.65,
-          "away_win": 2.82
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241020+08:00",
-      "source_match_id": "2042624",
-      "analysis_match_id": "4558705",
-      "code": "周日013",
-      "league": "英超",
-      "deadline": "2026-11-08 21:40",
-      "kickoff": "2026-11-08 22:00",
-      "home": "水晶宫",
-      "away": "利物浦",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 5.9,
-          "draw": 4.6,
-          "away_win": 1.33
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 2.62,
-          "draw": 3.69,
-          "away_win": 2.06
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241113+08:00",
-      "source_match_id": "2042625",
-      "analysis_match_id": "4549167",
-      "code": "周日014",
-      "league": "意甲",
-      "deadline": "2026-11-08 21:40",
-      "kickoff": "2026-11-08 22:00",
-      "home": "蒙扎",
-      "away": "亚特兰大",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 3.31,
-          "draw": 3.85,
-          "away_win": 1.73
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 1.82,
-          "draw": 3.8,
-          "away_win": 3.06
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241202+08:00",
-      "source_match_id": "2042626",
-      "analysis_match_id": "4549147",
-      "code": "周日015",
-      "league": "意甲",
-      "deadline": "2026-11-08 21:40",
-      "kickoff": "2026-11-08 22:00",
-      "home": "热那亚",
-      "away": "AC米兰",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 4.32,
-          "draw": 3.4,
-          "away_win": 1.63
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 1.94,
-          "draw": 3.1,
-          "away_win": 3.32
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241290+08:00",
-      "source_match_id": "2042627",
-      "analysis_match_id": "4566396",
-      "code": "周日016",
-      "league": "德甲",
-      "deadline": "2026-11-08 22:10",
-      "kickoff": "2026-11-08 22:30",
-      "home": "科隆",
-      "away": "勒沃库森",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 4.35,
-          "draw": 4.11,
+          "home_win": 4.55,
+          "draw": 3.95,
           "away_win": 1.5
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 2.14,
-          "draw": 3.67,
-          "away_win": 2.5
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241379+08:00",
-      "source_match_id": "2042628",
-      "analysis_match_id": "4565573",
-      "code": "周日017",
-      "league": "西甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-08 23:15",
-      "home": "皇家社会",
-      "away": "巴列卡诺",
+      "captured_at": "2026-11-09T15:31:20.461735+08:00",
+      "source_match_id": "2042685",
+      "analysis_match_id": "4568752",
+      "code": "周二002",
+      "league": "英锦赛",
+      "deadline": "2026-11-10 21:40",
+      "kickoff": "2026-11-11 03:30",
+      "home": "布罗姆利",
+      "away": "米尔顿",
       "markets": [
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 1.5,
-          "draw": 4.03,
-          "away_win": 4.45
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 2.78,
-          "draw": 3.2,
-          "away_win": 2.14
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241469+08:00",
-      "source_match_id": "2042629",
-      "analysis_match_id": "4467216",
-      "code": "周日018",
-      "league": "瑞典超",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-08 23:30",
-      "home": "索尔纳",
-      "away": "赫根",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 5.5,
-          "draw": 4.75,
-          "away_win": 1.34
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 2.59,
-          "draw": 3.35,
-          "away_win": 2.2
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241558+08:00",
-      "source_match_id": "2042630",
-      "analysis_match_id": "4552254",
-      "code": "周日019",
-      "league": "荷甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-08 23:45",
-      "home": "阿尔克马",
-      "away": "格罗宁根",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 1.31,
-          "draw": 4.75,
-          "away_win": 6.05
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 1.96,
-          "draw": 3.7,
-          "away_win": 2.79
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241645+08:00",
-      "source_match_id": "2042631",
-      "analysis_match_id": "4550927",
-      "code": "周日020",
-      "league": "法甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 00:15",
-      "home": "勒芒",
-      "away": "摩纳哥",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 5.0,
-          "draw": 4.25,
-          "away_win": 1.42
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 2.34,
-          "draw": 3.2,
-          "away_win": 2.5
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241734+08:00",
-      "source_match_id": "2042632",
-      "analysis_match_id": "4558721",
-      "code": "周日021",
-      "league": "英超",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 00:30",
-      "home": "曼联",
-      "away": "维拉",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 1.94,
-          "draw": 3.55,
-          "away_win": 2.92
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 3.73,
-          "draw": 3.88,
-          "away_win": 1.63
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241822+08:00",
-      "source_match_id": "2042633",
-      "analysis_match_id": "4566392",
-      "code": "周日022",
-      "league": "德甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 00:30",
-      "home": "弗赖堡",
-      "away": "柏林联合",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 1.27,
-          "draw": 4.65,
-          "away_win": 7.3
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 1.94,
-          "draw": 3.6,
-          "away_win": 2.89
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.241931+08:00",
-      "source_match_id": "2042634",
-      "analysis_match_id": "4549074",
-      "code": "周日023",
-      "league": "意甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 01:00",
-      "home": "国际米兰",
-      "away": "科莫",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 1.76,
+          "home_win": 4.11,
           "draw": 3.92,
-          "away_win": 3.17
+          "away_win": 1.56
         },
         {
           "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 3.18,
-          "draw": 3.75,
-          "away_win": 1.79
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242022+08:00",
-      "source_match_id": "2042635",
-      "analysis_match_id": "4565579",
-      "code": "周日024",
-      "league": "西甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 01:30",
-      "home": "比利亚雷",
-      "away": "赫塔菲",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 1.29,
-          "draw": 4.45,
-          "away_win": 7.15
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
+          "line": "+1",
           "home_win": 2.05,
-          "draw": 3.4,
-          "away_win": 2.8
+          "draw": 3.67,
+          "away_win": 2.64
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242112+08:00",
-      "source_match_id": "2042636",
-      "analysis_match_id": "4565565",
-      "code": "周日025",
-      "league": "西甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 01:30",
-      "home": "塞尔塔",
-      "away": "莱万特",
+      "captured_at": "2026-11-09T15:31:20.461856+08:00",
+      "source_match_id": "2042690",
+      "analysis_match_id": "4638623",
+      "code": "周三005",
+      "league": "英锦赛",
+      "deadline": "2026-11-11 21:40",
+      "kickoff": "2026-11-12 03:00",
+      "home": "谢周三",
+      "away": "阿克宁顿",
       "markets": [
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 1.65,
-          "draw": 3.17,
-          "away_win": 4.6
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 3.35,
-          "draw": 3.15,
-          "away_win": 1.91
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242200+08:00",
-      "source_match_id": "2042637",
-      "analysis_match_id": "4578248",
-      "code": "周日026",
-      "league": "葡超",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 02:00",
-      "home": "吉马良斯",
-      "away": "波尔图",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 6.45,
+          "home_win": 1.37,
           "draw": 4.4,
-          "away_win": 1.32
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 2.68,
-          "draw": 3.25,
-          "away_win": 2.18
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242288+08:00",
-      "source_match_id": "2042638",
-      "analysis_match_id": "4566390",
-      "code": "周日027",
-      "league": "德甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 02:30",
-      "home": "霍芬海姆",
-      "away": "沙尔克",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 1.4,
-          "draw": 4.25,
-          "away_win": 5.3
+          "away_win": 5.5
         },
         {
           "market": "handicap_1x2",
           "line": "-1",
-          "home_win": 2.23,
-          "draw": 3.65,
-          "away_win": 2.4
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242375+08:00",
-      "source_match_id": "2042639",
-      "analysis_match_id": "4549100",
-      "code": "周日028",
-      "league": "意甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 03:45",
-      "home": "佛罗伦萨",
-      "away": "尤文图斯",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 3.41,
-          "draw": 3.4,
-          "away_win": 1.81
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 1.72,
-          "draw": 3.47,
-          "away_win": 3.7
-        }
-      ]
-    },
-    {
-      "source": "zgzcw_public_page",
-      "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242465+08:00",
-      "source_match_id": "2042640",
-      "analysis_match_id": "4550931",
-      "code": "周日029",
-      "league": "法甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 03:45",
-      "home": "朗斯",
-      "away": "马赛",
-      "markets": [
-        {
-          "market": "1X2",
-          "line": "0",
-          "home_win": 2.23,
-          "draw": 3.45,
+          "home_win": 2.12,
+          "draw": 3.73,
           "away_win": 2.5
-        },
-        {
-          "market": "handicap_1x2",
-          "line": "-1",
-          "home_win": 4.5,
-          "draw": 4.3,
-          "away_win": 1.46
         }
       ]
     },
     {
       "source": "zgzcw_public_page",
       "source_url": "https://cp.zgzcw.com/lottery/jchtplayvsForJsp.action?lotteryId=47&type=jcmini",
-      "captured_at": "2026-11-08T20:53:07.242552+08:00",
-      "source_match_id": "2042641",
-      "analysis_match_id": "4565508",
-      "code": "周日030",
-      "league": "西甲",
-      "deadline": "2026-11-08 22:40",
-      "kickoff": "2026-11-09 04:00",
-      "home": "马竞",
-      "away": "巴塞罗那",
+      "captured_at": "2026-11-09T15:31:20.461968+08:00",
+      "source_match_id": "2042691",
+      "analysis_match_id": "4568698",
+      "code": "周三006",
+      "league": "英锦赛",
+      "deadline": "2026-11-11 21:40",
+      "kickoff": "2026-11-12 03:00",
+      "home": "巴恩斯利",
+      "away": "奥德汉姆",
       "markets": [
         {
           "market": "1X2",
           "line": "0",
-          "home_win": 3.43,
-          "draw": 4.33,
-          "away_win": 1.62
+          "home_win": 1.75,
+          "draw": 3.72,
+          "away_win": 3.35
         },
         {
           "market": "handicap_1x2",
-          "line": "+1",
-          "home_win": 1.94,
-          "draw": 4.01,
-          "away_win": 2.67
+          "line": "-1",
+          "home_win": 3.22,
+          "draw": 3.7,
+          "away_win": 1.79
         }
       ]
     }
   ],
-  "errors": [
-    "中国竞彩当前已停售：展示最后一次可售赔率快照，仅供研究和复盘，不可投注。"
-  ]
+  "errors": []
 }
