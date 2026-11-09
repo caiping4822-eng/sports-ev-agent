@@ -1,16 +1,30 @@
 {
-  "4467670": {
+  "4568692": {
     "source": "zgzcw_bjzs_public_average",
     "source_url": "https://plzx.zgzcw.com/bjzs",
     "opening": [
-      2.97,
-      3.77,
-      2.05
+      1.95,
+      3.75,
+      3.3
     ],
     "current": [
-      2.69,
-      3.92,
-      2.22
+      2.16,
+      3.52,
+      2.78
+    ]
+  },
+  "4568752": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      2.83,
+      4.15,
+      1.99
+    ],
+    "current": [
+      3.42,
+      3.76,
+      1.83
     ]
   }
 }
