@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "pipeline_version": 9,
-  "updated_at": "2026-11-10T05:44:51.763795+08:00",
+  "updated_at": "2026-11-11T03:03:19.225792+08:00",
   "events": [
     {
-      "code": "周二001",
-      "match": "伯顿 vs 诺茨郡",
+      "code": "周三001",
+      "match": "横滨水手 vs 鹿岛鹿角",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,56 @@
       }
     },
     {
-      "code": "周二002",
-      "match": "布罗姆利 vs 米尔顿",
+      "code": "周三002",
+      "match": "神户胜利 vs 町田泽维",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三003",
+      "match": "川崎前锋 vs 柏太阳神",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周三004",
+      "match": "浦和红钻 vs 大阪樱花",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
