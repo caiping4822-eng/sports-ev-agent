@@ -40346,5 +40346,77 @@
       "is_global": false,
       "probability_source": "历史补录，不计入真实ROI"
     }
+  },
+  {
+    "key": "周三001|2026-11-11 18:00",
+    "locked_at": "2026-11-10T15:56:31.865469+08:00",
+    "status": "locked",
+    "code": "周三001",
+    "league": "日联杯",
+    "kickoff": "2026-11-11 18:00",
+    "home": "横滨水手",
+    "away": "鹿岛鹿角",
+    "china_1x2": [
+      2.85,
+      3.35,
+      2.04
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周三002|2026-11-11 18:00",
+    "locked_at": "2026-11-10T15:56:31.865469+08:00",
+    "status": "locked",
+    "code": "周三002",
+    "league": "日联杯",
+    "kickoff": "2026-11-11 18:00",
+    "home": "神户胜利",
+    "away": "町田泽维",
+    "china_1x2": [
+      2.25,
+      3.12,
+      2.68
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周三003|2026-11-11 18:00",
+    "locked_at": "2026-11-10T15:56:31.865469+08:00",
+    "status": "locked",
+    "code": "周三003",
+    "league": "日联杯",
+    "kickoff": "2026-11-11 18:00",
+    "home": "川崎前锋",
+    "away": "柏太阳神",
+    "china_1x2": [
+      2.45,
+      3.6,
+      2.21
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周三004|2026-11-11 18:30",
+    "locked_at": "2026-11-10T15:56:31.865469+08:00",
+    "status": "locked",
+    "code": "周三004",
+    "league": "日联杯",
+    "kickoff": "2026-11-11 18:30",
+    "home": "浦和红钻",
+    "away": "大阪樱花",
+    "china_1x2": [
+      1.79,
+      3.6,
+      3.3
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
