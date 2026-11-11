@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "pipeline_version": 9,
-  "updated_at": "2026-11-11T03:03:19.225792+08:00",
+  "updated_at": "2026-11-12T02:59:49.697716+08:00",
   "events": [
     {
-      "code": "周三001",
-      "match": "横滨水手 vs 鹿岛鹿角",
+      "code": "周四001",
+      "match": "土耳其 vs 比利时",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周三002",
-      "match": "神户胜利 vs 町田泽维",
+      "code": "周四002",
+      "match": "亚美尼亚 vs 塞浦路斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周三003",
-      "match": "川崎前锋 vs 柏太阳神",
+      "code": "周四003",
+      "match": "阿尔巴尼 vs 芬兰",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周三004",
-      "match": "浦和红钻 vs 大阪樱花",
+      "code": "周四004",
+      "match": "黑山 vs 拉脱维亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周三005",
-      "match": "谢周三 vs 阿克宁顿",
+      "code": "周四005",
+      "match": "英格兰 vs 克罗地亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周三006",
-      "match": "巴恩斯利 vs 奥德汉姆",
+      "code": "周四006",
+      "match": "捷克 vs 西班牙",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
