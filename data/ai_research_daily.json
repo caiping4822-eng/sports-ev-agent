@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "pipeline_version": 9,
-  "updated_at": "2026-11-12T02:59:49.697716+08:00",
+  "updated_at": "2026-11-13T03:18:47.197012+08:00",
   "events": [
     {
-      "code": "周四001",
-      "match": "土耳其 vs 比利时",
+      "code": "周五002",
+      "match": "摩尔多瓦 vs 哈萨克",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周四002",
-      "match": "亚美尼亚 vs 塞浦路斯",
+      "code": "周五003",
+      "match": "保加利亚 vs 冰岛",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周四003",
-      "match": "阿尔巴尼 vs 芬兰",
+      "code": "周五004",
+      "match": "苏格兰 vs 北马其顿",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周四004",
-      "match": "黑山 vs 拉脱维亚",
+      "code": "周五005",
+      "match": "塞尔维亚 vs 德国",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周四005",
-      "match": "英格兰 vs 克罗地亚",
+      "code": "周五006",
+      "match": "卢森堡 vs 爱沙尼亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,56 @@
       }
     },
     {
-      "code": "周四006",
-      "match": "捷克 vs 西班牙",
+      "code": "周五007",
+      "match": "斯洛伐克 vs 法罗群岛",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五008",
+      "match": "斯洛文尼 vs 瑞士",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周五009",
+      "match": "荷兰 vs 希腊",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
