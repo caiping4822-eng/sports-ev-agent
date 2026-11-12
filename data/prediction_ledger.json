@@ -40603,5 +40603,149 @@
     "avg_1x2": null,
     "fixture_id": null,
     "forced": null
+  },
+  {
+    "key": "周五002|2026-11-14 01:00",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五002",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 01:00",
+    "home": "摩尔多瓦",
+    "away": "哈萨克",
+    "china_1x2": [
+      2.31,
+      2.84,
+      2.82
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五003|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五003",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "保加利亚",
+    "away": "冰岛",
+    "china_1x2": [
+      4.0,
+      3.25,
+      1.72
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五004|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五004",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "苏格兰",
+    "away": "北马其顿",
+    "china_1x2": [
+      1.1,
+      6.1,
+      15.0
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五005|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五005",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "塞尔维亚",
+    "away": "德国",
+    "china_1x2": [
+      9.0,
+      5.55,
+      1.18
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五006|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五006",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "卢森堡",
+    "away": "爱沙尼亚",
+    "china_1x2": [
+      1.89,
+      2.94,
+      3.7
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五007|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五007",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "斯洛伐克",
+    "away": "法罗群岛",
+    "china_1x2": [
+      1.21,
+      4.7,
+      10.0
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五008|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五008",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "斯洛文尼",
+    "away": "瑞士",
+    "china_1x2": [
+      5.2,
+      3.41,
+      1.53
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
+  },
+  {
+    "key": "周五009|2026-11-14 03:45",
+    "locked_at": "2026-11-12T16:06:55.305755+08:00",
+    "status": "locked",
+    "code": "周五009",
+    "league": "欧国联",
+    "kickoff": "2026-11-14 03:45",
+    "home": "荷兰",
+    "away": "希腊",
+    "china_1x2": [
+      1.37,
+      4.25,
+      5.75
+    ],
+    "avg_1x2": null,
+    "fixture_id": null,
+    "forced": null
   }
 ]
