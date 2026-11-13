@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "pipeline_version": 9,
-  "updated_at": "2026-11-13T03:18:47.197012+08:00",
+  "updated_at": "2026-11-14T02:56:15.537132+08:00",
   "events": [
     {
-      "code": "周五002",
-      "match": "摩尔多瓦 vs 哈萨克",
+      "code": "周六001",
+      "match": "湘南海洋 vs 横滨FC",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周五003",
-      "match": "保加利亚 vs 冰岛",
+      "code": "周六002",
+      "match": "大宫松鼠 vs 山形山神",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周五004",
-      "match": "苏格兰 vs 北马其顿",
+      "code": "周六005",
+      "match": "布雷达 vs 埃门",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周五005",
-      "match": "塞尔维亚 vs 德国",
+      "code": "周六008",
+      "match": "罗达JC vs 福伦丹",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周五006",
-      "match": "卢森堡 vs 爱沙尼亚",
+      "code": "周六009",
+      "match": "瓦尔韦克 vs 登博思",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周五007",
-      "match": "斯洛伐克 vs 法罗群岛",
+      "code": "周六010",
+      "match": "阿尔梅勒 vs 海尔蒙特",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周五008",
-      "match": "斯洛文尼 vs 瑞士",
+      "code": "周日001",
+      "match": "町田泽维 vs 神户胜利",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,80 @@
       }
     },
     {
-      "code": "周五009",
-      "match": "荷兰 vs 希腊",
+      "code": "周日002",
+      "match": "鹿岛鹿角 vs 横滨水手",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日003",
+      "match": "大阪樱花 vs 浦和红钻",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日004",
+      "match": "柏太阳神 vs 川崎前锋",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日005",
+      "match": "马斯特里 vs 维迪斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
