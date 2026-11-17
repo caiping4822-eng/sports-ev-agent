@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "pipeline_version": 9,
-  "updated_at": "2026-11-17T05:25:25.089083+08:00",
+  "updated_at": "2026-11-18T04:13:35.110393+08:00",
   "events": [
     {
-      "code": "周一001",
-      "match": "法罗群岛 vs 摩尔多瓦",
+      "code": "周二001",
+      "match": "新加坡 vs 巴西",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周一002",
-      "match": "哈萨克 vs 斯洛伐克",
+      "code": "周二002",
+      "match": "中国 vs 巴林",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周一003",
-      "match": "爱沙尼亚 vs 保加利亚",
+      "code": "周二003",
+      "match": "日本 vs 巴拉圭",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周一004",
-      "match": "冰岛 vs 卢森堡",
+      "code": "周二004",
+      "match": "波黑 vs 罗马尼亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周一005",
-      "match": "瑞士 vs 苏格兰",
+      "code": "周二005",
+      "match": "波兰 vs 瑞典",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周一006",
-      "match": "德国 vs 荷兰",
+      "code": "周二006",
+      "match": "丹麦 vs 挪威",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周一007",
-      "match": "北马其顿 vs 斯洛文尼",
+      "code": "周二007",
+      "match": "威尔士 vs 葡萄牙",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,56 @@
       }
     },
     {
-      "code": "周一008",
-      "match": "希腊 vs 塞尔维亚",
+      "code": "周二008",
+      "match": "匈牙利 vs 北爱尔兰",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周二009",
+      "match": "爱尔兰 vs 科索沃",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周二010",
+      "match": "智利 vs 哥伦比亚",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
