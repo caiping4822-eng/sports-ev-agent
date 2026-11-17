@@ -1,32 +1,4 @@
 {
-  "4659375": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.95,
-      3.13,
-      3.8
-    ],
-    "current": [
-      1.87,
-      3.33,
-      4.04
-    ]
-  },
-  "4650137": {
-    "source": "zgzcw_bjzs_public_average",
-    "source_url": "https://plzx.zgzcw.com/bjzs",
-    "opening": [
-      1.57,
-      3.8,
-      5.25
-    ],
-    "current": [
-      1.63,
-      3.85,
-      4.8
-    ]
-  },
   "4518131": {
     "source": "zgzcw_bjzs_public_average",
     "source_url": "https://plzx.zgzcw.com/bjzs",
@@ -36,9 +8,9 @@
       3.93
     ],
     "current": [
-      2.01,
-      3.57,
-      3.46
+      2.11,
+      3.56,
+      3.24
     ]
   },
   "4518132": {
@@ -50,9 +22,9 @@
       2.59
     ],
     "current": [
-      2.2,
-      3.69,
-      2.93
+      2.13,
+      3.78,
+      3.04
     ]
   },
   "4518125": {
@@ -64,9 +36,9 @@
       2.39
     ],
     "current": [
-      2.36,
-      3.92,
-      2.62
+      2.53,
+      3.94,
+      2.45
     ]
   },
   "4518126": {
@@ -78,9 +50,9 @@
       1.28
     ],
     "current": [
-      6.69,
-      4.95,
-      1.41
+      6.79,
+      5.03,
+      1.4
     ]
   },
   "4518128": {
@@ -92,9 +64,9 @@
       3.83
     ],
     "current": [
-      1.93,
-      3.22,
-      4.16
+      1.89,
+      3.24,
+      4.36
     ]
   },
   "4518130": {
@@ -106,9 +78,9 @@
       3.92
     ],
     "current": [
-      2.08,
-      3.12,
-      3.76
+      1.97,
+      3.21,
+      4.05
     ]
   },
   "4650139": {
@@ -120,9 +92,37 @@
       1.95
     ],
     "current": [
-      3.5,
+      3.61,
       3.15,
-      2.08
+      2.05
+    ]
+  },
+  "4659375": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.95,
+      3.13,
+      3.8
+    ],
+    "current": [
+      1.95,
+      3.26,
+      3.81
+    ]
+  },
+  "4650137": {
+    "source": "zgzcw_bjzs_public_average",
+    "source_url": "https://plzx.zgzcw.com/bjzs",
+    "opening": [
+      1.57,
+      3.8,
+      5.25
+    ],
+    "current": [
+      1.67,
+      3.83,
+      4.55
     ]
   }
 }
