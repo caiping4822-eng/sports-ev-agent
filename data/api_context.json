@@ -30,5 +30,153 @@
   "周五008": {
     "status": "球队别名未收录：毕尔巴鄂,西班牙人",
     "mapping_score": 0
+  },
+  "周六001": {
+    "status": "球队别名未收录：广岛三箭,横滨水手",
+    "mapping_score": 0
+  },
+  "周六002": {
+    "status": "球队别名未收录：磐田喜悦,大宫松鼠",
+    "mapping_score": 0
+  },
+  "周六003": {
+    "status": "球队别名未收录：大阪钢巴,冈山绿雉",
+    "mapping_score": 0
+  },
+  "周六004": {
+    "status": "球队别名未收录：布里斯班,悉尼FC",
+    "mapping_score": 0
+  },
+  "周六005": {
+    "status": "球队别名未收录：曼城,富勒姆",
+    "mapping_score": 0
+  },
+  "周六007": {
+    "status": "球队别名未收录：科莫,卡利亚里",
+    "mapping_score": 0
+  },
+  "周六008": {
+    "status": "球队别名未收录：门兴,多特蒙德",
+    "mapping_score": 0
+  },
+  "周六009": {
+    "status": "球队别名未收录：埃弗斯堡,弗赖堡",
+    "mapping_score": 0
+  },
+  "周六010": {
+    "status": "球队别名未收录：法兰克福,霍芬海姆",
+    "mapping_score": 0
+  },
+  "周六011": {
+    "status": "球队别名未收录：柏林联合,莱红牛",
+    "mapping_score": 0
+  },
+  "周六012": {
+    "status": "球队别名未收录：伯恩茅斯,诺丁汉",
+    "mapping_score": 0
+  },
+  "周六013": {
+    "status": "球队别名未收录：热刺,伊维奇",
+    "mapping_score": 0
+  },
+  "周六014": {
+    "status": "球队别名未收录：维拉,桑德兰",
+    "mapping_score": 0
+  },
+  "周六015": {
+    "status": "球队别名未收录：考文垂,水晶宫",
+    "mapping_score": 0
+  },
+  "周六016": {
+    "status": "球队别名未收录：切尔西,利兹联",
+    "mapping_score": 0
+  },
+  "周六017": {
+    "status": "球队别名未收录：奈梅亨,埃因霍温",
+    "mapping_score": 0
+  },
+  "周六018": {
+    "status": "球队别名未收录：帕尔马,罗马",
+    "mapping_score": 0
+  },
+  "周六019": {
+    "status": "球队别名未收录：纽卡斯尔,阿森纳",
+    "mapping_score": 0
+  },
+  "周六020": {
+    "status": "球队别名未收录：沙尔克,斯图加特",
+    "mapping_score": 0
+  },
+  "周六021": {
+    "status": "球队别名未收录：塞维利亚,贝蒂斯",
+    "mapping_score": 0
+  },
+  "周六022": {
+    "status": "球队别名未收录：摩纳哥,欧塞尔",
+    "mapping_score": 0
+  },
+  "周日001": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周日002": {
+    "status": "API未匹配（联赛/日期/免费覆盖待核验）",
+    "mapping_score": 0
+  },
+  "周日003": {
+    "status": "球队别名未收录：威廉二世",
+    "mapping_score": 0
+  },
+  "周日004": {
+    "status": "球队别名未收录：尤文图斯,威尼斯",
+    "mapping_score": 0
+  },
+  "周日006": {
+    "status": "球队别名未收录：巴塞罗那,比利亚雷",
+    "mapping_score": 0
+  },
+  "周日007": {
+    "status": "球队别名未收录：鹿斯巴达,阿尔克马",
+    "mapping_score": 0
+  },
+  "周日008": {
+    "status": "球队别名未收录：博洛尼亚,乌迪内斯",
+    "mapping_score": 0
+  },
+  "周日009": {
+    "status": "球队别名未收录：萨索洛,热那亚",
+    "mapping_score": 0
+  },
+  "周日010": {
+    "status": "球队别名未收录：奥格斯堡,美因茨",
+    "mapping_score": 0
+  },
+  "周日011": {
+    "status": "球队别名未收录：桑德竞技,皇家社会",
+    "mapping_score": 0
+  },
+  "周日012": {
+    "status": "球队别名未收录：利物浦,曼联",
+    "mapping_score": 0
+  },
+  "周日013": {
+    "status": "球队别名未收录：不来梅,汉堡",
+    "mapping_score": 0
+  },
+  "周日014": {
+    "status": "球队别名未收录：AC米兰,弗洛西诺",
+    "mapping_score": 0
+  },
+  "周日016": {
+    "status": "球队别名未收录：亚特兰大,国际米兰",
+    "mapping_score": 0
+  },
+  "周日017": {
+    "status": "球队别名未收录：马赛,勒芒",
+    "mapping_score": 0
+  },
+  "周日018": {
+    "status": "球队别名未收录：赫塔菲,马竞",
+    "mapping_score": 0
   }
 }
