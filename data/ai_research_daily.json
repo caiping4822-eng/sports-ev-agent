@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "pipeline_version": 9,
-  "updated_at": "2026-11-23T02:50:06.532044+08:00",
+  "updated_at": "2026-11-24T01:50:17.155063+08:00",
   "events": [
     {
-      "code": "周一001",
-      "match": "奥尔格里 vs 卡尔马",
+      "code": "周二004",
+      "match": "加拉塔萨 vs 维拉",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周一002",
-      "match": "哈马比 vs 哥德堡",
+      "code": "周二005",
+      "match": "博德闪耀 vs LA林茨",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周一003",
-      "match": "蒙扎 vs 佛罗伦萨",
+      "code": "周二006",
+      "match": "科莫 vs 雅典AEK",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周一004",
-      "match": "索肖 vs 敦刻尔克",
+      "code": "周二007",
+      "match": "莱红牛 vs 朗斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周一005",
-      "match": "布伦特 vs 埃弗顿",
+      "code": "周二008",
+      "match": "阿森纳 vs 多特蒙德",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周一006",
-      "match": "莱万特 vs 埃尔切",
+      "code": "周二009",
+      "match": "曼城 vs 那不勒斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周一007",
-      "match": "博塔弗戈 vs 圣保罗",
+      "code": "周二010",
+      "match": "布拉迪斯 vs 贝蒂斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "code": "周一008",
-      "match": "圣路易斯 vs 洛杉矶",
+      "code": "周二011",
+      "match": "费耶诺德 vs 波尔图",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
