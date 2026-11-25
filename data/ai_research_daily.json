@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "pipeline_version": 9,
-  "updated_at": "2026-11-25T01:05:18.886027+08:00",
+  "updated_at": "2026-11-26T00:54:06.713612+08:00",
   "events": [
     {
-      "code": "周三001",
-      "match": "大阪钢巴 vs 狮子港",
+      "code": "周四002",
+      "match": "萨迪纳摩 vs 勒沃库森",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周三002",
-      "match": "鹿岛鹿角 vs 全北现代",
+      "code": "周四003",
+      "match": "奥林匹亚 vs AC米兰",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周三003",
-      "match": "沙巴巴库 vs 巴塞罗那",
+      "code": "周四004",
+      "match": "比尔森 vs 本菲卡",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周三004",
-      "match": "斯拉维亚 vs 比利亚雷",
+      "code": "周四005",
+      "match": "塞尔塔 vs 伯恩茅斯",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周三005",
-      "match": "里斯本 vs 曼联",
+      "code": "周四006",
+      "match": "布斯巴达 vs 阿尔克马",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周三006",
-      "match": "国际米兰 vs 斯图加特",
+      "code": "周四007",
+      "match": "水晶宫 vs 皇家社会",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周三007",
-      "match": "布鲁日 vs 利物浦",
+      "code": "周四008",
+      "match": "桑德兰 vs 比亚韦",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "code": "周三008",
-      "match": "马竞 vs 维京",
+      "code": "周四009",
+      "match": "霍芬海姆 vs 格风暴",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -196,32 +196,8 @@
       }
     },
     {
-      "code": "周三009",
-      "match": "巴黎圣曼 vs 罗马",
-      "status": "球队别名未确认，AI搜索跳过",
-      "sources": [],
-      "valid": false,
-      "deepseek": {
-        "success": false,
-        "provider": "DeepSeek",
-        "model": "deepseek-chat",
-        "error": "球队别名未确认，未调用"
-      },
-      "research": {
-        "summary": "不进入AI模型",
-        "competition_context": [],
-        "motivation_evidence": [],
-        "form_schedule": [],
-        "confirmed": [],
-        "uncertain": [],
-        "risks": [
-          "球队映射不足"
-        ]
-      }
-    },
-    {
-      "code": "周三010",
-      "match": "里尔 vs 拜仁",
+      "code": "周四010",
+      "match": "奈梅亨 vs 雷恩",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
