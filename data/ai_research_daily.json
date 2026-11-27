@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "pipeline_version": 9,
-  "updated_at": "2026-11-27T00:31:29.500007+08:00",
+  "updated_at": "2026-11-28T00:17:23.634641+08:00",
   "events": [
     {
-      "code": "周五001",
-      "match": "麦克阿瑟 vs 墨尔本城",
+      "code": "周六001",
+      "match": "京都 vs 大阪樱花",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -28,8 +28,8 @@
       }
     },
     {
-      "code": "周五002",
-      "match": "海登海姆 vs 纽伦堡",
+      "code": "周六002",
+      "match": "柏太阳神 vs 广岛三箭",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -52,8 +52,8 @@
       }
     },
     {
-      "code": "周五003",
-      "match": "格罗宁根 vs 威廉二世",
+      "code": "周六003",
+      "match": "中央海岸 vs 奥克兰FC",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -76,8 +76,8 @@
       }
     },
     {
-      "code": "周五004",
-      "match": "芬洛 vs 瓦尔韦克",
+      "code": "周六005",
+      "match": "贝蒂斯 vs 巴列卡诺",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -100,8 +100,8 @@
       }
     },
     {
-      "code": "周五005",
-      "match": "不来梅 vs 门兴",
+      "code": "周六006",
+      "match": "弗洛西诺 vs 帕尔马",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -124,8 +124,8 @@
       }
     },
     {
-      "code": "周五006",
-      "match": "威尼斯 vs 博洛尼亚",
+      "code": "周六007",
+      "match": "帕德博恩 vs 沙尔克",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -148,8 +148,8 @@
       }
     },
     {
-      "code": "周五007",
-      "match": "布雷斯特 vs 巴黎FC",
+      "code": "周六008",
+      "match": "科隆 vs 埃弗斯堡",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -172,8 +172,8 @@
       }
     },
     {
-      "code": "周五008",
-      "match": "诺丁汉 vs 切尔西",
+      "code": "周六010",
+      "match": "美因茨 vs 柏林联合",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -196,8 +196,8 @@
       }
     },
     {
-      "code": "周五009",
-      "match": "南安普敦 vs 米堡",
+      "code": "周六011",
+      "match": "曼联 vs 布伦特",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -220,8 +220,8 @@
       }
     },
     {
-      "code": "周五010",
-      "match": "莱万特 vs 桑德竞技",
+      "code": "周六012",
+      "match": "利兹联 vs 考文垂",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
@@ -244,8 +244,463 @@
       }
     },
     {
-      "code": "周五011",
-      "match": "哥伦布 vs 迈阿密",
+      "code": "周六014",
+      "match": "摩雷伦斯 vs 圣克拉拉",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六015",
+      "match": "都灵 vs 拉齐奥",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六017",
+      "match": "伊维奇 vs 维拉",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六018",
+      "match": "斯图加特 vs 法兰克福",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六019",
+      "match": "埃尔切 vs 马竞",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六020",
+      "match": "国际米兰 vs 热那亚",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六021",
+      "match": "勒芒 vs 里尔",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六022",
+      "match": "坎布尔 vs 鹿斯巴达",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周六023",
+      "match": "帕梅拉斯 vs 拉普大学",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日002",
+      "match": "蔚山现代 vs 全北现代",
+      "status": "有效来源 4 个（伤停/背景/赛程三路）",
+      "sources": [
+        {
+          "title": "Ulsan vs Jeonbuk Prediction, Betting Tips, Lineups & Odds | 29 Nov 2026",
+          "url": "https://www.sportsgambler.com/betting-tips/football/ulsan-vs-jeonbuk-prediction-lineups-odds-2026-11-29",
+          "category": "伤停与阵容"
+        },
+        {
+          "title": "What's left to play for in K League this season? - Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/whats-left-play-k-league-000000052.html",
+          "category": "联赛背景与战意依据"
+        },
+        {
+          "title": "Ulsan HD FC vs Jeonbuk Hyundai Motors H2H: Last 10 (W3 D1 L6), Latest 1-0 & Full Record | All Football",
+          "url": "https://m.dongqiudi.com/en/h2h/50001170-50001173",
+          "category": "近期状态与赛程"
+        },
+        {
+          "title": "Ulsan HD FC vs Jeonbuk Hyundai Motors FC - live score, predicted lineups and H2H stats",
+          "url": "https://www.fotmob.com/en-GB/matches/jeonbuk-hyundai-motors-fc-vs-ulsan-hd-fc/7fq2jyf",
+          "category": "近期状态与赛程"
+        }
+      ],
+      "valid": true,
+      "deepseek": {
+        "success": true,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat"
+      },
+      "research": {
+        "summary": "搜索摘要仅提供蔚山HD与全北现代在K联赛1的背景、历史交锋和部分赛季数据，未给出本场比赛的官方首发、伤停或赛果。可确认蔚山在第35轮击败首尔FC后领先大田韩亚市民4分，占据争二主动权；全北与仁川联同分紧追。摘要未提供两队在本场比赛前的确切休息天数或完整近期战绩，伤停信息亦无具体名单。",
+        "competition_context": [
+          "本场为K League 1（K联赛1）比赛，蔚山HD主场对阵全北现代。",
+          "摘要称蔚山HD在第35轮击败FC首尔后，以4分优势领先第三名大田韩亚市民，占据争二主动权。",
+          "摘要称大田韩亚市民领先江原FC两分，全北现代与仁川联同分紧随其后。",
+          "历史交锋摘要显示：2026年8月22日全北现代1-0蔚山HD；2026年7月11日蔚山HD 1-3全北现代；2026年4月4日全北现代2-0蔚山HD。",
+          "FotMob摘要称两队历史总交锋为蔚山HD 14胜、全北现代33胜、19平。"
+        ],
+        "motivation_evidence": [
+          "K联赛1剩余主要争夺为第二、第三名及亚冠资格；蔚山HD争二并争取ACL Elite席位。",
+          "摘要称全北现代与仁川联同分，处于第三至第六名的争夺集团中。"
+        ],
+        "form_schedule": [
+          "摘要未提供两队在本场比赛前的确切休息天数。",
+          "历史交锋摘要列出2026年蔚山HD对全北现代的三场联赛比分：1-0负、1-3负、0-2负。",
+          "摘要提及蔚山HD第35轮击败FC首尔，但未给出具体比分和日期以外的完整近期战绩。"
+        ],
+        "confirmed": [
+          "蔚山HD第35轮击败FC首尔（摘要明确官方赛果，但未给出比分）。",
+          "2026年8月22日K联赛1：全北现代1-0蔚山HD。",
+          "2026年7月11日K联赛1：蔚山HD 1-3全北现代。",
+          "2026年4月4日K联赛1：全北现代2-0蔚山HD。"
+        ],
+        "uncertain": [
+          "本场比赛官方首发阵容未在摘要中确认。",
+          "两队具体伤停、停赛名单未在摘要中列出。",
+          "蔚山HD与全北现代在本场比赛前的完整近期战绩和确切休息天数未提供。",
+          "蔚山HD本赛季射手数据（Yago Cariello 16球、Dong-Gyeong Lee 12球、Marcao 5球）来源为预测网站，非官方确认。"
+        ],
+        "risks": [
+          "伤停与阵容来源为sportsgambler预测页面，未给出具体伤停名单，可靠性有限。",
+          "联赛背景与战意来源为Yahoo Sports文章，未标注具体轮次日期，需以官方积分榜复核。",
+          "历史交锋来源为懂球帝H2H页面，部分比分需与官方记录交叉核验。",
+          "FotMob页面摘要未提供本场比赛具体伤停和首发信息。",
+          "三路检索未取得材料：无。"
+        ]
+      }
+    },
+    {
+      "code": "周日005",
+      "match": "海牙 vs 乌德勒支",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日006",
+      "match": "乌迪内斯 vs 佛罗伦萨",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日007",
+      "match": "埃弗顿 vs 利物浦",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日008",
+      "match": "巴伦西亚 vs 奥萨苏纳",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日009",
+      "match": "萨索洛 vs 那不勒斯",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日015",
+      "match": "拉科 vs 巴塞罗那",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日017",
+      "match": "阿森纳 vs 曼城",
+      "status": "球队别名未确认，AI搜索跳过",
+      "sources": [],
+      "valid": false,
+      "deepseek": {
+        "success": false,
+        "provider": "DeepSeek",
+        "model": "deepseek-chat",
+        "error": "球队别名未确认，未调用"
+      },
+      "research": {
+        "summary": "不进入AI模型",
+        "competition_context": [],
+        "motivation_evidence": [],
+        "form_schedule": [],
+        "confirmed": [],
+        "uncertain": [],
+        "risks": [
+          "球队映射不足"
+        ]
+      }
+    },
+    {
+      "code": "周日022",
+      "match": "波尔图 vs 里斯本",
       "status": "球队别名未确认，AI搜索跳过",
       "sources": [],
       "valid": false,
